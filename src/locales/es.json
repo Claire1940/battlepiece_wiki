@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Battle Piece - Códigos, Frutas, Raids y Guía de PvP",
+      "description": "Wiki de Battle Piece con códigos actualizados, pasos para canjear, guías de frutas y armas, progresión de islas, raids, consejos de PvP, jefes, información del límite de nivel y enlaces de Roblox.",
+      "keywords": "Battle Piece, Roblox, códigos, frutas, armas, raids, PvP, jefes, subir de nivel, wiki",
+      "ogTitle": "Wiki de Battle Piece - Códigos, Frutas, Raids y Guía de PvP",
+      "ogDescription": "Wiki de Battle Piece con códigos actualizados, pasos para canjear, guías de frutas y armas, progresión de islas, raids, consejos de PvP, jefes, información del límite de nivel y enlaces de Roblox.",
+      "twitterTitle": "Wiki de Battle Piece - Códigos, Frutas, Raids y Guía de PvP",
+      "twitterDescription": "Wiki de Battle Piece con códigos actualizados, guías de frutas y armas, raids, consejos de PvP e información del límite de nivel para la aventura de Roblox."
+    }
+  },
   "nav": {
     "codes": "Códigos",
     "guide": "Guía",
@@ -8,5 +19,705 @@
     "updates": "Actualizaciones",
     "release": "Lanzamiento",
     "discord": "Discord"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "RPG de aventura de anime en Roblox",
+    "title": "Wiki de Battle Piece",
+    "description": "Battle Piece es una aventura de Roblox inspirada en el anime donde los jugadores derrotan bandidos, suben de nivel, luchan en PvP, desafían raids y construyen poderes o armas más fuertes a lo largo de un dinámico lanzamiento Alpha.",
+    "getFreeCodesCTA": "Obtener códigos gratis",
+    "playOnRobloxCTA": "Jugar en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "600",
+        "label": "Límite de nivel"
+      },
+      "stat2": {
+        "value": "Alpha",
+        "label": "Estado del lanzamiento"
+      },
+      "stat3": {
+        "value": "PC/Móvil/Consola",
+        "label": "Dispositivos compatibles"
+      },
+      "stat4": {
+        "value": "Bandidos/PvP/Raids",
+        "label": "Modos principales"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Battle Piece",
+    "description": "Derrota a poderosos bandidos, domina intensas batallas PvP y conquista desafiantes raids en Battle Piece, una aventura de acción anime en Roblox de Studio Multiverse."
+  },
+  "tools": {
+    "title": "Battle Piece",
+    "titleHighlight": "Guías",
+    "subtitle": "Ve directo a cualquier guía de Battle Piece: códigos, enlaces oficiales, ruta para principiantes, tier list, PvP, raids, farmeo y actualizaciones.",
+    "cards": [
+      {
+        "icon": "Gift",
+        "title": "Códigos de Battle Piece",
+        "description": "Códigos activos, códigos expirados y el proceso de canje"
+      },
+      {
+        "icon": "Link2",
+        "title": "Enlaces de Battle Piece",
+        "description": "Página oficial de Roblox, comunidad de desarrolladores e información del juego"
+      },
+      {
+        "icon": "Compass",
+        "title": "Guía de Battle Piece",
+        "description": "Ruta para principiantes y camino de subida de nivel hasta el nivel 600"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Tier List de Battle Piece",
+        "description": "Armas y poderes clasificados por PvP, raids y movilidad"
+      },
+      {
+        "icon": "Swords",
+        "title": "PvP de Battle Piece",
+        "description": "Preparación para el combate, configuración de plataforma y control de ping"
+      },
+      {
+        "icon": "Castle",
+        "title": "Raids de Battle Piece",
+        "description": "Progresión de raids y jefes en torno al límite de nivel"
+      },
+      {
+        "icon": "Wheat",
+        "title": "Farmeo de Battle Piece",
+        "description": "Farmeo de bandidos, servidores privados y hábitos de grindeo"
+      },
+      {
+        "icon": "Newspaper",
+        "title": "Actualizaciones de Battle Piece",
+        "description": "Estado de la alfa, avisos de la comunidad y seguimiento de parches"
+      }
+    ]
+  },
+  "modules": {
+    "battlePieceCodes": {
+      "title": "Códigos de Battle Piece",
+      "eyebrow": "Códigos",
+      "intro": "Battle Piece es una experiencia de acción anime en Roblox de Studio Multiverse. Los códigos se publican a través de la página oficial de Roblox y la comunidad de Studio Multiverse. Usa esta sección para realizar un seguimiento de los códigos activos, los códigos expirados, las fuentes oficiales y el proceso de verificación y canje.",
+      "activeHeading": "Códigos activos",
+      "activeEmpty": "Actualmente no hay ningún código activo de Battle Piece listado en la página oficial de Roblox. Los nuevos códigos llegan con las actualizaciones importantes y los anuncios de la comunidad.",
+      "expiredHeading": "Códigos expirados",
+      "expiredEmpty": "Actualmente no hay ningún código expirado de Battle Piece listado en la página oficial de Roblox.",
+      "sourcesHeading": "Fuentes oficiales de códigos",
+      "sources": [
+        {
+          "label": "Experiencia oficial de Roblox",
+          "value": "Battle Piece",
+          "href": "https://www.roblox.com/games/98662768290911/Battle-Piece",
+          "detail": "La página principal de juego de Battle Piece creada por Studio Multiverse."
+        },
+        {
+          "label": "Comunidad de desarrolladores",
+          "value": "Studio Multiverse",
+          "href": "https://www.roblox.com/communities/903561179/Studio-Multiverse",
+          "detail": "La comunidad de desarrolladores para actualizaciones, códigos y anuncios de Battle Piece."
+        }
+      ],
+      "workflowHeading": "Flujo de trabajo de canje y verificación",
+      "workflow": [
+        "Abre Battle Piece desde la página oficial de la experiencia de Roblox.",
+        "Consulta la comunidad de Studio Multiverse antes de canjear un nuevo código.",
+        "Copia el código exactamente como se publicó, incluyendo mayúsculas y símbolos.",
+        "Canjéalo a través de la sección de códigos del juego cuando haya uno disponible.",
+        "Vuelve a unirte a un servidor nuevo después de actualizaciones importantes si el código no se aplica."
+      ]
+    },
+    "battlePieceOfficialLinks": {
+      "title": "Enlace oficial de Roblox de Battle Piece",
+      "eyebrow": "Enlaces oficiales",
+      "intro": "Battle Piece es una aventura de acción anime en Roblox creada por Studio Multiverse. Los jugadores derrotan bandidos, luchan en PvP, completan raids y se esfuerzan por convertirse en el luchador más fuerte. La página oficial de Roblox detalla una versión Alpha, un límite de nivel de 600 y compatibilidad con PC, dispositivos móviles y consolas.",
+      "playLabel": "Jugar Battle Piece",
+      "cards": [
+        {
+          "label": "Juego oficial",
+          "value": "Battle Piece",
+          "description": "La página oficial de la experiencia de Roblox para Battle Piece.",
+          "badges": [
+            "Roblox",
+            "Página de juego"
+          ],
+          "href": "https://www.roblox.com/games/98662768290911/Battle-Piece"
+        },
+        {
+          "label": "Desarrollador",
+          "value": "Studio Multiverse",
+          "description": "La comunidad de desarrolladores conectada a la página oficial de Roblox de Battle Piece.",
+          "badges": [
+            "Comunidad",
+            "Actualizaciones"
+          ],
+          "href": "https://www.roblox.com/communities/903561179/Studio-Multiverse"
+        },
+        {
+          "label": "Estado del juego",
+          "value": "Alpha",
+          "description": "Battle Piece está marcado como una versión Alpha con desarrollo activo.",
+          "badges": [
+            "Alpha"
+          ]
+        },
+        {
+          "label": "Límite de nivel",
+          "value": "600",
+          "description": "La página oficial de Roblox indica que el límite de nivel actual de Battle Piece es 600.",
+          "badges": [
+            "Progresión"
+          ]
+        },
+        {
+          "label": "Plataformas compatibles",
+          "value": "PC, móvil, consola",
+          "description": "Battle Piece es compatible con el juego en PC, móvil y consola.",
+          "badges": [
+            "Multiplataforma"
+          ]
+        },
+        {
+          "label": "Jugabilidad principal",
+          "value": "Bandidos, PvP, Incursiones",
+          "description": "Derrota a bandidos poderosos, domina batallas PvP y conquista incursiones desafiantes.",
+          "badges": [
+            "Acción anime",
+            "PvE",
+            "PvP"
+          ]
+        }
+      ]
+    },
+    "battlePieceBeginnerGuide": {
+      "title": "Guía para principiantes de Battle Piece",
+      "eyebrow": "Guía para principiantes",
+      "intro": "Comienza desde la experiencia oficial de Roblox, aprende primero el combate contra bandidos y luego avanza hacia el PvP y las incursiones. El objetivo de progresión actual es el nivel 600.",
+      "goalLabel": "Objetivo",
+      "steps": [
+        {
+          "heading": "Inicia la experiencia oficial de Roblox",
+          "body": "Comienza desde la página oficial de Battle Piece de Studio Multiverse para ingresar al servidor correcto.",
+          "goal": "Ingresa al servidor correcto de Battle Piece."
+        },
+        {
+          "heading": "Aprende combate a través de los bandidos",
+          "body": "La descripción oficial del juego destaca derrotar a bandidos poderosos como una actividad principal. Usa las peleas contra bandidos para aprender el alcance de los golpes, el movimiento y el ritmo de los tiempos de recarga.",
+          "goal": "Desarrolla un control básico de PvE."
+        },
+        {
+          "heading": "Sube de nivel antes del PvP serio",
+          "body": "Usa los primeros combates PvE para entender tu arma o poder antes de entrar en intensas batallas PvP.",
+          "goal": "Estabiliza tus controles antes de las peleas contra otros jugadores."
+        },
+        {
+          "heading": "Avanza hacia el nivel 600",
+          "body": "El límite de nivel actual de Battle Piece es 600. Considera el nivel 600 como el objetivo principal de progresión a largo plazo.",
+          "goal": "Realiza un seguimiento del progreso de nivel con respecto al límite actual."
+        },
+        {
+          "heading": "Entra al PvP después de lo básico",
+          "body": "Las batallas PvP son una parte central de Battle Piece. Practica el distanciamiento, las herramientas de persecución y el tiempo de escape antes de considerar el PvP como tu farmeo principal.",
+          "goal": "Pasa de la práctica de PvE a las peleas contra jugadores."
+        },
+        {
+          "heading": "Prueba las incursiones con una build estable",
+          "body": "La descripción de Roblox destaca las incursiones desafiantes. Lleva un equipamiento que pueda eliminar enemigos de manera constante antes de enfocarte en la velocidad de la incursión.",
+          "goal": "Prepárate para contenido PvE grupal o de alta presión."
+        },
+        {
+          "heading": "Usa un servidor privado si tienes ping alto",
+          "body": "La descripción oficial recomienda unirse a un servidor privado cuando el ping sea alto.",
+          "goal": "Reduce el lag mientras subes de nivel o pruebas el combate."
+        }
+      ]
+    },
+    "battlePieceTierList": {
+      "title": "Tier List de armas y poderes de Battle Piece",
+      "eyebrow": "Tier List",
+      "intro": "Clasifica las características del equipamiento de Battle Piece según los modos de juego que se muestran en la página de Roblox: combate contra bandidos, batallas PvP e incursiones. La cuadrícula favorece el valor práctico en el juego temprano, PvP, incursiones, movilidad y facilidad de uso.",
+      "scoreLabels": {
+        "earlyGame": "Juego temprano",
+        "pvp": "PvP",
+        "raid": "Incursión",
+        "mobility": "Movilidad",
+        "easeOfUse": "Facilidad de uso"
+      },
+      "tiers": [
+        {
+          "tier": "S",
+          "name": "Configuraciones de Movilidad + Ráfaga",
+          "category": "Rasgo enfocado en el poder",
+          "bestFor": [
+            "Aperturas de PvP",
+            "Reposicionamiento en raids",
+            "Escapes rápidos"
+          ],
+          "scores": {
+            "earlyGame": 4,
+            "pvp": 5,
+            "raid": 4,
+            "mobility": 5,
+            "easeOfUse": 4
+          },
+          "why": "Rasgos de máxima prioridad para Battle Piece porque el PvP y las raids recompensan el inicio rápido, los escapes veloces y las ventanas de ráfaga limpias."
+        },
+        {
+          "tier": "A",
+          "name": "Configuraciones de PvE de área amplia",
+          "category": "Rasgo de arma o poder",
+          "bestFor": [
+            "Farmeo de bandidos",
+            "Oleadas de raids",
+            "Subida de nivel"
+          ],
+          "scores": {
+            "earlyGame": 5,
+            "pvp": 3,
+            "raid": 5,
+            "mobility": 3,
+            "easeOfUse": 4
+          },
+          "why": "Fuerte para el ciclo de PvE porque Battle Piece se centra en derrotar bandidos y completar raids desafiantes."
+        },
+        {
+          "tier": "A",
+          "name": "Armas cuerpo a cuerpo simples",
+          "category": "Rasgo de arma",
+          "bestFor": [
+            "Combate para principiantes",
+            "PvE estable",
+            "Práctica de control"
+          ],
+          "scores": {
+            "earlyGame": 5,
+            "pvp": 3,
+            "raid": 3,
+            "mobility": 3,
+            "easeOfUse": 5
+          },
+          "why": "Confiable para jugadores nuevos que necesitan una sincronización de golpes constante antes de pasar a las batallas PvP o a la presión de las raids."
+        },
+        {
+          "tier": "B",
+          "name": "Configuraciones de duelo de un solo objetivo",
+          "category": "Rasgo de arma o poder",
+          "bestFor": [
+            "Práctica de PvP",
+            "Presión enfocada en el enemigo",
+            "Combates pequeños"
+          ],
+          "scores": {
+            "earlyGame": 3,
+            "pvp": 4,
+            "raid": 3,
+            "mobility": 3,
+            "easeOfUse": 3
+          },
+          "why": "Útil cuando controlas la distancia, pero menos flexible que las opciones de movilidad o de área amplia durante la subida de nivel inicial y las oleadas de raids."
+        },
+        {
+          "tier": "B",
+          "name": "Configuraciones de espaciado defensivo",
+          "category": "Rasgo de arma o poder",
+          "bestFor": [
+            "Supervivencia",
+            "Seguridad en raids",
+            "Retirada en PvP"
+          ],
+          "scores": {
+            "earlyGame": 3,
+            "pvp": 4,
+            "raid": 4,
+            "mobility": 3,
+            "easeOfUse": 3
+          },
+          "why": "Bueno para mantenerse con vida en PvP y raids, pero más lento para el farmeo de bandidos y la progresión de nivel."
+        },
+        {
+          "tier": "C",
+          "name": "Builds lentas de baja movilidad",
+          "category": "Rasgo de arma o poder",
+          "bestFor": [
+            "Pruebas básicas de PvE",
+            "Combates de baja presión"
+          ],
+          "scores": {
+            "earlyGame": 2,
+            "pvp": 2,
+            "raid": 2,
+            "mobility": 1,
+            "easeOfUse": 2
+          },
+          "why": "Poco adecuado para los modos de Battle Piece porque el PvP, las raids y la eliminación de bandidos recompensan la velocidad, el alcance o el control de área."
+        }
+      ]
+    },
+    "battlePiecePvpCombat": {
+      "title": "Guía de combate PvP de Battle Piece",
+      "eyebrow": "Combate PvP",
+      "intro": "Battle Piece incluye batallas PvP como una de sus actividades principales, junto con combates contra bandidos y raids. Desarrolla primero el control básico del combate, reduce el ping con servidores privados cuando sea necesario y aprovecha el farmeo inicial para avanzar hacia el límite de nivel de 600.",
+      "cards": [
+        {
+          "title": "El PvP es un modo principal",
+          "description": "Battle Piece destaca oficialmente las intensas batallas PvP como una actividad principal. Trata el PvP como una prueba de progresión donde la fuerza de combate, el movimiento y la velocidad de reacción son importantes."
+        },
+        {
+          "title": "Prepárate antes de luchar contra otros jugadores",
+          "description": "Comienza derrotando bandidos y aprendiendo tu ritmo de combate antes de dar el salto al PvP. El farmeo de bandidos ofrece una práctica más segura para los tiempos de ataque, el posicionamiento y la recuperación."
+        },
+        {
+          "title": "Usa la configuración de plataforma adecuada",
+          "description": "Battle Piece es compatible con PC, dispositivos móviles y consolas. Los jugadores de PC obtienen un control de teclado más limpio, los de móviles deben mantener la pantalla despejada para el movimiento y los ataques, y los de consola deben comprobar la comodidad de los controles antes de los combates serios."
+        },
+        {
+          "title": "Reduce los problemas de ping",
+          "description": "La página oficial del juego recomienda servidores privados en caso de tener un ping alto. Una conexión más fluida te ayuda a acertar esquivas y combos en lugar de luchar contra el lag."
+        },
+        {
+          "title": "Entrena en torno al límite de nivel",
+          "description": "El límite de nivel actual es 600. La preparación para el PvP debe centrarse en subir de nivel de forma constante, la práctica de combate repetible y los fundamentos de build demostrados."
+        }
+      ]
+    },
+    "battlePieceRaidsGuide": {
+      "title": "Guía de raids y progresión de jefes de Battle Piece",
+      "eyebrow": "Raids y progresión",
+      "intro": "Battle Piece incluye oficialmente las desafiantes raids como una actividad principal, con los bandidos y las batallas PvP como la base de combate que las rodea. La versión Alfa actual tiene un límite de nivel de 600, por lo que la preparación para las raids se centra en subir de nivel, controles estables y la preparación repetible del equipo.",
+      "items": [
+        {
+          "question": "¿Cuándo deberían los jugadores empezar a pensar en las raids en Battle Piece?",
+          "answer": "Los jugadores deberían empezar primero con combates contra bandidos y luego pasar a combates más difíciles una vez que su movimiento, tiempos de ataque y hábitos de supervivencia se sientan estables. Las raids se presentan como una actividad de mayor presión, por lo que entrar tras la práctica del farmeo básico hace que la progresión sea más fluida."
+        },
+        {
+          "question": "¿En qué debería centrarse la preparación para las raids de Battle Piece?",
+          "answer": "La preparación para las raids debe centrarse en la consistencia en combate, el progreso al subir de nivel, la comodidad en la plataforma y la estabilidad de la conexión. Los jugadores se benefician de unos fundamentos fiables que se mantengan bajo la presión de las raids."
+        },
+        {
+          "question": "¿Cómo se conectan el PvP y las raids en Battle Piece?",
+          "answer": "Tanto las batallas PvP como las raids ponen a prueba el control del combate bajo presión. Los bandidos enseñan lo básico, el PvP pule la reacción y el distanciamiento, y las raids ofrecen a los jugadores un desafío estructurado que conquistar."
+        },
+        {
+          "question": "¿Cuál es el límite actual de progresión en Battle Piece?",
+          "answer": "El límite de nivel actual es 600. Los jugadores usan ese límite como el principal objetivo de progresión a largo plazo mientras avanzan en el farmeo de bandidos, la práctica de PvP y los intentos de raid."
+        },
+        {
+          "question": "¿Cómo deberían los jugadores gestionar el lag antes de las raids de Battle Piece?",
+          "answer": "La página oficial del juego recomienda unirse a un servidor privado cuando el ping es alto. Un servidor estable ayuda a los jugadores a practicar el movimiento en raids y los tiempos de combate sin perder batallas por culpa del lag."
+        }
+      ]
+    },
+    "battlePieceBanditsFarming": {
+      "title": "Guía de bandidos y farmeo de Battle Piece",
+      "eyebrow": "Farmeo",
+      "intro": "Battle Piece indica oficialmente a los jugadores que derroten a poderosos bandidos, dominen las batallas PvP y conquisten raids. El farmeo de bandidos es el ciclo de práctica inicial más limpio porque permite a los jugadores aprender a combatir antes del contenido de PvP y raids de mayor presión.",
+      "columns": {
+        "activity": "Actividad",
+        "purpose": "Propósito",
+        "action": "Qué hacer",
+        "bestFor": "Ideal para"
+      },
+      "rows": [
+        {
+          "activity": "Farmeo de bandidos",
+          "purpose": "Práctica de combate inicial y progresión constante",
+          "action": "Lucha contra bandidos repetidamente para aprender los tiempos de ataque, el movimiento y la supervivencia básica antes de pasar a contenido más difícil.",
+          "bestFor": "Nuevos jugadores que están aprendiendo el ciclo de combate principal"
+        },
+        {
+          "activity": "Grindeo en servidor privado",
+          "purpose": "Reducir los problemas de ping alto",
+          "action": "Usa un servidor privado cuando el ping sea alto para que el farmeo y los comandos de combate se sientan más estables.",
+          "bestFor": "Jugadores que experimentan lag o servidores públicos inestables"
+        },
+        {
+          "activity": "Práctica de preparación para PvP",
+          "purpose": "Preparación para intensas batallas entre jugadores",
+          "action": "Usa los combates contra bandidos para practicar el distanciamiento, la recuperación y el control antes de desafiar a jugadores reales.",
+          "bestFor": "Jugadores que pasan del farmeo al PvP"
+        },
+        {
+          "activity": "Preparación para raids",
+          "purpose": "Desarrollar consistencia antes de desafíos más difíciles",
+          "action": "Farmea y practica hasta que sientas el combate bajo control, luego usa ese progreso para intentar raids con más confianza.",
+          "bestFor": "Jugadores que se preparan para desafíos estilo raid"
+        },
+        {
+          "activity": "Progresión del límite de nivel",
+          "purpose": "Objetivo de la Alpha a largo plazo",
+          "action": "Trabaja para alcanzar el límite de nivel actual de 600 a través de combates repetibles y hábitos de farmeo constantes.",
+          "bestFor": "Jugadores que planean sesiones más largas"
+        }
+      ]
+    },
+    "battlePieceUpdatesTracker": {
+      "title": "Actualizaciones, comunidad y seguimiento de parches de Battle Piece",
+      "eyebrow": "Actualizaciones",
+      "intro": "Battle Piece se encuentra actualmente en Alpha, y la página oficial del juego dirige a los jugadores a la comunidad para obtener actualizaciones, códigos y más. Este rastreador mantiene el flujo de actualizaciones centrado en Roblox, Studio Multiverse y evidencia en video oficial.",
+      "entries": [
+        {
+          "label": "Estado del lanzamiento de la Alpha",
+          "title": "Battle Piece ya está disponible en Alpha",
+          "description": "La página actual de Roblox etiqueta a Battle Piece como lanzado y establece que el juego está en Alpha. Los jugadores pueden experimentar lag o errores mientras continúan las correcciones y actualizaciones."
+        },
+        {
+          "label": "Pilares de la jugabilidad principal",
+          "title": "Los bandidos, las batallas PvP y las raids definen el ciclo actual del juego",
+          "description": "La descripción oficial del juego destaca derrotar a bandidos poderosos, dominar las batallas PvP y conquistar raids desafiantes como las actividades principales."
+        },
+        {
+          "label": "Aviso del límite de nivel",
+          "title": "El límite de nivel actual es 600",
+          "description": "La página de Roblox muestra el límite de nivel actual como 600, lo que lo convierte en el principal tope de progresión visible para los jugadores de Battle Piece."
+        },
+        {
+          "label": "Soporte de plataformas",
+          "title": "Compatible con PC, dispositivos móviles y consolas",
+          "description": "Battle Piece actualmente figura como compatible con PC, dispositivos móviles y consolas, por lo que las notas de actualización realizan un seguimiento de las correcciones de plataformas y los cambios en los controles."
+        },
+        {
+          "label": "Comunidad y códigos",
+          "title": "La comunidad de Studio Multiverse es el centro de actualizaciones",
+          "description": "La página oficial de Roblox indica a los jugadores que se unan a la comunidad para obtener actualizaciones, códigos y más. Los avisos de códigos se verifican primero con la página de Roblox y las fuentes de Studio Multiverse."
+        },
+        {
+          "label": "Seguimiento de videos de jugabilidad",
+          "title": "Las actualizaciones en video muestran cambios visibles en la jugabilidad",
+          "description": "Los videos de jugabilidad oficiales o claramente relevantes ayudan a los jugadores a comprender los cambios en el combate, las raids, el farmeo o la progresión cuando las imágenes muestran el estado actual del juego."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Battle Piece",
+    "questions": [
+      {
+        "question": "¿Qué es Battle Piece?",
+        "answer": "Battle Piece es una aventura de acción anime en Roblox creada por Studio Multiverse. Los jugadores derrotan a bandidos poderosos, luchan en batallas PvP, superan raids desafiantes y progresan para convertirse en el luchador más fuerte."
+      },
+      {
+        "question": "¿Dónde puedo jugar Battle Piece?",
+        "answer": "Puedes jugar a Battle Piece en la página oficial de la experiencia en Roblox de Studio Multiverse. El juego es compatible con PC, dispositivos móviles y consolas."
+      },
+      {
+        "question": "¿Cuál es el límite de nivel actual de Battle Piece?",
+        "answer": "El límite de nivel actual de Battle Piece es 600, indicado en la página oficial de Roblox como el objetivo principal de progresión."
+      },
+      {
+        "question": "¿Tiene códigos Battle Piece?",
+        "answer": "Sí. Los códigos de Battle Piece se publican a través de la página oficial de Roblox y la comunidad de Studio Multiverse. Consulta la sección de Códigos de Battle Piece para ver los códigos activos y el proceso de canje."
+      },
+      {
+        "question": "¿Cuáles son los modos de juego principales de Battle Piece?",
+        "answer": "Los modos principales de Battle Piece son derrotar bandidos, batallas PvP e incursiones. La descripción oficial de Roblox destaca los tres como actividades principales."
+      },
+      {
+        "question": "¿Está Battle Piece en fase Alfa?",
+        "answer": "Sí. Battle Piece está marcado como una versión Alfa en la página oficial de Roblox, con desarrollo activo, correcciones y actualizaciones de contenido continuas."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para jugar a Battle Piece?",
+    "description": "¡Entra en Battle Piece en Roblox, únete a la comunidad de Studio Multiverse y mantente al día con los últimos códigos, poderes y guías de incursiones!",
+    "joinCommunity": "Unirse a la comunidad",
+    "joinGame": "Jugar en Roblox"
+  },
+  "footer": {
+    "title": "Wiki de Battle Piece",
+    "description": "Tu centro de recursos completo para códigos, poderes, armas, rasgos, incursiones, PvP y guías de nivelación de Battle Piece para la aventura de anime en Roblox.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "robloxGame": "Juego de Roblox",
+    "robloxGroup": "Studio Multiverse",
+    "youtube": "YouTube",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Battle Piece Wiki. No afiliado a Studio Multiverse ni a Roblox Corporation.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Battle Piece",
+      "description": "Los últimos códigos activos de Battle Piece para obtener potenciadores, recompensas y objetos de subida de nivel gratuitos. Actualizado regularmente con códigos de canje verificados e instrucciones de canje paso a paso.",
+      "metaTitle": "Códigos de Battle Piece - Potenciadores gratuitos y canje de recompensas",
+      "metaDescription": "Consigue potenciadores y recompensas gratis con los códigos activos de Battle Piece. Actualizado regularmente con códigos verificados que funcionan y una guía de canje paso a paso para Roblox.",
+      "categoryLabel": "CANJEAR CÓDIGOS",
+      "whatIs": "¿Qué son los códigos de Battle Piece?",
+      "whatIsDescription": "Los códigos de Battle Piece son claves promocionales publicadas por Studio Multiverse que otorgan potenciadores, recompensas y objetos de progresión gratuitos dentro del juego. Por lo general, se lanzan durante actualizaciones, hitos y eventos especiales para ayudar a los jugadores a subir de nivel más rápido y probar nuevo contenido.",
+      "why": "¿Por qué canjear códigos de Battle Piece?",
+      "whySteps": {
+        "step1Title": "Reclamar potenciadores gratuitos",
+        "step1Description": "Recibe instantáneamente potenciadores de EXP, recompensas y objetos de progresión sin gastar Robux",
+        "step2Title": "Acelerar la subida de nivel",
+        "step2Description": "Usa potenciadores gratuitos para farmear bandidos y subir hacia el límite de nivel 600 más rápido",
+        "step3Title": "Adelántate a las actualizaciones",
+        "step3Description": "Reclama recompensas de códigos cada vez que se lancen nuevos poderes, armas o contenido de raids"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los códigos"
+    },
+    "guide": {
+      "title": "Guía de Battle Piece",
+      "description": "Guías completas de Battle Piece que cubren los conceptos básicos para principiantes, rutas de progresión, estrategias para subir de nivel y cómo jugar a esta aventura de anime en Roblox desde el primer día.",
+      "metaTitle": "Guía de Battle Piece - Progresión de principiante a profesional",
+      "metaDescription": "Domina Battle Piece con guías completas. Aprende a jugar, consejos para principiantes, rutas de progresión y estrategias para subir de nivel para esta aventura de anime en Roblox.",
+      "categoryLabel": "GUÍAS DEL JUEGO",
+      "whatIs": "¿Qué es la guía de Battle Piece?",
+      "whatIsDescription": "La guía de Battle Piece cubre todo lo que necesitas para empezar con fuerza y progresar de forma eficiente, desde tu primera hora derrotando bandidos hasta desbloquear poderes, armas, PvP y raids en la versión Alpha.",
+      "why": "¿Por qué leer las guías de Battle Piece?",
+      "whySteps": {
+        "step1Title": "Aprende los conceptos básicos",
+        "step1Description": "Comprende las mecánicas principales, los controles y qué hacer en tu primera sesión",
+        "step2Title": "Progresa de forma eficiente",
+        "step2Description": "Sigue rutas probadas para subir de nivel y caminos de desbloqueo de poder para evitar perder el tiempo",
+        "step3Title": "Prepárate para el endgame",
+        "step3Description": "Prepárate para el PvP, las raids y el límite de nivel 600 con consejos de expertos"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías"
+    },
+    "powers": {
+      "title": "Poderes de Battle Piece",
+      "description": "Base de datos completa de poderes de Battle Piece que cubre cada habilidad, fruta y especialización. Compara tipos de poder, aprende cómo obtenerlos y encuentra los mejores poderes para PvE y PvP.",
+      "metaTitle": "Poderes de Battle Piece - Guía de habilidades, frutas y especializaciones",
+      "metaDescription": "Explora todos los poderes, habilidades, frutas y especializaciones de Battle Piece. Aprende cómo obtener cada poder y encuentra las mejores opciones para el farmeo PvE y el combate PvP.",
+      "categoryLabel": "PODERES Y HABILIDADES",
+      "whatIs": "¿Qué son los poderes de Battle Piece?",
+      "whatIsDescription": "Los poderes de Battle Piece son habilidades especiales y especializaciones que definen tu estilo de juego, desde ataques basados en frutas hasta habilidades de combate únicas. Cada poder tiene diferentes valores de daño, alcance, control y movilidad, lo que hace que algunos sean mejores para el farmeo PvE y otros para el PvP.",
+      "why": "¿Por qué estudiar los poderes de Battle Piece?",
+      "whySteps": {
+        "step1Title": "Encuentra tu estilo de juego",
+        "step1Description": "Compara tipos de poder para elegir habilidades que se adapten a tu forma de luchar",
+        "step2Title": "Aprende cómo obtenerlos",
+        "step2Description": "Descubre dónde y cómo desbloquear cada poder y fruta en el juego",
+        "step3Title": "Optimiza para PvE y PvP",
+        "step3Description": "Elige los mejores poderes para el farmeo de bandidos, raids y enfrentamientos PvP"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los poderes"
+    },
+    "weapons": {
+      "title": "Armas de Battle Piece",
+      "description": "Guía completa de armas de Battle Piece que cubre cada espada, arma cuerpo a cuerpo y especialización. Compara estadísticas de armas, aprende cómo conseguirlas y encuentra las mejores armas para tu build.",
+      "metaTitle": "Armas de Battle Piece - Espadas, especializaciones y tier list",
+      "metaDescription": "Descubre todas las armas de Battle Piece, incluyendo espadas, equipamiento cuerpo a cuerpo y especializaciones. Compara estadísticas, aprende cómo obtener cada arma y encuentra las mejores opciones con nuestra tier list.",
+      "categoryLabel": "ARMAS Y ESPECIALIZACIONES",
+      "whatIs": "¿Qué son las armas de Battle Piece?",
+      "whatIsDescription": "Las armas de Battle Piece son equipamiento cuerpo a cuerpo y especializaciones que definen tu combate a corta distancia, desde espadas iniciales hasta armas avanzadas con patrones de ataque, alcance y potencial de combo únicos al combinarse con poderes.",
+      "why": "¿Por qué comparar las armas de Battle Piece?",
+      "whySteps": {
+        "step1Title": "Compara las estadísticas de las armas",
+        "step1Description": "Evalúa el alcance de ataque, la velocidad y la sensación para encontrar las armas que mejor se adapten a tu estilo",
+        "step2Title": "Aprende cómo obtenerlas",
+        "step2Description": "Descubre dónde se consigue cada arma y qué se necesita para desbloquearla o mejorarla",
+        "step3Title": "Crea el mejor equipamiento",
+        "step3Description": "Combina el arma adecuada con tus poderes y rasgos para infligir el máximo daño"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las armas"
+    },
+    "combat": {
+      "title": "Combate en Battle Piece",
+      "description": "Domina el combate de Battle Piece con guías de PvP, estrategias para jefes, estilos de pelea y los personajes de anime más fuertes. Aprende combos, contraataques y configuraciones de builds para cada enfrentamiento.",
+      "metaTitle": "Combate en Battle Piece: Guía de PvP, jefes y estilos de pelea",
+      "metaDescription": "Domina el combate de Battle Piece con guías de PvP, estrategias para jefes, los mejores estilos de pelea y los personajes de anime más fuertes. Aprende combos, contraataques y configuraciones de builds óptimas.",
+      "categoryLabel": "COMBATE Y PVP",
+      "whatIs": "¿Qué es el combate en Battle Piece?",
+      "whatIsDescription": "El combate en Battle Piece abarca desde el farmeo de bandidos hasta combates de PvP de alto riesgo y batallas contra jefes. Domina los estilos de pelea, las cadenas de combos, el movimiento y los contraataques para enfrentarte a los personajes de anime más fuertes y a otros jugadores.",
+      "why": "¿Por qué dominar el combate en Battle Piece?",
+      "whySteps": {
+        "step1Title": "Aprende las mecánicas de PvP",
+        "step1Description": "Entiende los combos, el movimiento y los contraataques para ganar tus enfrentamientos contra otros jugadores",
+        "step2Title": "Derrota a todos los jefes",
+        "step2Description": "Utiliza estrategias probadas y niveles recomendados para derrotar a jefes desafiantes",
+        "step3Title": "Crea la configuración más fuerte",
+        "step3Description": "Combina los mejores poderes, armas y estilos de pelea para obtener el máximo rendimiento"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de combate"
+    },
+    "updates": {
+      "title": "Actualizaciones de Battle Piece",
+      "description": "Sigue de cerca cada actualización, nota de parche y lanzamiento de contenido de Battle Piece, incluida la actualización de Sukuna. Mantente al día con los nuevos poderes, armas, raids y cambios de equilibrio.",
+      "metaTitle": "Actualizaciones de Battle Piece: Notas de parches y seguimiento de contenido",
+      "metaDescription": "Mantente al día con las actualizaciones, notas de parches y lanzamientos de nuevo contenido de Battle Piece, incluida la actualización de Sukuna. Sigue la pista de nuevos poderes, armas, raids y cambios de equilibrio.",
+      "categoryLabel": "ACTUALIZACIONES Y PARCHES",
+      "whatIs": "¿Qué son las actualizaciones de Battle Piece?",
+      "whatIsDescription": "Battle Piece se encuentra en desarrollo activo de fase Alfa, y Studio Multiverse lanza actualizaciones frecuentes, correcciones de errores (hotfixes) y grandes entregas de contenido como la actualización de Sukuna. Estas traen consigo nuevos poderes, armas, raids, cambios en el límite de nivel y ajustes de equilibrio.",
+      "why": "¿Por qué seguir las actualizaciones de Battle Piece?",
+      "whySteps": {
+        "step1Title": "Descubre el nuevo contenido",
+        "step1Description": "Sé el primero en probar nuevos poderes, armas y contenido de raids a medida que se lancen",
+        "step2Title": "Entiende los cambios en el meta",
+        "step2Description": "Sigue los cambios de equilibrio que afectan a qué builds y poderes se mantienen fuertes",
+        "step3Title": "No te pierdas ningún código",
+        "step3Description": "Las actualizaciones suelen venir con nuevos códigos de canje para potenciadores y recompensas gratis"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las actualizaciones"
+    },
+    "release": {
+      "title": "Lanzamiento de Battle Piece",
+      "description": "Todo sobre el lanzamiento de Battle Piece en Roblox, incluyendo el estado del acceso anticipado, dispositivos compatibles, tráileres y qué esperar de este nuevo RPG de aventura de anime.",
+      "metaTitle": "Lanzamiento de Battle Piece - Acceso anticipado en Roblox y tráiler",
+      "metaDescription": "Infórmate sobre el lanzamiento de Battle Piece en Roblox, incluyendo el estado del acceso anticipado, dispositivos compatibles, tráileres y lo que este nuevo RPG de aventura de anime tiene para ofrecer.",
+      "categoryLabel": "INFORMACIÓN DE LANZAMIENTO",
+      "whatIs": "¿Qué es el lanzamiento de Battle Piece?",
+      "whatIsDescription": "Battle Piece es un nuevo RPG de aventura en Roblox inspirado en el anime creado por Studio Multiverse, actualmente en acceso anticipado Alpha con un límite de nivel de 600. Es compatible con PC, dispositivos móviles y consolas, y se sigue expandiendo con nuevos poderes, armas y raids.",
+      "why": "¿Por qué seguir el lanzamiento de Battle Piece?",
+      "whySteps": {
+        "step1Title": "Conoce el estado",
+        "step1Description": "Entiende la fase Alpha, el límite de nivel y qué contenido está disponible ahora",
+        "step2Title": "Comprueba la compatibilidad de dispositivos",
+        "step2Description": "Confirma si Battle Piece funciona en tu PC, móvil o consola",
+        "step3Title": "Mira el tráiler",
+        "step3Description": "Mira el gameplay y las próximas funciones antes de sumergirte en el juego completo"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Toda la información de lanzamiento"
+    },
+    "discord": {
+      "title": "Discord y comunidad de Battle Piece",
+      "description": "Encuentra el servidor oficial de Discord de Battle Piece, el grupo de Roblox y los enlaces de la comunidad. Conéctate con Studio Multiverse, obtén actualizaciones, códigos y compañeros para raids de forma segura.",
+      "metaTitle": "Discord de Battle Piece - Comunidad oficial y enlaces",
+      "metaDescription": "Conéctate con la comunidad de Battle Piece a través del Discord oficial, el grupo de Roblox y enlaces verificados. Obtén actualizaciones, códigos y compañeros para raids de Studio Multiverse.",
+      "categoryLabel": "COMUNIDAD",
+      "whatIs": "¿Qué es la comunidad de Battle Piece?",
+      "whatIsDescription": "La comunidad de Battle Piece es donde los jugadores se reúnen para recibir anuncios en tiempo real, lanzamientos de códigos, notas del parche y coordinación de raids. Los principales centros verificados son el grupo de Roblox y la página del juego de Studio Multiverse, y el servidor de Discord se utiliza para actualizaciones y debates.",
+      "why": "¿Por qué unirse a la comunidad de Battle Piece?",
+      "whySteps": {
+        "step1Title": "Obtén actualizaciones rápidas",
+        "step1Description": "Recibe anuncios, lanzamientos de códigos y notas del parche tan pronto como ocurran",
+        "step2Title": "Encuentra compañeros para raids",
+        "step2Description": "Conéctate con otros jugadores para enfrentarse a raids, jefes y PvP juntos",
+        "step3Title": "Mantente a salvo",
+        "step3Description": "Usa solo enlaces oficiales verificados de la página de Roblox para evitar el phishing"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los recursos de la comunidad"
+    }
   }
 }

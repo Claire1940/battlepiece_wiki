@@ -1,12 +1,723 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki Battle Piece - Panduan Kode, Buah, Raid & PvP",
+      "description": "Wiki Battle Piece dengan kode terbaru, langkah penukaran, panduan buah dan senjata, progres pulau, raid, tips PvP, bos, info batas level, dan tautan Roblox.",
+      "keywords": "Battle Piece, Roblox, kode, buah, senjata, raid, PvP, bos, leveling, wiki",
+      "ogTitle": "Wiki Battle Piece - Panduan Kode, Buah, Raid & PvP",
+      "ogDescription": "Wiki Battle Piece dengan kode terbaru, langkah penukaran, panduan buah dan senjata, progres pulau, raid, tips PvP, bos, info batas level, dan tautan Roblox.",
+      "twitterTitle": "Wiki Battle Piece - Panduan Kode, Buah, Raid & PvP",
+      "twitterDescription": "Wiki Battle Piece dengan kode terbaru, panduan buah dan senjata, raid, tips PvP, dan info batas level untuk petualangan Roblox."
+    }
+  },
   "nav": {
     "codes": "Kode",
     "guide": "Panduan",
     "powers": "Kekuatan",
     "weapons": "Senjata",
-    "combat": "Pertempuran",
+    "combat": "Pertarungan",
     "updates": "Pembaruan",
     "release": "Rilis",
     "discord": "Discord"
+  },
+  "common": {
+    "home": "Beranda",
+    "more": "Selengkapnya",
+    "playNow": "Mainkan di Roblox",
+    "switchLanguage": "Ganti Bahasa",
+    "switchTheme": "Ganti Tema",
+    "lightMode": "Mode Terang",
+    "darkMode": "Mode Gelap",
+    "notFound": "Halaman Tidak Ditemukan",
+    "notFoundDescription": "Halaman yang Anda cari tidak ada.",
+    "backToHome": "Kembali ke Beranda",
+    "relatedArticles": "Artikel Terkait",
+    "readMore": "Baca Selengkapnya",
+    "articlesComingSoon": "Artikel segera hadir"
+  },
+  "hero": {
+    "badge": "RPG Petualangan Roblox Anime",
+    "title": "Wiki Battle Piece",
+    "description": "Battle Piece adalah petualangan Roblox yang terinspirasi anime di mana pemain mengalahkan bandit, meningkatkan level, bertarung dalam PvP, menantang raid, dan membangun kekuatan atau senjata yang lebih kuat di sepanjang rilis Alpha yang berkembang cepat.",
+    "getFreeCodesCTA": "Dapatkan Kode Gratis",
+    "playOnRobloxCTA": "Mainkan di Roblox",
+    "stats": {
+      "stat1": {
+        "value": "600",
+        "label": "Batas Level"
+      },
+      "stat2": {
+        "value": "Alpha",
+        "label": "Status Rilis"
+      },
+      "stat3": {
+        "value": "PC/Mobile/Konsol",
+        "label": "Perangkat yang Didukung"
+      },
+      "stat4": {
+        "value": "Bandit/PvP/Raid",
+        "label": "Mode Utama"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay Battle Piece",
+    "description": "Kalahkan bandit-bandit kuat, kuasai pertempuran PvP yang sengit, dan taklukkan raid yang menantang di Battle Piece, sebuah petualangan aksi anime Roblox oleh Studio Multiverse."
+  },
+  "tools": {
+    "title": "Battle Piece",
+    "titleHighlight": "Panduan",
+    "subtitle": "Langsung menuju ke panduan Battle Piece mana pun: kode, tautan resmi, rute pemula, daftar tier, PvP, raid, farming, dan pembaruan.",
+    "cards": [
+      {
+        "icon": "Gift",
+        "title": "Kode Battle Piece",
+        "description": "Kode aktif, kode kedaluwarsa, dan alur penukaran kode"
+      },
+      {
+        "icon": "Link2",
+        "title": "Tautan Battle Piece",
+        "description": "Halaman Roblox resmi, komunitas pengembang, dan info game"
+      },
+      {
+        "icon": "Compass",
+        "title": "Panduan Battle Piece",
+        "description": "Rute pemula dan jalur peningkatan level ke Level 600"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Daftar Tier Battle Piece",
+        "description": "Senjata dan kekuatan yang diperingkat berdasarkan PvP, raid, dan mobilitas"
+      },
+      {
+        "icon": "Swords",
+        "title": "PvP Battle Piece",
+        "description": "Persiapan tempur, pengaturan platform, dan kontrol ping"
+      },
+      {
+        "icon": "Castle",
+        "title": "Raid Battle Piece",
+        "description": "Progresi raid dan bos di sekitar batas level"
+      },
+      {
+        "icon": "Wheat",
+        "title": "Farming Battle Piece",
+        "description": "Farming bandit, server privat, dan kebiasaan grinding"
+      },
+      {
+        "icon": "Newspaper",
+        "title": "Pembaruan Battle Piece",
+        "description": "Status Alpha, pemberitahuan komunitas, dan pelacakan patch"
+      }
+    ]
+  },
+  "modules": {
+    "battlePieceCodes": {
+      "title": "Kode Battle Piece",
+      "eyebrow": "Kode",
+      "intro": "Battle Piece adalah pengalaman aksi anime Roblox oleh Studio Multiverse. Kode dirilis melalui halaman resmi Roblox dan komunitas Studio Multiverse. Gunakan bagian ini untuk melacak kode aktif, kode kedaluwarsa, sumber resmi, dan alur pemeriksaan penukaran.",
+      "activeHeading": "Kode Aktif",
+      "activeEmpty": "Tidak ada kode Battle Piece aktif yang saat ini terdaftar di halaman resmi Roblox. Kode baru akan hadir bersama pembaruan besar dan pengumuman komunitas.",
+      "expiredHeading": "Kode Kedaluwarsa",
+      "expiredEmpty": "Tidak ada kode Battle Piece kedaluwarsa yang saat ini terdaftar di halaman resmi Roblox.",
+      "sourcesHeading": "Sumber Kode Resmi",
+      "sources": [
+        {
+          "label": "Pengalaman Roblox Resmi",
+          "value": "Battle Piece",
+          "href": "https://www.roblox.com/games/98662768290911/Battle-Piece",
+          "detail": "Halaman bermain utama Battle Piece oleh Studio Multiverse."
+        },
+        {
+          "label": "Komunitas Pengembang",
+          "value": "Studio Multiverse",
+          "href": "https://www.roblox.com/communities/903561179/Studio-Multiverse",
+          "detail": "Komunitas pengembang untuk pembaruan, kode, dan pengumuman Battle Piece."
+        }
+      ],
+      "workflowHeading": "Alur Kerja Klaim-Periksa",
+      "workflow": [
+        "Buka Battle Piece dari halaman pengalaman Roblox resmi.",
+        "Periksa komunitas Studio Multiverse sebelum menukarkan kode baru.",
+        "Salin kode persis seperti yang diposting, termasuk huruf besar dan simbol.",
+        "Tukarkan melalui kolom input kode di dalam game saat kode tersedia.",
+        "Bergabunglah kembali ke server baru setelah pembaruan besar jika kode tidak berfungsi."
+      ]
+    },
+    "battlePieceOfficialLinks": {
+      "title": "Tautan Roblox Resmi Battle Piece",
+      "eyebrow": "Tautan Resmi",
+      "intro": "Battle Piece adalah petualangan aksi anime di Roblox oleh Studio Multiverse. Pemain mengalahkan bandit, bertarung dalam PvP, menyelesaikan raid, dan berusaha menjadi petarung terkuat. Halaman Roblox resmi mencantumkan versi Alpha, Batas Level 600, serta dukungan PC, seluler, dan konsol.",
+      "playLabel": "Mainkan Battle Piece",
+      "cards": [
+        {
+          "label": "Game Resmi",
+          "value": "Battle Piece",
+          "description": "Halaman pengalaman Roblox resmi untuk Battle Piece.",
+          "badges": [
+            "Roblox",
+            "Halaman Bermain"
+          ],
+          "href": "https://www.roblox.com/games/98662768290911/Battle-Piece"
+        },
+        {
+          "label": "Pengembang",
+          "value": "Studio Multiverse",
+          "description": "Komunitas pengembang yang terhubung ke halaman Roblox resmi Battle Piece.",
+          "badges": [
+            "Komunitas",
+            "Pembaruan"
+          ],
+          "href": "https://www.roblox.com/communities/903561179/Studio-Multiverse"
+        },
+        {
+          "label": "Status Game",
+          "value": "Alpha",
+          "description": "Battle Piece ditandai sebagai versi Alpha dengan pengembangan aktif.",
+          "badges": [
+            "Alpha"
+          ]
+        },
+        {
+          "label": "Batas Level",
+          "value": "600",
+          "description": "Halaman Roblox resmi mencantumkan batas level Battle Piece saat ini adalah 600.",
+          "badges": [
+            "Progresi"
+          ]
+        },
+        {
+          "label": "Platform yang Didukung",
+          "value": "PC, Seluler, Konsol",
+          "description": "Battle Piece mendukung permainan di PC, seluler, dan konsol.",
+          "badges": [
+            "Lintas Platform"
+          ]
+        },
+        {
+          "label": "Gameplay Inti",
+          "value": "Bandit, PvP, Raid",
+          "description": "Kalahkan bandit yang kuat, kuasai pertempuran PvP, dan taklukkan raid yang menantang.",
+          "badges": [
+            "Aksi Anime",
+            "PvE",
+            "PvP"
+          ]
+        }
+      ]
+    },
+    "battlePieceBeginnerGuide": {
+      "title": "Panduan Pemula Battle Piece",
+      "eyebrow": "Panduan Pemula",
+      "intro": "Mulailah dari game Roblox resmi, pelajari pertarungan melawan bandit terlebih dahulu, lalu beralih ke PvP dan raid. Target progres saat ini adalah Level 600.",
+      "goalLabel": "Tujuan",
+      "steps": [
+        {
+          "heading": "Jalankan Game Roblox Resmi",
+          "body": "Mulailah dari halaman resmi Battle Piece oleh Studio Multiverse untuk masuk ke server yang benar.",
+          "goal": "Masuk ke server Battle Piece yang benar."
+        },
+        {
+          "heading": "Pelajari Pertarungan Melalui Bandit",
+          "body": "Deskripsi resmi game menyoroti mengalahkan bandit yang kuat sebagai aktivitas inti. Gunakan pertarungan melawan bandit untuk mempelajari jangkauan serangan, pergerakan, dan ritme cooldown.",
+          "goal": "Bangun kontrol PvE dasar."
+        },
+        {
+          "heading": "Naikkan Level Sebelum PvP Serius",
+          "body": "Gunakan pertarungan PvE awal untuk memahami senjata atau kekuatanmu sebelum memasuki pertempuran PvP yang sengit.",
+          "goal": "Stabilkan kontrolmu sebelum bertarung melawan pemain lain."
+        },
+        {
+          "heading": "Kejar Target Level 600",
+          "body": "Batas level Battle Piece saat ini adalah 600. Anggap Level 600 sebagai target progres jangka panjang yang utama.",
+          "goal": "Pantau progres kenaikan level terhadap batas saat ini."
+        },
+        {
+          "heading": "Masuk ke PvP Setelah Menguasai Dasar-dasar",
+          "body": "Pertempuran PvP adalah bagian inti dari Battle Piece. Latih menjaga jarak, kemampuan mengejar, dan waktu melarikan diri sebelum menjadikan PvP sebagai fokus utama grinding-mu.",
+          "goal": "Beralih dari latihan PvE ke pertarungan antar pemain."
+        },
+        {
+          "heading": "Coba Raid dengan Build yang Stabil",
+          "body": "Deskripsi Roblox menyoroti raid yang menantang. Bawa loadout yang dapat menghabisi musuh secara konsisten sebelum berfokus pada kecepatan menyelesaikan raid.",
+          "goal": "Bersiaplah untuk konten PvE kelompok atau yang bertekanan tinggi."
+        },
+        {
+          "heading": "Gunakan Server Privat untuk Ping Tinggi",
+          "body": "Deskripsi resmi menyarankan untuk bergabung ke server privat ketika ping tinggi.",
+          "goal": "Kurangi lag saat menaikkan level atau menguji pertarungan."
+        }
+      ]
+    },
+    "battlePieceTierList": {
+      "title": "Tier List Senjata dan Kekuatan Battle Piece",
+      "eyebrow": "Tier List",
+      "intro": "Urutkan karakteristik loadout Battle Piece berdasarkan mode game yang ditampilkan di halaman Roblox: pertarungan bandit, pertempuran PvP, dan raid. Tabel ini mengutamakan nilai praktis di seluruh fase awal game, PvP, raid, mobilitas, dan kemudahan penggunaan.",
+      "scoreLabels": {
+        "earlyGame": "Awal Game",
+        "pvp": "PvP",
+        "raid": "Raid",
+        "mobility": "Mobilitas",
+        "easeOfUse": "Kemudahan Penggunaan"
+      },
+      "tiers": [
+        {
+          "tier": "S",
+          "name": "Loadout Mobilitas + Burst",
+          "category": "Trait berfokus pada kekuatan",
+          "bestFor": [
+            "Pembuka PvP",
+            "Reposisi Raid",
+            "Kabur cepat"
+          ],
+          "scores": {
+            "earlyGame": 4,
+            "pvp": 5,
+            "raid": 4,
+            "mobility": 5,
+            "easeOfUse": 4
+          },
+          "why": "Trait prioritas utama untuk Battle Piece karena PvP dan raid mengutamakan pertarungan cepat, kabur dengan cepat, dan momen burst yang bersih."
+        },
+        {
+          "tier": "A",
+          "name": "Loadout PvE Area Luas",
+          "category": "Trait senjata atau kekuatan",
+          "bestFor": [
+            "Farming bandit",
+            "Gelombang raid",
+            "Leveling"
+          ],
+          "scores": {
+            "earlyGame": 5,
+            "pvp": 3,
+            "raid": 5,
+            "mobility": 3,
+            "easeOfUse": 4
+          },
+          "why": "Kuat untuk alur PvE resmi karena Battle Piece berpusat pada mengalahkan bandit dan menyelesaikan raid yang menantang."
+        },
+        {
+          "tier": "A",
+          "name": "Senjata Melee Sederhana",
+          "category": "Trait senjata",
+          "bestFor": [
+            "Pertarungan pemula",
+            "PvE yang stabil",
+            "Latihan kontrol"
+          ],
+          "scores": {
+            "earlyGame": 5,
+            "pvp": 3,
+            "raid": 3,
+            "mobility": 3,
+            "easeOfUse": 5
+          },
+          "why": "Andal bagi pemain baru yang membutuhkan timing serangan yang konsisten sebelum beralih ke pertempuran PvP atau tekanan raid."
+        },
+        {
+          "tier": "B",
+          "name": "Loadout Duel Target Tunggal",
+          "category": "Trait senjata atau kekuatan",
+          "bestFor": [
+            "Latihan PvP",
+            "Tekanan musuh yang terfokus",
+            "Pertempuran kecil"
+          ],
+          "scores": {
+            "earlyGame": 3,
+            "pvp": 4,
+            "raid": 3,
+            "mobility": 3,
+            "easeOfUse": 3
+          },
+          "why": "Berguna saat Anda mengontrol jarak, tetapi kurang fleksibel dibandingkan opsi mobilitas atau area luas selama leveling awal dan gelombang raid."
+        },
+        {
+          "tier": "B",
+          "name": "Loadout Jarak Defensif",
+          "category": "Trait senjata atau kekuatan",
+          "bestFor": [
+            "Bertahan hidup",
+            "Keamanan raid",
+            "Mundur dari PvP"
+          ],
+          "scores": {
+            "earlyGame": 3,
+            "pvp": 4,
+            "raid": 4,
+            "mobility": 3,
+            "easeOfUse": 3
+          },
+          "why": "Bagus untuk bertahan hidup di PvP dan raid, tetapi lebih lambat untuk farming bandit dan menaikkan level."
+        },
+        {
+          "tier": "C",
+          "name": "Build Lambat dengan Mobilitas Rendah",
+          "category": "Trait senjata atau kekuatan",
+          "bestFor": [
+            "Pengujian PvE dasar",
+            "Pertempuran bertekanan rendah"
+          ],
+          "scores": {
+            "earlyGame": 2,
+            "pvp": 2,
+            "raid": 2,
+            "mobility": 1,
+            "easeOfUse": 2
+          },
+          "why": "Kurang cocok untuk mode Battle Piece karena PvP, raid, dan pembersihan bandit semuanya mengutamakan kecepatan, jangkauan, atau kontrol area."
+        }
+      ]
+    },
+    "battlePiecePvpCombat": {
+      "title": "Panduan Pertarungan PvP Battle Piece",
+      "eyebrow": "Pertarungan PvP",
+      "intro": "Battle Piece menyertakan pertarungan PvP sebagai salah satu aktivitas utamanya, di samping pertarungan bandit dan raid. Bangun kendali pertarungan dasar terlebih dahulu, kurangi ping dengan private server jika diperlukan, dan gunakan farming awal untuk melaju menuju Level Cap 600.",
+      "cards": [
+        {
+          "title": "PvP Adalah Mode Utama",
+          "description": "Battle Piece secara resmi menyoroti pertarungan PvP yang sengit sebagai aktivitas utama. Anggap PvP sebagai uji progresi di mana kekuatan tempur, pergerakan, dan kecepatan reaksi sangat penting."
+        },
+        {
+          "title": "Bersiaplah Sebelum Melawan Pemain",
+          "description": "Mulailah dengan mengalahkan bandit dan pelajari ritme bertarungmu sebelum terjun ke PvP. Farming bandit memberikan latihan yang lebih aman untuk timing serangan, spacing, dan recovery."
+        },
+        {
+          "title": "Gunakan Pengaturan Platform yang Tepat",
+          "description": "Battle Piece mendukung PC, mobile, dan konsol. Pemain PC mendapatkan kendali keyboard yang lebih bersih, pemain mobile harus menjaga layar tetap bersih untuk pergerakan dan serangan, dan pemain konsol harus memeriksa kenyamanan input sebelum pertarungan serius."
+        },
+        {
+          "title": "Kurangi Masalah Ping",
+          "description": "Halaman resmi game merekomendasikan private server untuk ping tinggi. Koneksi yang lebih lancar membantu Anda melakukan dodge dan combo alih-alih melawan lag."
+        },
+        {
+          "title": "Berlatihlah di Sekitar Level Cap",
+          "description": "Level Cap saat ini adalah 600. Persiapan PvP harus fokus pada leveling yang stabil, latihan pertarungan yang dapat diulang, dan dasar-dasar build yang terbukti."
+        }
+      ]
+    },
+    "battlePieceRaidsGuide": {
+      "title": "Panduan Raid dan Progresi Boss Battle Piece",
+      "eyebrow": "Raid & Progresi",
+      "intro": "Battle Piece secara resmi mencantumkan raid yang menantang sebagai aktivitas utama, dengan pertarungan bandit dan PvP sebagai fondasi pertempuran di sekitarnya. Build Alpha saat ini memiliki Level Cap 600, jadi persiapan raid berfokus pada leveling, kendali yang stabil, dan kesiapan tim yang dapat diulang.",
+      "items": [
+        {
+          "question": "Kapan pemain harus mulai memikirkan raid di Battle Piece?",
+          "answer": "Pemain harus memulai dengan pertarungan bandit terlebih dahulu, lalu beralih ke pertempuran yang lebih sulit setelah pergerakan, timing serangan, dan kebiasaan bertahan hidup mereka terasa stabil. Raid diposisikan sebagai aktivitas dengan tekanan lebih tinggi, jadi masuk setelah latihan farming dasar membuat progresi menjadi lebih lancar."
+        },
+        {
+          "question": "Apa yang harus difokuskan dalam persiapan raid Battle Piece?",
+          "answer": "Persiapan raid harus berfokus pada konsistensi pertempuran, progres leveling, kenyamanan platform, dan stabilitas koneksi. Pemain diuntungkan oleh dasar-dasar andal yang bertahan di bawah tekanan raid."
+        },
+        {
+          "question": "Bagaimana hubungan antara PvP dan raid di Battle Piece?",
+          "answer": "Pertarungan PvP dan raid sama-sama menguji kendali tempur di bawah tekanan. Bandit mengajarkan dasar-dasarnya, PvP mengasah reaksi dan spacing, dan raid memberikan tantangan terstruktur kepada pemain untuk ditaklukkan."
+        },
+        {
+          "question": "Apa batas atas progresi Battle Piece saat ini?",
+          "answer": "Level Cap saat ini adalah 600. Pemain menggunakan batas tersebut sebagai target progresi jangka panjang utama sambil melewati farming bandit, latihan PvP, dan percobaan raid."
+        },
+        {
+          "question": "Bagaimana cara pemain mengatasi lag sebelum raid Battle Piece?",
+          "answer": "Halaman resmi game merekomendasikan untuk bergabung ke private server saat ping tinggi. Server yang stabil membantu pemain melatih pergerakan raid dan timing pertempuran tanpa kalah dalam pertarungan karena lag."
+        }
+      ]
+    },
+    "battlePieceBanditsFarming": {
+      "title": "Panduan Bandit dan Farming Battle Piece",
+      "eyebrow": "Farming",
+      "intro": "Battle Piece secara resmi meminta pemain untuk mengalahkan bandit yang kuat, menguasai pertarungan PvP, dan menaklukkan raid. Farming bandit adalah siklus latihan awal yang paling bersih karena memungkinkan pemain mempelajari pertempuran sebelum konten PvP dan raid yang bertekanan lebih tinggi.",
+      "columns": {
+        "activity": "Aktivitas",
+        "purpose": "Tujuan",
+        "action": "Apa yang Harus Dilakukan",
+        "bestFor": "Paling Baik Digunakan Untuk"
+      },
+      "rows": [
+        {
+          "activity": "Farming Bandit",
+          "purpose": "Latihan pertempuran awal dan progresi yang stabil",
+          "action": "Lawan bandit berulang kali untuk mempelajari timing serangan, pergerakan, dan pertahanan hidup dasar sebelum beralih ke konten yang lebih sulit.",
+          "bestFor": "Pemain baru yang mempelajari siklus pertempuran inti"
+        },
+        {
+          "activity": "Grinding di Private Server",
+          "purpose": "Mengurangi masalah ping tinggi",
+          "action": "Gunakan private server saat ping tinggi agar input farming dan pertempuran terasa lebih stabil.",
+          "bestFor": "Pemain yang menghadapi lag atau server publik yang tidak stabil"
+        },
+        {
+          "activity": "Latihan Kesiapan PvP",
+          "purpose": "Bersiap untuk pertarungan pemain yang sengit",
+          "action": "Gunakan pertarungan bandit untuk melatih pengaturan jarak, pemulihan, dan kontrol sebelum menantang pemain sungguhan.",
+          "bestFor": "Pemain yang beralih dari farming ke PvP"
+        },
+        {
+          "activity": "Persiapan Raid",
+          "purpose": "Membangun konsistensi sebelum tantangan yang lebih sulit",
+          "action": "Lakukan farm dan latihan sampai pertempuran terasa terkendali, lalu gunakan progres tersebut untuk mencoba raid dengan lebih percaya diri.",
+          "bestFor": "Pemain yang bersiap untuk tantangan gaya raid"
+        },
+        {
+          "activity": "Progres Level Cap",
+          "purpose": "Tujuan Alpha jangka panjang",
+          "action": "Berusahalah mencapai Level Cap saat ini yaitu 600 melalui pertempuran yang dapat diulang dan kebiasaan farming yang konsisten.",
+          "bestFor": "Pemain yang merencanakan sesi bermain lebih lama"
+        }
+      ]
+    },
+    "battlePieceUpdatesTracker": {
+      "title": "Pembaruan, Komunitas, dan Pelacak Patch Battle Piece",
+      "eyebrow": "Pembaruan",
+      "intro": "Battle Piece saat ini dalam tahap Alpha, dan halaman resmi game mengarahkan pemain ke komunitas untuk pembaruan, kode, dan lainnya. Pelacak ini menjaga alur pembaruan tetap terpusat pada Roblox, Studio Multiverse, dan bukti video resmi.",
+      "entries": [
+        {
+          "label": "Status Rilis Alpha",
+          "title": "Battle Piece sudah aktif di Alpha",
+          "description": "Halaman Roblox saat ini melabeli Battle Piece sebagai telah dirilis dan menyatakan game ini berada dalam tahap Alpha. Pemain mungkin mengalami lag atau bug saat perbaikan dan pembaruan terus berlanjut."
+        },
+        {
+          "label": "Pilar Gameplay Utama",
+          "title": "Bandit, pertarungan PvP, dan raid menentukan loop saat ini",
+          "description": "Deskripsi resmi game menyoroti mengalahkan bandit yang kuat, menguasai pertarungan PvP, dan menaklukkan raid yang menantang sebagai aktivitas utama."
+        },
+        {
+          "label": "Pemberitahuan Level Cap",
+          "title": "Level Cap saat ini adalah 600",
+          "description": "Halaman Roblox mencantumkan Level Cap saat ini adalah 600, menjadikannya batas progres utama yang terlihat bagi para pemain Battle Piece."
+        },
+        {
+          "label": "Dukungan Platform",
+          "title": "PC, seluler, dan konsol didukung",
+          "description": "Battle Piece saat ini mencantumkan dukungan untuk PC, seluler, dan konsol, sehingga catatan pembaruan melacak perbaikan terkait platform dan perubahan kontrol."
+        },
+        {
+          "label": "Komunitas dan Kode",
+          "title": "Komunitas Studio Multiverse adalah pusat pembaruan",
+          "description": "Halaman Roblox resmi memberi tahu pemain untuk bergabung dengan komunitas untuk mendapatkan pembaruan, kode, dan lainnya. Pemberitahuan kode diperiksa terlebih dahulu terhadap halaman Roblox dan sumber Studio Multiverse."
+        },
+        {
+          "label": "Pelacakan Video Gameplay",
+          "title": "Pembaruan video menunjukkan perubahan gameplay yang terlihat",
+          "description": "Video gameplay resmi atau yang relevan membantu pemain memahami perubahan pada pertempuran, raid, farming, atau progres saat cuplikan menunjukkan status game saat ini."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Pertanyaan yang Sering",
+    "titleHighlight": "Diajukan",
+    "subtitle": "Semua yang perlu Anda ketahui tentang Battle Piece",
+    "questions": [
+      {
+        "question": "Apa itu Battle Piece?",
+        "answer": "Battle Piece adalah petualangan Roblox aksi anime oleh Studio Multiverse. Pemain mengalahkan bandit yang kuat, bertarung dalam pertempuran PvP, menyelesaikan raid yang menantang, dan membangun kekuatan untuk menjadi petarung terkuat."
+      },
+      {
+        "question": "Di mana saya bisa bermain Battle Piece?",
+        "answer": "Anda dapat memainkan Battle Piece di halaman pengalaman resmi Roblox oleh Studio Multiverse. Game ini mendukung PC, mobile, dan konsol."
+      },
+      {
+        "question": "Berapa batas level Battle Piece saat ini?",
+        "answer": "Batas level Battle Piece saat ini adalah 600, yang tercantum di halaman resmi Roblox sebagai target progresi utama."
+      },
+      {
+        "question": "Apakah Battle Piece memiliki kode?",
+        "answer": "Ya. Kode Battle Piece dirilis melalui halaman resmi Roblox dan komunitas Studio Multiverse. Periksa bagian Kode Battle Piece untuk melihat kode aktif dan alur penukarannya."
+      },
+      {
+        "question": "Apa saja mode game utama Battle Piece?",
+        "answer": "Mode utama Battle Piece adalah mengalahkan bandit, pertarungan PvP, dan raid. Deskripsi resmi Roblox menyoroti ketiganya sebagai aktivitas utama."
+      },
+      {
+        "question": "Apakah Battle Piece dalam tahap Alpha?",
+        "answer": "Ya. Battle Piece ditandai sebagai versi Alpha di halaman resmi Roblox, dengan pengembangan aktif, perbaikan, dan pembaruan konten yang terus berjalan."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Siap Bermain Battle Piece?",
+    "description": "Masuk ke Battle Piece di Roblox, bergabunglah dengan komunitas Studio Multiverse, dan dapatkan informasi terbaru tentang kode, kekuatan, dan panduan raid terbaru!",
+    "joinCommunity": "Gabung Komunitas",
+    "joinGame": "Mainkan di Roblox"
+  },
+  "footer": {
+    "title": "Wiki Battle Piece",
+    "description": "Pusat sumber daya lengkap Anda untuk kode, kekuatan, senjata, trait, raid, PvP, dan panduan leveling Battle Piece untuk petualangan anime Roblox.",
+    "resources": "Sumber Daya",
+    "community": "Komunitas",
+    "legal": "Legal",
+    "robloxGame": "Game Roblox",
+    "robloxGroup": "Studio Multiverse",
+    "youtube": "YouTube",
+    "about": "Tentang",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Layanan",
+    "copyrightNotice": "Hak Cipta",
+    "copyright": "© 2026 Battle Piece Wiki. Tidak berafiliasi dengan Studio Multiverse atau Roblox Corporation.",
+    "disclaimer": "Situs web sumber daya tidak resmi buatan penggemar."
+  },
+  "pages": {
+    "codes": {
+      "title": "Kode Battle Piece",
+      "description": "Kode Battle Piece terbaru yang aktif untuk boost, hadiah, dan item naik level gratis. Diperbarui secara berkala dengan kode redeem terverifikasi dan petunjuk penukaran langkah demi langkah.",
+      "metaTitle": "Kode Battle Piece - Boost Gratis & Klaim Hadiah",
+      "metaDescription": "Dapatkan boost dan hadiah gratis dengan kode Battle Piece yang aktif. Diperbarui secara berkala dengan kode aktif yang terverifikasi dan panduan penukaran langkah demi langkah untuk Roblox.",
+      "categoryLabel": "TUKARKAN KODE",
+      "whatIs": "Apa itu Kode Battle Piece?",
+      "whatIsDescription": "Kode Battle Piece adalah kunci promosi yang dirilis oleh Studio Multiverse yang memberikan boost, hadiah, dan item progresi dalam game secara gratis. Kode ini biasanya dibagikan saat pembaruan, pencapaian target, dan acara khusus untuk membantu pemain naik level lebih cepat dan mencoba konten baru.",
+      "why": "Mengapa harus menukarkan kode Battle Piece?",
+      "whySteps": {
+        "step1Title": "Klaim Boost Gratis",
+        "step1Description": "Terima boost EXP, hadiah, dan item progresi secara instan tanpa menghabiskan Robux",
+        "step2Title": "Percepat Leveling",
+        "step2Description": "Gunakan boost gratis untuk grinding bandit dan naik ke batas Level 600 dengan lebih cepat",
+        "step3Title": "Tetap Terdepan dalam Pembaruan",
+        "step3Description": "Ambil hadiah kode setiap kali kekuatan, senjata, atau konten raid baru dirilis"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Kode"
+    },
+    "guide": {
+      "title": "Panduan Battle Piece",
+      "description": "Panduan lengkap Battle Piece yang mencakup dasar-dasar pemula, rute progresi, strategi leveling, dan cara memainkan petualangan Roblox anime ini sejak hari pertama.",
+      "metaTitle": "Panduan Battle Piece - Progresi dari Pemula ke Pro",
+      "metaDescription": "Kuasai Battle Piece dengan panduan lengkap. Pelajari cara bermain, tips pemula, rute progresi, dan strategi leveling untuk petualangan Roblox anime ini.",
+      "categoryLabel": "PANDUAN GAME",
+      "whatIs": "Apa itu Panduan Battle Piece?",
+      "whatIsDescription": "Panduan Battle Piece mencakup semua yang kamu butuhkan untuk memulai dengan kuat dan berprogres dengan efisien, mulai dari jam pertama mengalahkan bandit hingga membuka kekuatan, senjata, PvP, dan raid di sepanjang rilis Alpha.",
+      "why": "Mengapa membaca panduan Battle Piece?",
+      "whySteps": {
+        "step1Title": "Pelajari Dasar-Dasarnya",
+        "step1Description": "Pahami mekanik inti, kontrol, dan apa yang harus dilakukan di sesi pertamamu",
+        "step2Title": "Berprogres dengan Efisien",
+        "step2Description": "Ikuti rute leveling dan jalur pembukaan kekuatan yang terbukti untuk menghindari membuang waktu",
+        "step3Title": "Bersiap untuk Endgame",
+        "step3Description": "Bersiaplah untuk PvP, raid, dan batas level 600 dengan tips ahli"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan"
+    },
+    "powers": {
+      "title": "Kekuatan Battle Piece",
+      "description": "Database lengkap kekuatan Battle Piece yang mencakup setiap kemampuan, buah, dan spec. Bandingkan jenis kekuatan, pelajari cara mendapatkannya, dan temukan kekuatan terbaik untuk PvE dan PvP.",
+      "metaTitle": "Kekuatan Battle Piece - Panduan Kemampuan, Buah & Spec",
+      "metaDescription": "Jelajahi semua kekuatan, kemampuan, buah, dan spec Battle Piece. Pelajari cara mendapatkan setiap kekuatan dan temukan pilihan terbaik untuk farming PvE dan pertarungan PvP.",
+      "categoryLabel": "KEKUATAN & KEMAMPUAN",
+      "whatIs": "Apa itu Kekuatan Battle Piece?",
+      "whatIsDescription": "Kekuatan Battle Piece adalah kemampuan khusus dan spec yang menentukan gaya bermainmu, mulai dari serangan berbasis buah hingga keterampilan bertarung yang unik. Setiap kekuatan memiliki damage, jangkauan, kontrol, dan mobilitas yang berbeda, membuat beberapa di antaranya lebih baik untuk farming PvE dan yang lainnya untuk PvP.",
+      "why": "Mengapa mempelajari kekuatan Battle Piece?",
+      "whySteps": {
+        "step1Title": "Temukan Gaya Bermainmu",
+        "step1Description": "Bandingkan jenis kekuatan untuk memilih kemampuan yang sesuai dengan cara bertarungmu",
+        "step2Title": "Pelajari Cara Mendapatkannya",
+        "step2Description": "Temukan tempat dan cara membuka setiap kekuatan dan buah di dalam game",
+        "step3Title": "Optimalkan untuk PvE & PvP",
+        "step3Description": "Pilih kekuatan terbaik untuk farming bandit, raid, dan pertarungan PvP"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Kekuatan"
+    },
+    "weapons": {
+      "title": "Senjata Battle Piece",
+      "description": "Panduan lengkap senjata Battle Piece yang mencakup setiap pedang, senjata melee, dan spec. Bandingkan statistik senjata, pelajari cara mendapatkannya, dan temukan senjata terbaik untuk build-mu.",
+      "metaTitle": "Senjata Battle Piece - Pedang, Spec & Tier List",
+      "metaDescription": "Temukan semua senjata Battle Piece termasuk pedang, perlengkapan melee, dan spec. Bandingkan statistik, pelajari cara mendapatkan setiap senjata, dan temukan pilihan terbaik dengan tier list kami.",
+      "categoryLabel": "SENJATA & SPEC",
+      "whatIs": "Apa itu Senjata Battle Piece?",
+      "whatIsDescription": "Senjata Battle Piece adalah perlengkapan jarak dekat dan spesifikasi yang menentukan pertarungan jarak dekat Anda, mulai dari pedang pemula hingga senjata akhir permainan dengan pola serangan, jangkauan, dan potensi kombo unik saat dipadukan dengan kekuatan.",
+      "why": "Mengapa membandingkan senjata Battle Piece?",
+      "whySteps": {
+        "step1Title": "Bandingkan Statistik Senjata",
+        "step1Description": "Evaluasi jangkauan serangan, kecepatan, dan kenyamanan untuk menemukan senjata yang sesuai dengan gaya Anda",
+        "step2Title": "Pelajari Cara Mendapatkan",
+        "step2Description": "Temukan tempat setiap senjata diperoleh dan apa yang diperlukan untuk membuka atau meningkatkannya",
+        "step3Title": "Buat Loadout Terbaik",
+        "step3Description": "Padukan senjata yang tepat dengan kekuatan dan trait Anda untuk damage maksimal"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Senjata"
+    },
+    "combat": {
+      "title": "Pertarungan Battle Piece",
+      "description": "Kuasai pertarungan Battle Piece dengan panduan PvP, strategi bos, gaya bertarung, dan karakter anime terkuat. Pelajari kombo, counter, dan pengaturan build untuk setiap pertarungan.",
+      "metaTitle": "Pertarungan Battle Piece - Panduan PvP, Bos & Gaya Bertarung",
+      "metaDescription": "Dominasi pertarungan Battle Piece dengan panduan PvP, strategi bos, gaya bertarung terbaik, dan karakter anime terkuat. Pelajari kombo, counter, dan pengaturan build yang optimal.",
+      "categoryLabel": "PERTARUNGAN & PVP",
+      "whatIs": "Apa itu Pertarungan Battle Piece?",
+      "whatIsDescription": "Pertarungan Battle Piece mencakup segalanya mulai dari farming bandit hingga PvP berisiko tinggi dan pertarungan bos. Kuasai gaya bertarung, rantai kombo, pergerakan, dan counter untuk menghadapi karakter anime terkuat dan pemain lain.",
+      "why": "Mengapa harus menguasai pertarungan Battle Piece?",
+      "whySteps": {
+        "step1Title": "Pelajari Mekanik PvP",
+        "step1Description": "Pahami kombo, pergerakan, dan counter untuk memenangkan pertarungan antarpemain",
+        "step2Title": "Kalahkan Setiap Bos",
+        "step2Description": "Gunakan strategi terbukti dan level yang direkomendasikan untuk mengalahkan bos yang menantang",
+        "step3Title": "Buat Setup Terkuat",
+        "step3Description": "Kombinasikan kekuatan, senjata, dan gaya bertarung terbaik untuk hasil maksimal"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Pertarungan"
+    },
+    "updates": {
+      "title": "Update Battle Piece",
+      "description": "Pantau setiap update Battle Piece, catatan patch, dan perilisan konten termasuk update Sukuna. Tetap ikuti perkembangan kekuatan, senjata, raid, dan perubahan keseimbangan baru.",
+      "metaTitle": "Update Battle Piece - Catatan Patch & Pelacak Konten",
+      "metaDescription": "Tetap ikuti perkembangan update Battle Piece, catatan patch, dan perilisan konten baru termasuk update Sukuna. Pantau kekuatan, senjata, raid, dan perubahan keseimbangan baru.",
+      "categoryLabel": "UPDATE & PATCH",
+      "whatIs": "Apa itu Update Battle Piece?",
+      "whatIsDescription": "Battle Piece berada dalam pengembangan Alpha aktif, dengan Studio Multiverse yang merilis update berkala, hotfix, dan perilisan konten besar seperti update Sukuna. Pembaruan ini menghadirkan kekuatan, senjata, raid baru, perubahan batas level, dan penyesuaian keseimbangan.",
+      "why": "Mengapa harus mengikuti update Battle Piece?",
+      "whySteps": {
+        "step1Title": "Dapatkan Konten Baru",
+        "step1Description": "Jadilah yang pertama mencoba kekuatan, senjata, dan konten raid baru saat dirilis",
+        "step2Title": "Pahami Pergeseran Meta",
+        "step2Description": "Pantau perubahan keseimbangan yang memengaruhi build dan kekuatan mana yang tetap kuat",
+        "step3Title": "Jangan Lewatkan Kode",
+        "step3Description": "Pembaruan sering kali hadir dengan kode redeem baru untuk boost dan hadiah gratis"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Pembaruan"
+    },
+    "release": {
+      "title": "Rilis Battle Piece",
+      "description": "Segala hal tentang rilis Battle Piece di Roblox, termasuk status akses awal, perangkat yang didukung, trailer, dan apa yang diharapkan dari RPG petualangan anime baru ini.",
+      "metaTitle": "Rilis Battle Piece - Akses Awal & Trailer Roblox",
+      "metaDescription": "Pelajari tentang rilis Battle Piece di Roblox, termasuk status akses awal, perangkat yang didukung, trailer, dan apa yang ditawarkan oleh RPG petualangan anime baru ini.",
+      "categoryLabel": "INFO RILIS",
+      "whatIs": "Apa itu Rilis Battle Piece?",
+      "whatIsDescription": "Battle Piece adalah RPG petualangan Roblox baru yang terinspirasi anime oleh Studio Multiverse, saat ini dalam akses awal Alpha dengan batas level 600. Game ini mendukung PC, Ponsel, dan Konsol serta terus berkembang dengan kekuatan, senjata, dan raid baru.",
+      "why": "Mengapa harus mengikuti rilis Battle Piece?",
+      "whySteps": {
+        "step1Title": "Ketahui Statusnya",
+        "step1Description": "Pahami fase Alpha, batas level, dan konten apa saja yang tersedia saat ini",
+        "step2Title": "Periksa Dukungan Perangkat",
+        "step2Description": "Konfirmasikan apakah Battle Piece dapat berjalan di PC, ponsel, atau konsol Anda",
+        "step3Title": "Tonton Trailernya",
+        "step3Description": "Lihat gameplay dan fitur mendatang sebelum terjun ke dalam game lengkapnya"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Info Rilis"
+    },
+    "discord": {
+      "title": "Discord & Komunitas Battle Piece",
+      "description": "Temukan server Discord resmi Battle Piece, grup Roblox, dan tautan komunitas. Terhubung dengan Studio Multiverse, dapatkan pembaruan, kode, dan rekan tim raid dengan aman.",
+      "metaTitle": "Discord Battle Piece - Komunitas Resmi & Tautan",
+      "metaDescription": "Terhubung dengan komunitas Battle Piece melalui Discord resmi, grup Roblox, dan tautan terverifikasi. Dapatkan pembaruan, kode, dan rekan tim raid dari Studio Multiverse.",
+      "categoryLabel": "KOMUNITAS",
+      "whatIs": "Apa itu Komunitas Battle Piece?",
+      "whatIsDescription": "Komunitas Battle Piece adalah tempat para pemain berkumpul untuk pengumuman secara real-time, pembagian kode, catatan pembaruan, dan koordinasi raid. Hub terverifikasi utama adalah grup Roblox dan halaman game Studio Multiverse, dengan server Discord yang digunakan untuk pembaruan dan diskusi.",
+      "why": "Mengapa harus bergabung dengan komunitas Battle Piece?",
+      "whySteps": {
+        "step1Title": "Dapatkan Pembaruan Cepat",
+        "step1Description": "Terima pengumuman, pembagian kode, dan catatan pembaruan segera setelah dirilis",
+        "step2Title": "Temukan Rekan Tim Raid",
+        "step2Description": "Terhubung dengan pemain lain untuk menghadapi raid, bos, dan PvP bersama-sama",
+        "step3Title": "Tetap Aman",
+        "step3Description": "Gunakan hanya tautan resmi terverifikasi dari halaman Roblox untuk menghindari phishing"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Sumber Daya Komunitas"
+    }
   }
 }
