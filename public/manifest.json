@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Battle Piece Wiki - Codes, Powers, Raids & PvP Guide",
+  "short_name": "Battle Piece",
+  "description": "Battle Piece Wiki with updated codes, powers, weapons, raids, PvP, leveling, traits and beginner guides for the anime Roblox adventure by Studio Multiverse.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#FAB719",
+  "background_color": "#0C101D",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

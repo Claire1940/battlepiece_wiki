@@ -279,8 +279,8 @@ export default function HomePageClient({
         <div className="scroll-reveal container mx-auto max-w-5xl">
           <div className="relative overflow-hidden rounded-2xl">
             <VideoFeature
-              videoId="7C7fybRM_No"
-              title="LUCID BLOCKS | AVAILABLE NOW"
+              videoId="iTPzGAWfwos"
+              title="Battle Piece Sukuna Update"
             />
           </div>
         </div>
