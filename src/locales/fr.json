@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles à venir"
   },
   "hero": {
-    "badge": "Minuscules gnomes. Grandes maisons. Braquages furtifs entre amis.",
-    "title": "Lucid Blocks wiki",
-    "description": "Votre centre pour Lucid Blocks : comment fonctionnent les braquages, les tâches de Haut-Gnome, la fabrication et les améliorations, les ennemis, les commandes et les moyens les plus rapides de survivre à chaque partie.",
-    "getFreeCodesCTA": "Télécharger la démo",
-    "playOnSteamCTA": "Ajouter à la liste de souhaits sur Steam",
+    "badge": "Anime Roblox Adventure RPG",
+    "title": "Battle Piece Wiki",
+    "description": "Battle Piece is an anime-inspired Roblox adventure where players defeat bandits, grind levels, fight in PvP, challenge raids, and build stronger powers or weapons across a fast-moving Alpha release.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "15K",
-        "label": "Pic de CCU (Démo)"
+        "value": "600",
+        "label": "Level Cap"
       },
       "stat2": {
-        "value": "6",
-        "label": "Joueurs en coopération"
+        "value": "Alpha",
+        "label": "Release Status"
       },
       "stat3": {
-        "value": "31/01/2026",
-        "label": "Sortie de la démo"
+        "value": "PC/Mobile/Console",
+        "label": "Supported Devices"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plateforme"
+        "value": "Bandits/PvP/Raids",
+        "label": "Core Modes"
       }
     }
   },
@@ -819,27 +819,26 @@
     ]
   },
   "cta": {
-    "title": "Prêt à commencer à braquer ?",
-    "description": "Rejoignez la communauté Lucid Blocks sur Discord pour des groupes de coopération, des mises à jour et des discussions sur les mods !",
-    "joinCommunity": "Rejoindre Discord",
-    "joinGame": "Obtenir la démo sur Steam"
+    "title": "Ready to Play Battle Piece?",
+    "description": "Jump into Battle Piece on Roblox, join the Studio Multiverse community, and stay updated with the latest codes, powers, and raid guides!",
+    "joinCommunity": "Join Community",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Votre centre de ressources complet pour les braquages furtifs, les stratégies de coopération, les mods et les guides communautaires de Lucid Blocks.",
-    "resources": "Ressources",
-    "community": "Communauté",
-    "legal": "Légal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Communauté Steam",
-    "steamStore": "Magasin Steam",
-    "about": "À propos",
-    "privacy": "Politique de confidentialité",
-    "terms": "Conditions d'utilisation",
-    "copyrightNotice": "Droits d'auteur",
-    "copyright": "© 2026 Lucid Blocks Wiki. Non affilié aux développeurs de Lucid Blocks.",
-    "disclaimer": "Site web de ressources non officiel créé par des fans."
+    "title": "Battle Piece Wiki",
+    "description": "Your complete resource hub for Battle Piece codes, powers, weapons, traits, raids, PvP, and leveling guides for the anime Roblox adventure.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
+    "robloxGame": "Roblox Game",
+    "robloxGroup": "Studio Multiverse",
+    "youtube": "YouTube",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Battle Piece Wiki. Not affiliated with Studio Multiverse or Roblox Corporation.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {

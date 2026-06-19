@@ -9,12 +9,12 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.battlepiece.wiki'
   const path = '/copyright'
 
   return {
-    title: 'Copyright Notice - Lucid Blocks Wiki',
-    description: 'Copyright and intellectual property information for Lucid Blocks Wiki. Learn about content ownership, fair use, DMCA policy, and how to report copyright infringement.',
+    title: 'Copyright Notice - Battle Piece Wiki',
+    description: 'Copyright and intellectual property information for Battle Piece Wiki. Learn about content ownership, fair use, DMCA policy, and how to report copyright infringement.',
     robots: {
       index: false,
       follow: true,
@@ -30,21 +30,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale: locale,
       url: locale === 'en' ? `${siteUrl}${path}` : `${siteUrl}/${locale}${path}`,
-      siteName: 'Lucid Blocks Wiki',
-      title: 'Copyright Notice - Lucid Blocks Wiki',
-      description: 'Copyright and intellectual property information for Lucid Blocks Wiki.',
+      siteName: 'Battle Piece Wiki',
+      title: 'Copyright Notice - Battle Piece Wiki',
+      description: 'Copyright and intellectual property information for Battle Piece Wiki.',
       images: [
         {
           url: `${siteUrl}/og-image.jpg`,
           width: 1200,
           height: 630,
-          alt: 'Lucid Blocks Wiki',
+          alt: 'Battle Piece Wiki',
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Copyright Notice - Lucid Blocks Wiki',
+      title: 'Copyright Notice - Battle Piece Wiki',
       description: 'Copyright and intellectual property information.',
       images: [`${siteUrl}/og-image.jpg`],
     },
@@ -65,7 +65,7 @@ export default function Copyright() {
             Intellectual property rights and usage terms
           </p>
           <p className="text-slate-400 text-sm">
-            Last Updated: March 14, 2026
+            Last Updated: June 20, 2026
           </p>
         </div>
       </section>
@@ -77,22 +77,22 @@ export default function Copyright() {
             <h2>1. Copyright Ownership</h2>
             <h3>1.1 Website Content</h3>
             <p>
-              © 2025-2026 Lucid Blocks Wiki. All rights reserved.
+              © 2026 Battle Piece Wiki. All rights reserved.
             </p>
             <p>
               Unless otherwise noted, all original content on this website, including but not limited to text,
-              graphics, logos, guides, articles, and compilations, is the property of Lucid Blocks Wiki and is
+              graphics, logos, guides, articles, and compilations, is the property of Battle Piece Wiki and is
               protected by international copyright laws.
             </p>
 
             <h3>1.2 Game Assets and Trademarks</h3>
             <p>
-              Lucid Blocks Wiki is an <strong>unofficial fan-made website</strong> and is NOT affiliated with,
+              Battle Piece Wiki is an <strong>unofficial fan-made website</strong> and is NOT affiliated with,
               endorsed by, or associated with:
             </p>
             <ul>
-              <li><strong>Steam</strong> - Owner of the Steam platform</li>
-              <li><strong>Lucid Blocks Developers</strong> - Creators of the Lucid Blocks game</li>
+              <li><strong>Roblox</strong> - Owner of the Roblox platform</li>
+              <li><strong>Studio Multiverse</strong> - Creators of the Battle Piece game</li>
             </ul>
             <p>
               All game-related content, including but not limited to:
@@ -152,14 +152,14 @@ export default function Copyright() {
               The following trademarks and service marks are the property of their respective owners:
             </p>
             <ul>
-              <li><strong>STEAM</strong> - Trademark of Valve Corporation</li>
-              <li><strong>Lucid Blocks</strong> - Trademark of the game developers</li>
-              <li><strong>Lucid Blocks Wiki</strong> - Our own branding (not affiliated with the game)</li>
+              <li><strong>ROBLOX</strong> - Trademark of Roblox Corporation</li>
+              <li><strong>Battle Piece</strong> - Trademark of Studio Multiverse</li>
+              <li><strong>Battle Piece Wiki</strong> - Our own branding (not affiliated with the game)</li>
             </ul>
             <p>
               All other trademarks, service marks, and trade names referenced on this website are the property of
               their respective owners. The use of any trademark on this website does not imply endorsement or
-              affiliation with Lucid Blocks Wiki.
+              affiliation with Battle Piece Wiki.
             </p>
 
             <h2>5. DMCA Policy</h2>
@@ -201,8 +201,8 @@ export default function Copyright() {
             </p>
             <p>
               <strong>DMCA Agent</strong><br />
-              Lucid Blocks Wiki<br />
-              Email: <a href="mailto:dmca@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@lucidblocks.wiki</a>
+              Battle Piece Wiki<br />
+              Email: <a href="mailto:dmca@battlepiece.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@battlepiece.wiki</a>
             </p>
             <p>
               <strong>Note:</strong> Please allow up to 7 business days for a response. Misrepresentation in a
@@ -238,12 +238,12 @@ export default function Copyright() {
               If you wish to use or reference our original content (guides, articles, data compilations), please:
             </p>
             <ul>
-              <li>Provide clear attribution to "Lucid Blocks Wiki"</li>
+              <li>Provide clear attribution to "Battle Piece Wiki"</li>
               <li>Include a link back to the original page (if digital)</li>
               <li>Do not imply endorsement or affiliation</li>
             </ul>
             <p>
-              Example attribution: <em>"Source: Lucid Blocks Wiki (lucidblocks.wiki)"</em>
+              Example attribution: <em>"Source: Battle Piece Wiki (battlepiece.wiki)"</em>
             </p>
 
             <h2>8. Repeat Infringer Policy</h2>
@@ -278,8 +278,8 @@ export default function Copyright() {
               For copyright questions, licensing inquiries, or to report copyright infringement:
             </p>
             <p>
-              <strong>General Inquiries:</strong> <a href="mailto:copyright@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">copyright@lucidblocks.wiki</a><br />
-              <strong>DMCA Notices:</strong> <a href="mailto:dmca@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@lucidblocks.wiki</a>
+              <strong>General Inquiries:</strong> <a href="mailto:copyright@battlepiece.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">copyright@battlepiece.wiki</a><br />
+              <strong>DMCA Notices:</strong> <a href="mailto:dmca@battlepiece.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@battlepiece.wiki</a>
             </p>
             <p>
               We aim to respond to all legitimate inquiries within 7 business days.

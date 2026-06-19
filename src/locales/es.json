@@ -34,27 +34,27 @@
     "articlesComingSoon": "Artículos próximamente"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de supervivencia de vóxeles",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explora biomas oníricos, fusiona objetos con Apotheosis, construye libremente y sobrevive a criaturas extrañas en este sandbox surrealista de mundo abierto en Steam.",
-    "getFreeCodesCTA": "Explorar guía de fabricación",
-    "playOnSteamCTA": "Jugar en Steam",
+    "badge": "Anime Roblox Adventure RPG",
+    "title": "Battle Piece Wiki",
+    "description": "Battle Piece is an anime-inspired Roblox adventure where players defeat bandits, grind levels, fight in PvP, challenge raids, and build stronger powers or weapons across a fast-moving Alpha release.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Jugadores en línea"
+        "value": "600",
+        "label": "Level Cap"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Pico de CCU"
+        "value": "Alpha",
+        "label": "Release Status"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Reseñas positivas"
+        "value": "PC/Mobile/Console",
+        "label": "Supported Devices"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Fecha de lanzamiento"
+        "value": "Bandits/PvP/Raids",
+        "label": "Core Modes"
       }
     }
   },
@@ -785,27 +785,26 @@
     ]
   },
   "cta": {
-    "title": "¿Listo para explorar Lucid Blocks?",
-    "description": "¡Únete a la comunidad de Lucid Blocks en Discord para ver guías, actualizaciones y discusiones!",
-    "joinCommunity": "Únete a Discord",
-    "joinGame": "Juega en Steam"
+    "title": "Ready to Play Battle Piece?",
+    "description": "Jump into Battle Piece on Roblox, join the Studio Multiverse community, and stay updated with the latest codes, powers, and raid guides!",
+    "joinCommunity": "Join Community",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Tu centro completo de recursos para la fabricación, biomas, criaturas, logros y guías de supervivencia de Lucid Blocks.",
-    "resources": "Recursos",
-    "community": "Comunidad",
+    "title": "Battle Piece Wiki",
+    "description": "Your complete resource hub for Battle Piece codes, powers, weapons, traits, raids, PvP, and leveling guides for the anime Roblox adventure.",
+    "resources": "Resources",
+    "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Comunidad de Steam",
-    "steamStore": "Tienda de Steam",
-    "about": "Acerca de",
-    "privacy": "Política de privacidad",
-    "terms": "Términos de servicio",
-    "copyrightNotice": "Derechos de autor",
-    "copyright": "© 2026 Wiki de Lucid Blocks. No afiliada con los desarrolladores de Lucid Blocks.",
-    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+    "robloxGame": "Roblox Game",
+    "robloxGroup": "Studio Multiverse",
+    "youtube": "YouTube",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Battle Piece Wiki. Not affiliated with Studio Multiverse or Roblox Corporation.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {
