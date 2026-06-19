@@ -3,18 +3,39 @@
 import { useState, Suspense, lazy } from "react";
 import {
   ArrowRight,
+  Axe,
+  BadgeCheck,
   Castle,
   Check,
   ChevronDown,
   Clock,
   Compass,
+  Crosshair,
   ExternalLink,
+  Flag,
+  Gauge,
   Gift,
+  GitMerge,
+  Hash,
+  Hourglass,
+  Laptop,
+  Layers,
   Link2,
+  MessageCircle,
+  MonitorSmartphone,
+  Mountain,
   Newspaper,
+  PlayCircle,
+  Rocket,
+  Server,
+  ShieldCheck,
   Sparkles,
   Swords,
+  Target,
+  TrendingUp,
   Trophy,
+  Users,
+  Wifi,
   Wheat,
 } from "lucide-react";
 import Link from "next/link";
@@ -27,6 +48,26 @@ import { scrollToSection } from "@/lib/scrollToSection";
 import { DynamicIcon } from "@/components/ui/DynamicIcon";
 import type { ContentItemWithType } from "@/lib/getLatestArticles";
 import type { ModuleLinkMap } from "@/lib/buildModuleLinkMap";
+
+// Per-card icon sets for Modules 5-8 (each item uses a distinct icon).
+// Defined module-level so the icons stay stable across renders.
+const pvpCombatIcons = [
+  Crosshair,
+  ShieldCheck,
+  MonitorSmartphone,
+  Wifi,
+  TrendingUp,
+];
+const raidsIcons = [Hourglass, Target, GitMerge, Mountain, Gauge];
+const farmingIcons = [Axe, Server, Users, Flag, Rocket];
+const updatesIcons = [
+  BadgeCheck,
+  Layers,
+  Hash,
+  Laptop,
+  MessageCircle,
+  PlayCircle,
+];
 
 // Lazy load heavy components
 const HeroStats = lazy(() => import("@/components/home/HeroStats"));
@@ -718,19 +759,25 @@ export default function HomePageClient({
 
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
             {t.modules.battlePiecePvpCombat.cards.map(
-              (card: any, index: number) => (
-                <div
-                  key={index}
-                  className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
-                >
-                  <h3 className="font-bold text-lg md:text-xl mb-2 text-[hsl(var(--nav-theme-light))]">
-                    {card.title}
-                  </h3>
-                  <p className="text-sm md:text-base text-muted-foreground">
-                    {card.description}
-                  </p>
-                </div>
-              ),
+              (card: any, index: number) => {
+                const CardIcon = pvpCombatIcons[index];
+                return (
+                  <div
+                    key={index}
+                    className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  >
+                    <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)]">
+                      <CardIcon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <h3 className="font-bold text-lg md:text-xl mb-2 text-[hsl(var(--nav-theme-light))]">
+                      {card.title}
+                    </h3>
+                    <p className="text-sm md:text-base text-muted-foreground">
+                      {card.description}
+                    </p>
+                  </div>
+                );
+              },
             )}
           </div>
         </div>
@@ -762,32 +809,40 @@ export default function HomePageClient({
 
           <div className="scroll-reveal space-y-3">
             {t.modules.battlePieceRaidsGuide.items.map(
-              (item: any, index: number) => (
-                <div
-                  key={index}
-                  className="bg-white/5 border border-border rounded-xl overflow-hidden"
-                >
-                  <button
-                    type="button"
-                    onClick={() =>
-                      setRaidsExpanded(raidsExpanded === index ? null : index)
-                    }
-                    className="w-full flex items-center justify-between gap-3 p-4 md:p-5 text-left hover:bg-white/5 transition-colors"
+              (item: any, index: number) => {
+                const ItemIcon = raidsIcons[index];
+                return (
+                  <div
+                    key={index}
+                    className="bg-white/5 border border-border rounded-xl overflow-hidden"
                   >
-                    <span className="font-semibold text-base md:text-lg pr-2">
-                      {item.question}
-                    </span>
-                    <ChevronDown
-                      className={`w-5 h-5 flex-shrink-0 transition-transform ${raidsExpanded === index ? "rotate-180" : ""}`}
-                    />
-                  </button>
-                  {raidsExpanded === index && (
-                    <div className="px-4 md:px-5 pb-4 md:pb-5 text-sm md:text-base text-muted-foreground">
-                      {item.answer}
-                    </div>
-                  )}
-                </div>
-              ),
+                    <button
+                      type="button"
+                      onClick={() =>
+                        setRaidsExpanded(raidsExpanded === index ? null : index)
+                      }
+                      className="w-full flex items-center justify-between gap-3 p-4 md:p-5 text-left hover:bg-white/5 transition-colors"
+                    >
+                      <span className="flex items-center gap-3 pr-2">
+                        <span className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)]">
+                          <ItemIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                        </span>
+                        <span className="font-semibold text-base md:text-lg">
+                          {item.question}
+                        </span>
+                      </span>
+                      <ChevronDown
+                        className={`w-5 h-5 flex-shrink-0 transition-transform ${raidsExpanded === index ? "rotate-180" : ""}`}
+                      />
+                    </button>
+                    {raidsExpanded === index && (
+                      <div className="px-4 md:px-5 pb-4 md:pb-5 text-sm md:text-base text-muted-foreground">
+                        {item.answer}
+                      </div>
+                    )}
+                  </div>
+                );
+              },
             )}
           </div>
         </div>
@@ -834,22 +889,28 @@ export default function HomePageClient({
               </thead>
               <tbody>
                 {t.modules.battlePieceBanditsFarming.rows.map(
-                  (row: any, index: number) => (
-                    <tr key={index} className="border-t border-border">
-                      <td className="p-3 md:p-4 font-medium align-top whitespace-nowrap">
-                        {row.activity}
-                      </td>
-                      <td className="p-3 md:p-4 text-muted-foreground align-top">
-                        {row.purpose}
-                      </td>
-                      <td className="p-3 md:p-4 text-muted-foreground align-top">
-                        {row.action}
-                      </td>
-                      <td className="p-3 md:p-4 text-[hsl(var(--nav-theme-light))] align-top">
-                        {row.bestFor}
-                      </td>
-                    </tr>
-                  ),
+                  (row: any, index: number) => {
+                    const RowIcon = farmingIcons[index];
+                    return (
+                      <tr key={index} className="border-t border-border">
+                        <td className="p-3 md:p-4 font-medium align-top whitespace-nowrap">
+                          <span className="inline-flex items-center gap-2">
+                            <RowIcon className="h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                            {row.activity}
+                          </span>
+                        </td>
+                        <td className="p-3 md:p-4 text-muted-foreground align-top">
+                          {row.purpose}
+                        </td>
+                        <td className="p-3 md:p-4 text-muted-foreground align-top">
+                          {row.action}
+                        </td>
+                        <td className="p-3 md:p-4 text-[hsl(var(--nav-theme-light))] align-top">
+                          {row.bestFor}
+                        </td>
+                      </tr>
+                    );
+                  },
                 )}
               </tbody>
             </table>
@@ -885,22 +946,25 @@ export default function HomePageClient({
             <div className="absolute left-4 md:left-5 top-2 bottom-2 w-px bg-[hsl(var(--nav-theme)/0.3)]" />
             <div className="space-y-5 md:space-y-6">
               {t.modules.battlePieceUpdatesTracker.entries.map(
-                (entry: any, index: number) => (
-                  <div key={index} className="relative pl-12 md:pl-14">
-                    <span className="absolute left-0 flex h-8 w-8 md:h-10 md:w-10 items-center justify-center rounded-full bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.4)]">
-                      <Clock className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
-                    </span>
-                    <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-1.5 inline-block">
-                      {entry.label}
-                    </span>
-                    <h3 className="font-bold text-base md:text-lg mb-1">
-                      {entry.title}
-                    </h3>
-                    <p className="text-sm md:text-base text-muted-foreground">
-                      {entry.description}
-                    </p>
-                  </div>
-                ),
+                (entry: any, index: number) => {
+                  const EntryIcon = updatesIcons[index];
+                  return (
+                    <div key={index} className="relative pl-12 md:pl-14">
+                      <span className="absolute left-0 flex h-8 w-8 md:h-10 md:w-10 items-center justify-center rounded-full bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.4)]">
+                        <EntryIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                      </span>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-1.5 inline-block">
+                        {entry.label}
+                      </span>
+                      <h3 className="font-bold text-base md:text-lg mb-1">
+                        {entry.title}
+                      </h3>
+                      <p className="text-sm md:text-base text-muted-foreground">
+                        {entry.description}
+                      </p>
+                    </div>
+                  );
+                },
               )}
             </div>
           </div>
