@@ -267,13 +267,6 @@ export default function HomePageClient({
         </div>
       </section>
 
-      {/* Latest Updates Section */}
-      <LatestGuidesAccordion
-        articles={latestArticles}
-        locale={locale}
-        max={12}
-      />
-
       {/* Video Section */}
       <section className="px-4 py-10 md:py-12">
         <div className="scroll-reveal container mx-auto max-w-5xl">
@@ -285,6 +278,13 @@ export default function HomePageClient({
           </div>
         </div>
       </section>
+
+      {/* Latest Updates Section */}
+      <LatestGuidesAccordion
+        articles={latestArticles}
+        locale={locale}
+        max={12}
+      />
 
       {/* Tools Grid - 16 Navigation Cards */}
       <section className="px-4 py-14 md:py-20 bg-white/[0.02]">
