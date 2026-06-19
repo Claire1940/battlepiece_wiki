@@ -38,6 +38,16 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Clock: LucideIcons.Clock,
   X: LucideIcons.X,
 
+  // 首页 Tools Grid 导航图标（8 个模块）
+  Gift: LucideIcons.Gift,
+  Link2: LucideIcons.Link2,
+  Compass: LucideIcons.Compass,
+  Trophy: LucideIcons.Trophy,
+  Swords: LucideIcons.Swords,
+  Castle: LucideIcons.Castle,
+  Wheat: LucideIcons.Wheat,
+  Newspaper: LucideIcons.Newspaper,
+
   // 默认回退图标
   HelpCircle: LucideIcons.HelpCircle,
 }

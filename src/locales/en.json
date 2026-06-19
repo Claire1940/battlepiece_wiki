@@ -14,7 +14,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -52,696 +52,371 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Battle Piece Gameplay",
+    "description": "Defeat powerful bandits, master intense PvP battles, and conquer challenging raids in Battle Piece, an anime action Roblox adventure by Studio Multiverse."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Battle Piece",
+    "titleHighlight": "Guides",
+    "subtitle": "Jump straight to any Battle Piece guide: codes, official links, beginner route, tier list, PvP, raids, farming, and updates.",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "icon": "Gift",
+        "title": "Battle Piece Codes",
+        "description": "Active codes, expired codes, and the redeem workflow"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Link2",
+        "title": "Battle Piece Links",
+        "description": "Official Roblox page, developer community, and game info"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Compass",
+        "title": "Battle Piece Guide",
+        "description": "Beginner route and leveling path to Level 600"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Trophy",
+        "title": "Battle Piece Tier List",
+        "description": "Weapons and powers ranked by PvP, raid, and mobility"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Swords",
+        "title": "Battle Piece PvP",
+        "description": "Combat prep, platform setup, and ping control"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "Castle",
+        "title": "Battle Piece Raids",
+        "description": "Raid and boss progression around the Level Cap"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
+        "icon": "Wheat",
+        "title": "Battle Piece Farming",
+        "description": "Bandit farming, private servers, and grinding habits"
       },
       {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Newspaper",
+        "title": "Battle Piece Updates",
+        "description": "Alpha status, community notices, and patch tracking"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "battlePieceCodes": {
+      "title": "Battle Piece Codes",
+      "eyebrow": "Codes",
+      "intro": "Battle Piece is an anime action Roblox experience by Studio Multiverse. Codes are released through the official Roblox page and the Studio Multiverse community. Use this section to track active codes, expired codes, official sources, and the redeem-check workflow.",
+      "activeHeading": "Active Codes",
+      "activeEmpty": "No active Battle Piece code is currently listed on the official Roblox page. New codes arrive with major updates and community announcements.",
+      "expiredHeading": "Expired Codes",
+      "expiredEmpty": "No expired Battle Piece code is currently listed on the official Roblox page.",
+      "sourcesHeading": "Official Code Sources",
+      "sources": [
+        {
+          "label": "Official Roblox Experience",
+          "value": "Battle Piece",
+          "href": "https://www.roblox.com/games/98662768290911/Battle-Piece",
+          "detail": "The main Battle Piece play page by Studio Multiverse."
+        },
+        {
+          "label": "Developer Community",
+          "value": "Studio Multiverse",
+          "href": "https://www.roblox.com/communities/903561179/Studio-Multiverse",
+          "detail": "The developer community for Battle Piece updates, codes, and announcements."
+        }
+      ],
+      "workflowHeading": "Redeem-Check Workflow",
+      "workflow": [
+        "Open Battle Piece from the official Roblox experience page.",
+        "Check the Studio Multiverse community before redeeming a new code.",
+        "Copy the code exactly as posted, including capital letters and symbols.",
+        "Redeem it through the in-game code entry when a code is available.",
+        "Rejoin a fresh server after major updates if a code does not apply."
+      ]
+    },
+    "battlePieceOfficialLinks": {
+      "title": "Battle Piece Official Roblox Link",
+      "eyebrow": "Official Links",
+      "intro": "Battle Piece is an anime action adventure on Roblox by Studio Multiverse. Players defeat bandits, fight in PvP, clear raids, and work toward becoming the strongest fighter. The official Roblox page lists an Alpha build, a Level Cap of 600, and PC, mobile, and console support.",
+      "playLabel": "Play Battle Piece",
+      "cards": [
+        {
+          "label": "Official Game",
+          "value": "Battle Piece",
+          "description": "The official Roblox experience page for Battle Piece.",
+          "badges": ["Roblox", "Play Page"],
+          "href": "https://www.roblox.com/games/98662768290911/Battle-Piece"
+        },
+        {
+          "label": "Developer",
+          "value": "Studio Multiverse",
+          "description": "The developer community connected to the official Battle Piece Roblox page.",
+          "badges": ["Community", "Updates"],
+          "href": "https://www.roblox.com/communities/903561179/Studio-Multiverse"
+        },
+        {
+          "label": "Game Status",
+          "value": "Alpha",
+          "description": "Battle Piece is marked as an Alpha build with active development.",
+          "badges": ["Alpha"]
+        },
+        {
+          "label": "Level Cap",
+          "value": "600",
+          "description": "The official Roblox page lists the current Battle Piece level cap as 600.",
+          "badges": ["Progression"]
+        },
+        {
+          "label": "Supported Platforms",
+          "value": "PC, Mobile, Console",
+          "description": "Battle Piece supports PC, mobile, and console play.",
+          "badges": ["Cross-Platform"]
+        },
+        {
+          "label": "Core Gameplay",
+          "value": "Bandits, PvP, Raids",
+          "description": "Defeat powerful bandits, master PvP battles, and conquer challenging raids.",
+          "badges": ["Anime Action", "PvE", "PvP"]
+        }
+      ]
+    },
+    "battlePieceBeginnerGuide": {
+      "title": "Battle Piece Beginner Guide",
+      "eyebrow": "Beginner Guide",
+      "intro": "Start from the official Roblox experience, learn bandit combat first, then move into PvP and raids. The current progression target is Level 600.",
+      "goalLabel": "Goal",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "heading": "Launch the Official Roblox Experience",
+          "body": "Start from the official Battle Piece page by Studio Multiverse to enter the correct server.",
+          "goal": "Enter the correct Battle Piece server."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "heading": "Learn Combat Through Bandits",
+          "body": "The official game description highlights defeating powerful bandits as a core activity. Use bandit fights to learn hit range, movement, and cooldown rhythm.",
+          "goal": "Build basic PvE control."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "heading": "Level Before Serious PvP",
+          "body": "Use early PvE fights to understand your weapon or power before entering intense PvP battles.",
+          "goal": "Stabilize your controls before player fights."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "heading": "Build Toward Level 600",
+          "body": "The current Battle Piece level cap is 600. Treat Level 600 as the main long-term progression target.",
+          "goal": "Track leveling progress against the current cap."
+        },
+        {
+          "heading": "Enter PvP After the Basics",
+          "body": "PvP battles are a central part of Battle Piece. Practice spacing, chase tools, and escape timing before treating PvP as your main grind.",
+          "goal": "Move from PvE practice into player fights."
+        },
+        {
+          "heading": "Try Raids With a Stable Build",
+          "body": "The Roblox description highlights challenging raids. Bring a loadout that can clear enemies consistently before focusing on raid speed.",
+          "goal": "Prepare for group or high-pressure PvE content."
+        },
+        {
+          "heading": "Use a Private Server for High Ping",
+          "body": "The official description recommends joining a private server when ping is high.",
+          "goal": "Reduce lag while leveling or testing combat."
         }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
+    "battlePieceTierList": {
+      "title": "Battle Piece Weapons and Powers Tier List",
+      "eyebrow": "Tier List",
+      "intro": "Rank Battle Piece loadout traits around the game modes shown on the Roblox page: bandit fighting, PvP battles, and raids. The grid favors practical value across early game, PvP, raid, mobility, and ease of use.",
+      "scoreLabels": {
+        "earlyGame": "Early Game",
+        "pvp": "PvP",
+        "raid": "Raid",
+        "mobility": "Mobility",
+        "easeOfUse": "Ease of Use"
+      },
+      "tiers": [
+        {
+          "tier": "S",
+          "name": "Mobility + Burst Loadouts",
+          "category": "Power-focused trait",
+          "bestFor": ["PvP openings", "Raid repositioning", "Fast escapes"],
+          "scores": { "earlyGame": 4, "pvp": 5, "raid": 4, "mobility": 5, "easeOfUse": 4 },
+          "why": "Top-priority traits for Battle Piece because PvP and raids reward fast engagement, quick escapes, and clean burst windows."
+        },
+        {
+          "tier": "A",
+          "name": "Wide-Area PvE Loadouts",
+          "category": "Weapon or power trait",
+          "bestFor": ["Bandit farming", "Raid waves", "Leveling"],
+          "scores": { "earlyGame": 5, "pvp": 3, "raid": 5, "mobility": 3, "easeOfUse": 4 },
+          "why": "Strong for the official PvE loop because Battle Piece centers on defeating bandits and clearing challenging raids."
+        },
+        {
+          "tier": "A",
+          "name": "Simple Melee Weapons",
+          "category": "Weapon trait",
+          "bestFor": ["Beginner combat", "Stable PvE", "Control practice"],
+          "scores": { "earlyGame": 5, "pvp": 3, "raid": 3, "mobility": 3, "easeOfUse": 5 },
+          "why": "Reliable for new players who need consistent hit timing before moving into PvP battles or raid pressure."
+        },
+        {
+          "tier": "B",
+          "name": "Single-Target Duel Loadouts",
+          "category": "Weapon or power trait",
+          "bestFor": ["PvP practice", "Focused enemy pressure", "Small fights"],
+          "scores": { "earlyGame": 3, "pvp": 4, "raid": 3, "mobility": 3, "easeOfUse": 3 },
+          "why": "Useful when you control spacing, but less flexible than mobility or wide-area options during early leveling and raid waves."
+        },
+        {
+          "tier": "B",
+          "name": "Defensive Spacing Loadouts",
+          "category": "Weapon or power trait",
+          "bestFor": ["Survival", "Raid safety", "PvP disengage"],
+          "scores": { "earlyGame": 3, "pvp": 4, "raid": 4, "mobility": 3, "easeOfUse": 3 },
+          "why": "Good for staying alive in PvP and raids, but slower for bandit farming and level pushing."
+        },
+        {
+          "tier": "C",
+          "name": "Slow Low-Mobility Builds",
+          "category": "Weapon or power trait",
+          "bestFor": ["Basic PvE testing", "Low-pressure fights"],
+          "scores": { "earlyGame": 2, "pvp": 2, "raid": 2, "mobility": 1, "easeOfUse": 2 },
+          "why": "A weak fit for Battle Piece modes because PvP, raids, and bandit clearing all reward speed, reach, or area control."
+        }
+      ]
+    },
+    "battlePiecePvpCombat": {
+      "title": "Battle Piece PvP Combat Guide",
+      "eyebrow": "PvP Combat",
+      "intro": "Battle Piece includes PvP battles as one of its core activities, alongside bandit fights and raids. Build basic combat control first, reduce ping with private servers when needed, and use early farming to move toward the Level Cap of 600.",
       "cards": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "title": "PvP Is a Core Mode",
+          "description": "Battle Piece officially highlights intense PvP battles as a main activity. Treat PvP as a progression test where combat strength, movement, and reaction speed all matter."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "title": "Prepare Before Fighting Players",
+          "description": "Start by defeating bandits and learning your combat rhythm before jumping into PvP. Bandit farming gives safer practice for attack timing, spacing, and recovery."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "title": "Use the Right Platform Setup",
+          "description": "Battle Piece supports PC, mobile, and console. PC players get cleaner keyboard control, mobile players should keep the screen clear for movement and attacks, and console players should check input comfort before serious fights."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
+          "title": "Reduce Ping Problems",
+          "description": "The official game page recommends private servers for high ping. A smoother connection helps you land dodges and combos instead of fighting lag."
+        },
+        {
+          "title": "Train Around the Level Cap",
+          "description": "The current Level Cap is 600. PvP preparation should focus on steady leveling, repeatable combat practice, and proven build fundamentals."
         }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "battlePieceRaidsGuide": {
+      "title": "Battle Piece Raids and Boss Progression Guide",
+      "eyebrow": "Raids & Progression",
+      "intro": "Battle Piece officially lists challenging raids as a major activity, with bandits and PvP battles forming the combat foundation around them. The current Alpha build has a Level Cap of 600, so raid preparation focuses on leveling, stable controls, and repeatable team readiness.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "question": "When should players start thinking about raids in Battle Piece?",
+          "answer": "Players should start with bandit fights first, then move into harder combat once their movement, attack timing, and survival habits feel stable. Raids are positioned as a higher-pressure activity, so entering after basic farming practice makes progression smoother."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "question": "What should Battle Piece raid preparation focus on?",
+          "answer": "Raid preparation should focus on combat consistency, leveling progress, platform comfort, and connection stability. Players benefit from reliable fundamentals that hold up under raid pressure."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "question": "How do PvP and raids connect in Battle Piece?",
+          "answer": "PvP battles and raids both test combat control under pressure. Bandits teach the basics, PvP sharpens reaction and spacing, and raids give players a structured challenge to conquer."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "question": "What is the current Battle Piece progression ceiling?",
+          "answer": "The current Level Cap is 600. Players use that cap as the main long-term progression target while moving through bandit farming, PvP practice, and raid attempts."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "question": "How should players handle lag before Battle Piece raids?",
+          "answer": "The official game page recommends joining a private server when ping is high. A stable server helps players practice raid movement and combat timing without losing fights to lag."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
+    "battlePieceBanditsFarming": {
+      "title": "Battle Piece Bandits and Farming Guide",
+      "eyebrow": "Farming",
+      "intro": "Battle Piece officially tells players to defeat powerful bandits, master PvP battles, and conquer raids. Bandit farming is the cleanest early practice loop because it lets players learn combat before higher-pressure PvP and raid content.",
+      "columns": {
+        "activity": "Activity",
+        "purpose": "Purpose",
+        "action": "What to Do",
+        "bestFor": "Best Used For"
+      },
+      "rows": [
         {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
+          "activity": "Bandit Farming",
+          "purpose": "Early combat practice and steady progression",
+          "action": "Fight bandits repeatedly to learn attack timing, movement, and basic survival before moving into harder content.",
+          "bestFor": "New players learning the core combat loop"
         },
         {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
+          "activity": "Private Server Grinding",
+          "purpose": "Reducing high-ping problems",
+          "action": "Use a private server when ping is high so farming and combat inputs feel more stable.",
+          "bestFor": "Players dealing with lag or unstable public servers"
         },
         {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
+          "activity": "PvP Readiness Practice",
+          "purpose": "Preparing for intense player battles",
+          "action": "Use bandit fights to practice spacing, recovery, and control before challenging real players.",
+          "bestFor": "Players moving from farming into PvP"
         },
         {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "activity": "Raid Preparation",
+          "purpose": "Building consistency before harder challenges",
+          "action": "Farm and practice until combat feels controlled, then use that progress to attempt raids more confidently.",
+          "bestFor": "Players preparing for raid-style challenges"
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
+          "activity": "Level Cap Progression",
+          "purpose": "Long-term Alpha goal",
+          "action": "Work toward the current Level Cap of 600 through repeatable combat and steady farming habits.",
+          "bestFor": "Players planning longer sessions"
         }
       ]
     },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
+    "battlePieceUpdatesTracker": {
+      "title": "Battle Piece Updates, Community, and Patch Tracker",
+      "eyebrow": "Updates",
+      "intro": "Battle Piece is currently in Alpha, and the official game page directs players to the community for updates, codes, and more. This tracker keeps the update flow centered on Roblox, Studio Multiverse, and official video evidence.",
       "entries": [
         {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "label": "Alpha Release Status",
+          "title": "Battle Piece is live in Alpha",
+          "description": "The current Roblox page labels Battle Piece as released and states the game is in Alpha. Players may experience lag or bugs while fixes and updates continue."
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "label": "Core Gameplay Pillars",
+          "title": "Bandits, PvP battles, and raids define the current loop",
+          "description": "The official game description highlights defeating powerful bandits, mastering PvP battles, and conquering challenging raids as the main activities."
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "label": "Level Cap Notice",
+          "title": "Current Level Cap is 600",
+          "description": "The Roblox page lists the current Level Cap as 600, making it the main visible progression ceiling for Battle Piece players."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "label": "Platform Support",
+          "title": "PC, mobile, and console are supported",
+          "description": "Battle Piece currently lists support for PC, mobile, and console, so update notes track platform-related fixes and control changes."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "label": "Community and Codes",
+          "title": "Studio Multiverse community is the update hub",
+          "description": "The official Roblox page tells players to join the community for updates, codes, and more. Code notices are checked against the Roblox page and Studio Multiverse sources first."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "label": "Gameplay Video Tracking",
+          "title": "Video updates show visible gameplay changes",
+          "description": "Official or clearly relevant gameplay videos help players understand changes to combat, raids, farming, or progression when the footage shows the current game state."
         }
       ]
     }
@@ -749,31 +424,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Battle Piece",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Battle Piece?",
+        "answer": "Battle Piece is an anime action Roblox adventure by Studio Multiverse. Players defeat powerful bandits, fight in PvP battles, clear challenging raids, and build toward becoming the strongest fighter."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Where can I play Battle Piece?",
+        "answer": "You can play Battle Piece on the official Roblox experience page by Studio Multiverse. The game supports PC, mobile, and console."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "What is the current Battle Piece level cap?",
+        "answer": "The current Battle Piece level cap is 600, listed on the official Roblox page as the main progression target."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Does Battle Piece have codes?",
+        "answer": "Yes. Battle Piece codes are released through the official Roblox page and the Studio Multiverse community. Check the Battle Piece Codes section for active codes and the redeem workflow."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "What are the core Battle Piece game modes?",
+        "answer": "The core Battle Piece modes are defeating bandits, PvP battles, and raids. The official Roblox description highlights all three as main activities."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Is Battle Piece in Alpha?",
+        "answer": "Yes. Battle Piece is marked as an Alpha build on the official Roblox page, with active development, fixes, and content updates ongoing."
       }
     ]
   },
@@ -801,124 +476,124 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Battle Piece Guides",
+      "description": "Complete gameplay guides from beginner basics to advanced strategies. Master combat, leveling, and progression.",
+      "metaTitle": "Battle Piece Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Battle Piece guides covering beginner tips, combat systems, leveling strategies, and expert tactics for mastering the anime Roblox adventure.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, combat strategies, and progression. Learn everything from first steps to advanced techniques.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand combat and progression and avoid common beginner mistakes",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven paths to level up and thrive in Battle Piece",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for PvP, raids, and farming"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+      "title": "Battle Piece Powers",
+      "description": "Master powers and abilities with type breakdowns, acquisition methods, and strength comparisons.",
+      "metaTitle": "Battle Piece Powers - Types, Acquisition & Strength",
+      "metaDescription": "Master Battle Piece powers and abilities. Learn power types, how to get them, and how they compare for PvE and PvP.",
+      "categoryLabel": "POWERS & ABILITIES",
+      "whatIs": "What are Powers?",
+      "whatIsDescription": "Powers and abilities define your combat style in Battle Piece. Learn power types, roles, and how to build around PvE or PvP.",
+      "why": "Why study powers?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Unlock Strong Powers",
+        "step1Description": "Discover essential powers through progression and events",
+        "step2Title": "Understand Roles",
+        "step2Description": "Learn how each power fits PvE, PvP, or raid content",
+        "step3Title": "Optimize Builds",
+        "step3Description": "Combine powers and weapons for the strongest loadout"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Power Guides"
     },
     "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+      "title": "Battle Piece Weapons",
+      "description": "Detailed weapon guides covering attack types, ranges, and usage tips for PvE and PvP.",
+      "metaTitle": "Battle Piece Weapons - Attack Types & Usage Guide",
+      "metaDescription": "Complete weapon database for Battle Piece including attack types, ranges, and usage strategies for every weapon.",
+      "categoryLabel": "WEAPONS & GEAR",
+      "whatIs": "What are Weapons?",
+      "whatIsDescription": "Comprehensive guides for weapons and gear. Learn attack styles, ranges, and how to use each weapon effectively.",
+      "why": "Why check weapon guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
+        "step1Title": "Learn Attack Styles",
+        "step1Description": "Discover how each weapon handles in combat",
         "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step2Description": "Choose the best weapons for your playstyle and stage",
+        "step3Title": "Improve Combat",
+        "step3Description": "Equip the right weapon for bandits, PvP, and raids"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Weapons"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+      "title": "Battle Piece Raids",
+      "description": "Explore raid entries, requirements, rewards, and team preparation for every raid.",
+      "metaTitle": "Battle Piece Raids - Entries, Rewards & Team Prep",
+      "metaDescription": "Explore Battle Piece raids including entries, requirements, rewards, and team preparation. Conquer every challenging raid.",
+      "categoryLabel": "RAIDS & BOSSES",
+      "whatIs": "What are Raids?",
+      "whatIsDescription": "Guides to raid entries, requirements, reward types, and team preparation. Learn what to expect and how to prepare for each raid.",
+      "why": "Why prepare for raids?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Find Raid Entries",
+        "step1Description": "Locate raid entries and meet participation requirements",
+        "step2Title": "Avoid Wipes",
+        "step2Description": "Understand raid mechanics and team roles",
+        "step3Title": "Plan Progression",
+        "step3Description": "Prepare the right powers and weapons for each raid"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Raid Guides"
     },
     "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+      "title": "Battle Piece PvP",
+      "description": "Master PvP mechanics, combos, positioning, counters, and build combinations.",
+      "metaTitle": "Battle Piece PvP - Combos, Counters & Builds",
+      "metaDescription": "Master Battle Piece PvP with mechanics, combos, positioning, counters, and build combinations for player-vs-player battles.",
+      "categoryLabel": "PVP COMBAT",
+      "whatIs": "What is PvP?",
+      "whatIsDescription": "Guides to PvP mechanics, combos, positioning, counters, and build combinations. Learn to win player battles consistently.",
+      "why": "Why train PvP?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Learn Mechanics",
+        "step1Description": "Understand PvP fundamentals and combat flow",
+        "step2Title": "Build Combos",
+        "step2Description": "Chain powers and weapons into effective combos",
+        "step3Title": "Win Fights",
+        "step3Description": "Master positioning, spacing, and counters"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All PvP Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+      "title": "Battle Piece Leveling",
+      "description": "Leveling routes, EXP flow, private server tips, and grinding habits for fast progression.",
+      "metaTitle": "Battle Piece Leveling - Routes, EXP & Grinding",
+      "metaDescription": "Get Battle Piece leveling guides including routes, EXP flow, private server tips, and grinding habits for fast progression to Level 600.",
+      "categoryLabel": "LEVELING & PROGRESSION",
+      "whatIs": "What is Leveling?",
+      "whatIsDescription": "Leveling guides covering routes, EXP flow, private server use, and grinding habits. Reach the Level Cap of 600 efficiently.",
+      "why": "Why plan leveling?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Find Routes",
+        "step1Description": "Follow efficient leveling routes through bandits and raids",
+        "step2Title": "Boost EXP",
+        "step2Description": "Use EXP flow and private servers to level faster",
+        "step3Title": "Reach the Cap",
+        "step3Description": "Progress steadily toward the Level 600 cap"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Leveling Guides"
     }
   }
 }
