@@ -10,14 +10,7 @@
       "twitterDescription": "Battle Piece Wiki with updated codes, fruit and weapon guides, raids, PvP tips, and level cap info for the Roblox adventure."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
