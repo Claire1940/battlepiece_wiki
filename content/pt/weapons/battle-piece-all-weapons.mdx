@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Todas as Armas do Battle Piece: Tier List Alpha & Guia de Combate",
+  description: "Domine o combate no Battle Piece com nosso guia completo de armas. Conheça as melhores tiers de armas, rotas de progressão e estratégias de PvP para o Alpha de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Battle+Piece+All+Weapons",
+  date: "2026-06-20",
+  author: "Equipe da Wiki de Battle Piece"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Foco principal em armas**: Priorize estilos de armas de alta mobilidade e dano explosivo (burst) para ter sucesso tanto no PvP quanto em raids de alto nível.
+- **Meta de nível máximo**: Trabalhe para alcançar o limite de nível atual do Alpha, que é 600, para desbloquear todo o potencial de suas builds de combate.
+- **Mitigação de lag**: Utilize servidores privados conforme recomendado pelo desenvolvedor para praticar combos de armas sem problemas de ping.
+- **Prioridade de progressão**: Domine armas corpo a corpo básicas durante o farm inicial antes de transicionar para conjuntos avançados de área ampla.
+</Callout>
+
+<Section icon={Swords} title="Battle Piece All Weapons System Overview">
+
+Selecionar o equipamento certo e entender a mecânica de **todas as armas do Battle Piece** é crucial para dominar o campo de batalha nesta aventura de anime do Roblox criada pelo Studio Multiverse. Como o jogo está atualmente em sua fase de lançamento Alpha, entender como diferentes estilos de combate interagem com sua build geral é a chave para uma evolução eficiente e para a sobrevivência. As armas neste jogo são projetadas para complementar seus poderes ativos, criando um sistema de dupla ameaça que permite que você enfrente bandidos, desafie chefes e participe de combates jogador contra jogador (PvP).
+
+A otimização de plataforma desempenha um papel significativo em como você manuseia essas armas. Os jogadores de PC se beneficiam de atalhos de teclado precisos, os jogadores de dispositivos móveis precisam gerenciar o espaço na tela para os botões de ataque, e os jogadores de console precisam se ajustar aos layouts de controle. Independentemente da sua plataforma, dominar os alcances básicos de ataque, ritmos de recarga (cooldown) e hitboxes da arma escolhida tornará sua progressão em direção ao limite de nível muito mais suave.
+
+**Destaques do Vídeo:**
+- Prévia das atualizações de combate e animações de armas.
+- Demonstração de combinações de habilidades no ambiente Alpha.
+- Mecânicas de luta contra chefes mostrando o alcance e o espaçamento das armas.
+
+<YouTubeEmbed videoId="iTPzGAWfwos" title="Sukuna Update Showcase" />
+
+Para ajudar você a entender os principais arquétipos de armas disponíveis no jogo, la tabela abaixo descreve o foco principal, os modos de jogo ideais e as recomendações de plataforma para cada categoria.
+
+| Tipo de Arma | Foco Principal | Melhor Modo de Jogo | Recomendação de Plataforma |
+| :--- | :--- | :--- | :--- |
+| Armas Corpo a Corpo | Dano consistente a curta distância | Farm no início do jogo | PC / Console |
+| Conjuntos de Explosão (Burst) | Combos de alto dano contra alvo único | Batalhas PvP | PC |
+| Área de Efeito (AoE) | Controle de grupo de amplo alcance | Raids / Bandidos | Mobile / PC |
+| Equipamento Defensivo | Ferramentas de sobrevivência e espaçamento | Raids de alto nível | Console / Mobile |
+
+<Callout type="tip" title="Developer Tip">
+Sempre teste a velocidade dos golpes de suas armas em um ambiente de baixa pressão antes de entrar no PvP competitivo. A versão Alpha pode apresentar lag ocasional, o que afeta o registro dos golpes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Battle Piece All Weapons Tier List">
+
+Avaliar as opções de combate no Battle Piece exige analisar o desempenho de um conjunto de equipamentos nos três pilares principais do jogo: farm de bandidos, batalhas PvP e raids. Em vez de confiar em estatísticas de dano não verificadas, esta tier list classifica os atributos das armas com base na utilidade, mobilidade, facilidade de uso e versatilidade geral no sandbox Alpha atual.
+
+Escolher um arquétipo de arma que combine com sua atividade principal economizará horas de grind. Por exemplo, uma arma que se destaca na eliminação de grupos de bandidos pode ter dificuldades em um duelo PvP rápido, onde a velocidade de movimento é o fator decisivo.
+
+<CardGrid cols={3}>
+  <Card title="Mobility & Burst (S-Tier)">
+    - **Ferramentas de engajamento rápido**
+    - Excelente para aberturas de PvP
+    - Alta capacidade de fuga
+  </Card>
+  <Card title="Wide PvE Tools (A-Tier)">
+    - **Grande raio de ataque**
+    - Ideal para farmar bandidos
+    - Ótimo para limpar ondas de raids
+  </Card>
+  <Card title="Defensive Spacing (B-Tier)">
+    - **Fortes opções de sobrevivência**
+    - Ferramentas de espaçamento confiáveis
+    - Bom para raids de alta pressão
+  </Card>
+</CardGrid>
+
+A tabela a seguir fornece um detalhamento das tiers de armas, destacando seus pontos fortes, pontos fracos e facilidade geral de uso para os jogadores que buscam alcançar o limite de nível.
+
+| Tier | Arquétipo de Conjunto | Pontos Fortes | Pontos Fracos | Facilidade de Uso |
+| :--- | :--- | :--- | :--- | :--- |
+| S | Mobilidade + Explosão | Alto potencial de fuga, combos rápidos | Requer tempo preciso | Moderada |
+| A | PvE de Área Ampla | Excelente controle de grupo, farm rápido | Menor DPS contra alvo único | Muito Fácil |
+| A | Corpo a Corpo Simples | Hitboxes consistentes, amigável para iniciantes | Falta mobilidade avançada | Fácil |
+| B | Duelo de Alvo Único | Forte pressão no PvP, alto foco | Limpeza de ondas ruim | Difícil |
+| B | Espaçamento Defensivo | Grande sobrevivência, espaçamento seguro | Velocidade de farm mais lenta | Moderada |
+| C | Lento de Baixa Mobilidade | Alto dano base por golpe | Vulnerável a ataques rápidos | Difícil |
+
+<Callout type="success" title="Meta Recommendation">
+Para a progressão geral, combinar uma arma de PvE de Área Ampla A-Tier para farmar com um poder de mobilidade S-Tier cria uma build híbrida altamente eficiente que mantém você seguro em encontros de PvP aberto.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="How to Obtain Weapons and Level to 600">
+
+A progressão no Battle Piece é uma jornada passo a passo que começa com encontros básicos de bandidos e culmina em raids desafiadoras de fim de jogo. Para alcançar o limite de nível atual do Alpha de 600 de forma eficiente, você deve atualizar constantemente suas ferramentas de combate e rotas de farm.
+
+Seguir um caminho de evolução estruturado garante que você não perca tempo lutando contra inimigos que rendem pouca experiência ou tentando fazer conteúdos para os quais seu equipamento não é adequado.
+
+<Steps>
+  <Step num="1" title="Launch via Official Experience">
+    Acesse o jogo através da página oficial do Studio Multiverse no Roblox para evitar cópias. Se você tiver ping alto, considere entrar em um servidor privado para estabilizar seus comandos.
+  </Step>
+  <Step num="2" title="Farm Bandits for Basic Levels">
+    Localize os acampamentos de bandidos iniciais. Use armas corpo a corpo simples para aprender as animações básicas de ataque, o tempo de esquiva e o alcance de agressividade (aggro) dos inimigos enquanto coleta suas primeiras moedas.
+  </Step>
+  <Step num="3" title="Upgrade to Wide-Area Weapons">
+    Assim que acumular recursos suficientes, adquira uma arma com ataques de varredura de área ampla. Isso permite que você junte vários bandidos e os derrote simultaneamente, dobrando sua velocidade de evolução.
+  </Step>
+  <Step num="4" title="Transition to Raids and PvP">
+    Depois de superar os marcos do meio do jogo, leve sua build otimizada para as raids a fim de garantir recompensas de alto nível, ou entre nas arenas de PvP para testar suas habilidades contra outros jogadores.
+  </Step>
+</Steps>
+
+Para manter sua jornada de evolução nos trilhos, use a tabela de marcos abaixo para identificar onde você deve farmar e em qual tipo de categoria de arma focar em cada estágio do crescimento do seu personagem.
+
+| Faixa de Nível | Área de Farm Alvo | Foco Recomendado de Arma | Objetivo Principal |
+| :--- | :--- | :--- | :--- |
+| 1 - 150 | Bandidos da Ilha Inicial | Armas Corpo a Corpo Simples | Aprender ritmos de ataque |
+| 150 - 400 | Acampamentos de Bandidos Avançados | Armas de PvE de Área Ampla | Maximizar experiência por hora |
+| 400 - 600 | Arenas de Chefes & Raids | Conjuntos de Mobilidade + Explosão | Garantir equipamentos de fim de jogo |
+
+<Callout type="warning" title="Ping Notice">
+A alta latência pode afetar severamente a velocidade de ataque de sua arma e os quadros de esquiva. Se você notar que seus ataques não estão registrando nos bandidos, mude para um servidor privado imediatamente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="PvP and Raid Weapon Strategies">
+
+O combate no Battle Piece muda drasticamente quando você passa do farm simples de PvE para batalhas PvP competitivas e raids coordenadas. Enquanto o farm de PvE recompensa ataques repetitivos e amplos, o PvP exige reações rápidas, manobras de isca e aproveitamento dos erros do oponente.
+
+Nas raids, o trabalho em equipe e a sobrevivência são fundamentais. Você deve equilibrar sua produção de dano com o espaçamento defensivo para evitar sofrer danos desnecessários das habilidades de área de efeito do chefe.
+
+<Checklist
+  id="combat-prep"
+  title="Pre-Combat Checklist:"
+  items={[
+    "Verifique se o ping do seu servidor atual está estável",
+    "Equipe uma arma que combine com sua build de poder atual",
+    "Configure suas teclas de atalho para troca rápida de armas",
+    "Certifique-se de que o nível do seu personagem esteja próximo da recomendação da zona"
+  ]}
+/>
+
+A tabela abaixo contrasta as filosofias de design do combate PvP e de Raid, ajudando você a ajustar seu conjunto de equipamentos e estilo de jogo dependendo do desafio que estiver enfrentando.
+
+| Aspecto do Combate | Batalhas PvP | Raids Desafiadoras |
+| :--- | :--- | :--- |
+| Objetivo Principal | Derrotar o jogador inimigo | Limpar ondas e derrotar o chefe |
+| Atributo-Chave da Arma | Alta mobilidade e recuperação rápida | Dano sustentado e alcance defensivo |
+| Comportamento do Inimigo | Imprevisível, usa opções de movimento | Padrões de ataque previsíveis, vida alta |
+| Estratégia Recomendada | Iscar esquivas, executar combos explosivos | Manter espaçamento, coordenar tempos de recarga |
+
+<Callout type="info" title="Tactical Note">
+Não se comprometa com habilidades de armas longas e travadas em animação no PvP, a menos que tenha atordoado seu oponente com sucesso. Errar um ataque pesado deixa você completamente vulnerável a um contra-combo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+Revise estas perguntas comuns sobre os sistemas de armas, métodos de obtenção e mecânicas de combate no Battle Piece.
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor arma para alcançar o nível máximo no Battle Piece?",
+    answer: "Para subir de nível rapidamente até o 600, armas com ataques de varredura de área ampla são altamente recomendadas. Elas permitem que você junte e derrote grupos de bandidos rapidamente, maximizando seu ganho de experiência ao longo do tempo."
+  },
+  {
+    question: "Como lidar com o lag de ataque e comandos perdidos durante o combate?",
+    answer: "Como o Battle Piece está em fase Alpha, pode ocorrer lag no servidor. O desenvolvedor, Studio Multiverse, recomenda o uso de um servidor privado para melhorar a estabilidade da conexão e garantir que os golpes de sua arma sejam registrados corretamente."
+  },
+  {
+    question: "Posso usar a mesma build de arma para PvP e Raids?",
+    answer: "Embora seja possível, não é o ideal. O PvP valoriza alta mobilidade e dano explosivo para pegar os jogadores de surpresa, enquanto as Raids recompensam dano de área sustentado e espaçamento defensivo para sobreviver às mecânicas dos chefes."
+  },
+  {
+    question: "Onde posso encontrar atualizações sobre novas armas e mudanças de balanceamento?",
+    answer: "Atualizações oficiais, códigos e notas de atualização são compartilhados através da página da comunidade do Studio Multiverse no Roblox. Verifique esses canais oficiais regularmente à medida que o jogo avança pelo Alpha."
+  }
+]} />
+
+<Callout type="tip" title="Final Advice">
+Continue praticando seu espaçamento e tempos de transição de armas. À medida que o jogo receber atualizações ao longo de 2026, dominar as mecânicas básicas agora preparará você para os futuros conteúdos de alto nível.
+</Callout>
+
+</Section>

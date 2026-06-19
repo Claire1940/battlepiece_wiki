@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de Jefes de Battle Piece: Estrategias de Incursión y Progresión de Nivel",
+  description: "Domina a cada jefe e incursión en Battle Piece. Aprende rutas de progresión, listas de niveles de armas, configuración de servidores privados y estrategias para alcanzar el límite de nivel 600.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Boss+Progression+Guide",
+  date: "2026-06-20",
+  author: "Equipo de la Wiki de Battle Piece"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La **progresión de jefes** requiere que los jugadores pasen del farmeo básico de bandidos a incursiones de alto nivel.
+- El **límite de nivel** en la versión Alfa actual está fijado en 600, lo que sirve como la referencia definitiva para estar listo para las incursiones.
+- Los **equipamientos de movilidad** se clasifican como la opción de nivel S para esquivar los fuertes ataques de área de efecto de los jefes.
+- Los desarrolladores recomiendan encarecidamente los **servidores privados** para reducir la latencia y el retraso de entrada durante las peleas intensas contra jefes.
+</Callout>
+
+<Section icon={Map} title="Guía de Jefes de Battle Piece: Etapas de Progresión">
+
+Navegar por los desafíos de combate en Battle Piece requiere un enfoque estructurado para subir de nivel y progresar en el equipamiento. Como una experiencia Alfa en Roblox desarrollada por Studio Multiverse, el juego equilibra el farmeo simple de bandidos en PvE con encuentros de incursión de alta intensidad. Los jugadores deben construir sistemáticamente sus estadísticas de combate, desbloquear poderes versátiles y mejorar sus armas antes de desafiar a los jefes más difíciles del juego. 
+
+Comprender la transición de los enemigos del juego temprano a los jefes de incursión del juego final evita derrotas innecesarias. El sistema de combate castiga a los jugadores que intentan incursiones sin optimizar sus movimientos y ciclos de enfriamiento.
+
+**Puntos Destacados del Video:**
+- Demuestra las mecánicas de combate y el alcance de la actualización de Sukuna.
+- Muestra técnicas de evasión de alta movilidad útiles para peleas contra jefes.
+- Muestra las habilidades de área de efecto necesarias para limpiar a los esbirros de la incursión.
+
+<YouTubeEmbed videoId="iTPzGAWfwos" title="Demostración de Battle Piece - Actualización de Sukuna" />
+
+La estructura de progresión se divide en distintas fases según el nivel del jugador y los requisitos de equipamiento. La siguiente tabla describe la ruta recomendada desde las zonas iniciales hasta los jefes de incursión finales.
+
+| Etapa de Progresión | Rango de Nivel | Actividad Principal | Equipamiento / Poderes Objetivo |
+|--- |--- |--- |--- |
+| Fase Inicial | 1 - 150 | Farmeo de Bandidos | Armas Cuerpo a Cuerpo Simples |
+| Prep. de Mitad de Juego | 151 - 400 | Enemigos Avanzados y PvP | Poderes PvE de Área Amplia |
+| Incursiones de Fin de Juego | 401 - 600 | Encuentros de Jefes de Incursión | Equipamientos de Movilidad + Ráfaga |
+
+<Callout type="warning" title="Advertencia de la Versión Alfa">
+Debido a que Battle Piece se encuentra actualmente en fase Alfa, los patrones de ataque de los jefes, los valores de daño y las tasas de obtención de objetos están sujetos a cambios en futuras actualizaciones. Consulta siempre las páginas de la comunidad de desarrolladores para conocer los ajustes de equilibrio recientes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Equipamientos Óptimos para Encuentros con Jefes">
+
+Derrotar a los jefes en Battle Piece requiere elegir la combinación correcta de armas y poderes. Los jefes poseen enormes barras de vida y habilidades de área de efecto de gran daño que pueden derrotar rápidamente a los jugadores que no estén preparados. Una build debe equilibrar el daño infligido con las herramientas de supervivencia, priorizando la evasión y los contraataques rápidos.
+
+La comunidad clasifica los equipamientos según su utilidad en entornos de incursión. La siguiente cuadrícula de tarjetas destaca las tres mejores estrategias de equipamiento para enfrentarse a los jefes principales.
+
+<CardGrid cols={3}>
+  <Card title="Movilidad y Ráfaga">
+    - **Prioridad de nivel S** para esquivar ataques de jefes
+    - Herramientas rápidas para entrar y salir del combate
+    - Ventanas de alto daño de ráfaga a un solo objetivo
+  </Card>
+  <Card title="PvE de Área Amplia">
+    - **Utilidad de nivel A** para limpiar oleadas de esbirros de incursión
+    - Daño constante a lo largo del tiempo
+    - Excelente para mantener la distancia con los jefes
+  </Card>
+  <Card title="Control Cuerpo a Cuerpo Simple">
+    - **Estabilidad de nivel A** para principiantes
+    - Alta eficiencia de bloqueo y hitboxes confiables
+    - Animaciones de ataque fáciles de aprender
+  </Card>
+</CardGrid>
+
+Para ayudarte a determinar qué configuración se adapta a tu estilo de juego, compara las características principales de cada categoría de arma y poder a continuación.
+
+| Categoría de Equipamiento | Daño a Jefes | Capacidad de Evasión | Limpieza de Oleadas | Facilidad de Uso |
+|--- |--- |--- |--- |--- |
+| Movilidad + Ráfaga | Excelente | Excelente | Media | Moderada |
+| PvE de Área Amplia | Bueno | Medio | Excelente | Fácil |
+| Cuerpo a Cuerpo Simple | Medio | Medio | Pobre | Excelente |
+| Distanciamiento Defensivo | Bajo | Bueno | Medio | Moderado |
+
+<Callout type="tip" title="Consejo de Sinergia de Equipamiento">
+Combina un poder de alta movilidad con un arma cuerpo a cuerpo simple. Esto te permite esquivar las habilidades de los jefes usando habilidades de poder mientras mantienes un daño cuerpo a cuerpo confiable y con bajo tiempo de reutilización durante las ventanas de ataque.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estrategia Paso a Paso para Jefes de Incursión">
+
+Conquistar a los jefes de incursión en Battle Piece requiere coordinación, sincronización y una configuración de servidor adecuada. La alta latencia puede arruinar las acciones de combate, haciendo que las esquivas basadas en la sincronización sean casi imposibles. Sigue esta estrategia paso a paso para maximizar tus posibilidades de éxito durante los encuentros de incursión.
+
+<Steps>
+  <Step num="1" title="Optimiza tu Nivel y Estadísticas">
+    No intentes realizar incursiones inmediatamente después de desbloquearlas. Farmea bandidos y jefes menores hasta que estés cerca del límite de nivel 600 para asegurarte de que tu barra de vida pueda sobrevivir a golpes accidentales.
+  </Step>
+  <Step num="2" title="Asegura un Servidor Privado">
+    El ping alto es la causa principal de las incursiones fallidas. Usa un servidor privado para estabilizar tu conexión, asegurando que tus acciones de esquiva y ataque se registren sin demora.
+  </Step>
+  <Step num="3" title="Limpia las Oleadas Iniciales de Esbirros">
+    Los jefes de incursión están protegidos por oleadas de poderosos esbirros. Usa habilidades PvE de área amplia para limpiar a estos enemigos rápidamente antes de que rodeen y abrumen a tu equipo.
+  </Step>
+  <Step num="4" title="Provoca y Castiga los Ataques del Jefe">
+    Mantén la distancia y espera a que el jefe ejecute un ataque pesado. Una vez que termine la animación, acorta la distancia con una herramienta de movilidad, desata tu combo de ráfaga y retírate de inmediato.
+  </Step>
+</Steps>
+
+Elegir el tipo de servidor correcto marca una diferencia significativa en la ejecución del combate. La tabla de comparación a continuación destaca las métricas de rendimiento entre las opciones de servidor.
+
+| Tipo de Servidor | Ping Promedio | Acumulación de Jugadores | Velocidad de Farmeo de Jefes | Recomendación |
+|--- |--- |--- |--- |--- |
+| Servidor Público | Alto | Alta | Lenta | Bueno para subir de nivel de forma casual |
+| Servidor Privado | Bajo | Ninguna | Rápida | Esencial para incursiones y jefes |
+
+<Callout type="info" title="Información de Rendimiento del Servidor">
+Los desarrolladores del juego recomiendan oficialmente usar servidores privados si experimentas un retraso severo en las salas públicas, especialmente durante las peleas contra jefes donde la sincronización es fundamental.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Eficiencia de Farmeo y Preparación para el Nivel 600">
+
+Alcanzar el límite de nivel 600 es el objetivo final para los jugadores que buscan dominar el juego final de Battle Piece. El farmeo eficiente implica seleccionar los objetivos correctos y minimizar el tiempo de inactividad entre combates. Los jefes otorgan la mayor cantidad de experiencia, pero requieren una rutina de preparación estructurada para farmearlos de manera constante.
+
+Antes de comenzar una sesión larga de farmeo de jefes, asegúrate de haber completado los siguientes pasos de preparación.
+
+<Checklist
+  id="boss-prep-checklist"
+  title="Lista de Verificación de Preparación para el Farmeo de Jefes:"
+  items={[
+    "Equipar un conjunto con al menos una habilidad de movimiento o esquiva",
+    "Unirse a un servidor privado para minimizar la latencia y el retraso de entrada",
+    "Asignar puntos de estadísticas para equilibrar la salud y el daño principal",
+    "Coordinar con compañeros de equipo si se intentan incursiones de alto nivel",
+    "Liberar espacio en el inventario para posibles objetos caídos de jefes y recompensas"
+  ]}
+/>
+
+Las rutas de farmeo deben ajustarse a medida que aumenta tu nivel. Concéntrate primero en áreas de enemigos de alta densidad, luego pasa a las apariciones estáticas de jefes una vez que tu daño de ráfaga a un solo objetivo permita eliminaciones rápidas.
+
+<Callout type="success" title="Éxito en la Eficiencia de Farmeo">
+Farmear jefes en un servidor privado con un grupo dedicado puede reducir a la mitad tu tiempo para alcanzar el límite de nivel, lo que te permitirá pasar rápidamente a los modos PvP competitivos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+Revisa estas preguntas comunes sobre peleas contra jefes, incursiones y sistemas de progresión en Battle Piece.
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el límite de nivel para luchar contra los jefes de incursión en Battle Piece?",
+    answer: "El límite de nivel actual en la versión Alfa es 600. Se recomienda encarecidamente alcanzar al menos el nivel 500 antes de intentar enfrentarse a los jefes de incursión de alto nivel para garantizar que tus estadísticas sean lo suficientemente altas."
+  },
+  {
+    question: "¿Cómo reduzco el retraso (lag) durante las peleas intensas contra jefes?",
+    answer: "Los desarrolladores sugieren unirse a un servidor privado. Los servidores privados reducen significativamente el ping y el retraso de entrada, lo cual es crucial para esquivar los ataques de área de efecto de los jefes."
+  },
+  {
+    question: "¿Qué equipamiento es mejor para un principiante que use esta guía de jefes de Battle Piece?",
+    answer: "Los principiantes deben usar un arma cuerpo a cuerpo simple combinada con un poder PvE de área amplia. Esto proporciona un equilibrio de animaciones de ataque fáciles de usar y un control de masas sólido para limpiar oleadas de esbirros."
+  },
+  {
+    question: "¿Están garantizadas las tasas de obtención de objetos de los jefes en las incursiones?",
+    answer: "No, las recompensas de incursión y los objetos caídos de los jefes se basan en el azar. Debido a que el juego está en fase Alfa, Studio Multiverse puede ajustar estas tasas en futuros parches."
+  }
+]} />
+
+<Callout type="info" title="Recursos de la Comunidad">
+Para obtener las últimas entregas de códigos, actualizaciones de desarrolladores y notas del parche, visita la página oficial de la comunidad de Roblox de Studio Multiverse. Evita los sitios wiki de terceros que puedan albergar información desactualizada o no verificada.
+</Callout>
+
+</Section>

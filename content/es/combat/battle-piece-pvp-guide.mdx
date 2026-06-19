@@ -1,0 +1,184 @@
+import { Swords, Shield, Target, Trophy, Sparkles, Cpu } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de PvP de Battle Piece: Builds Meta, Combos y Consejos de Combate",
+  description: "Domina las batallas PvP de Battle Piece en Roblox con nuestra guía. Descubre builds meta, configuraciones de plataforma, combos de combate y consejos para dominar en el nivel 600.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Battle+Piece+PvP+Guide",
+  date: "2026-06-20",
+  author: "Equipo de la Wiki de Battle Piece"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Enfoque principal de la guía**: Aprende las mecánicas principales, builds y estrategias para tener éxito en la activa arena de jugador contra jugador.
+- **Objetivo de nivel principal**: Alcanza el límite de nivel actual de la Alfa (600) para maximizar tus puntos de estadísticas antes de ingresar a duelos de alto nivel.
+- **Mejor plataforma**: PC generalmente ofrece la distribución de teclas más responsiva, aunque los dispositivos móviles y las consolas son totalmente compatibles.
+- **Mitigación de lag**: Utiliza servidores privados para minimizar los retrasos de ping alto, que pueden afectar gravemente la ejecución de tus combos.
+</Callout>
+
+<Section icon={Swords} title="Guía de PvP de Battle Piece: Mecánicas Principales y Configuración">
+
+Desarrollar una base sólida en el combate jugador contra jugador es esencial para subir de rango en Battle Piece. Desarrollado por Studio Multiverse, esta aventura de Roblox inspirada en el anime combina movimientos rápidos, habilidades de armas y poderes únicos. Dado que el juego se encuentra actualmente en su fase de lanzamiento Alfa, comprender el ciclo de combate principal desde el principio te dará una ventaja significativa sobre los oponentes que dependen únicamente de ataques básicos.
+
+El éxito en la arena requiere más que simplemente presionar botones a lo loco. Debes dominar la relación entre el movimiento de tu personaje, los tiempos de recarga de las habilidades y el terreno. Antes de lanzarte a partidas competitivas, se recomienda encarecidamente probar tus controles y ajustar la configuración de la cámara para mantener una vista clara de tu oponente.
+
+**Puntos destacados del video:**
+- Demuestra las habilidades actualizadas de los personajes y las animaciones de combate.
+- Muestra indicadores visuales para habilidades de área de efecto.
+- Ilustra el ritmo del movimiento y las distancias de desplazamiento en tiempo real.
+
+<YouTubeEmbed videoId="iTPzGAWfwos" title="Demostración de la Actualización de Battle Piece" />
+
+Para optimizar tu rendimiento en combate, elegir la configuración de plataforma adecuada es fundamental. La siguiente tabla describe cómo difieren los esquemas de control entre los dispositivos compatibles y ofrece consejos prácticos para cada configuración.
+
+| Plataforma | Entrada Principal | Ventaja en PvP | Consejo de Control |
+| :--- | :--- | :--- | :--- |
+| PC | Teclado y Ratón | Apuntado preciso, acceso rápido a teclas y seguimiento rápido de cámara | Asigna tu desplazamiento principal a una tecla de fácil acceso para esquivar ráfagas entrantes |
+| Móvil | Pantalla táctil | Juego portátil, objetivos táctiles simplificados para ataques básicos | Mantén tu pantalla despejada y personaliza el tamaño de los botones para evitar toques accidentales |
+| Consola | Mando | Movimiento analógico cómodo, entradas de gatillo confiables | Ajusta la sensibilidad del mando para asegurarte de poder girar rápidamente durante combates a corta distancia |
+
+<Callout type="warning" title="Advertencia de la Fase Alfa">
+Battle Piece se encuentra activamente en fase Alfa. Es posible que experimentes picos de latencia ocasionales, retrasos en el registro de entradas o ajustes de equilibrio repentinos. Utilizar un servidor privado es una práctica muy recomendada para reducir el ping alto durante las sesiones de entrenamiento.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Tier List de Builds de PvP y Equipamientos Meta">
+
+Crear una build de personaje competitiva en Battle Piece implica combinar el poder elegido, el arma y los rasgos pasivos. En lugar de centrarse en fórmulas de daño no verificadas, las builds más efectivas priorizan la utilidad, la movilidad y el control de masas. Un equipamiento con alto daño pero cero movilidad a menudo perderá contra un oponente muy móvil que pueda mantener las distancias fácilmente frente a tus ataques.
+
+La siguiente tabla categoriza los principales arquetipos de builds según su rendimiento en encuentros jugador contra jugador, eficiencia de farmeo y facilidad de uso general.
+
+| Tipo de Build | Tier de PvP | Enfoque Principal | Mejor Enfrentamiento | Debilidad |
+| :--- | :--- | :--- | :--- | :--- |
+| Movilidad + Ráfaga | Tier S | Enfrentamiento rápido, retiradas veloces, ventanas de alto daño de ráfaga | Builds lentas y defensivas | Alta vulnerabilidad al tiempo de recarga |
+| PvE de Área Amplia | Tier A | Habilidades de área de efecto grandes, daño constante a lo largo del tiempo | Combates grupales y incursiones | Animaciones de habilidad predecibles |
+| Cuerpo a Cuerpo Simple | Tier A | Presión constante a corta distancia, escalado de ataques básicos | Builds móviles con defensa deficiente | Opciones de alcance limitado |
+| Duelo de Objetivo Único | Tier B | Control de masas enfocado, fijación de un solo objetivo | Jugadores desprevenidos | Múltiples oponentes |
+| Distanciamiento Defensivo | Tier B | Escudos, empujones, rasgos de regeneración de salud | Builds agresivas de ráfaga | Bajo daño general |
+| Lento con Baja Movilidad | Tier C | Alta defensa bruta, golpes pesados y lentos | Jugadores nuevos | Escaramuzadores altamente móviles |
+
+Para ayudarte a elegir el camino correcto, a continuación destacamos los tres estilos de juego de PvP más comunes. Cada enfoque requiere una mentalidad táctica y una configuración diferentes.
+
+<CardGrid cols={3}>
+  <Card title="Escaramuzador de Movilidad">
+    - **Alta velocidad de movimiento**
+    - Se enfoca en tácticas rápidas de golpear y correr
+    - Excelente para provocar los tiempos de recarga del enemigo
+  </Card>
+  <Card title="Especialista en Combate Cercano">
+    - **Fuerte presión a corta distancia**
+    - Depende de combos de ataques básicos y bloqueos de aturdimiento
+    - Requiere sincronización y distanciamiento precisos
+  </Card>
+  <Card title="Controlador de Zona Defensivo">
+    - **Habilidades de denegación de área**
+    - Utiliza habilidades a distancia para mantener alejados a los oponentes
+    - Altamente efectivo en modos PvP basados en equipos
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Recomendación Meta">
+Para los jugadores que buscan subir de rango rápidamente, combinar un poder de alta movilidad con un arma cuerpo a cuerpo de ataque rápido es actualmente la estrategia más confiable. Esta combinación te permite dictar el ritmo de la batalla y escapar de situaciones peligrosas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preparación de PvP Paso a Paso y Ruta de Farmeo">
+
+Hacer la transición de derrotar a bandidos básicos a luchar contra jugadores experimentados requiere preparación. No puedes esperar ganar de manera constante si el nivel de tu personaje es bajo y tu equipo no está optimizado. Sigue esta ruta de progresión estructurada para preparar a tu personaje para la arena competitiva.
+
+<Steps>
+  <Step num="1" title="Iniciar a través de la Experiencia Oficial">
+    Accede al juego a través de la página oficial de Roblox [[🔥RELEASE⚗️] Battle Piece](https://www.roblox.com/games/98662768290911/Battle-Piece). Evita juegos de imitación para asegurarte de que tu progreso se guarde correctamente.
+  </Step>
+  <Step num="2" title="Derrotar Bandidos para Niveles Básicos">
+    Usa las primeras islas para farmear bandidos. Esta fase es crucial para aprender el alcance de ataque básico de tu arma, las cajas de colisión (hitboxes) y los tiempos de recuperación.
+  </Step>
+  <Step num="3" title="Desbloquear y Probar tus Poderes">
+    Adquiere tu primer poder o especialización importante. Pasa tiempo probando el alcance, la velocidad de trayectoria y el tiempo de recarga de cada habilidad desbloqueada contra objetivos PvE.
+  </Step>
+  <Step num="4" title="Avanzar hacia el Límite de Nivel">
+    Avanza hasta alcanzar el límite de nivel actual de 600. Llegar al límite asegura que hayas asignado todos los puntos de estadísticas disponibles para maximizar tu salud y daño.
+  </Step>
+  <Step num="5" title="Iniciar Duelos Amistosos">
+    Antes de ingresar al emparejamiento clasificatorio, desafía a amigos o jugadores en un servidor privado. Practica esquivar, romper bloqueos y ejecutar combos sin la presión de perder rango.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Consejo de Farmeo">
+Mientras avanzas hacia el nivel 600, asigna una parte de tus puntos de estadísticas a la defensa. Tener una mayor reserva de salud te da más margen para recuperarte de los errores al practicar tus combos de PvP.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Combos de Combate y Consejos Prácticos de Enfrentamiento">
+
+Dominar el PvP en Battle Piece requiere comprender la prioridad de las acciones y la sincronización. Cada ataque tiene una animación de recuperación y cada desplazamiento tiene un breve tiempo de recarga. Ganar combates de manera constante consiste en obligar a tu oponente a desperdiciar sus opciones defensivas para que puedas asestar tu combo de daño principal.
+
+La siguiente tabla detalla las acciones de combate esenciales que debes dominar, junto con sus valores tácticos y contras comunes.
+
+| Acción de Combate | Propósito Principal | Valor Táctico | Cómo Contrarrestar |
+| :--- | :--- | :--- | :--- |
+| Desplazamiento Básico | Movimiento rápido, esquivar habilidades dirigidas | Reposicionamiento, escapar de combos, cerrar distancias | Predice la dirección del desplazamiento y usa una habilidad de área |
+| Romper Bloqueo | Derrotar a jugadores defensivos | Obliga al oponente a abrirse, permite el seguimiento de combos | Esquiva hacia atrás o interrumpe con un ataque ligero rápido |
+| Habilidad de Ráfaga | Alto daño inmediato | Castigar ataques fallidos, acabar con objetivos con poca salud | Activa un escudo defensivo o desplázate fuera del alcance |
+| Retirada | Crear distancia | Permite que los tiempos de recarga se recuperen, reinicia el combate | Persigue al oponente usando poderes enfocados en la movilidad |
+
+Para mantener tu juego afinado durante combates intensos, ten en cuenta la siguiente lista de verificación antes y durante cada duelo.
+
+<Checklist
+  id="pvp-readiness"
+  title="Lista de Verificación de Combate PvP:"
+  items={[
+    "Verifica que tu ping sea estable antes de aceptar un duelo competitivo.",
+    "Observa la animación de desplazamiento de tu oponente para rastrear el estado de su tiempo de recarga.",
+    "Evita usar tu habilidad con el tiempo de recarga más largo a menos que el objetivo esté aturdido.",
+    "Mantén tu cámara desbloqueada para vigilar a los oponentes que intenten flanquearte.",
+    "Utiliza movimientos para romper bloqueos inmediatamente si un jugador mantiene el bloqueo constantemente."
+  ]}
+/>
+
+<Callout type="info" title="Nota Táctica">
+No dependas de un solo combo repetitivo. Los oponentes experimentados notarán rápidamente tu patrón y lo contrarrestarán. Varía el ritmo de tus ataques retrasando tus habilidades o usando ataques básicos para provocar sus esquivas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Actualizaciones de la Comunidad y Preguntas Frecuentes">
+
+Mantenerse conectado con la comunidad es la mejor manera de realizar un seguimiento de los parches de equilibrio, correcciones de errores y actualizaciones de nuevo contenido. Los desarrolladores de Studio Multiverse actualizan el juego regularmente, lo que puede cambiar el meta de PvP de la noche a la mañana. Puedes unirte al [Grupo de Roblox de Studio Multiverse](https://www.roblox.com/communities/903561179/Studio-Multiverse) para revisar los anuncios e interactuar con otros jugadores.
+
+A continuación se presentan las preguntas más comunes sobre el combate jugador contra jugador en Battle Piece.
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el límite de nivel actual para el PvP en Battle Piece?",
+    answer: "El límite de nivel actual de la Alfa es 600. Se recomienda encarecidamente alcanzar este límite antes de participar en combates PvP serios para garantizar que tus estadísticas estén completamente maximizadas."
+  },
+  {
+    question: "¿Cómo soluciono el ping alto durante las partidas de PvP?",
+    answer: "La descripción oficial del juego recomienda jugar en un servidor privado si experimentas un ping alto. A presumir de un servidor privado reduce la carga del servidor, lo que hace que tus entradas y desplazamientos sean mucho más responsivos."
+  },
+  {
+    question: "¿Qué plataformas son compatibles con el combate PvP?",
+    answer: "Battle Piece es compatible con PC, dispositivos móviles y consolas. Aunque los jugadores de PC suelen preferir la precisión del teclado y el ratón, los jugadores de consolas y móviles pueden competir de manera efectiva con distribuciones optimizadas."
+  },
+  {
+    question: "¿Debería centrarme en las estadísticas de armas o de poder para el PvP?",
+    answer: "Un enfoque equilibrado suele ser lo mejor, pero depende de tu build. Los escaramuzadores enfocados en la movilidad se benefician de estadísticas de poder altas, mientras que los luchadores a corta distancia deberían priorizar el escalado de armas."
+  }
+]} />
+
+<Callout type="tip" title="Mantente Actualizado">
+Debido a que Battle Piece está en desarrollo activo, las actualizaciones pueden cambiar las propiedades de las habilidades, los tiempos de recarga y las mecánicas. Revisa las páginas oficiales de la comunidad de desarrolladores regularmente para ver las últimas notas del parche.
+</Callout>
+
+</Section>

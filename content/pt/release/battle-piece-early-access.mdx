@@ -1,0 +1,212 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Acesso Antecipado de Battle Piece: Guia de Nivelamento e Alpha",
+  description: "Domine o Alpha de acesso antecipado de Battle Piece. Aprenda a progressão até o limite de nível 600, especialidades de armas, estratégias de incursão (raid) e dicas de otimização de dispositivos.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Early+Access+Guide",
+  date: "2026-06-20",
+  author: "Equipe da Wiki de Battle Piece"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Fase Primária**: Foque em aprender as mecânicas básicas de combate na versão Alpha inicial.
+- **Meta de Nível**: Progrida constantemente em direção ao limite máximo de nível atual de 600.
+- **Atividades Principais**: Equilibre sua progressão entre derrotar bandidos (farm), duelos PvP e incursões (raids).
+- **Dica de Rede**: Utilize servidores privados para minimizar a latência e o atraso de comandos (input delay) durante o combate.
+</Callout>
+
+<Section icon={Map} title="Recursos Principais do Acesso Antecipado de Battle Piece">
+
+Entrar no ambiente de acesso antecipado de Battle Piece revela uma aventura de ação inspirada em anime desenvolvida pela Studio Multiverse na plataforma Roblox. Atualmente em sua fase de lançamento Alpha, esta experiência combina progressão PvE, incursões (raids) estruturadas e combate jogador contra jogador (PvP). Como o jogo está em um ciclo de desenvolvimento inicial, os jogadores devem esperar ajustes contínuos de equilíbrio, resoluções de bugs e otimizações de desempenho.
+
+Compreender os sistemas fundamentais é a chave para estabelecer um ciclo de progressão eficiente. O jogo suporta cross-play entre PC, dispositivos móveis e consoles, permitindo que os jogadores acessem seus personagens independentemente do hardware de sua preferência. O ciclo principal de jogabilidade gira em torno de derrotar NPCs hostis para ganhar experiência, desbloquear poderes únicos, adquirir armas especializadas e testar construções (builds) em ambientes competitivos.
+
+**Destaques do Vídeo:**
+- Prévia visual das animações de combate dos personagens e escalonamento de habilidades.
+- Demonstração de conjuntos de movimentos de armas (movesets) e espaçamento contra alvos do início do jogo.
+- Visão geral da interface do usuário, rastreamento de missões e alocação de pontos de atributos.
+
+<YouTubeEmbed videoId="iTPzGAWfwos" title="Prévia de Atualização de Battle Piece" />
+
+<Callout type="warning" title="Aviso da Fase Alpha">
+Como um lançamento Alpha, o desempenho do servidor pode variar durante os horários de pico. Se você notar um atraso de comandos (input lag) significativo ou quedas de quadros (FPS), considere entrar em um servidor privado para estabilizar seus comandos de combate.
+</Callout>
+
+Abaixo está uma análise das especificações principais para a versão atual do jogo:
+
+| Especificação | Detalhes | Impacto na Jogabilidade |
+|--- |--- |--- |
+| Desenvolvedor | Studio Multiverse | Cronograma de atualizações ativo e ciclos de feedback da comunidade |
+| Plataforma | Roblox | Compatibilidade multiplataforma com salvamento unificado de dados |
+| Fase Atual | Alpha | Ajustes frequentes de equilíbrio e atualizações de mecânicas |
+| Limite de Nível | 600 | Define o teto atual para a progressão de atributos |
+| Modos Principais | Bandidos, PvP, Incursões (Raids) | Oferece atividades diversas para jogo solo ou em grupo |
+| Dispositivos Suportados | PC, Celular, Console | Requer ajustes de layout com base nos métodos de entrada |
+
+</Section>
+
+<Section icon={Target} title="Progressão de Personagem e Rota de Nivelamento">
+
+Progredir na versão de acesso antecipado de Battle Piece exige uma abordagem sistemática para acumular pontos de experiência. Com o limite de nível definido em 600, seu objetivo principal durante as primeiras horas é otimizar seu dano para limpar acampamentos de bandidos rapidamente. Distribuir seus pontos de atributos de forma muito difusa pode atrasar sua velocidade de limpeza, por isso é altamente recomendável priorizar seu atributo ofensivo principal.
+
+A jornada de nivelamento é dividida em faixas distintas, cada uma exigindo uma mudança de estratégia. No início, os acampamentos estáticos de bandidos oferecem o retorno mais seguro pelo tempo investido. Conforme seu nível aumenta, a transição para confrontos com chefes e incursões (raids) torna-se necessária para manter um fluxo constante de pontos de experiência.
+
+| Faixa de Nível | Alvo Principal | Foco da Estratégia | Tipo de Equipamento Recomendado |
+|--- |--- |--- |--- |
+| 1 a 150 | Bandidos Básicos | Agrupar inimigos para ataques de área (AoE) | Armas PvE de ampla área |
+| 151 a 350 | Bandidos Elites | Gerenciar tempos de recarga (cooldowns) e espaçamento de ataques | Poderes equilibrados de alvo único e área |
+| 351 a 500 | Chefes de Ilha | Memorizar padrões de ataque e esquivar de golpes pesados | Equipamentos de alto dano explosivo (burst) |
+| 501 a 600 | Incursões e PvP | Coordenação de grupo e construções de atributos otimizadas | Configurações especializadas para PvP ou incursões específicas |
+
+Para navegar pela curva de progressão de forma eficiente, siga estes passos estruturados:
+
+<Steps>
+  <Step num="1" title="Estabeleça seu Atributo Ofensivo">
+    Escolha se deseja focar no combate baseado em armas ou em habilidades baseadas em poderes. Aloque seus pontos de atributos principalmente no caminho escolhido para maximizar seu dano por segundo durante o farm inicial.
+  </Step>
+  <Step num="2" title="Agrupe e Limpe Acampamentos de Bandidos">
+    Não lute contra os inimigos individualmente. Aproxime-se de vários bandidos para atrair a atenção deles, agrupe-os bem próximos e use habilidades de longo alcance para eliminar todo o grupo simultaneamente.
+  </Step>
+  <Step num="3" title="Transição para Rotação de Chefes">
+    Assim que os bandidos básicos passarem a render menos experiência, localize os chefes regionais. Estabeleça uma rotação onde você derrota um chefe, aguarda o tempo de ressurgimento (respawn) e repete o processo enquanto gerencia seu inventário.
+  </Step>
+  <Step num="4" title="Participe de Incursões em Grupo">
+    Conforme você se aproxima da faixa final de nivelamento, junte-se a incursões em grupo. O escalonamento de experiência nas incursões é projetado para ajudar os jogadores a superar a lacuna entre o nível 500 e o limite de 600.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Estratégia de Redefinição de Atributos">
+Fique atento a códigos promocionais ativos ou eventos da comunidade que oferecem redefinições gratuitas de atributos (stat resets). Isso permite que você crie uma build puramente voltada para a velocidade de limpeza PvE no início e, depois, mude para uma build equilibrada de PvP ao atingir o limite de nível.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Análise de Equipamentos de Armas e Poderes">
+
+Uma build bem-sucedida no ambiente de acesso antecipado de Battle Piece depende da sinergia entre a arma equipada, o poder ativo e as características (traits) passivas. As armas ditam suas sequências de ataques básicos, alcance e potencial de combo físico. Os poderes introduzem habilidades elementais ou sobrenaturais que frequentemente exigem gerenciamento de energia, mas oferecem alto dano explosivo ou utilidade.
+
+As características e raças fornecem modificadores passivos que podem alterar sua quantidade total de vida (health pool), velocidade de movimento ou taxas de recuperação de tempo de recarga. Ao projetar uma build, você deve avaliar se seu equipamento está otimizado para farm PvE sustentado, duelos PvP de alta pressão ou sobrevivência em incursões em grupo.
+
+| Categoria de Equipamento | Pontos Fortes | Fraqueza Principal | Cenário Recomendado |
+|--- |--- |--- |--- |
+| Mobilidade e Explosão | Alta evasão, ferramentas rápidas de aproximação, forte dano a alvo único | Vulnerável a controle de grupo (CC), exige tempo preciso | PvP competitivo e caça a chefes |
+| PvE de Ampla Área | Alcance de área de efeito massivo, limpeza confiável de hordas | Baixa mobilidade, animações de ataque previsíveis | Farm de bandidos do início ao meio do jogo |
+| Corpo a Corpo Simples | Dano de ataque básico consistente, baixos custos de energia | Alcance limitado, carece de opções de dano explosivo | Iniciantes aprendendo o espaçamento de combate |
+| Espaçamento Defensivo | Escudos defensivos fortes, ferramentas de repulsão (knockback), alta sobrevivência | Tempos de limpeza mais lentos, baixa pressão ofensiva | Encontros de incursão de alta dificuldade |
+
+Para ajudar você a escolher a direção certa para o seu personagem, revise estas estratégias comuns de equipamentos:
+
+<CardGrid cols={3}>
+  <Card title="Foco em Velocidade e Evasão">
+    - Ferramentas de **alta mobilidade** para recuos rápidos
+    - Prioriza características de velocidade de movimento
+    - Excelente para esquivar de ataques sinalizados (telegraphs) de chefes
+    - Exige alta velocidade de reação do jogador
+  </Card>
+  <Card title="Configuração para Limpeza de Área">
+    - **Varreduras amplas de ataque** para atingir vários alvos
+    - Foca na capacidade de reserva de energia
+    - Minimiza o tempo gasto farmando bandidos
+    - Pode deixar você vulnerável em PvP 1v1
+  </Card>
+  <Card title="Build de Duelista Equilibrada">
+    - **Pressão de alvo único** com rastreamento confiável
+    - Capacidades defensivas moderadas
+    - Alta utilidade para interromper combos inimigos
+    - Exige conhecimento dos tempos de recarga do oponente
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Recomendação de Sinergia">
+Combinar um poder de alta mobilidade com uma arma corpo a corpo simples é altamente eficaz para iniciantes. O poder permite escapar de posicionamentos ruins, enquanto a arma fornece dano confiável sem esgotar suas reservas de energia.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecânicas de Incursão e Progressão de Chefes">
+
+As incursões (raids) representam o principal conteúdo de fim de jogo na versão de acesso antecipado de Battle Piece. Ao contrário do farm padrão, as incursões exigem que os jogadores lidem com ondas complexas de inimigos, perigos ambientais e chefes com grandes reservas de vida. A coordenação do grupo é altamente benéfica, pois as tentativas solo exigem builds otimizadas e o mínimo de erros.
+
+O sucesso nas incursões depende fortemente da sua preparação. Entrar em uma incursão sem níveis suficientes, equipamentos adequados ou uma compreensão clara das mecânicas do chefe frequentemente leva a uma tentativa fracassada.
+
+| Fator de Preparação | Requisito Mínimo | Estratégia Recomendada | Impacto da Falha |
+|--- |--- |--- |--- |
+| Nível do Personagem | Nível 450+ | Alcançar o nível 550+ garante reservas de vida adequadas | Risco extremamente alto de ser derrotado com um único golpe |
+| Melhoria de Arma | Nível intermediário ou superior | Maximize o escalonamento de dano da sua arma principal | Produção de dano insuficiente para limpar ondas com limite de tempo |
+| Estabilidade de Conexão | Ping estável | Use servidores privados para evitar atrasos de comando durante esquivas | Perder janelas de esquiva devido à dessincronização do servidor |
+| Composição do Grupo | 2 a 3 jogadores | Misture dano em área com alto dano explosivo de alvo único | Ser sobrecarregado pelo surgimento de inimigos menores |
+
+Use a lista de verificação abaixo para garantir que seu personagem esteja totalmente preparado para o conteúdo de incursão:
+
+<Checklist
+  id="raid-readiness"
+  title="Lista de Preparação para Incursão:"
+  items={[
+    "Alcançar pelo menos o nível 450 para garantir atributos básicos adequados",
+    "Equipar uma arma que possua pelo menos uma habilidade de controle de grupo",
+    "Garantir que seu poder ativo tenha uma ferramenta de mobilidade confiável para esquivas",
+    "Testar a estabilidade da sua conexão em um servidor privado antes de iniciar",
+    "Coordenar funções com os membros do seu grupo para equilibrar dano e utilidade"
+  ]}
+/>
+
+<Callout type="info" title="Escalonamento da Incursão">
+A dificuldade da incursão escala com base no número de participantes na sessão. Ao jogar em grupo, certifique-se de que todos os membros estejam contribuindo ativamente para o dano, pois jogadores inativos tornarão o chefe significativamente mais difícil de derrotar.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combate PvP e Otimização de Plataforma">
+
+O combate competitivo jogador contra jogador (PvP) em Battle Piece testa seu espaçamento, tempo e habilidade de prever as ações do seu oponente. Como o jogo suporta múltiplas plataformas, os métodos de entrada variam significativamente. Jogadores de PC se beneficiam de atalhos de teclado precisos, jogadores móveis devem gerenciar controles de tela sensível ao toque e jogadores de console dependem de layouts de controle.
+
+Otimizar suas configurações com base na sua plataforma pode proporcionar uma vantagem notável em confrontos rápidos. Reduzir as configurações gráficas também pode ajudar a manter uma taxa de quadros estável (FPS), o que é crítico para executar combos precisos.
+
+| Plataforma | Estilo de Controle | Vantagem Principal | Recomendação de Otimização |
+|--- |--- |--- |--- |
+| PC | Teclado e Mouse | Controle de câmera preciso e comandos rápidos de botões | Vincule habilidades principais a teclas de fácil acesso |
+| Celular | Interface de Toque | Alta portabilidade, toque intuitivo na tela | Personalize os tamanhos dos botões para evitar toques acidentais |
+| Console | Controle | Layout confortável, controle de movimento analógico | Ajuste a sensibilidade da câmera para taxas de rotação mais rápidas |
+
+<Callout type="warning" title="Latência de Cross-Play">
+Ao lutar contra jogadores em plataformas diferentes, pode ocorrer uma leve dessincronização. Sempre jogue defensivamente e antecipe que os ataques do seu oponente podem atingir um pouco além do que os indicadores visuais sugerem.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+Revise estas perguntas frequentes sobre a fase Alpha do jogo para ajudar a orientar sua progressão.
+
+<FAQ items={[
+  {
+    question: "Qual é o limite de nível atual na versão de acesso antecipado?",
+    answer: "O limite de nível atual no Alpha de acesso antecipado de Battle Piece é 600. Alcançar este limite permite maximizar a alocação de atributos para o PvP de fim de jogo e incursões."
+  },
+  {
+    question: "Como posso reduzir o atraso (lag) de combate durante incursões ou PvP?",
+    answer: "A equipe de desenvolvimento recomenda entrar em um servidor privado se você enfrentar ping alto ou atraso de comandos. Isso isola sua sessão e melhora os tempos de resposta do servidor."
+  },
+  {
+    question: "Posso jogar o jogo em dispositivos móveis e consoles?",
+    answer: "Sim, o jogo suporta oficialmente o cross-play entre PC, dispositivos móveis e consoles com progressão unificada de personagens."
+  },
+  {
+    question: "No que devo focar durante minhas primeiras horas de jogo?",
+    answer: "Foque em derrotar bandidos básicos para subir seu nível, aloque seus atributos em um único caminho ofensivo e desbloqueie seu primeiro poder de mobilidade para tornar a travessia mais rápida."
+  }
+]} />
+
+<Callout type="success" title="Conselho Final de Progressão">
+Consistência é a chave. Foque em limpar acampamentos de bandidos de forma eficiente, utilize servidores privados para manter seus comandos de combate fluidos e economize suas redefinições de atributos para quando estiver pronto para a transição para o PvP competitivo.
+</Callout>
+
+</Section>

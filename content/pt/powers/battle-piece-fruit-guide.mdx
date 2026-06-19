@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia de Frutas do Battle Piece: Melhores Poderes e Tier List de Níveis",
+  description: "Domine as melhores frutas e poderes no Battle Piece. Aprenda a farmar bandidos, subir até o nível 600 e dominar o PvP e raids com nossa tier list.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Battle+Piece+Fruit+Guide",
+  date: "2026-06-20",
+  author: "Equipe da Wiki do Battle Piece"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia de Frutas**: Este guia de frutas do Battle Piece descreve os melhores poderes, rotas de leveling e estratégias de combate para a versão Alpha.
+- **Foco no Leveling**: Use frutas de dano em área ampla para farmar bandidos e alcançar o limite máximo de nível atual do Alpha, que é 600.
+- **Domínio no PvP**: Frutas de alta mobilidade e dano explosivo (burst) são essenciais para vencer batalhas intensas de jogador contra jogador.
+- **Preparação para Raids**: Junte-se a uma equipe e traga poderes defensivos ou de controle de grupo para conquistar confrontos de raid de alta pressão.
+</Callout>
+
+<Section icon={Sparkles} title="Entendendo as Frutas e Poderes no Battle Piece">
+
+Frutas e poderes representam as mecânicas de combate centrais no Battle Piece, uma popular aventura do Roblox inspirada em anime desenvolvida pela Studio Multiverse. Atualmente em sua fase de lançamento Alpha, o jogo desafia os jogadores a derrotar bandidos poderosos, desafiar raids e participar de batalhas PvP competitivas. Escolher o poder certo é a decisão mais crítica que você tomará, pois dita suas rotações de habilidades, opções de mobilidade e eficácia geral no combate.
+
+Sua escolha de fruta deve estar alinhada com seu estilo de jogo preferido. Enquanto algumas frutas se destacam em limpar ondas massivas de inimigos controlados pelo computador, outras são projetadas especificamente para prender e derrotar jogadores reais em ambientes de arena. Entender essas distinções desde o início evitará que você desperdice recursos valiosos em builds que não se adequam aos seus objetivos de progressão.
+
+<CardGrid cols={3}>
+  <Card title="Mobilidade e Burst">
+    - **Movimento de alta velocidade**
+    - Ferramentas de engajamento rápido
+    - Perfeito para arenas PvP
+  </Card>
+  <Card title="PvE de Área Ampla">
+    - **Grande área de efeito**
+    - Alto dano a grupos
+    - Ideal para farmar bandidos
+  </Card>
+  <Card title="Espaçamento Defensivo">
+    - **Habilidades de repulsão**
+    - Buffs de escudo e sobrevivência
+    - Melhor para raids desafiadoras
+  </Card>
+</CardGrid>
+
+Para ajudar você a escolher, la tabela abaixo destaca os principais arquétipos de frutas disponíveis no jogo e suas combinações de combate recomendadas.
+
+| Arquétipo | Foco Principal | Melhor Modo de Jogo | Combinação de Arma Recomendada |
+| --- | --- | --- | --- |
+| Burst de Mobilidade | Alta velocidade, fugas rápidas, dano de alvo único | Batalhas PvP | Espadas de Combate Corpo a Corpo Rápido |
+| PvE de Área Ampla | Dano em área grande, farm de múltiplos alvos | Farm de Bandidos | Espadas Grandes Pesadas |
+| Espaçamento Defensivo | Repulsões, escudos, buffs de sobrevivência | Raids e Chefes | Escudos Defensivos |
+
+<Callout type="tip" title="Aviso de Status Alpha">
+Como o Battle Piece está em seu lançamento Alpha, os desenvolvedores ajustam frequentemente o equilíbrio das frutas, o escalonamento de dano e os tempos de recarga de habilidades. Fique sempre de olho nos anúncios oficiais da comunidade para mudanças repentinas de balanceamento.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Como Obter Frutas no Battle Piece">
+
+Adquirir novas frutas e poderes exige uma mistura de exploração, acúmulo de recursos e progressão. Os iniciantes devem se concentrar em estabelecer um ciclo de combate estável antes de tentar roletar por poderes de nível alto. Começar com armas básicas permite que você economize seus recursos para os sistemas de roleta, garantindo que você não fique travado sem uma maneira confiável de derrotar bandidos de nível baixo.
+
+Depois de juntar moeda do jogo suficiente, você pode procurar os vendedores de poder ou usar as mecânicas de roleta para melhorar seu equipamento. É altamente recomendável manter qualquer fruta decente com efeito em área que você obtiver no início, pois isso acelerará drasticamente sua jornada em direção ao limite de nível.
+
+<Steps>
+  <Step num="1" title="Inicie o Jogo com Segurança">
+    Sempre entre na página oficial da experiência Battle Piece criada pela Studio Multiverse no Roblox para evitar jogos duplicados ou clones falsos que possam comprometer seu progresso.
+  </Step>
+  <Step num="2" title="Farme Bandidos Iniciais">
+    Derrote bandidos de nível baixo na zona inicial para acumular a moeda básica e a experiência necessárias para acessar os sistemas de roleta de frutas.
+  </Step>
+  <Step num="3" title="Rolete por um Poder">
+    Visite o vendedor de poder ou use o menu de roleta para obter uma fruta aleatória. Concentre-se em garantir um poder com pelo menos uma habilidade de efeito em área.
+  </Step>
+  <Step num="4" title="Desbloqueie Habilidades de Maestria">
+    Equipe sua nova fruta e derrote inimigos para ganhar maestria. Desbloquear todas as habilidades disponíveis é necessário antes de levar sua build para raids ou PvP.
+  </Step>
+</Steps>
+
+Antes de começar seu farm, revise esta lista rápida de preparação para maximizar sua eficiência.
+
+<Checklist
+  id="fruit-prep-checklist"
+  title="Preparação para Caça de Frutas:"
+  items={[
+    "Verifique os códigos ativos para giros grátis ou resets de moedas",
+    "Entre em um servidor privado para reduzir o lag e o ping alto",
+    "Equipe uma arma básica para apoiar suas habilidades de fruta",
+    "Alcance o nível mínimo recomendado antes de fazer raids"
+  ]}
+/>
+
+<Callout type="warning" title="Lag e Atraso de Comando">
+A descrição oficial da experiência no Roblox avisa explicitamente os jogadores sobre o ping alto. Se você tiver atraso de comando ao executar combos de frutas, considere entrar em um servidor privado para estabilizar sua conexão.
+</Callout>
+
+| Marco | Nível Sugerido | Objetivo | Foco da Fruta |
+| --- | --- | --- | --- |
+| Início de Jogo | Nível 1 a 150 | Desbloquear as duas primeiras habilidades | Dano em Área Ampla |
+| Meio de Jogo | Nível 151 a 400 | Maximizar as maestrias de habilidades | Híbrido PvE e PvP |
+| Fim de Jogo | Nível 401 a 600 | Otimizar a sinergia da build | Especialização em PvP ou Raid |
+
+</Section>
+
+<Section icon={Swords} title="Guia de Frutas do Battle Piece: Tier List do Alpha">
+
+Esta seção do guia de frutas do Battle Piece classifica os principais arquétipos de frutas e poderes com base em seu desempenho na versão Alpha atual. As avaliações são determinadas pela eficiência com que um equipamento lida com o farm de bandidos, conclusão de raids e encontros de jogador contra jogador (PvP).
+
+Os poderes de Tier S focam fortemente em mobilidade e dano explosivo, que são as características mais valiosas no PvP de alto nível e no reposicionamento em raids. As opções de Tier A oferecem excelente utilidade para subir de nível, enquanto as opções de Tier B e C são geralmente muito lentas ou especializadas para uso geral.
+
+### Tier S: Mobilidade e Burst
+Esses equipamentos são o padrão ouro absoluto no Battle Piece. Eles permitem que você enfrente oponentes instantaneamente, desfira combos de alto dano e recue antes de sofrer contra-ataques. Eles são altamente preferidos no PvP e cruciais para desviar das mecânicas de chefes em raids.
+
+### Tier A: PvE de Área Ampla e Combate Corpo a Corpo Simples
+Esses poderes são a base do processo de leveling. Com amplos alcances de ataque, eles permitem agrupar vários bandidos e derrotá-los simultaneamente. Embora careçam da mobilidade extrema das builds de Tier S, sua velocidade de farm é incomparável.
+
+### Tier B: Duelo de Alvo Único e Espaçamento Defensivo
+Essas builds são altamente eficazes em cenários controlados de um contra um, mas têm dificuldades quando sobrecarregadas por múltiplos inimigos. São decentes para lutas contra chefes onde você pode prever os movimentos, mas diminuem sua velocidade geral de progressão.
+
+### Tier C: Builds Lentas de Baixa Mobilidade
+Esses poderes devem ser evitados, a menos que você não tenha outras opções. Suas longas animações de ativação e a falta de ferramentas de movimento tornam você um alvo fácil tanto para bandidos quanto para jogadores inimigos.
+
+| Tier | Arquétipo de Equipamento | Avaliação PvP | Avaliação PvE | Avaliação de Mobilidade |
+| --- | --- | --- | --- | --- |
+| S | Burst de Mobilidade | 5/5 | 4/5 | 5/5 |
+| A | PvE de Área Ampla | 3/5 | 5/5 | 3/5 |
+| A | Combate Corpo a Corpo Simples | 3/5 | 4/5 | 3/5 |
+| B | Duelo de Alvo Único | 4/5 | 3/5 | 3/5 |
+| B | Espaçamento Defensivo | 4/5 | 3/5 | 3/5 |
+| C | Baixa Mobilidade | 2/5 | 2/5 | 1/5 |
+
+<Callout type="success" title="Build Híbrida Ideal">
+Para a experiência de progressão mais equilibrada, combine um poder de mobilidade de Tier S com uma arma de combate corpo a corpo de longo alcance. Essa combinação compensa suas fraquezas de movimento enquanto mantém uma excelente limpeza de ondas de inimigos.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Rota de Leveling e Estratégias de Farm">
+
+Alcançar o limite de nível atual de 600 requer uma rota de farm estruturada. Como os acampamentos de bandidos estão espalhados por diferentes ilhas, combinar as capacidades da sua fruta com a sua zona de farm é essencial para manter altas taxas de experiência.
+
+Nos níveis iniciais, concentre-se inteiramente em agrupar os bandidos e usar suas habilidades de efeito em área. Evite viajar para ilhas de nível alto prematuramente, as o aumento da vida dos bandidos de elite diminuirá seus ganhos de experiência se a sua maestria de fruta não estiver suficientemente evoluída.
+
+| Intervalo de Nível | Tipo de Inimigo | Estratégia de Fruta Recomendada | Tipo de Servidor |
+| --- | --- | --- | --- |
+| 1 a 100 | Bandidos Iniciais | Usar repetidamente habilidades básicas de AoE para limpar grupos | Público ou Privado |
+| 101 a 300 | Bandidos Avançados | Usar repulsões para agrupar inimigos | Servidor Privado |
+| 301 a 500 | Bandidos de Elite e Chefes | Alternar dano explosivo e tempos de recarga de esquiva | Servidor Privado |
+| 501 a 600 | Raids e Bandidos de Nível Alto | Coordenar com uma equipe usando frutas de suporte | Servidor Privado de Equipe |
+
+<Callout type="info" title="Aviso de Limite de Nível">
+Assim que atingir o limite de nível de 600, seu foco deve mudar de ganhar experiência para otimizar seu equipamento, roletar atributos raros e participar de raids de nível alto para obter drops exclusivos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preparação para Combate PvP e Raid">
+
+A transição do farm de bandidos para batalhas PvP e raids exige uma mudança completa na mentalidade de combate. Enquanto os bandidos se movem em padrões previsíveis, os jogadores reais explorarão ativamente as janelas de tempo de recarga e travamentos de animação da sua fruta.
+
+Ao se preparar para o PvP, priorize frutas que oferecem habilidades de conjuração instantânea e opções de fuga. Em raids, concentre-se em causar dano sustentado e controle de grupo para gerenciar as ondas de lacaios que protegem os chefes.
+
+| Aspecto do Combate | Requisitos de PvP | Requisitos de Raid | Estratégia Recomendada |
+| --- | --- | --- | --- |
+| Espaçamento | Alta prioridade para desviar de combos de jogadores | Prioridade moderada para evitar AoE de chefes | Usar habilidades de mobilidade |
+| Tipo de Dano | Burst de alvo único para finalizar oponentes | AoE sustentado para limpar ondas de inimigos | Trocar de fruta com base na atividade |
+| Sinergia de Equipe | Baixa prioridade em duelos solo | Alta prioridade para cura e buffs | Coordenar equipamentos com aliados |
+
+<Callout type="warning" title="Aviso de Lag em Combate">
+A latência alta pode estragar seus combos de combate. Sempre teste seus comandos de fruta e transições de armas em um servidor privado antes de entrar em arenas PvP competitivas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+Revise estas perguntas comuns sobre frutas, leveling e mecânicas de combate no Battle Piece.
+
+<FAQ items={[
+  {
+    question: "Qual é o limite de nível atual no Battle Piece?",
+    answer: "O limite de nível atual na versão Alpha do Battle Piece é 600. Os jogadores podem atingir esse limite farmando bandidos e completando raids."
+  },
+  {
+    question: "Qual tipo de fruta é melhor para subir de nível rapidamente?",
+    answer: "Frutas de PvE de Área Ampla são a melhor escolha para subir de nível. Suas habilidades de grande área de efeito permitem derrotar vários bandidos ao mesmo tempo, maximizando seus ganhos de experiência."
+  },
+  {
+    question: "Posso jogar Battle Piece em dispositivos móveis?",
+    answer: "Sim, o Battle Piece suporta jogo multiplataforma. Você pode jogar no PC, celular e consoles."
+  },
+  {
+    question: "Como faço para evitar lag ao usar habilidades de frutas de alta mobilidade?",
+    answer: "Os desenvolvedores recomendam entrar em um servidor privado se você estiver com ping alto. Um servidor privado ajuda a estabilizar sua conexão e evita o atraso de comando durante o combate."
+  }
+]} />
+
+<Callout type="tip" title="Central da Comunidade">
+Para encontrar parceiros de troca, grupos de raid ou os códigos ativos mais recentes, certifique-se de entrar na página oficial da comunidade da Studio Multiverse no Roblox.
+</Callout>
+
+</Section>

@@ -1,0 +1,170 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de nivelación de Battle Piece: Ruta de progresión rápida 1-600",
+  description: "Optimiza tu personaje en Battle Piece con esta guía de nivelación paso a paso. Aprende ubicaciones de cultivo de bandidos, preparación para raids y cómo alcanzar el límite de nivel 600.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/f8fafc?text=Battle+Piece+Leveling+Guide",
+  date: "2026-06-20",
+  author: "Equipo de la Wiki de Battle Piece"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Objetivo principal**: Alcanzar el límite de nivel 600 a través de ciclos estructurados de combate PvE.
+- **Mecánica clave**: Derrotar bandidos secuencialmente para desbloquear mapas y raids de mayor nivel.
+- **Mejor estrategia**: Utilizar servidores privados para eliminar el ping alto y el retraso de entrada (input lag) durante el cultivo.
+- **Consejo crítico**: Priorizar los poderes de área de efecto sobre las builds de un solo objetivo para la progresión temprana.
+- **Mejor opción**: Mejorar las estadísticas de movilidad temprano para minimizar el tiempo de viaje entre spawns.
+</Callout>
+
+<Section icon={Map} title="Mecánicas básicas de progresión y configuración">
+
+Para aprovechar al máximo esta guía de nivelación de Battle Piece, los jugadores deben comprender primero los sistemas fundamentales de este juego de acción de anime de Roblox desarrollado por Studio Multiverse. El juego se encuentra actualmente en su fase de lanzamiento Alfa, lo que significa que la optimización del rendimiento está en curso y las mecánicas están sujetas a actualizaciones de equilibrio. El ciclo principal consiste en luchar contra bandidos, desbloquear poderes únicos, adquirir armas y, finalmente, probar tu build en batallas PvP de alto riesgo o raids desafiantes.
+
+Antes de comenzar tu grindeo, es esencial configurar la plataforma. El juego es compatible con el juego cruzado en PC, dispositivos móviles y consolas. Los jugadores de PC generalmente se benefician de distribuciones de teclas más precisas, mientras que los jugadores de móviles y consolas deben personalizar la configuración de su interfaz para garantizar una ejecución cómoda del combate. Debido a que el rendimiento del servidor puede afectar los comandos de combate, optimizar tu entorno de red es el primer paso hacia una nivelación eficiente.
+
+**Puntos destacados del video:**
+- Desglose visual del diseño de la isla inicial.
+- Patrones de ataque de los bandidos y demostraciones de sincronización de esquivas.
+- Muestra de combos cuerpo a cuerpo básicos para la eficiencia en el juego temprano.
+- Explicación de la interfaz de usuario y la pantalla de asignación de estadísticas.
+
+<YouTubeEmbed videoId="iTPzGAWfwos" title="Tráiler de la actualización de Sukuna" />
+
+| Característica | Detalles | Acción recomendada |
+| Device Support | PC, Mobile, Console | Elige PC para comandos precisos de PvP |
+| Server Type | Public or Private | Usa un servidor privado para evitar el ping alto |
+| Release Status | Alpha | Espera errores menores y parches de rendimiento |
+
+<Callout type="warning" title="Advertencia de la fase alfa">
+Debido a que Battle Piece está en Alfa, la latencia del servidor ocasionalmente puede interrumpir la sincronización de los combos. Si experimentas un retraso de entrada severo, vuelve a unirte a un servidor nuevo o cambia a un servidor privado para estabilizar tu juego.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rutas de cultivo: Ubicaciones de bandidos e hitos de nivel">
+
+La progresión en Battle Piece está limitada por hitos de nivel. La versión Alfa actual limita la progresión del jugador al nivel 600. Para alcanzar este límite de manera eficiente, debes seguir una ruta de cultivo estructurada que minimice el tiempo de viaje y maximice los puntos de experiencia por hora. El juego temprano se centra en gran medida en los campamentos de bandidos básicos, donde puedes aprender el alcance, las hitboxes y los tiempos de recarga de tus armas o poderes seleccionados.
+
+A medida que avanzas, la densidad de aparición de los enemigos aumenta, lo que requiere un mejor control de masas. Agrupar a los enemigos antes de desatar habilidades de área de efecto es la forma más rápida de limpiar oleadas. La transición de las zonas iniciales a las islas de mitad de juego solo debe ocurrir una vez que tu daño infligido te permita derrotar a los enemigos locales en dos o tres rotaciones de habilidades.
+
+<CardGrid cols={3}>
+  <Card title="Juego temprano: Cultivo de bandidos">
+    Concéntrate por completo en el combate PvE. Aprende las hitboxes, gestiona los tiempos de recarga y acumula niveles base antes de intentar configuraciones de build complejas.
+  </Card>
+  <Card title="Juego medio: Estabilización de la build">
+    Adquiere una combinación confiable de arma y poder. Prioriza las habilidades de área de efecto para acelerar los ciclos de cultivo de múltiples objetivos.
+  </Card>
+  <Card title="Juego tardío: Raids de fin de juego">
+    Forma grupos para desafiar a jefes de alto nivel. Usa tu ventaja de nivel para asegurar botines raros y prepararte para batallas PvP competitivas.
+  </Card>
+</CardGrid>
+
+| Rango de nivel | Objetivo principal | Enfoque de estrategia |
+| 1-150 | Bandidos iniciales | Aprende el espaciado de combate básico y los tiempos de recarga |
+| 150-400 | Bandidos avanzados | Cultiva en servidores privados para tasas de aparición óptimas |
+| 400-600 | Raids y preparación PvP | Cambia el enfoque a mejoras de equipo y sinergia de build |
+
+<Callout type="tip" title="Eficiencia de cultivo">
+No desafíes a enemigos de mayor nivel si te toma más de treinta segundos despejar una sola oleada. Siempre es más eficiente derrotar rápidamente a los bandidos de menor nivel que desgastar lentamente a los objetivos de alto nivel.
+</Callout>
+
+</Section>
+
+<Section icon={Steps} title="Ruta de nivelación paso a paso: Alcanzar el nivel 600">
+
+Alcanzar el límite de nivel requiere un enfoque sistemático del combate, la distribución de estadísticas y la gestión del equipo. Sigue estos pasos para optimizar tu velocidad de progresión del nivel 1 al 600.
+
+<Steps>
+  <Step num="1" title="Selecciona tu plataforma">
+    Inicia Battle Piece en PC, móvil o consola. Se recomienda PC para comandos precisos de teclas durante encuentros PvP de alta velocidad.
+  </Step>
+  <Step num="2" title="Cultiva bandidos iniciales">
+    Localiza las zonas de aparición de los bandidos iniciales. Enfréntate a grupos pequeños para aprender los rangos de ataque y obtener tus primeros 100 niveles rápidamente.
+  </Step>
+  <Step num="3" title="Optimiza el ping del servidor">
+    Si experimentas retraso en el rendimiento, cambia a un servidor privado. Esto garantiza comandos de combate fluidos durante largas sesiones de cultivo.
+  </Step>
+  <Step num="4" title="Desafía las raids alfa">
+    Una vez que te acerques al límite de nivel, pasa a las raids grupales para probar tu equipamiento de combate contra las mecánicas de los jefes.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Hito alcanzado">
+Una vez que alcances el nivel 300, tu reserva de estadísticas será lo suficientemente grande como para mantener habilidades de poder avanzadas. En este punto, puedes comenzar a participar en partidas PvP casuales para probar tus habilidades mecánicas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Armas y poderes: Sinergia de build para una limpieza rápida">
+
+Tu velocidad de nivelación depende en gran medida de la build de tu personaje. En Battle Piece, los jugadores combinan armas, poderes y rasgos raciales para crear perfiles de combate únicos. Si bien algunas builds destacan en escenarios de duelo de un solo objetivo, la nivelación requiere configuraciones que puedan limpiar múltiples enemigos simultáneamente. La alta movilidad también es crucial, ya que reduce el tiempo dedicado a moverse entre los puntos de aparición.
+
+Al seleccionar tu equipamiento, evalúa los rasgos en función de su potencial de control de masas y la eficiencia de sus tiempos de recarga. Las armas con golpes de barrido amplio combinan excepcionalmente bien con poderes que atraen a los enemigos o los bloquean en su lugar. Evita las builds de PvP altamente especializadas durante las primeras etapas de tu viaje de nivelación.
+
+| Nivel | Enfoque | Mejor aplicación |
+| Nivel S | Movilidad y ráfaga | Enfrentamientos PvP y escapes rápidos de raids |
+| Nivel A | Área de efecto amplia | Cultivo eficiente de bandidos y limpieza de raids |
+| Nivel B | Duelistas de un solo objetivo | Encuentros de PvP dirigidos y peleas de jefes |
+| Nivel C | Defensa de baja movilidad | Pruebas básicas de PvE y cultivo de baja presión |
+
+<Checklist
+  id="leveling-milestones"
+  title="Lista de preparación para el cultivo:"
+  items={[
+    "Crea o únete a un servidor privado para estabilizar el ping",
+    "Derrota a los bandidos iniciales para alcanzar el nivel 50",
+    "Equipa un poder de alta movilidad para viajar más rápido",
+    "Desbloquea un arma de área amplia para limpiar grupos de bandidos",
+    "Forma un equipo antes de intentar raids de alto nivel"
+  ]}
+/>
+
+<Callout type="info" title="Personalización de la build">
+Los rasgos raciales y las habilidades pasivas se pueden volver a girar (reroll) en el centro de la comunidad. Prioriza los rasgos que ofrecen aumentos porcentuales al daño infligido o reducción de tiempo de recarga para maximizar tu velocidad de cultivo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Contenido de fin de juego: Raids, PvP y actividades de límite de nivel">
+
+Alcanzar el nivel 600 no es el final de tu viaje en Battle Piece. El ciclo de fin de juego cambia el enfoque de la acumulación de experiencia a la optimización del equipo, las raids cooperativas y las batallas PvP competitivas. Las raids requieren un juego en equipo coordinado, donde los jugadores deben asignar roles como distribuidores de daño, controladores de masas y soporte defensivo para superar las complejas mecánicas de los jefes.
+
+El combate PvP pone a prueba tu dominio del espaciado, la cancelación de animaciones y la ejecución de combos. Debido a que el juego está en Alfa, el meta competitivo evoluciona constantemente. Participar en eventos comunitarios y probar diferentes combinaciones de armas te mantendrá por delante de la competencia.
+
+| Actividad | Requisito de nivel | Recompensa principal |
+| Cultivo de bandidos | Nivel 1+ | Progresión de EXP base y oro |
+| Batallas PvP | Nivel 300+ | Experiencia de combate y prueba de builds |
+| Raids desafiantes | Nivel 500+ | Armas de alto nivel y poderes únicos |
+
+<Callout type="warning" title="Participación en PvP">
+No se recomienda ingresar a zonas PvP antes de alcanzar al menos el nivel 400. Los jugadores de mayor nivel tendrán una ventaja significativa en las estadísticas, lo que dificultará la práctica efectiva de combos.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el límite de nivel máximo en Battle Piece?",
+    answer: "La versión Alfa actual de Battle Piece presenta un límite de nivel de 600. Los jugadores deben estructurar sus rutas de nivelación en torno a este objetivo."
+  },
+  {
+    question: "¿Cómo soluciono el ping alto mientras uso esta guía de nivelación de Battle Piece?",
+    answer: "Los desarrolladores recomiendan iniciar el juego en un servidor privado. Esto reduce la latencia del lado del servidor y garantiza un cultivo de bandidos más fluido."
+  },
+  {
+    question: "¿Debería centrarme en PvP o PvE durante los primeros niveles?",
+    answer: "Deberías centrarte exclusivamente en el cultivo de bandidos PvE hasta que establezcas una build estable. El PvP se vuelve viable una vez que te acerques al límite de nivel 600."
+  },
+  {
+    question: "¿Hay códigos activos para acelerar la nivelación?",
+    answer: "Consulta siempre la página oficial de la comunidad de Studio Multiverse en Roblox para obtener códigos activos, que pueden proporcionar aumentos temporales."
+  }
+]} />
+
+</Section>

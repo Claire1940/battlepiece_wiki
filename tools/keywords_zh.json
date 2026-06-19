@@ -1,46 +1,82 @@
 {
   "categories": [
     {
-      "category": "指南",
+      "category": "兑换码",
       "keywords": [
-        "lucid blocks 指南"
+        "battle piece 兑换码"
       ]
     },
     {
-      "category": "合成",
+      "category": "攻略",
       "keywords": [
-        "lucid blocks 合成配方",
-        "lucid blocks 神化系统"
+        "battle piece 新手攻略",
+        "battle piece 完整新手指南",
+        "battle piece 入门指南",
+        "battle piece 怎么玩",
+        "battle piece 技巧",
+        "battle piece 进阶攻略",
+        "battle piece 升级攻略"
       ]
     },
     {
-      "category": "物品",
+      "category": "能力",
       "keywords": [
-        "lucid blocks 信仰法杖",
-        "lucid blocks 蜜蜂滑翔器",
-        "lucid blocks 箱子",
-        "lucid blocks 锇"
+        "battle piece 能力",
+        "battle piece 能力展示",
+        "battle piece 最强能力",
+        "battle piece 全能力",
+        "battle piece 恶魔果实",
+        "battle piece 技能指南"
       ]
     },
     {
-      "category": "生物群系",
+      "category": "武器",
       "keywords": [
-        "lucid blocks 提亚玛纳地脉"
+        "battle piece 武器",
+        "battle piece 武器展示",
+        "battle piece 最强武器",
+        "battle piece 武器强度榜",
+        "battle piece 全武器",
+        "battle piece 规格与武器展示"
       ]
     },
     {
-      "category": "建造",
+      "category": "战斗",
       "keywords": [
-        "lucid blocks 感质空间"
+        "battle piece 战斗攻略",
+        "battle piece pvp 攻略",
+        "battle piece 对战指南",
+        "battle piece 最佳战斗风格",
+        "battle piece 最强动漫角色",
+        "battle piece boss 攻略"
       ]
     },
     {
-      "category": "技术支持",
+      "category": "更新",
       "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks 全屏",
-        "lucid blocks 多人模式",
-        "lucid blocks 安卓版"
+        "battle piece 宿傩更新",
+        "battle piece 更新",
+        "battle piece 更新指南"
+      ]
+    },
+    {
+      "category": "发布",
+      "keywords": [
+        "battle piece 发布",
+        "battle piece roblox",
+        "battle piece 游戏",
+        "battle piece 新 roblox 动漫游戏",
+        "battle piece 抢先体验",
+        "battle piece 预告片"
+      ]
+    },
+    {
+      "category": "社区",
+      "keywords": [
+        "battle piece discord",
+        "battle piece 社区",
+        "battle piece 官方链接",
+        "battle piece roblox 群组"
       ]
     }
   ]

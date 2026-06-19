@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cómo jugar Battle Piece: Guía de inicio paso a paso y consejos de progresión",
+  description: "Aprende a jugar Battle Piece en Roblox. Descubre rutas de nivelación, ubicaciones para farmear bandidos, consejos de combate PvP, mecánicas de incursión y progresión de armas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/facc15?text=Battle+Piece+How+To+Play",
+  date: "2026-06-20",
+  author: "Equipo de la Wiki de Battle Piece"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Objetivo principal**: Comienza derrotando bandidos para subir de nivel de manera eficiente hacia el límite actual.
+- **Límite de nivel**: La versión Alpha actual presenta un límite de nivel máximo de 600.
+- **Bucle de combate**: Combina poderes únicos con armas cuerpo a cuerpo para sobrevivir al PvP y a las desafiantes incursiones.
+- **Gestión del lag**: Utiliza servidores privados para reducir el ping y estabilizar los comandos durante el combate.
+- **Acceso oficial**: Juega siempre a través de la página verificada de la experiencia de Battle Piece en Roblox de Studio Multiverse.
+</Callout>
+
+<Section icon={Target} title="Primeros pasos: Configuración de la plataforma y mecánicas básicas">
+
+Aprender **cómo jugar Battle Piece** requiere comprender la configuración básica del juego y ajustar tus controles para el éxito. Desarrollado por Studio Multiverse, Battle Piece es una experiencia de aventura de anime llena de acción en Roblox que admite el juego multiplataforma en PC, dispositivos móviles y consolas. Debido a que el juego se encuentra actualmente en su fase de lanzamiento Alpha, optimizar tu configuración es crucial para evitar cuellos de botella en el rendimiento, retraso de entrada (input lag) y errores de jugabilidad.
+
+Antes de lanzarte al combate, los jugadores deben familiarizarse con el diseño de compatibilidad. Dado que el tiempo y el posicionamiento dictan el resultado tanto del farmeo PvE como del PvP de alto riesgo, seleccionar la configuración de plataforma adecuada puede darte una ventaja competitiva significativa.
+
+| Plataforma | Tipo de entrada | Rendimiento | Ideal para |
+| :--- | :--- | :--- | :--- |
+| **PC** | Teclado y ratón | Alto | Combate PvP preciso, reinicios rápidos de movimiento |
+| **Móvil** | Pantalla táctil | Medio | Farmeo casual de bandidos, nivelación pasiva |
+| **Consola** | Mando | Alto | Incursiones cómodas, farmeo constante de jefes |
+
+**Puntos destacados del video:**
+- **Demostración de combate**: Desglose visual de las habilidades de la última actualización de Sukuna.
+- **Demos de habilidades**: Destacando el alcance, el área de efecto y la velocidad de ejecución.
+- **Mecánicas de movimiento**: Ejemplos visuales de esquivas y cancelaciones de carrera (dash-cancel).
+
+<YouTubeEmbed videoId="iTPzGAWfwos" title="[Tráiler] Actualización de Sukuna [Battle Piece]" />
+
+<Callout type="warning" title="Advertencia de estabilidad del lanzamiento Alpha">
+Debido a que Battle Piece está en su etapa Alpha, es posible que experimentes lag ocasional en el servidor, caídas de fotogramas o retrasos en la entrada. Si tu ping se dispara durante el combate, se recomienda encarecidamente unirse a un servidor privado para estabilizar tu conexión.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Ruta de nivelación para principiantes y farmeo de bandidos">
+
+Tu objetivo principal al comenzar tu viaje en Battle Piece es subir de nivel a tu personaje. La versión Alpha actual del juego cuenta con un límite de nivel de 600. Alcanzar este límite desbloquea el escalado de estadísticas necesario para participar en incursiones de juego final y sobrevivir a encuentros PvP competitivos. 
+
+El bucle de progresión más eficiente gira en torno a la caza en campamentos de bandidos específicos. Derrotar bandidos proporciona puntos de experiencia (EXP) constantes y te permite practicar las mecánicas de combate sin el alto riesgo de los entornos de jugador contra jugador.
+
+| Rango de nivel | Zona recomendada | Enemigos objetivo | Objetivo principal |
+| :--- | :--- | :--- | :--- |
+| **1-100** | Isla de inicio | Bandidos débiles | Aprender el posicionamiento básico y combos básicos |
+| **100-300** | Puesto avanzado del desierto | Bandidos de élite | Desbloquear habilidades de armas principales y puntos de estadísticas |
+| **300-500** | Ruinas del volcán | Bandidos de fuego | Farmear poderes y optimizar los tiempos de recarga de habilidades |
+| **500-600** | Santuario del cielo | Jefes de incursión | Alcanzar el límite de nivel y finalizar equipamientos |
+
+<Steps>
+  <Step num="1" title="Iniciar a través de canales oficiales">
+    Inicia siempre el juego desde la [Página oficial de Battle Piece en Roblox](https://www.roblox.com/games/98662768290911/Battle-Piece) para evitar experiencias de imitación o copias falsas que no guarden tus datos de progresión.
+  </Step>
+  <Step num="2" title="Dominar el farmeo de bandidos">
+    Localiza las zonas de aparición de bandidos más cercanas en la Isla de inicio. Enfréntate a ellos usando cadenas de ataques básicos, asegurándote de retroceder cuando tus habilidades estén en tiempo de recarga para minimizar el daño recibido.
+  </Step>
+  <Step num="3" title="Asignar puntos de estadísticas sabiamente">
+    Cada subida de nivel otorga puntos. Distribuye estos puntos según tu estilo de juego preferido: concéntrate en el daño de Armas para construcciones físicas, o en el escalado de Poder para construcciones centradas en habilidades.
+  </Step>
+  <Step num="4" title="Transición a zonas de alto nivel">
+    Una vez que superes el nivel de los bandidos de una isla, navega o viaja a la siguiente zona indicada en la tabla de progresión para mantener tus ganancias de EXP de manera óptima.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Consejo de eficiencia para farmear">
+Agrupa a los bandidos antes de desatar habilidades de área de efecto (AoE). Dañar a múltiples objetivos simultáneamente reduce tu tiempo de farmeo a la mitad y maximiza tu tasa de EXP por minuto.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Lista de niveles de armas, poderes y rasgos">
+
+Para destacar en Battle Piece, debes combinar tres pilares fundamentales del combate: Armas, Poderes y Rasgos. Las armas dictan tus combos físicos cuerpo a cuerpo, los poderes otorgan habilidades mágicas o elementales, y los rasgos actúan como modificadores pasivos que potencian tu eficiencia general en combate.
+
+Comprender cómo interactúan estos sistemas es clave para crear un personaje viable. En lugar de confiar en fórmulas de daño no verificadas, los jugadores deben centrarse en la utilidad, la movilidad y la facilidad de uso al elegir sus equipamientos.
+
+<CardGrid cols={3}>
+  <Card title="Nivel S: Movilidad y ráfaga">
+    - **Alta movilidad**: Esencial para esquivar los ataques de los jefes.
+    - **Daño de ráfaga**: Perfecto para asegurar eliminaciones rápidas en PvP.
+    - **Utilidad en incursiones**: Muy valorado en el contenido grupal.
+  </Card>
+  <Card title="Nivel A: Área de efecto (AoE)">
+    - **Amplio alcance**: Golpea a múltiples bandidos a la vez.
+    - **DPS constante**: Salida de daño consistente para subir de nivel.
+    - **Fácil para principiantes**: Áreas de impacto generosas y ejecución sencilla.
+  </Card>
+  <Card title="Nivel B: Distanciamiento defensivo">
+    - **Supervivencia**: Capacidad de escudo o curación.
+    - **Control de masas**: Aturdimientos y ralentizaciones para gestionar grupos.
+    - **PvP de nicho**: Requiere preparación para destacar contra jugadores hábiles.
+  </Card>
+</CardGrid>
+
+| Categoría | Poderes | Armas |
+| :--- | :--- | :--- |
+| **Enfoque principal** | Energía elemental, daño de ráfaga, movimiento | Combos cuerpo a cuerpo, daño físico bruto, bloqueo por aturdimiento |
+| **Utilidad clave** | Alta movilidad, efectos de estado, zonificación a distancia | Rompeguardias, distanciamiento confiable, capacidad de parada (parry) |
+| **Tipo de escalado** | Nivel y asignación de puntos en estadísticas de Poder | Mejoras de armas, niveles de maestría, estadísticas físicas |
+
+<Callout type="info" title="Nota sobre la sinergia de la build">
+No descuides tu raza y tus rasgos. Obtener un rasgo que complemente tu poder principal (por ejemplo, reducción de tiempo de recarga para construcciones basadas en poder) puede aumentar significativamente tu efectividad general en combate.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Combate PvP y progresión de incursiones">
+
+Una vez que te acercas al límite de nivel de 600, el bucle de juego cambia hacia batallas PvP competitivas e incursiones cooperativas. Las incursiones son desafíos PvE de alta presión que requieren coordinación, equipamientos de alto daño y una comprensión profunda de las mecánicas de los jefes. El PvP, por otro lado, pone a prueba tus tiempos de reacción, ejecución de combos y conciencia espacial contra jugadores reales.
+
+Antes de ingresar a estos modos desafiantes, asegúrate de haber completado los puntos de control de progresión prerrequisitos para evitar ser una carga para tu equipo de incursión o un objetivo fácil en la arena.
+
+| Tipo de incursión | Nivel mín. | Peligro clave | Recompensa principal |
+| :--- | :--- | :--- | :--- |
+| **Asedio de bandidos** | 200 | Hordas de enemigos, aturdimientos básicos | Piezas raras de mejora de armas, oro |
+| **Prueba elemental** | 400 | Peligros en la arena, campos en llamas | Especializaciones de poder de alto nivel, objetos cosméticos |
+| **Incursión del Multiverso** | 600 | Ataques de ráfaga del jefe, mecánicas de eliminación instantánea (wipe) | Rasgos de combate legendarios, armas definitivas |
+
+<Checklist
+  id="endgame-readiness"
+  title="Lista de verificación de preparación para el juego final:"
+  items={[
+    "Alcanza al menos el nivel 500 antes de intentar incursiones de alto nivel",
+    "Desbloquea al menos un poder de movilidad de nivel S o nivel A",
+    "Únete al grupo de la comunidad de Studio Multiverse para obtener códigos activos y actualizaciones",
+    "Coordina los equipamientos con tus compañeros de equipo para equilibrar el DPS y el control de masas",
+    "Configura tus atajos de teclado para garantizar esquivas fluidas durante las peleas contra jefes"
+  ]}
+/>
+
+<Callout type="success" title="Estrategia de éxito cooperativo">
+En las incursiones, asigna a un jugador para atraer la agresividad (aggro) del jefe mientras los demás jugadores se concentran en infligir daño desde los flancos. Esta estrategia evita que el jefe se gire y elimine a todo el grupo con ataques de cono frontal.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes y recursos comunitarios">
+
+Mantenerse conectado con los desarrolladores es la mejor manera de realizar un seguimiento de las actualizaciones de contenido, correcciones de errores y lanzamientos de códigos promocionales. Se anima a los jugadores a unirse al [Grupo oficial de la comunidad de desarrolladores de Studio Multiverse](https://www.roblox.com/communities/903561179/Studio-Multiverse) para interactuar con otros jugadores y seguir el progreso del desarrollo.
+
+<Callout type="warning" title="Seguridad de los códigos de la comunidad">
+Confía únicamente en los códigos publicados directamente en la descripción oficial del juego en Roblox o en los canales verificados de la comunidad de desarrolladores. Evita los sitios web de terceros que ofrecen herramientas generadoras, ya que suelen ser estafas.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la palabra clave principal para aprender a jugar Battle Piece?",
+    answer: "Si estás buscando guías sobre cómo jugar Battle Piece, el bucle central implica iniciar el juego a través de Roblox, subir de nivel hasta 600 derrotando bandidos y preparar tu equipamiento para PvP e incursiones."
+  },
+  {
+    question: "¿Cuál es el límite de nivel actual en Battle Piece?",
+    answer: "El límite de nivel actual en el lanzamiento Alpha de Battle Piece es 600. Los jugadores pueden alcanzar este límite farmeando bandidos y jefes en diferentes islas."
+  },
+  {
+    question: "¿Cómo reduzco los problemas de lag y ping en Battle Piece?",
+    answer: "Los desarrolladores recomiendan unirse a un servidor privado si experimentas un ping alto o lag, lo que ayuda a estabilizar los comandos de combate y el movimiento."
+  },
+  {
+    question: "¿Dónde puedo encontrar actualizaciones oficiales y códigos activos?",
+    answer: "Las actualizaciones oficiales, las notas del parche y los anuncios de códigos se publican en la página de la experiencia de Roblox y en el grupo de la comunidad de desarrolladores de Studio Multiverse."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Trailer Battle Piece: Panduan Pertempuran & Leveling Alpha",
+  description: "Analisis trailer Battle Piece dan pelajari mekanik inti Alpha, mulai dari farming bandit hingga pertempuran PvP, raid, dan mencapai batas level 600.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Battle+Piece+Trailer+Guide",
+  date: "2026-06-20",
+  author: "Tim Wiki Battle Piece"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Gameplay Inti**: Battle Piece adalah petualangan aksi yang terinspirasi anime di Roblox yang menampilkan farming bandit PvE, raid, dan pertempuran PvP.
+- **Progres Saat Ini**: Rilis Alpha saat ini menampilkan batas level maksimum **600**.
+- **Dukungan Platform**: Dapat dimainkan sepenuhnya di perangkat PC, seluler, dan konsol.
+- **Manajemen Lag**: Menggunakan server privat sangat direkomendasikan untuk meminimalkan latensi selama pertempuran intensif.
+</Callout>
+
+<Section icon={Swords} title="Trailer Battle Piece: Pembaruan Sukuna & Ringkasan Pertempuran">
+
+Perilisan cuplikan gameplay terbaru menunjukkan evolusi cepat Battle Piece selama fase Alpha. Dikembangkan oleh Studio Multiverse, game ini menggabungkan mekanik pertempuran anime klasik dengan putaran progres yang terstruktur. Pembaruan terbaru menyoroti pertempuran dengan mobilitas tinggi, keterampilan area-of-effect (AoE), dan pertarungan bos yang menantang yang membutuhkan waktu dan penempatan posisi yang tepat.
+
+**Sorotan Video:**
+- Menunjukkan rangkaian keterampilan mobilitas tinggi dan potensi burst damage dari pembaruan yang terinspirasi oleh Sukuna.
+- Menampilkan serangan area-of-effect yang sangat efektif untuk membersihkan spawn bandit yang berkumpul.
+- Menyoroti petunjuk visual untuk penempatan posisi pertempuran, menunjukkan cara menghindari serangan bos dan melakukan serangan balik secara efektif.
+- Mengilustrasikan kelancaran pertempuran lintas platform, mengonfirmasi kontrol yang responsif di berbagai metode input.
+
+<YouTubeEmbed videoId="iTPzGAWfwos" title="[Trailer] Pembaruan Sukuna [Battle Piece]" />
+
+<Callout type="tip" title="Pemberitahuan Pengembang">
+Karena Battle Piece berada dalam siklus pengembangan Alpha, pemain mungkin mengalami lag server sesekali atau bug visual minor. Mengikuti pengumuman di [Grup Roblox Studio Multiverse](https://www.roblox.com/communities/903561179/Studio-Multiverse) resmi adalah cara terbaik untuk tetap mendapatkan informasi tentang hotfix yang akan datang.
+</Callout>
+
+Pemain yang ingin memulai perjalanan mereka harus mempelajari pertunjukan pertempuran ini untuk memahami bagaimana kekuatan yang berbeda berinteraksi dengan senjata. Penempatan posisi yang ditunjukkan dalam cuplikan menekankan bahwa damage murni hanyalah setengah dari pertempuran; pergerakan dan manajemen cooldown adalah hal yang membuat Anda tetap hidup di zona level yang lebih tinggi.
+
+</Section>
+
+<Section icon={Shield} title="Mode Game & Platform yang Didukung">
+
+Battle Piece menyediakan sandbox serbaguna yang melayani pemain PvE kooperatif dan penggemar PvP kompetitif. Game ini dibangun di atas platform Roblox, memungkinkan cross-play yang mulus di berbagai perangkat. Namun, pengaturan optimal sangat bergantung pada mode game yang Anda fokuskan.
+
+| Platform | Skema Kontrol | Catatan Performa |
+| :--- | :--- | :--- |
+| **PC** | Keyboard & Mouse | Menawarkan input paling presisi untuk pertempuran PvP dan pergerakan raid. |
+| **Seluler** | Layar Sentuh | Portabel tetapi memerlukan penyesuaian tata letak UI khusus untuk menghindari lag. |
+| **Konsol** | Kontroler | Tata letak yang nyaman, meskipun navigasi menu mungkin terasa lebih lambat di Alpha. |
+
+Memahami mode inti sangat penting sebelum memilih build karakter Anda. Setiap mode menuntut keseimbangan pertahanan, mobilitas, dan output damage yang berbeda.
+
+| Jenis Mode | Musuh Utama | Hadiah Utama | Nilai Progres |
+| :--- | :--- | :--- | :--- |
+| **Farming Bandit** | NPC Bandit | EXP & Gold Dasar | Sangat penting untuk level awal dan latihan pertempuran. |
+| **Pertempuran PvP** | Pemain Aktif | Peringkat Pertempuran | Bernilai tinggi untuk menguji build melawan lawan nyata. |
+| **Raid** | Bos & Gelombang | Drop Langka | Pemeriksaan progres akhir game untuk pemain level 600. |
+
+<Callout type="success" title="Sinkronisasi Lintas Platform">
+Progres karakter Anda, kekuatan yang terbuka, dan status level ditransfer secara otomatis ke semua platform yang didukung. Anda dapat melakukan farming bandit di perangkat seluler selama sesi cepat dan beralih ke PC untuk pertandingan PvP kompetitif.
+</Callout>
+
+Untuk membantu Anda memutuskan cara mengalokasikan sumber daya dan memilih pengaturan platform Anda, pertimbangkan konfigurasi gaya bermain berikut:
+
+<CardGrid cols={3}>
+  <Card title="Pemain PvE (Grinder)">
+    - Berfokus pada **damage area luas** untuk membersihkan gelombang bandit dengan cepat.
+    - Lebih menyukai seluler atau konsol untuk sesi farming yang santai dan berulang.
+    - Memprioritaskan pengurangan cooldown daripada alat melarikan diri dengan mobilitas tinggi.
+  </Card>
+  <Card title="Duelist PvP">
+    - Membutuhkan **input keyboard yang presisi** di PC untuk waktu reaksi yang cepat.
+    - Berfokus pada kombo burst target tunggal dan pembatalan animasi.
+    - Memprioritaskan kecepatan gerakan dan optimalisasi waktu menghindar.
+  </Card>
+  <Card title="Spesialis Raid">
+    - Menyeimbangkan **kelangsungan hidup dan kegunaan tim** untuk menaklukkan pertarungan bos.
+    - Diuntungkan dari koneksi PC yang stabil untuk menghindari pemutusan hubungan akibat ping tinggi.
+    - Memprioritaskan penempatan posisi defensif dan output damage yang berkelanjutan.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Map} title="Progres Pemula & Langkah-Langkah Leveling">
+
+Menavigasi tahap awal Battle Piece memerlukan pendekatan terstruktur untuk menghindari pemborosan waktu di zona farming yang tidak efisien. Tujuan utama bagi pemain baru adalah membangun fondasi pertempuran yang andal sambil terus berupaya menuju batas level saat ini yaitu 600.
+
+<Steps>
+  <Step num="1" title="Mulai Pengalaman dengan Aman">
+    Akses game melalui [Halaman Roblox Battle Piece [🔥RELEASE⚗️]](https://www.roblox.com/games/98662768290911/Battle-Piece) resmi untuk memastikan Anda memainkan versi asli dan diperbarui oleh Studio Multiverse.
+  </Step>
+  <Step num="2" title="Kuasai Dasar-Dasar Farming Bandit">
+    Temukan spawn bandit pemula. Latihlah menarik beberapa bandit ke dalam satu kelompok sebelum melepaskan keterampilan area-of-effect Anda untuk memaksimalkan poin pengalaman per menit.
+  </Step>
+  <Step num="3" title="Optimalkan Koneksi Server Anda">
+    Jika Anda mengalami penundaan input atau ping tinggi, buka browser server dan bergabunglah dengan server privat. Koneksi yang stabil sangat penting untuk mempelajari waktu menghindar dan melancarkan kombo pertempuran cepat.
+  </Step>
+  <Step num="4" title="Capai Batas Level 600">
+    Transisi ke pulau-pulau dengan level lebih tinggi seiring meningkatnya level Anda. Jangan mencoba raid tingkat tinggi atau pertandingan PvP kompetitif sampai Anda mendekati batas level 600, karena perbedaan statistik dasar memainkan peran besar dalam hasil pertempuran.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Manajemen Ping">
+Latensi tinggi dapat membuat pertempuran terasa tidak responsif, menyebabkan keterampilan Anda meleset atau gagal terdaftar. Jika server publik terlalu padat, berinvestasi atau bergabung dengan server privat teman dapat meningkatkan efisiensi farming Anda secara signifikan.
+</Callout>
+
+Untuk melacak kemajuan Anda secara efektif, perhatikan daftar pencapaian penting ini saat Anda menaikkan level karakter Anda:
+
+<Checklist
+  id="beginner-milestones"
+  title="Pencapaian Pemula yang Harus Diselesaikan:"
+  items={[
+    "Capai Level 100 pada spawn bandit pemula",
+    "Buka kekuatan atau keterampilan senjata pertama Anda yang berfokus pada mobilitas",
+    "Dapatkan senjata jarak dekat yang andal untuk pertempuran jarak dekat yang konsisten",
+    "Buat pengaturan koneksi yang stabil menggunakan server privat",
+    "Capai batas Level 600 untuk membuka raid akhir game"
+  ]}
+/>
+
+Berikut adalah rincian rute leveling yang direkomendasikan berdasarkan kekuatan karakter Anda saat ini:
+
+| Rentang Level | Aktivitas Target | Fokus Strategi | Rekomendasi Jenis Server |
+| :--- | :--- | :--- | :--- |
+| **1 - 100** | Bandit Pemula | Pelajari waktu dan jangkauan serangan dasar. | Diutamakan Server Privat |
+| **101 - 300** | Bandit Lanjutan | Buka kekuatan awal dan uji keterampilan mobilitas. | Diutamakan Server Privat |
+| **301 - 500** | Tantangan Bos | Koordinasikan kombo dasar dan rute penghindaran. | Server Publik atau Privat |
+| **501 - 600** | Raid & PvP | Maksimalkan loadout dan bersiap untuk konten grup. | Server Publik untuk PvP |
+
+</Section>
+
+<Section icon={Sparkles} title="Daftar Tier Senjata & Kekuatan">
+
+Memilih kombinasi senjata dan kekuatan yang tepat menentukan efisiensi Anda dalam farming PvE dan pertemuan PvP. Meskipun keterampilan individu pemain sangat berpengaruh, jenis loadout tertentu menawarkan keuntungan mekanis yang jelas dalam versi Alpha saat ini.
+
+| Tier | Jenis Loadout | Kekuatan Utama | Mode Game Ideal |
+| :--- | :--- | :--- | :--- |
+| **S** | Mobilitas + Burst | Alat melarikan diri yang tinggi dan jendela damage instan. | Pertempuran PvP dan Reposisi Raid |
+| **A** | PvE Area Luas | Pembersihan grup yang efisien dan kecepatan farming. | Farming Bandit dan Gelombang Raid |
+| **A** | Melee Sederhana | Waktu serangan yang konsisten dan cooldown rendah. | Leveling pemula dan latihan pertempuran |
+| **B** | Duel Target Tunggal | Tekanan kuat pada target yang terisolasi. | Latihan PvP dan pertarungan bos |
+| **B** | Penempatan Posisi Defensif | Tingkat kelangsungan hidup yang tinggi dan alat untuk mundur. | Raid yang berfokus pada kelangsungan hidup |
+| **C** | Mobilitas Rendah Lambat | Damage murni yang tinggi tetapi rentan terhadap penempatan posisi. | Pengujian PvE bertekanan rendah |
+
+<Callout type="info" title="Keserbagunaan Build">
+Jangan hanya mengandalkan loadout tier-S untuk segalanya. Build PvE area luas (tier-A) sering kali mengungguli build burst mobilitas tinggi (tier-S) saat melakukan grinding level dari 1 hingga 600 karena kemampuannya untuk membersihkan beberapa bandit secara bersamaan.
+</Callout>
+
+Saat menyusun build Anda, cobalah untuk memasangkan kekuatan mobilitas tinggi dengan senjata yang menawarkan penempatan posisi defensif yang andal. Kombinasi ini memastikan Anda memiliki alat untuk menyerang target dengan cepat sambil mempertahankan rute melarikan diri jika pertempuran berbalik melawan Anda.
+
+</Section>
+
+<Section icon={Target} title="Strategi Raid & PvP">
+
+Progres akhir game di Battle Piece berkisar pada penguasaan raid dan menguji keterampilan Anda dalam pertandingan PvP. Kedua aktivitas tersebut memerlukan pemahaman mendalam tentang mekanik pertempuran, tetapi menuntut pendekatan taktis yang sama sekali berbeda.
+
+| Langkah Persiapan | Persyaratan Raid | Persyaratan PvP |
+| :--- | :--- | :--- |
+| **Target Level** | Mendekati batas level **600** | Direkomendasikan Level **400+** |
+| **Prioritas Loadout** | Damage area luas dan kelangsungan hidup | Mobilitas tinggi dan potensi burst |
+| **Pengaturan Jaringan** | Server privat untuk menghindari lag raid | Server ping rendah untuk akurasi input |
+| **Koordinasi Tim** | Prioritas tinggi untuk pembersihan grup | Opsional, fokus pada penempatan posisi individu |
+
+<Callout type="tip" title="Penempatan Posisi Pertempuran">
+Baik di PvP maupun raid, menyerang dengan serakah akan menyebabkan kekalahan cepat. Pelajari cara memancing cooldown lawan sebelum melakukan kombo burst berdamage tinggi Anda. Gunakan keterampilan mobilitas Anda secara defensif untuk mengatur ulang pertempuran saat diperlukan.
+</Callout>
+
+Untuk raid, koordinasi dengan tim Anda sangatlah vital. Pastikan grup Anda memiliki keseimbangan crowd control untuk menjaga musuh tetap berkumpul dan dealer damage tinggi untuk menghabiskan bilah kesehatan bos. Di PvP, fokuslah sepenuhnya pada penempatan posisi individu, mempelajari jangkauan tepat dari senjata lawan Anda, dan menghukum serangan mereka yang meleset.
+
+</Section>
+
+<Section icon={Trophy} title="Pertanyaan yang Sering Diajukan">
+
+<FAQ items={[
+  {
+    question: "Berapa batas level maksimum dalam Battle Piece Alpha saat ini?",
+    answer: "Batas level saat ini dalam rilis Alpha Battle Piece is 600. Mencapai batas ini direkomendasikan sebelum terlibat dalam raid tingkat tinggi atau PvP kompetitif."
+  },
+  {
+    question: "Bagaimana cara mengurangi lag pertempuran dan penundaan input?",
+    answer: "Pengembang merekomendasikan untuk bergabung dengan server privat jika Anda mengalami ping tinggi. Ini menyediakan lingkungan yang lebih stabil untuk farming bandit dan melatih kombo pertempuran."
+  },
+  {
+    question: "Di mana saya dapat menemukan trailer resmi dan log pembaruan Battle Piece?",
+    answer: "Anda dapat menonton pertunjukan gameplay seperti trailer Pembaruan Sukuna untuk melihat aksi mekanik pertempuran, dan bergabung dengan komunitas Roblox Studio Multiverse untuk mendapatkan catatan rilis dan kode resmi."
+  },
+  {
+    question: "Apakah ada kode yang tersedia untuk membantu saya naik level lebih cepat?",
+    answer: "Ketika kode dirilis oleh Studio Multiverse, kode tersebut dapat ditukarkan di dalam game. Selalu periksa deskripsi halaman resmi Roblox untuk daftar kode aktif terbaru."
+  }
+]} />
+
+<Callout type="warning" title="Keamanan Komunitas">
+Hanya percayai kode dan detail pembaruan yang diposting langsung di halaman resmi Roblox atau grup komunitas Studio Multiverse yang terverifikasi. Hindari situs web pihak ketiga yang mengklaim memiliki kode eksklusif, asalkan sering kali sudah kedaluwarsa atau palsu.
+</Callout>
+
+</Section>

@@ -10,7 +10,16 @@
       "twitterDescription": "Battle Piece Wiki with updated codes, fruit and weapon guides, raids, PvP tips, and level cap info for the Roblox adventure."
     }
   },
-  "nav": {},
+  "nav": {
+      "codes": "Codes",
+      "guide": "Guide",
+      "powers": "Powers",
+      "weapons": "Weapons",
+      "combat": "Combat",
+      "updates": "Updates",
+      "release": "Release",
+      "discord": "Discord"
+    },
   "common": {
     "home": "Home",
     "more": "More",
@@ -475,125 +484,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Battle Piece Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced strategies. Master combat, leveling, and progression.",
-      "metaTitle": "Battle Piece Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Battle Piece guides covering beginner tips, combat systems, leveling strategies, and expert tactics for mastering the anime Roblox adventure.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, combat strategies, and progression. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "codes": {
+      "title": "Battle Piece Codes",
+      "description": "Latest working Battle Piece codes for free boosts, rewards, and level-up items. Updated regularly with verified redeem codes and step-by-step redemption instructions.",
+      "metaTitle": "Battle Piece Codes - Free Boosts & Redeem Rewards",
+      "metaDescription": "Get free boosts and rewards with active Battle Piece codes. Updated regularly with verified working codes and a step-by-step redemption guide for Roblox.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Battle Piece Codes?",
+      "whatIsDescription": "Battle Piece codes are promotional keys released by Studio Multiverse that grant free in-game boosts, rewards, and progression items. They are typically dropped during updates, milestones, and special events to help players level up faster and try new content.",
+      "why": "Why redeem Battle Piece codes?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand combat and progression and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to level up and thrive in Battle Piece",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for PvP, raids, and farming"
+        "step1Title": "Claim Free Boosts",
+        "step1Description": "Instantly receive EXP boosts, rewards, and progression items without spending Robux",
+        "step2Title": "Speed Up Leveling",
+        "step2Description": "Use free boosts to grind bandits and climb toward the Level 600 cap faster",
+        "step3Title": "Stay Ahead of Updates",
+        "step3Description": "Grab code rewards whenever new powers, weapons, or raid content drops"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "guide": {
+      "title": "Battle Piece Guide",
+      "description": "Complete Battle Piece guides covering beginner basics, progression routes, leveling strategies, and how to play this anime Roblox adventure from day one.",
+      "metaTitle": "Battle Piece Guide - Beginner to Pro Progression",
+      "metaDescription": "Master Battle Piece with complete guides. Learn how to play, beginner tips, progression routes, and leveling strategies for this anime Roblox adventure.",
+      "categoryLabel": "GAME GUIDES",
+      "whatIs": "What is the Battle Piece Guide?",
+      "whatIsDescription": "The Battle Piece guide covers everything you need to start strong and progress efficiently, from your first hour of defeating bandits to unlocking powers, weapons, PvP, and raids across the Alpha release.",
+      "why": "Why read Battle Piece guides?",
+      "whySteps": {
+        "step1Title": "Learn the Basics",
+        "step1Description": "Understand core mechanics, controls, and what to do in your first session",
+        "step2Title": "Progress Efficiently",
+        "step2Description": "Follow proven leveling routes and power-unlock paths to avoid wasting time",
+        "step3Title": "Prepare for Endgame",
+        "step3Description": "Get ready for PvP, raids, and the Level 600 cap with expert tips"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
+    "powers": {
       "title": "Battle Piece Powers",
-      "description": "Master powers and abilities with type breakdowns, acquisition methods, and strength comparisons.",
-      "metaTitle": "Battle Piece Powers - Types, Acquisition & Strength",
-      "metaDescription": "Master Battle Piece powers and abilities. Learn power types, how to get them, and how they compare for PvE and PvP.",
+      "description": "Complete Battle Piece powers database covering every ability, fruit, and spec. Compare power types, learn how to obtain them, and find the best powers for PvE and PvP.",
+      "metaTitle": "Battle Piece Powers - Abilities, Fruits & Specs Guide",
+      "metaDescription": "Explore all Battle Piece powers, abilities, fruits, and specs. Learn how to obtain each power and find the best picks for PvE farming and PvP combat.",
       "categoryLabel": "POWERS & ABILITIES",
-      "whatIs": "What are Powers?",
-      "whatIsDescription": "Powers and abilities define your combat style in Battle Piece. Learn power types, roles, and how to build around PvE or PvP.",
-      "why": "Why study powers?",
+      "whatIs": "What are Battle Piece Powers?",
+      "whatIsDescription": "Battle Piece powers are special abilities and specs that define your playstyle, from fruit-based attacks to unique combat skills. Each power has different damage, range, control, and mobility, making some better for PvE farming and others for PvP.",
+      "why": "Why study Battle Piece powers?",
       "whySteps": {
-        "step1Title": "Unlock Strong Powers",
-        "step1Description": "Discover essential powers through progression and events",
-        "step2Title": "Understand Roles",
-        "step2Description": "Learn how each power fits PvE, PvP, or raid content",
-        "step3Title": "Optimize Builds",
-        "step3Description": "Combine powers and weapons for the strongest loadout"
+        "step1Title": "Find Your Playstyle",
+        "step1Description": "Compare power types to pick abilities that match how you like to fight",
+        "step2Title": "Learn How to Obtain",
+        "step2Description": "Discover where and how to unlock each power and fruit in the game",
+        "step3Title": "Optimize for PvE & PvP",
+        "step3Description": "Choose the best powers for bandit farming, raids, and PvP matchups"
       },
       "featured": "Featured & Essential",
-      "all": "All Power Guides"
+      "all": "All Powers"
     },
-    "items": {
+    "weapons": {
       "title": "Battle Piece Weapons",
-      "description": "Detailed weapon guides covering attack types, ranges, and usage tips for PvE and PvP.",
-      "metaTitle": "Battle Piece Weapons - Attack Types & Usage Guide",
-      "metaDescription": "Complete weapon database for Battle Piece including attack types, ranges, and usage strategies for every weapon.",
-      "categoryLabel": "WEAPONS & GEAR",
-      "whatIs": "What are Weapons?",
-      "whatIsDescription": "Comprehensive guides for weapons and gear. Learn attack styles, ranges, and how to use each weapon effectively.",
-      "why": "Why check weapon guides?",
+      "description": "Complete Battle Piece weapons guide covering every sword, melee weapon, and spec. Compare weapon stats, learn how to get them, and find the best weapons for your build.",
+      "metaTitle": "Battle Piece Weapons - Swords, Specs & Tier List",
+      "metaDescription": "Discover all Battle Piece weapons including swords, melee gear, and specs. Compare stats, learn how to obtain each weapon, and find the best picks with our tier list.",
+      "categoryLabel": "WEAPONS & SPECS",
+      "whatIs": "What are Battle Piece Weapons?",
+      "whatIsDescription": "Battle Piece weapons are melee gear and specs that shape your close-range combat, from starter swords to late-game weapons with unique attack patterns, range, and combo potential when paired with powers.",
+      "why": "Why compare Battle Piece weapons?",
       "whySteps": {
-        "step1Title": "Learn Attack Styles",
-        "step1Description": "Discover how each weapon handles in combat",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best weapons for your playstyle and stage",
-        "step3Title": "Improve Combat",
-        "step3Description": "Equip the right weapon for bandits, PvP, and raids"
+        "step1Title": "Compare Weapon Stats",
+        "step1Description": "Evaluate attack range, speed, and feel to find weapons that suit your style",
+        "step2Title": "Learn How to Obtain",
+        "step2Description": "Find where each weapon drops and what it takes to unlock or upgrade it",
+        "step3Title": "Build the Best Loadout",
+        "step3Description": "Pair the right weapon with your powers and traits for maximum damage"
       },
       "featured": "Featured & Essential",
       "all": "All Weapons"
     },
-    "biomes": {
-      "title": "Battle Piece Raids",
-      "description": "Explore raid entries, requirements, rewards, and team preparation for every raid.",
-      "metaTitle": "Battle Piece Raids - Entries, Rewards & Team Prep",
-      "metaDescription": "Explore Battle Piece raids including entries, requirements, rewards, and team preparation. Conquer every challenging raid.",
-      "categoryLabel": "RAIDS & BOSSES",
-      "whatIs": "What are Raids?",
-      "whatIsDescription": "Guides to raid entries, requirements, reward types, and team preparation. Learn what to expect and how to prepare for each raid.",
-      "why": "Why prepare for raids?",
+    "combat": {
+      "title": "Battle Piece Combat",
+      "description": "Master Battle Piece combat with PvP guides, boss strategies, fighting styles, and the strongest anime characters. Learn combos, counters, and build setups for every matchup.",
+      "metaTitle": "Battle Piece Combat - PvP, Boss & Fighting Style Guide",
+      "metaDescription": "Dominate Battle Piece combat with PvP guides, boss strategies, best fighting styles, and the strongest anime characters. Learn combos, counters, and optimal build setups.",
+      "categoryLabel": "COMBAT & PVP",
+      "whatIs": "What is Battle Piece Combat?",
+      "whatIsDescription": "Battle Piece combat covers everything from bandit farming to high-stakes PvP and boss fights. Master fighting styles, combo chains, movement, and counters to take on the strongest anime characters and other players.",
+      "why": "Why master Battle Piece combat?",
       "whySteps": {
-        "step1Title": "Find Raid Entries",
-        "step1Description": "Locate raid entries and meet participation requirements",
-        "step2Title": "Avoid Wipes",
-        "step2Description": "Understand raid mechanics and team roles",
-        "step3Title": "Plan Progression",
-        "step3Description": "Prepare the right powers and weapons for each raid"
+        "step1Title": "Learn PvP Mechanics",
+        "step1Description": "Understand combos, movement, and counters to win player matchups",
+        "step2Title": "Beat Every Boss",
+        "step2Description": "Use proven strategies and recommended levels to take down challenging bosses",
+        "step3Title": "Build the Strongest Setup",
+        "step3Description": "Combine the best powers, weapons, and fighting styles for maximum output"
       },
       "featured": "Featured & Essential",
-      "all": "All Raid Guides"
+      "all": "All Combat Guides"
     },
-    "building": {
-      "title": "Battle Piece PvP",
-      "description": "Master PvP mechanics, combos, positioning, counters, and build combinations.",
-      "metaTitle": "Battle Piece PvP - Combos, Counters & Builds",
-      "metaDescription": "Master Battle Piece PvP with mechanics, combos, positioning, counters, and build combinations for player-vs-player battles.",
-      "categoryLabel": "PVP COMBAT",
-      "whatIs": "What is PvP?",
-      "whatIsDescription": "Guides to PvP mechanics, combos, positioning, counters, and build combinations. Learn to win player battles consistently.",
-      "why": "Why train PvP?",
+    "updates": {
+      "title": "Battle Piece Updates",
+      "description": "Track every Battle Piece update, patch note, and content drop including the Sukuna update. Stay current with new powers, weapons, raids, and balance changes.",
+      "metaTitle": "Battle Piece Updates - Patch Notes & Content Tracker",
+      "metaDescription": "Stay current with Battle Piece updates, patch notes, and new content drops including the Sukuna update. Track new powers, weapons, raids, and balance changes.",
+      "categoryLabel": "UPDATES & PATCHES",
+      "whatIs": "What are Battle Piece Updates?",
+      "whatIsDescription": "Battle Piece is in active Alpha development, with Studio Multiverse shipping frequent updates, hotfixes, and major content drops like the Sukuna update. These bring new powers, weapons, raids, level cap changes, and balance tweaks.",
+      "why": "Why follow Battle Piece updates?",
       "whySteps": {
-        "step1Title": "Learn Mechanics",
-        "step1Description": "Understand PvP fundamentals and combat flow",
-        "step2Title": "Build Combos",
-        "step2Description": "Chain powers and weapons into effective combos",
-        "step3Title": "Win Fights",
-        "step3Description": "Master positioning, spacing, and counters"
+        "step1Title": "Catch New Content",
+        "step1Description": "Be first to try new powers, weapons, and raid content as they drop",
+        "step2Title": "Understand Meta Shifts",
+        "step2Description": "Track balance changes that affect which builds and powers stay strong",
+        "step3Title": "Never Miss a Code",
+        "step3Description": "Updates often come with fresh redeem codes for free boosts and rewards"
       },
       "featured": "Featured & Essential",
-      "all": "All PvP Guides"
+      "all": "All Updates"
     },
-    "support": {
-      "title": "Battle Piece Leveling",
-      "description": "Leveling routes, EXP flow, private server tips, and grinding habits for fast progression.",
-      "metaTitle": "Battle Piece Leveling - Routes, EXP & Grinding",
-      "metaDescription": "Get Battle Piece leveling guides including routes, EXP flow, private server tips, and grinding habits for fast progression to Level 600.",
-      "categoryLabel": "LEVELING & PROGRESSION",
-      "whatIs": "What is Leveling?",
-      "whatIsDescription": "Leveling guides covering routes, EXP flow, private server use, and grinding habits. Reach the Level Cap of 600 efficiently.",
-      "why": "Why plan leveling?",
+    "release": {
+      "title": "Battle Piece Release",
+      "description": "Everything about the Battle Piece release on Roblox, including early access status, supported devices, trailers, and what to expect from this new anime adventure RPG.",
+      "metaTitle": "Battle Piece Release - Roblox Early Access & Trailer",
+      "metaDescription": "Learn about the Battle Piece release on Roblox, including early access status, supported devices, trailers, and what this new anime adventure RPG has to offer.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is the Battle Piece Release?",
+      "whatIsDescription": "Battle Piece is a new anime-inspired Roblox adventure RPG by Studio Multiverse, currently in Alpha early access with a Level 600 cap. It supports PC, Mobile, and Console and keeps expanding with new powers, weapons, and raids.",
+      "why": "Why follow the Battle Piece release?",
       "whySteps": {
-        "step1Title": "Find Routes",
-        "step1Description": "Follow efficient leveling routes through bandits and raids",
-        "step2Title": "Boost EXP",
-        "step2Description": "Use EXP flow and private servers to level faster",
-        "step3Title": "Reach the Cap",
-        "step3Description": "Progress steadily toward the Level 600 cap"
+        "step1Title": "Know the Status",
+        "step1Description": "Understand the Alpha phase, level cap, and what content is available now",
+        "step2Title": "Check Device Support",
+        "step2Description": "Confirm whether Battle Piece runs on your PC, mobile, or console setup",
+        "step3Title": "Watch the Trailer",
+        "step3Description": "See gameplay and upcoming features before diving into the full game"
       },
       "featured": "Featured & Essential",
-      "all": "All Leveling Guides"
+      "all": "All Release Info"
+    },
+    "discord": {
+      "title": "Battle Piece Discord & Community",
+      "description": "Find the official Battle Piece Discord server, Roblox group, and community links. Connect with Studio Multiverse, get updates, codes, and raid teammates safely.",
+      "metaTitle": "Battle Piece Discord - Official Community & Links",
+      "metaDescription": "Connect with the Battle Piece community through the official Discord, Roblox group, and verified links. Get updates, codes, and raid teammates from Studio Multiverse.",
+      "categoryLabel": "COMMUNITY",
+      "whatIs": "What is the Battle Piece Community?",
+      "whatIsDescription": "The Battle Piece community is where players gather for real-time announcements, code drops, patch notes, and raid coordination. The main verified hubs are the Studio Multiverse Roblox group and game page, with the Discord server used for updates and discussion.",
+      "why": "Why join the Battle Piece community?",
+      "whySteps": {
+        "step1Title": "Get Fast Updates",
+        "step1Description": "Receive announcements, code drops, and patch notes as soon as they happen",
+        "step2Title": "Find Raid Teammates",
+        "step2Description": "Connect with other players to tackle raids, bosses, and PvP together",
+        "step3Title": "Stay Safe",
+        "step3Description": "Use only verified official links from the Roblox page to avoid phishing"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Community Resources"
     }
   }
 }

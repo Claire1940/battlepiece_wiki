@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Trailer de Battle Piece: Guia de Combate Alfa e Leveling",
+  description: "Analise o trailer de Battle Piece e aprenda as mecânicas principais do Alfa, desde o farm de bandidos até o combate PvP, raids e como alcançar o limite de nível 600.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Battle+Piece+Trailer+Guide",
+  date: "2026-06-20",
+  author: "Equipe da Wiki de Battle Piece"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Jogabilidade Principal**: Battle Piece é uma aventura de ação inspirada em anime no Roblox, apresentando farm de bandidos PvE, raids e batalhas PvP.
+- **Progressão Atual**: A versão Alfa atual apresenta um limite de nível máximo de **600**.
+- **Suporte de Plataforma**: Totalmente jogável em PC, dispositivos móveis e consoles.
+- **Gerenciamento de Lag**: O uso de um servidor privado é altamente recomendado para minimizar a latência durante combates intensos.
+</Callout>
+
+<Section icon={Swords} title="Trailer de Battle Piece: Atualização do Sukuna e Visão Geral do Combate">
+
+O lançamento das últimas imagens de gameplay mostra a rápida evolução de Battle Piece durante sua fase Alfa. Desenvolvido pelo Studio Multiverse, o jogo combina mecânicas clássicas de combate de anime com loops de progressão estruturados. As atualizações recentes destacam combates de alta mobilidade, habilidades de área de efeito e confrontos desafiadores contra chefes que exigem timing e espaçamento precisos.
+
+**Destaques do Vídeo:**
+- Demonstra os conjuntos de habilidades de alta mobilidade e o potencial de dano explosivo (burst) da atualização inspirada no Sukuna.
+- Mostra ataques de área de efeito que são altamente eficazes para limpar spawns de bandidos agrupados.
+- Destaca as dicas visuais para espaçamento de combate, mostrando como se esquivar de ataques de chefes e contra-atacar de forma eficaz.
+- Ilustra a fluidez do combate multiplataforma, confirmando controles responsivos em diferentes métodos de entrada.
+
+<YouTubeEmbed videoId="iTPzGAWfwos" title="[Trailer] Sukuna Update [Battle Piece]" />
+
+<Callout type="tip" title="Aviso do Desenvolvedor">
+Como Battle Piece está em seu ciclo de desenvolvimento Alfa, os jogadores podem enfrentar lag ocasional no servidor ou pequenos bugs visuais. Acompanhar os anúncios no [Grupo oficial do Studio Multiverse no Roblox](https://www.roblox.com/communities/903561179/Studio-Multiverse) é a melhor maneira de se manter atualizado sobre as correções que estão por vir.
+</Callout>
+
+Os jogadores que desejam começar sua jornada devem estudar essas demonstrações de combate para entender como diferentes poderes interagem com as armas. O espaçamento mostrado nas imagens enfatiza que o dano bruto é apenas metade da batalha; a movimentação e o gerenciamento de cooldowns são o que te mantêm vivo em zonas de nível mais alto.
+
+</Section>
+
+<Section icon={Shield} title="Modos de Jogo e Plataformas Suportadas">
+
+Battle Piece oferece um sandbox versátil que atende tanto a jogadores cooperativos de PvE quanto a entusiastas competitivos de PvP. O jogo é construído na plataforma Roblox, permitindo cross-play contínuo entre múltiplos dispositivos. No entanto, a configuração ideal depende muito do modo de jogo em que você está focando.
+
+| Plataforma | Esquema de Controle | Notas de Desempenho |
+| :--- | :--- | :--- |
+| **PC** | Teclado e Mouse | Oferece a entrada mais precisa para batalhas PvP e movimentação em raids. |
+| **Celular** | Tela de toque | Portátil, mas requer ajustes de layout de interface personalizados para evitar lag. |
+| **Console** | Controle | Layout confortável, embora a navegação nos menus possa parecer mais lenta no Alfa. |
+
+Compreender os modos principais é essencial antes de escolher a build do seu personagem. Cada modo exige um equilíbrio diferente de defesa, mobilidade e produção de dano.
+
+| Tipo de Modo | Inimigos Principais | Recompensas Principais | Valor de Progressão |
+| :--- | :--- | :--- | :--- |
+| **Farm de Bandidos** | Bandidos NPC | EXP e Ouro Básicos | Essencial para níveis iniciais e prática de combate. |
+| **Batalhas PvP** | Jogadores Ativos | Classificação de Combate | Alto valor para testar builds contra oponentes reais. |
+| **Raids** | Chefes e Ondas | Drops Raros | Verificação de progressão de fim de jogo para jogadores de nível 600. |
+
+<Callout type="success" title="Sincronização Multiplataforma">
+A progressão do seu personagem, poderes desbloqueados e status de nível são transferidos automaticamente para todas as plataformas suportadas. Você pode farmar bandidos no celular durante sessões rápidas e mudar para o PC para partidas competitivas de PvP.
+</Callout>
+
+Para ajudar você a decidir como alocar seus recursos e escolher a configuração da sua plataforma, considere as seguintes configurações de estilo de jogo:
+
+<CardGrid cols={3}>
+  <Card title="O Grinder PvE">
+    - Foca em **dano de área ampla** para limpar ondas de bandidos rapidamente.
+    - Prefere celular ou console para sessões de farm relaxadas e repetitivas.
+    - Prioriza a redução de cooldown em vez de ferramentas de fuga de alta mobilidade.
+  </Card>
+  <Card title="O Duelista PvP">
+    - Requer **comandos de teclado precisos** no PC para tempos de reação rápidos.
+    - Foca em combos explosivos de alvo único e cancelamento de animação.
+    - Prioriza a velocidade de movimento e a otimização da janela de esquiva.
+  </Card>
+  <Card title="O Especialista em Raids">
+    - Equilibra **sobrevivência e utilidade de equipe** para vencer lutas contra chefes.
+    - Beneficia-se de uma conexão estável de PC para evitar desconexões por ping alto.
+    - Prioriza o espaçamento defensivo e a produção de dano sustentado.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Map} title="Progressão para Iniciantes e Passos de Leveling">
+
+Navegar pelas fases iniciais de Battle Piece requer uma abordagem estruturada para evitar o desperdício de tempo em zonas de farm ineficientes. O objetivo principal de qualquer novo jogador é construir uma base de combate confiável enquanto trabalha constantemente em direção ao limite de nível atual de 600.
+
+<Steps>
+  <Step num="1" title="Inicie a Experiência com Segurança">
+    Acesse o jogo através da [[🔥RELEASE⚗️] Página Oficial de Battle Piece no Roblox](https://www.roblox.com/games/98662768290911/Battle-Piece) para garantir que você está jogando a versão autêntica e atualizada do Studio Multiverse.
+  </Step>
+  <Step num="2" title="Domine o Básico do Farm de Bandidos">
+    Localize os spawns de bandidos iniciais. Pratique atrair múltiplos bandidos para um único grupo antes de liberar suas habilidades de área de efeito para maximizar seus pontos de experiência por minuto.
+  </Step>
+  <Step num="3" title="Otimize sua Conexão com o Servidor">
+    Se você tiver atraso de entrada ou ping alto, abra o navegador de servidores e entre em um servidor privado. Uma conexão estável é crucial para aprender as janelas de esquiva e acertar combos de combate rápidos.
+  </Step>
+  <Step num="4" title="Alcance o Limite de Nível 600">
+    Transicione para ilhas de nível mais alto à medida que seu nível aumenta. Não tente raids de alto nível ou partidas competitivas de PvP até estar perto do limite de nível 600, pois as diferenças de atributos básicos desempenham um papel importante nos resultados do combate.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Gerenciamento de Ping">
+A latência alta pode fazer com que o combate pareça não responsivo, fazendo com que suas habilidades falhem ou não registrem o dano. Se os servidores públicos estiverem lotados, investir em um servidor privado ou juntar-se ao de um amigo pode melhorar significativamente a sua eficiência de farm.
+</Callout>
+
+Para acompanhar seu progresso de forma eficaz, mantenha esta lista de marcos essenciais em mente enquanto sobe o nível do seu personagem:
+
+<Checklist
+  id="beginner-milestones"
+  title="Marcos de Iniciante para Concluir:"
+  items={[
+    "Alcançar o Nível 100 nos spawns de bandidos iniciais",
+    "Desbloquear sua primeira habilidade de arma ou poder focado em mobilidade",
+    "Adquirir uma arma corpo a corpo confiável para combate consistente de curto alcance",
+    "Estabelecer uma conexão estável usando servidores privados",
+    "Alcançar o limite do Nível 600 para desbloquear raids de fim de jogo"
+  ]}
+/>
+
+Aqui está uma análise da rota de leveling recomendada com base na força atual do seu personagem:
+
+| Faixa de Nível | Atividade Alvo | Foco da Estratégia | Recomendação de Tipo de Servidor |
+| :--- | :--- | :--- | :--- |
+| **1 - 100** | Bandidos Iniciais | Aprender o timing e alcance básico dos ataques. | Preferência por Servidor Privado |
+| **101 - 300** | Bandidos Avançados | Desbloquear poderes iniciais e testar habilidades de mobilidade. | Preferência por Servidor Privado |
+| **301 - 500** | Desafios de Chefes | Coordenar combos básicos e rotas de evasão. | Servidor Público ou Privado |
+| **501 - 600** | Raids e PvP | Maximizar loadouts e se preparar para conteúdo em grupo. | Servidor Público para PvP |
+
+</Section>
+
+<Section icon={Sparkles} title="Tier List de Armas e Poderes">
+
+Escolher a combinação certa de armas e poderes determina sua eficiência tanto no farm PvE quanto nos confrontos PvP. Embora a habilidade pessoal do jogador seja altamente influente, certos tipos de loadouts oferecem vantagens mecânicas distintas na versão Alfa atual.
+
+| Tier | Tipo de Loadout | Força Principal | Modo de Jogo Ideal |
+| :--- | :--- | :--- | :--- |
+| **S** | Mobilidade + Burst | Altas ferramentas de fuga e janela de dano instantâneo. | Batalhas PvP e reposicionamento em Raids |
+| **A** | PvE de Área Ampla | Limpeza eficiente de grupos e velocidade de farm. | Farm de Bandidos e ondas de Raid |
+| **A** | Corpo a Corpo Simples | Timing de acerto consistente e cooldowns baixos. | Leveling para iniciantes e prática de combate |
+| **B** | Duelo de Alvo Único | Forte pressão em alvos isolados. | Prática de PvP e lutas contra chefes |
+| **B** | Espaçamento Defensivo | Altas taxas de sobrevivência e ferramentas de desengajamento. | Raids focadas em sobrevivência |
+| **C** | Lento com Baixa Mobilidade | Alto dano bruto, mas vulnerável ao espaçamento. | Testes de PvE de baixa pressão |
+
+<Callout type="info" title="Versatilidade de Builds">
+Não dependa apenas de loadouts S-tier para tudo. Uma build PvE de área ampla (A-tier) frequentemente superará uma build de burst de alta mobilidade (S-tier) ao subir níveis do 1 ao 600, devido à sua capacidade de limpar múltiplos bandidos simultaneamente.
+</Callout>
+
+Ao construir sua build, tente combinar um poder de alta mobilidade com uma arma que ofereça um espaçamento defensivo confiável. Essa combinação garante que você tenha as ferramentas para engajar alvos rapidamente, mantendo uma rota de fuga caso a luta se volte contra você.
+
+</Section>
+
+<Section icon={Target} title="Estratégia de Raids e PvP">
+
+A progressão de fim de jogo em Battle Piece gira em torno de dominar raids e testar suas habilidades em partidas PvP. Ambas as atividades exigem uma compreensão profunda das mecânicas de combate, mas demandam abordagens táticas totalmente diferentes.
+
+| Passo de Preparação | Requisito de Raid | Requisito de PvP |
+| :--- | :--- | :--- |
+| **Nível Alvo** | Perto do limite do nível **600** | Nível **400+** recomendado |
+| **Prioridade de Loadout** | Dano de área ampla e sobrevivência | Alta mobilidade e potencial de burst |
+| **Configuração de Rede** | Servidor privado para evitar lag na raid | Servidor de ping baixo para precisão de comandos |
+| **Coordenação de Equipe** | Alta prioridade para limpeza de grupos | Opcional, foco no espaçamento individual |
+
+<Callout type="tip" title="Espaçamento de Combate">
+Tanto no PvP quanto em raids, atacar com ganância levará a derrotas rápidas. Aprenda a forçar o uso de cooldowns do oponente antes de se comprometer com seus combos de alto dano. Use suas habilidades de mobilidade defensivamente para reiniciar a luta quando necessário.
+</Callout>
+
+Para raids, a coordenação com sua equipe é vital. Certifique-se de que seu grupo tenha um equilíbrio de controle de grupo (crowd control) para manter os inimigos agrupados e causadores de alto dano para reduzir as barras de vida dos chefes. No PvP, foque inteiramente no espaçamento individual, aprendendo o alcance exato das armas do seu oponente e punindo seus ataques perdidos.
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é o limite de nível máximo no Alfa atual de Battle Piece?",
+    answer: "O limite de nível atual na versão Alfa de Battle Piece é 600. Recomenda-se alcançar este limite antes de participar de raids de alto nível ou PvP competitivo."
+  },
+  {
+    question: "Como faço para reduzir o lag de combate e o atraso de comandos (input delay)?",
+    answer: "Os desenvolvedores recomendam entrar em um servidor privado se você estiver enfrentando ping alto. Isso fornece um ambiente mais estável para farmar bandidos e praticar combos de combate."
+  },
+  {
+    question: "Onde posso encontrar o trailer oficial de Battle Piece e os registros de atualização?",
+    answer: "Você pode assistir a demonstrações de gameplay, como o trailer da Atualização do Sukuna, para ver as mecânicas de combate em ação, e entrar na comunidade do Studio Multiverse no Roblox para obter notas de patch oficiais e códigos."
+  },
+  {
+    question: "Existem códigos disponíveis para me ajudar a subir de nível mais rápido?",
+    answer: "Quando os códigos são lançados pelo Studio Multiverse, eles podem ser resgatados no jogo. Sempre verifique a descrição da página oficial do Roblox para ver as listagens de códigos ativos mais recentes."
+  }
+]} />
+
+<Callout type="warning" title="Segurança da Comunidade">
+Confie apenas em códigos e detalhes de atualização postados diretamente na página oficial do Roblox ou no grupo verificado da comunidade do Studio Multiverse. Evite sites de terceiros que afirmam ter códigos exclusivos, pois estes costumam ser obsoletos ou fraudulentos.
+</Callout>
+
+</Section>

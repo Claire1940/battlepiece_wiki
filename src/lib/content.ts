@@ -17,7 +17,7 @@ function fileNameToSlug(fileName: string): string {
 
 /**
  * 根据 slug 在目录中反查真实文件名（不含 .mdx）
- * 例如 slug="lucid-blocks-guide" → 返回 "lucid:blocks-guide"
+ * 例如 slug="battle-piece-guide" → 返回 "battle:piece-guide"
  */
 export function findFileBySlug(dir: string, slug: string, basePath: string[] = []): string | null {
   if (!fs.existsSync(dir)) return null

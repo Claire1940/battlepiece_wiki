@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Iniciante do Battle Piece: Nivelamento e Configuração de Combate",
+  description: "Domine o Battle Piece no Roblox com nosso guia de iniciante. Aprenda as rotas de farm de bandidos, suba até o nível 600, otimize as configurações e prepare-se para as raids.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/facc15?text=Battle+Piece+First+Time+Guide",
+  date: "2026-06-20",
+  author: "Equipe da Wiki do Battle Piece"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Objetivo Principal**: Use este guia de iniciante do Battle Piece para otimizar o farm inicial de bandidos e progredir em direção ao limite de nível (Level Cap) de 600.
+- **Suporte a Dispositivos**: O jogo suporta cross-play entre PC, Celular e Console, permitindo configurações flexíveis de grind.
+- **Estabilidade do Servidor**: Servidores privados são altamente recomendados para mitigar o ping alto e o lag durante os confrontos de combate.
+- **Loop de Progressão**: Derrote bandidos, desbloqueie poderes, melhore armas e prepare-se para raids de alto nível e batalhas PvP.
+</Callout>
+
+<Section icon={Map} title="Visão Geral do Jogo e Links Oficiais">
+
+Battle Piece, desenvolvido pela Studio Multiverse, é um RPG de ação do Roblox inspirado em anime que coloca os jogadores em um vasto mundo cheio de bandidos, raids de chefes desafiadoras e arenas PvP competitivas. Como uma versão Alpha, o jogo foca bastante em mecânicas de combate, escala de progressão e personalização de personagens. Compreender o loop principal desde o início evita o desperdício de pontos de atributos e otimiza as rotas de nivelamento.
+
+Os jogadores podem acessar a experiência oficial e a comunidade de desenvolvedores através dos links abaixo para acompanhar atualizações, manutenção de servidores e anúncios oficiais:
+
+*   **Página Oficial do Jogo**: [Jogue Battle Piece no Roblox](https://www.roblox.com/games/98662768290911/Battle-Piece)
+*   **Grupo de Desenvolvedores**: [Comunidade Studio Multiverse no Roblox](https://www.roblox.com/communities/903561179/Studio-Multiverse)
+
+Assistir a vídeos de gameplay pode ajudar os jogadores a visualizar o espaçamento de combate, as animações de habilidades e as mecânicas de chefes antes de entrar na arena.
+
+**Destaques do Vídeo:**
+- Pré-visualização visual de habilidades de combate ativas e animações de habilidades.
+- Demonstração de táticas de espaçamento e esquiva durante confrontos com chefes.
+- Demonstração de sinergia entre armas e poderes em combate em tempo real.
+
+<YouTubeEmbed videoId="iTPzGAWfwos" title="Trailer de Atualização do Sukuna" />
+
+<Callout type="warning" title="Aviso de Fase Alpha">
+Como o Battle Piece está em sua fase de desenvolvimento Alpha, os jogadores podem enfrentar quedas ocasionais de desempenho, lag no servidor ou ajustes de balanceamento. Utilizar um servidor privado pode melhorar significativamente a estabilidade da conexão durante sessões intensas de combate.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Fluxo de Progressão da Primeira Hora">
+
+A primeira hora de jogo estabelece as bases para a build do seu personagem. Os iniciantes devem priorizar o nivelamento rápido por meio de combate PvE estruturado, em vez de se envolverem em batalhas PvP prematuras. Foque em estabelecer uma rotina confiável de farm e em obter uma arma básica antes de tentar desbloquear poderes complexos.
+
+Siga estes passos sequenciais para estabelecer seu personagem durante os estágios iniciais do jogo:
+
+<Steps>
+  <Step num="1" title="Selecione sua Plataforma e Configurações">
+    Inicie o jogo no seu dispositivo de preferência. Ajuste as configurações gráficas para garantir uma taxa de quadros estável, o que é crítico para executar esquivas precisas e acertar combos de habilidades durante o combate.
+  </Step>
+  <Step num="2" title="Adquira uma Arma Corpo a Corpo Básica">
+    Localize o mercador inicial ou vendedor de equipamentos para garantir sua primeira arma básica. Isso fornece uma fonte confiável de dano que não depende de tempos de recarga (cooldowns) ou consumo de energia.
+  </Step>
+  <Step num="3" title="Inicie o Farm de Bandidos">
+    Localize o acampamento de bandidos inicial perto da área de spawn inicial. Foque em agrupar pequenos grupos de bandidos para maximizar a eficiência dos seus ataques de área (AoE).
+  </Step>
+  <Step num="4" title="Distribua os Pontos de Atributos com Sabedoria">
+    À medida que sobe de nível, distribua seus pontos de atributos para complementar seu estilo de jogo preferido. Equilibrar defesa e dano da arma principal é recomendado para a sobrevivência no início do jogo.
+  </Step>
+  <Step num="5" title="Desbloqueie seu Primeiro Poder">
+    Assim que acumular recursos suficientes do farm de bandidos, invista no desbloqueio do seu primeiro poder ou especialização (spec) para expandir sua utilidade em combate e opções de mobilidade.
+  </Step>
+</Steps>
+
+Para ajudar a acompanhar seu progresso, consulte a tabela de progressão do início do jogo abaixo para identificar os alvos de farm mais eficientes com base na sua faixa de nível:
+
+| Faixa de Nível | Alvo Recomendado | Nome do Local | Objetivo Principal |
+| :--- | :--- | :--- | :--- |
+| **Níveis 1–50** | Bandidos Básicos | Ilha Inicial | Dominar combos de ataque básico e tempo de reação |
+| **Níveis 51–150** | Bandidos Elites | Ruínas do Posto Avançado | Desbloquear habilidades iniciais de poder e mobilidade |
+| **Níveis 151–300** | Saqueadores do Deserto | Dunas Áridas | Otimizar o gerenciamento de tempos de recarga |
+| **Níveis 301–600** | Chefes de Raid | Arenas de Nível Alto | Alcançar o Limite de Nível 600 e farmar equipamentos de fim de jogo |
+
+<Callout type="tip" title="Dica de Eficiência de Farm">
+Ao farmar bandidos, chame a atenção deles e recue um pouco para reuni-los em um grupo compacto. Isso permite que você cause dano a vários inimigos simultaneamente, reduzindo o tempo de nivelamento pela metade.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecânicas de Combate e Controles">
+
+O combate em Battle Piece é dinâmico e depende muito de espaçamento, tempo de reação e sinergia de habilidades. Os jogadores devem equilibrar o uso de armas físicas e poderes sobrenaturais para manter a pressão sobre os oponentes enquanto gerenciam suas opções defensivas. Compreender o esquema de controle para o seu dispositivo específico é crucial para o sucesso.
+
+<CardGrid cols={3}>
+  <Card title="Atributos de Armas">
+    - **Dano Consistente**: Armas físicas fornecem dano corpo a corpo confiável sem altos custos de energia.
+    - **Potencial de Atordoamento**: Muitas habilidades de armas podem interromper ataques inimigos e abrir janelas para combos subsequentes.
+    - **Caminhos de Melhoria**: As armas podem ser melhoradas ou substituídas conforme você avança por zonas de nível mais alto.
+  </Card>
+  <Card title="Atributos de Poderes">
+    - **Alto Dano de Explosão (Burst)**: Os poderes oferecem habilidades mágicas ou elementais devastadoras que podem limpar grupos de inimigos.
+    - **Opções de Mobilidade**: Muitos poderes incluem avanços (dashes), teleportes ou mecânicas de voo para escapar do perigo.
+    - **Dependente de Cooldown**: Depender apenas de poderes pode deixar você vulnerável quando suas habilidades estiverem em tempo de recarga.
+  </Card>
+  <Card title="Atributos Raciais e Passivos">
+    - **Buffs de Atributos**: Características passivas e raças fornecem bônus fundamentais para vida, velocidade ou dano causado.
+    - **Sistema de Reroll**: Os jogadores podem rolar novamente suas características para otimizar sua build para funções específicas de PvE ou PvP.
+    - **Foco em Sinergia**: Alinhe suas características passivas com sua escolha de arma principal e poder para obter o máximo impacto.
+  </Card>
+</CardGrid>
+
+Para garantir comandos suaves durante o combate, familiarize-se com os layouts de controle padrão nas plataformas suportadas:
+
+| Plataforma | Ataque Leve | Ataque Forte | Esquiva / Avanço | Ativação de Habilidade |
+| :--- | :--- | :--- | :--- | :--- |
+| **PC (Teclado/Mouse)** | Clique Esquerdo | Clique Direito | Tecla Q | Teclas Numéricas (1–5) |
+| **Celular (Tela de Toque)** | Toque no Ícone de Ataque | Toque no Ícone de Ataque Forte | Toque no Botão de Esquiva | Toque na Barra de Habilidades |
+| **Console (Controle)** | Gatilho Direito | Gatilho Esquerdo | Botão B / Círculo | Botões de Ação + Bumpers |
+
+Selecionar o arquétipo de equipamento correto pode influenciar muito seu desempenho em diferentes modos de jogo. A tabela abaixo compara as principais builds de combate disponíveis para os jogadores:
+
+| Arquétipo de Build | Foco Principal | Mais Adequado Para | Principal Vantagem |
+| :--- | :--- | :--- | :--- |
+| **Mobilidade e Explosão** | Alta velocidade, fugas rápidas | Batalhas de Arena PvP | Excelente controle de espaçamento |
+| **PvE de Área Ampla** | Grande dano em área de efeito | Farm de bandidos, nivelamento | Ganho rápido de experiência |
+| **Tanque Defensivo (Juggernaut)** | Vida alta, controle de grupo | Raids desafiadoras | Alta sobrevivência em grupos |
+
+<Callout type="success" title="Sucesso na Sinergia da Build">
+Para a experiência de nivelamento mais rápida, combine um poder de PvE de área ampla com uma arma corpo a corpo de alto dano. Isso permite que você limpe grupos de bandidos rapidamente enquanto mantém uma opção forte de alvo único para chefes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estratégia de Build e Progressão">
+
+À medida que se aproxima do meio do jogo (mid-game), seu foco mudará do simples farm de bandidos para raids desafiadoras e partidas PvP competitivas. Alcançar o limite de nível atual de 600 exige dedicação, equipamentos otimizados e um entendimento claro dos marcos de progressão do fim do jogo (end-game). 
+
+Use o checklist abaixo para acompanhar seus marcos de progressão à medida que faz a transição de iniciante para jogador avançado:
+
+<Checklist
+  id="progression-milestones"
+  title="Principais Marcos de Progressão:"
+  items={[
+    "Alcançar o Nível 150 para desbloquear o conteúdo de meio de jogo",
+    "Adquirir uma arma rara ou lendária a partir de drops de chefes",
+    "Rolar novamente suas características passivas para combinar com sua build principal",
+    "Participar do seu primeiro confronto de raid cooperativa",
+    "Alcançar o Limite de Nível Alpha de 600"
+  ]}
+/>
+
+Depois de estabelecer sua build, use a tabela de marcos de progressão abaixo para guiar suas atividades durante a segunda metade da sua jornada de nivelamento:
+
+| Nível Alvo | Atividade Principal | Configuração de Equipamento Recomendada | Principal Desafio |
+| :--- | :--- | :--- | :--- |
+| **Níveis 150–300** | Farm no deserto e mini-chefes | Arma rara, poder de mobilidade | Gerenciar a atração de múltiplos inimigos (aggro) |
+| **Níveis 301–450** | Raids de postos avançados e PvP de nível inicial | Arma melhorada, característica defensiva | Aprender os padrões de ataque dos chefes |
+| **Níveis 451–600** | Raids de nível alto e PvP competitivo | Arma lendária, build otimizada | Maximizar a quantidade de dano sob pressão |
+
+<Callout type="info" title="Aviso de Limite de Nível">
+O limite de nível atual no Alpha do Battle Piece é 600. Assim que atingir esse limite, foque seus esforços em refinar suas estratégias de PvP, farmar drops de armas lendárias e ajudar os membros da comunidade a concluir raids difíceis.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+Revise estas perguntas frequentes para resolver problemas comuns encontrados durante suas primeiras horas no jogo:
+
+<FAQ items={[
+  {
+    question: "Como faço para lidar com ping alto e lag no Battle Piece?",
+    answer: "A desenvolvedora, Studio Multiverse, recomenda entrar em um servidor privado se você estiver enfrentando lag severo. Isso fornece um ambiente mais estável para farmar e praticar o combate."
+  },
+  {
+    question: "Qual é o limite de nível atual na versão Alpha?",
+    answer: "O limite de nível atual é 600. Os jogadores podem usar esse alvo para planejar sua distribuição de atributos e rotas de progressão."
+  },
+  {
+    question: "Posso jogar Battle Piece no celular e no console?",
+    answer: "Sim, o jogo suporta totalmente o jogo multiplataforma (cross-play) em dispositivos PC, Celular e Console, permitindo que você use o mesmo personagem em diferentes plataformas."
+  },
+  {
+    question: "Devo focar em armas ou poderes para o nivelamento inicial?",
+    answer: "Uma abordagem equilibrada é recomendada. Use armas para obter dano consistente e de baixo custo, e use poderes para ataques de área de alto dano para limpar grupos de bandidos rapidamente."
+  }
+]} />
+
+<Callout type="tip" title="Mantenha-se Atualizado">
+Certifique-se de verificar a página oficial da comunidade Studio Multiverse regularmente para notas de atualização, lançamentos de códigos e atualizações de balanceamento que possam afetar a build do seu personagem.
+</Callout>
+
+</Section>

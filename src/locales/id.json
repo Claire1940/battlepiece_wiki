@@ -1,1 +1,12 @@
-{}
+{
+  "nav": {
+    "codes": "Kode",
+    "guide": "Panduan",
+    "powers": "Kekuatan",
+    "weapons": "Senjata",
+    "combat": "Pertempuran",
+    "updates": "Pembaruan",
+    "release": "Rilis",
+    "discord": "Discord"
+  }
+}

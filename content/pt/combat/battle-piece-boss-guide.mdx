@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Chefes do Battle Piece: Estratégias de Raids e Progressão de Nível",
+  description: "Domine todos os chefes e raids no Battle Piece. Aprenda caminhos de progressão, tier lists de armas, configurações de servidores privados e estratégias para alcançar o limite de nível 600.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Boss+Progression+Guide",
+  date: "2026-06-20",
+  author: "Equipe da Wiki do Battle Piece"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **progressão de chefes** exige que os jogadores façam a transição do farm básico de bandidos para raids de alto nível.
+- O **limite de nível** na versão Alpha atual é definido como 600, o que serve como o benchmark definitivo para a preparação para raids.
+- **Builds de mobilidade** são classificadas como a escolha S-Tier para desviar de ataques pesados de área de efeito de chefes.
+- **Servidores privados** são altamente recomendados pelos desenvolvedores para reduzir a latência e o atraso de comandos durante lutas intensas contra chefes.
+</Callout>
+
+<Section icon={Map} title="Guia de Chefes do Battle Piece: Estágios de Progressão">
+
+Navegar pelos desafios de combate em Battle Piece exige uma abordagem estruturada para subir de nível e progredir nos equipamentos. Sendo uma experiência Alpha no Roblox desenvolvida pela Studio Multiverse, o jogo equilibra o farm simples de bandidos PvE com encontros de raid de alta intensidade. Os jogadores devem construir sistematicamente seus atributos de combate, desbloquear poderes versáteis e aprimorar armas antes de desafiar os chefes mais difíceis do jogo. 
+
+Compreender a transição de monstros do início do jogo para chefes de raid do final do jogo evita derrotas desnecessárias. O sistema de combate pune os jogadores que tentam raids sem otimizar seus movimentos e ciclos de recarga.
+
+**Destaques do Vídeo:**
+- Demonstra as mecânicas de combate e alcance da atualização do Sukuna.
+- Mostra técnicas de evasão de alta mobilidade úteis para lutas contra chefes.
+- Exibe habilidades de área de efeito necessárias para limpar lacaios de raid.
+
+<YouTubeEmbed videoId="iTPzGAWfwos" title="Apresentação da Atualização Sukuna no Battle Piece" />
+
+A estrutura de progressão é dividida em fases distintas com base no nível do jogador e nos requisitos de equipamento. A tabela a seguir descreve o caminho recomendado das áreas iniciais até os chefes de raid finais.
+
+| Estágio de Progressão | Faixa de Nível | Atividade Principal | Equipamentos / Poderes Alvo |
+|--- |--- |--- |--- |
+| Fase Inicial | 1 - 150 | Farm de Bandidos | Armas Corpo a Corpo Simples |
+| Prep de Meio de Jogo | 151 - 400 | Monstros Avançados e PvP | Poderes PvE de Área Ampla |
+| Raids de Fim de Jogo | 401 - 600 | Encontros com Chefes de Raid | Builds de Mobilidade + Explosão |
+
+<Callout type="warning" title="Aviso de Lançamento Alpha">
+Como o Battle Piece está atualmente em Alpha, os padrões de ataque dos chefes, valores de dano e taxas de drop estão sujeitos a alterações em atualizações futuras. Sempre verifique as páginas da comunidade de desenvolvedores para ajustes de equilíbrio recentes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Builds Ideais para Encontros com Chefes">
+
+Derrotar chefes no Battle Piece requer a escolha da combinação certa de armas e poderes. Os chefes possuem imensas barras de vida e habilidades de área de efeito de alto dano que podem derrotar rapidamente jogadores despreparados. Uma build deve equilibrar a produção de dano com ferramentas de sobrevivência, priorizando a evasão e contra-ataques rápidos.
+
+A comunidade categoriza as builds com base em sua utilidade em ambientes de raid. A grade de cartões abaixo destaca as três principais estratégias de builds para enfrentar chefes importantes.
+
+<CardGrid cols={3}>
+  <Card title="Mobilidade e Explosão">
+    - **Prioridade S-Tier** para desviar de ataques de chefes
+    - Ferramentas rápidas de aproximação e recuo
+    - Janelas de alto dano de explosão em alvo único
+  </Card>
+  <Card title="PvE de Área Ampla">
+    - **Utilidade A-Tier** para limpar ondas de lacaios de raid
+    - Dano consistente ao longo do tempo
+    - Excelente para manter distância dos chefes
+  </Card>
+  <Card title="Controle Corpo a Corpo Simples">
+    - **Estabilidade A-Tier** para iniciantes
+    - Alta eficiência de bloqueio e hitboxes confiáveis
+    - Animações de ataque fáceis de aprender
+  </Card>
+</CardGrid>
+
+Para ajudar a determinar qual configuração se adapta ao seu estilo de jogo, compare as características principais de cada categoria de arma e poder abaixo.
+
+| Categoria da Build | Dano no Chefe | Capacidade de Evasão | Limpeza de Ondas | Facilidade de Uso |
+|--- |--- |--- |--- |--- |
+| Mobilidade + Explosão | Excelente | Excelente | Média | Moderada |
+| PvE de Área Ampla | Bom | Média | Excelente | Fácil |
+| Corpo a Corpo Simples | Média | Média | Ruim | Excelente |
+| Espaçamento Defensivo | Baixo | Boa | Média | Moderada |
+
+<Callout type="tip" title="Dica de Sinergia de Build">
+Combine um poder de alta mobilidade com uma arma corpo a corpo simples. Isso permite que você se esquive das habilidades do chefe usando habilidades de poder, enquanto mantém um dano corpo a corpo confiável e de recarga rápida durante as janelas de ataque.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estratégia Passo a Passo para Chefes de Raid">
+
+Conquistar chefes de raid no Battle Piece requer coordenação, tempo de reação e uma configuração de servidor adequada. A alta latência pode estragar os comandos de combate, tornando os desvios baseados em tempo quase impossíveis. Siga esta estratégia passo a passo para maximizar suas chances de sucesso durante os encontros de raid.
+
+<Steps>
+  <Step num="1" title="Otimize Seu Nível e Atributos">
+    Não tente fazer raids imediatamente após desbloqueá-las. Faça o farm de bandidos e chefes menores até estar perto do limite de nível 600 para garantir que sua barra de vida possa sobreviver a golpes acidentais.
+  </Step>
+  <Step num="2" title="Garanta um Servidor Privado">
+    O ping alto é a principal causa de falhas em raids. Use um servidor privado para estabilizar sua conexão, garantindo que seus comandos de esquiva e ataque sejam registrados sem atraso.
+  </Step>
+  <Step num="3" title="Limpe as Ondas Iniciais de Lacaios">
+    Os chefes de raid são protegidos por ondas de lacaios poderosos. Use habilidades PvE de área ampla para limpar esses inimigos rapidamente antes que eles cerquem e dominem sua equipe.
+  </Step>
+  <Step num="4" title="Atraia e Puna os Ataques do Chefe">
+    Mantenha a distância e espere o chefe executar um ataque pesado. Assim que a animação terminar, aproxime-se com uma ferramenta de mobilidade, solte seu combo de explosão e recue imediatamente.
+  </Step>
+</Steps>
+
+Escolher o tipo correto de servidor faz uma diferença significativa na execução do combate. A tabela de comparação abaixo destaca as métricas de desempenho entre as opções de servidor.
+
+| Tipo de Servidor | Ping Médio | Lotação de Jogadores | Velocidade de Farm de Chefe | Recomendação |
+|--- |--- |--- |--- |--- |
+| Servidor Público | Alto | Alta | Lenta | Bom para subir de nível casualmente |
+| Servidor Privado | Baixo | Nenhuma | Rápida | Essencial para raids e chefes |
+
+<Callout type="info" title="Informações de Desempenho do Servidor">
+Os desenvolvedores do jogo recomendam oficialmente o uso de servidores privados se você tiver lag severo em lobbies públicos, especialmente durante lutas contra chefes onde o tempo de reação é crítico.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Eficiência de Farm e Preparação para o Nível 600">
+
+Alcançar o limite do nível 600 é o objetivo final para os jogadores que desejam dominar o fim de jogo do Battle Piece. O farm eficiente envolve selecionar os alvos certos e minimizar o tempo de inatividade entre as lutas. Os chefes fornecem os maiores rendimentos de experiência, mas exigem uma rotina de preparação estruturada para serem farmados de forma consistente.
+
+Antes de iniciar uma longa sessão de farm de chefes, certifique-se de ter concluído as seguintes etapas de preparação.
+
+<Checklist
+  id="boss-prep-checklist"
+  title="Lista de Preparação para Farm de Chefes:"
+  items={[
+    "Equipar uma build com pelo menos uma habilidade de movimento ou esquiva",
+    "Entrar em um servidor privado para minimizar a latência e o atraso de comando",
+    "Distribuir pontos de atributos para equilibrar vida e dano principal",
+    "Coordenar com companheiros de equipe se for tentar raids de alto nível",
+    "Limpar espaço no inventário para possíveis drops e recompensas de chefes"
+  ]}
+/>
+
+As rotas de farm devem se ajustar à medida que seu nível aumenta. Concentre-se primeiro em áreas de alta densidade de monstros e depois faça a transição para locais estáticos de surgimento de chefes quando seu dano de explosão em alvo único permitir eliminações rápidas.
+
+<Callout type="success" title="Sucesso na Eficiência de Farm">
+Farmar chefes em um servidor privado com um grupo dedicado pode reduzir pela metade o tempo para atingir o limite de nível, permitindo que você mude rapidamente para os modos PvP competitivos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+Revise estas perguntas frequentes sobre lutas contra chefes, raids e sistemas de progressão no Battle Piece.
+
+<FAQ items={[
+  {
+    question: "Qual é o limite de nível para lutar contra chefes de raid no Battle Piece?",
+    answer: "O limite de nível atual na versão Alpha é 600. É altamente recomendado alcançar pelo menos o nível 500 antes de tentar chefes de raid de alto nível para garantir que seus atributos sejam altos o suficiente."
+  },
+  {
+    question: "Como faço para reduzir o lag durante lutas intensas contra chefes?",
+    answer: "Os desenvolvedores sugerem entrar em um servidor privado. Servidores privados reduzem significativamente o ping e o atraso de comandos, que são cruciais para esquivar de ataques de área de efeito dos chefes."
+  },
+  {
+    question: "Qual build é a melhor para um iniciante usando este guia de chefes do Battle Piece?",
+    answer: "Os iniciantes devem usar uma arma Corpo a Corpo Simples combinada com um poder PvE de Área Ampla. Isso fornece um equilíbrio de animações de ataque fáceis de usar e um controle de grupo sólido para limpar ondas de lacaios."
+  },
+  {
+    question: "As taxas de drop de chefes são garantidas em raids?",
+    answer: "Não, os drops de chefes e as recompensas de raid são baseados em chance. Como o jogo está em Alpha, essas taxas de queda podem ser ajustadas pela Studio Multiverse em atualizações futuras."
+  }
+]} />
+
+<Callout type="info" title="Recursos da Comunidade">
+Para obter os lançamentos de códigos mais recentes, atualizações dos desenvolvedores e notas de patch, visite a página oficial da comunidade Roblox da Studio Multiverse. Evite sites wiki de terceiros que possam hospedar informações desatualizadas ou não verificadas.
+</Callout>
+
+</Section>

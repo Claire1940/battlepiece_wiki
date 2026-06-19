@@ -1,0 +1,212 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Akses Awal Battle Piece: Panduan Leveling & Alpha",
+  description: "Kuasai Alpha akses awal Battle Piece. Pelajari progres batas level 600, keunikan senjata, strategi raid, dan tips optimasi perangkat.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Early+Access+Guide",
+  date: "2026-06-20",
+  author: "Tim Wiki Battle Piece"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Fase Utama**: Fokus untuk mempelajari mekanik pertempuran dasar dalam build Alpha awal.
+- **Target Leveling**: Progres secara stabil menuju batas level maksimum saat ini yaitu 600.
+- **Aktivitas Inti**: Seimbangkan progres Anda antara farming bandit, duel PvP, dan raid.
+- **Tips Jaringan**: Gunakan server privat untuk meminimalkan latensi dan penundaan input selama pertempuran.
+</Callout>
+
+<Section icon={Map} title="Fitur Inti Akses Awal Battle Piece">
+
+Memasuki lingkungan akses awal Battle Piece menyajikan petualangan aksi terinspirasi anime yang dikembangkan oleh Studio Multiverse di platform Roblox. Saat ini dalam fase rilis Alpha, pengalaman ini menggabungkan progres PvE, raid terstruktur, dan pertempuran antar pemain (PvP). Karena game ini berada dalam siklus pengembangan awal, pemain harus mengantisipasi penyesuaian keseimbangan, penyelesaian bug, dan optimasi performa yang sedang berlangsung.
+
+Memahami sistem dasar adalah kunci untuk membangun putaran progres yang efisien. Game ini mendukung permainan lintas platform di PC, seluler, dan konsol, memungkinkan pemain untuk mengakses karakter mereka terlepas dari perangkat keras pilihan mereka. Siklus gameplay utama berputar di sekitar mengalahkan NPC musuh untuk mendapatkan pengalaman, membuka kekuatan unik, memperoleh senjata khusus, dan menguji build di lingkungan kompetitif.
+
+**Sorotan Video:**
+- Pratinjau visual animasi pertempuran karakter dan penskalaan kemampuan.
+- Demonstrasi moveset senjata dan penentuan jarak terhadap target awal game.
+- Gambaran umum antarmuka pengguna, pelacakan quest, dan alokasi poin status.
+
+<YouTubeEmbed videoId="iTPzGAWfwos" title="Pratinjau Pembaruan Battle Piece" />
+
+<Callout type="warning" title="Peringatan Fase Alpha">
+Sebagai rilis Alpha, performa server dapat bervariasi selama jam sibuk. Jika Anda mengalami lag input atau penurunan frame yang signifikan, pertimbangkan untuk bergabung dengan server privat untuk menstabilkan input pertempuran Anda.
+</Callout>
+
+Berikut adalah rincian spesifikasi inti untuk build game saat ini:
+
+| Spesifikasi | Detail | Dampak pada Gameplay |
+|--- |--- |--- |
+| Pengembang | Studio Multiverse | Jadwal pembaruan aktif dan putaran umpan balik komunitas |
+| Platform | Roblox | Kompatibilitas lintas platform dengan penyimpanan data terpadu |
+| Fase Saat Ini | Alpha | Penyesuaian keseimbangan dan pembaruan mekanik yang sering terjadi |
+| Batas Level | 600 | Menentukan batas atas saat ini untuk progres status |
+| Mode Inti | Bandit, PvP, Raid | Menyediakan berbagai aktivitas untuk permainan solo dan grup |
+| Perangkat yang Didukung | PC, Seluler, Konsol | Memerlukan penyesuaian tata letak berdasarkan metode input |
+
+</Section>
+
+<Section icon={Target} title="Progres Karakter dan Rute Leveling">
+
+Melalui progres dalam build akses awal Battle Piece memerlukan pendekatan sistematis untuk farming poin pengalaman (EXP). Dengan batas level yang ditetapkan pada 600, tujuan utama Anda selama jam-jam awal adalah mengoptimalkan output damage untuk membersihkan perkemahan bandit dengan cepat. Menyebarkan poin status Anda terlalu tipis dapat memperlambat kecepatan pembersihan Anda, jadi sangat disarankan untuk memprioritaskan status ofensif utama Anda.
+
+Perjalanan leveling dibagi menjadi beberapa rentang tertentu, masing-masing memerlukan perubahan strategi. Pada awalnya, perkemahan bandit statis menawarkan hasil paling aman untuk waktu yang diinvestasikan. Seiring meningkatnya level Anda, transisi ke pertempuran bos dan raid menjadi penting untuk menjaga aliran poin pengalaman yang stabil.
+
+| Rentang Level | Target Utama | Fokus Strategi | Tipe Loadout yang Direkomendasikan |
+|--- |--- |--- |--- |
+| 1 hingga 150 | Bandit Biasa | Mengelompokkan musuh untuk serangan area (AoE) | Senjata PvE area luas |
+| 151 hingga 350 | Bandit Elite | Mengelola cooldown dan mengatur jarak serangan | Kekuatan seimbang untuk target tunggal dan area |
+| 351 hingga 500 | Bos Pulau | Menghafal pola serangan dan menghindari pukulan berat | Loadout damage burst tinggi |
+| 501 hingga 600 | Raid & PvP | Koordinasi grup dan build status yang dioptimalkan | Konfigurasi khusus PvP atau spesifik-raid |
+
+Untuk menavigasi kurva progres secara efisien, ikuti langkah-langkah terstruktur berikut:
+
+<Steps>
+  <Step num="1" title="Tentukan Status Ofensif Anda">
+    Pilih apakah Anda ingin fokus pada pertempuran berbasis senjata atau kemampuan berbasis kekuatan. Alokasikan poin atribut Anda terutama ke jalur pilihan Anda untuk memaksimalkan damage per detik selama farming awal.
+  </Step>
+  <Step num="2" title="Kelompokkan dan Bersihkan Perkemahan Bandit">
+    Jangan melawan musuh satu per satu. Berjalanlah di dekat beberapa bandit untuk menarik perhatian mereka, kelompokkan mereka dengan rapat, dan gunakan kemampuan berjangkauan luas untuk membersihkan seluruh kelompok secara bersamaan.
+  </Step>
+  <Step num="3" title="Transisi ke Rotasi Bos">
+    Setelah bandit biasa memberikan pengalaman yang berkurang, temukan bos regional. Tetapkan rotasi di mana Anda mengalahkan bos, menunggu timer respawn, dan mengulangi proses tersebut sambil mengelola inventaris Anda.
+  </Step>
+  <Step num="4" title="Berpartisipasi dalam Raid Grup">
+    Saat Anda mendekati rentang leveling terakhir, bergabunglah dengan raid grup. Penskalaan pengalaman dalam raid dirancang untuk membantu pemain menjembatani celah antara level 500 dan batas 600.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Strategi Reset Status">
+Pantau kode promo aktif atau acara komunitas yang menawarkan reset status gratis. Ini memungkinkan Anda untuk membangun karakter murni demi kecepatan pembersihan PvE di awal, lalu beralih ke build PvP yang seimbang setelah Anda mencapai batas level.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Analisis Loadout Senjata dan Kekuatan">
+
+Build yang sukses dalam lingkungan akses awal Battle Piece bergantung pada sinergi antara senjata yang Anda gunakan, kekuatan aktif, dan sifat pasif. Senjata menentukan rangkaian serangan dasar, jangkauan, dan potensi kombo fisik Anda. Kekuatan memperkenalkan kemampuan elemen atau supernatural yang sering kali memerlukan manajemen energi tetapi menawarkan damage burst atau utilitas yang tinggi.
+
+Sifat (Traits) dan ras memberikan pengubah pasif yang dapat mengubah jumlah HP, kecepatan gerakan, atau tingkat pemulihan cooldown Anda. Saat merancang build, Anda harus mengevaluasi apakah loadout Anda dioptimalkan untuk farming PvE berkelanjutan, duel PvP bertekanan tinggi, atau bertahan hidup dalam raid grup.
+
+| Kategori Loadout | Kekuatan Utama | Kelemahan Utama | Skenario yang Direkomendasikan |
+|--- |--- |--- |--- |
+| Mobilitas & Burst | Hindaran tinggi, alat pertempuran cepat, damage target tunggal yang kuat | Rentan terhadap crowd control, memerlukan waktu yang tepat | PvP kompetitif dan perburuan bos |
+| PvE Area Luas | Jangkauan area efek yang masif, pembersihan kerumunan yang andal | Mobilitas rendah, animasi serangan yang mudah diprediksi | Farming bandit awal hingga pertengahan game |
+| Melee Sederhana | Damage serangan dasar yang konsisten, biaya energi rendah | Jangkauan terbatas, kurang opsi damage burst | Pemula yang mempelajari jarak pertempuran |
+| Jarak Defensif | Perisai pertahanan yang kuat, alat knockback, kelangsungan hidup tinggi | Waktu pembersihan lebih lambat, tekanan ofensif rendah | Pertemuan raid dengan kesulitan tinggi |
+
+Untuk membantu Anda memilih arah yang tepat bagi karakter Anda, tinjau strategi loadout umum berikut:
+
+<CardGrid cols={3}>
+  <Card title="Fokus Kecepatan & Hindaran">
+    - Alat **mobilitas tinggi** untuk melepaskan diri dengan cepat
+    - Memprioritaskan sifat kecepatan gerakan
+    - Sangat baik untuk menghindari serangan bos yang terarah
+    - Memerlukan kecepatan reaksi pemain yang tinggi
+  </Card>
+  <Card title="Pengaturan Pembersihan Area">
+    - **Sapuan serangan luas** untuk mengenai banyak target
+    - Berfokus pada kapasitas penyimpanan energi
+    - Meminimalkan waktu yang dihabiskan untuk farming bandit
+    - Dapat membuat Anda rentan dalam PvP 1v1
+  </Card>
+  <Card title="Build Duelist Seimbang">
+    - **Tekanan target tunggal** dengan pelacakan yang andal
+    - Kemampuan pertahanan sedang
+    - Utilitas tinggi untuk menghentikan kombo musuh
+    - Memerlukan pengetahuan tentang cooldown lawan
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Rekomendasi Sinergi">
+Memasangkan kekuatan bermobilitas tinggi dengan senjata jarak dekat (melee) sederhana sangat efektif untuk pemula. Kekuatan tersebut memungkinkan Anda melarikan diri dari posisi buruk, sementara senjata memberikan damage yang andal tanpa menghabiskan cadangan energi Anda.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mekanik Raid dan Progres Bos">
+
+Raid mewakili konten akhir game utama dalam build akses awal Battle Piece. Berbeda dengan farming standar, raid mengharuskan pemain menghadapi gelombang musuh yang kompleks, bahaya lingkungan, dan bos dengan jumlah HP yang besar. Koordinasi grup sangat menguntungkan, karena percobaan solo memerlukan build yang dioptimalkan dan kesalahan minimal.
+
+Keberhasilan dalam raid sangat bergantung pada persiapan Anda. Memasuki raid tanpa level yang memadai, peralatan yang tepat, atau pemahaman yang jelas tentang mekanik bos sering kali menyebabkan kegagalan.
+
+| Faktor Persiapan | Persyaratan Minimum | Strategi yang Direkomendasikan | Dampak Kegagalan |
+|--- |--- |--- |--- |
+| Level Karakter | Level 450+ | Mencapai level 550+ memastikan jumlah HP yang memadai | Risiko sangat tinggi untuk dikalahkan dalam satu serangan |
+| Upgrade Senjata | Tingkat menengah atau lebih tinggi | Maksimalkan penskalaan damage senjata utama Anda | Output damage tidak cukup untuk membersihkan gelombang musuh berwaktu |
+| Stabilitas Koneksi | Ping stabil | Gunakan server privat untuk menghindari penundaan input selama menghindar | Kehilangan celah menghindar karena desinkronisasi server |
+| Komposisi Grup | 2 hingga 3 pemain | Campurkan damage area dengan burst target tunggal yang tinggi | Kewalahan oleh kemunculan musuh kecil |
+
+Gunakan daftar periksa berikut untuk memastikan karakter Anda siap sepenuhnya untuk konten raid:
+
+<Checklist
+  id="raid-readiness"
+  title="Daftar Periksa Persiapan Raid:"
+  items={[
+    "Mencapai setidaknya level 450 untuk memastikan atribut dasar yang memadai",
+    "Menggunakan senjata yang memiliki setidaknya satu kemampuan crowd-control",
+    "Memastikan kekuatan aktif Anda memiliki alat mobilitas yang andal untuk menghindar",
+    "Menguji stabilitas koneksi Anda di server privat sebelum memulai",
+    "Mengoordinasikan peran dengan anggota grup Anda untuk menyeimbangkan damage dan utilitas"
+  ]}
+/>
+
+<Callout type="info" title="Penskalaan Raid">
+Kesulitan raid berskala berdasarkan jumlah peserta dalam sesi. Saat bermain dalam grup, pastikan semua anggota berkontribusi aktif dalam memberikan damage, karena pemain yang diam akan membuat bos jauh lebih sulit untuk dikalahkan.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Pertempuran PvP dan Optimasi Platform">
+
+Pertempuran kompetitif antar pemain (PvP) di Battle Piece menguji jarak, waktu, dan kemampuan Anda untuk membaca tindakan lawan. Karena game ini mendukung banyak platform, metode input sangat bervariasi. Pemain PC diuntungkan oleh tombol keyboard yang presisi, pemain seluler harus mengelola kontrol layar sentuh, dan pemain konsol mengandalkan tata letak pengontrol (controller).
+
+Mengoptimalkan pengaturan Anda berdasarkan platform dapat memberikan keuntungan yang nyata dalam pertempuran yang cepat. Mengurangi pengaturan grafis juga dapat membantu mempertahankan frame rate yang stabil, yang sangat penting untuk mengeksekusi kombo yang presisi.
+
+| Platform | Gaya Kontrol | Keuntungan Utama | Rekomendasi Optimasi |
+|--- |--- |--- |--- |
+| PC | Keyboard & Mouse | Kontrol kamera yang presisi dan input tombol yang cepat | Atur tombol kemampuan utama ke tombol yang mudah dijangkau |
+| Seluler | Antarmuka Sentuh | Portabilitas tinggi, ketukan layar yang intuitif | Sesuaikan ukuran tombol untuk mencegah salah klik |
+| Konsol | Pengontrol | Tata letak yang nyaman, kontrol gerakan analog | Sesuaikan sensitivitas kamera untuk tingkat putaran yang lebih cepat |
+
+<Callout type="warning" title="Latensi Lintas Platform">
+Saat bertarung dengan pemain di platform yang berbeda, sedikit desinkronisasi dapat terjadi. Selalu bermain secara defensif dan antisipasi bahwa serangan lawan mungkin mengenai sedikit lebih jauh daripada yang ditunjukkan oleh indikator visual mereka.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Pertanyaan yang Sering Diajukan">
+
+Tinjau pertanyaan umum berikut mengenai fase Alpha game untuk membantu memandu progres Anda.
+
+<FAQ items={[
+  {
+    question: "Berapa batas level saat ini dalam build akses awal?",
+    answer: "Batas level saat ini dalam Alpha akses awal Battle Piece adalah 600. Mencapai batas ini memungkinkan Anda untuk memaksimalkan alokasi status Anda untuk PvP akhir game dan raid."
+  },
+  {
+    question: "Bagaimana cara mengurangi lag pertempuran selama raid atau PvP?",
+    answer: "Tim pengembang menyarankan untuk bergabung dengan server privat jika Anda mengalami ping tinggi atau penundaan input. Ini mengisolasi sesi Anda dan meningkatkan waktu respons server."
+  },
+  {
+    question: "Apakah saya bisa memainkan game ini di perangkat seluler dan konsol?",
+    answer: "Ya, game ini secara resmi mendukung permainan lintas platform di PC, seluler, dan konsol dengan progres karakter yang terpadu."
+  },
+  {
+    question: "Apa yang harus saya fokuskan selama beberapa jam pertama bermain?",
+    answer: "Fokus pada mengalahkan bandit biasa untuk meningkatkan level Anda, alokasikan status Anda ke satu jalur ofensif, dan buka kekuatan mobilitas pertama Anda untuk membuat penjelajahan lebih cepat."
+  }
+]} />
+
+<Callout type="success" title="Saran Progres Akhir">
+Konsistensi adalah kunci. Fokus pada pembersihan perkemahan bandit secara efisien, gunakan server privat untuk menjaga input pertempuran Anda tetap lancar, dan simpan reset status Anda untuk saat Anda siap bertransisi ke PvP kompetitif.
+</Callout>
+
+</Section>

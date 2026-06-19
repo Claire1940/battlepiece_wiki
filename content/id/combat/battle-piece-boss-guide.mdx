@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panduan Boss Battle Piece: Strategi Raid & Progres Leveling",
+  description: "Kuasai setiap boss dan raid di Battle Piece. Pelajari jalur progres, daftar tier senjata, pengaturan server privat, dan strategi untuk mencapai batas level 600.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Boss+Progression+Guide",
+  date: "2026-06-20",
+  author: "Tim Wiki Battle Piece"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Progres boss** mengharuskan pemain untuk beralih dari farming bandit dasar ke raid tingkat tinggi.
+- **Batas level** dalam rilis Alpha saat ini ditetapkan pada 600, yang berfungsi sebagai tolok ukur utama untuk kesiapan raid.
+- **Loadout mobilitas** menempati peringkat pilihan S-Tier untuk menghindari serangan area-of-effect (AoE) boss yang berat.
+- **Server privat** sangat direkomendasikan oleh pengembang untuk mengurangi latensi dan input lag selama pertarungan boss yang intens.
+</Callout>
+
+<Section icon={Map} title="Panduan Boss Battle Piece: Tahapan Progres">
+
+Menghadapi tantangan pertempuran di Battle Piece membutuhkan pendekatan terstruktur untuk leveling dan progres perlengkapan. Sebagai pengalaman Alpha di Roblox yang dikembangkan oleh Studio Multiverse, game ini menyeimbangkan grinding bandit PvE sederhana dengan pertempuran raid berintensitas tinggi. Pemain harus secara sistematis membangun statistik tempur mereka, membuka kekuatan serbaguna, dan meningkatkan senjata sebelum menantang boss terberat di game ini. 
+
+Memahami transisi dari mob awal game ke boss raid akhir game mencegah kekalahan yang tidak perlu. Sistem pertempuran menghukum pemain yang mencoba raid tanpa mengoptimalkan pergerakan dan siklus cooldown mereka.
+
+**Sorotan Video:**
+- Mendemonstrasikan mekanik tempur dan jangkauan pembaruan Sukuna.
+- Menampilkan teknik penghindaran mobilitas tinggi yang berguna untuk pertarungan boss.
+- Menampilkan keterampilan area-of-effect yang diperlukan untuk membersihkan kroco raid.
+
+<YouTubeEmbed videoId="iTPzGAWfwos" title="Showcase Battle Piece Pembaruan Sukuna" />
+
+Struktur progres dibagi menjadi fase-fase berbeda berdasarkan tingkat level pemain dan persyaratan perlengkapan. Tabel berikut menguraikan jalur yang direkomendasikan dari area pemula hingga boss raid terakhir.
+
+| Tahap Progres | Rentang Level | Aktivitas Utama | Target Perlengkapan / Kekuatan |
+|--- |--- |--- |--- |
+| Fase Pemula | 1 - 150 | Farming Bandit | Senjata Jarak Dekat Sederhana |
+| Persiapan Mid-Game | 151 - 400 | Mob Tingkat Lanjut & PvP | Kekuatan PvE Area Luas |
+| Raid Akhir Game | 401 - 600 | Pertempuran Boss Raid | Loadout Mobilitas + Burst |
+
+<Callout type="warning" title="Peringatan Rilis Alpha">
+Karena Battle Piece saat ini masih dalam versi Alpha, pola serangan boss, nilai kerusakan, dan tingkat drop dapat berubah di pembaruan mendatang. Selalu periksa halaman komunitas pengembang untuk penyesuaian keseimbangan terbaru.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Loadout Optimal untuk Pertempuran Boss">
+
+Mengalahkan boss di Battle Piece membutuhkan pemilihan kombinasi senjata dan kekuatan yang tepat. Boss memiliki kolam darah yang besar dan keterampilan area-of-effect berdamage tinggi yang dapat dengan cepat mengalahkan pemain yang tidak siap. Sebuah build harus menyeimbangkan output damage dengan alat bertahan hidup, memprioritaskan penghindaran dan serangan balik yang cepat.
+
+Komunitas mengategorikan loadout berdasarkan kegunaannya dalam lingkungan raid. Kisi kartu di bawah ini menyoroti tiga strategi loadout teratas untuk menghadapi boss utama.
+
+<CardGrid cols={3}>
+  <Card title="Mobilitas & Burst">
+    - **Prioritas S-Tier** untuk menghindari serangan boss
+    - Alat pertempuran dan penarikan diri yang cepat
+    - Jendela burst damage target tunggal yang tinggi
+  </Card>
+  <Card title="PvE Area Luas">
+    - **Utilitas A-Tier** untuk membersihkan gelombang kroco raid
+    - Damage dari waktu ke waktu (DoT) yang konsisten
+    - Sangat baik untuk menjaga jarak dari boss
+  </Card>
+  <Card title="Kontrol Jarak Dekat Sederhana">
+    - **Stabilitas A-Tier** untuk pemula
+    - Efisiensi blok tinggi dan hitbox yang andal
+    - Animasi serangan yang mudah dipelajari
+  </Card>
+</CardGrid>
+
+Untuk membantu menentukan pengaturan mana yang sesuai dengan gaya bermain Anda, bandingkan sifat utama dari setiap kategori senjata dan kekuatan di bawah ini.
+
+| Kategori Loadout | Damage Boss | Kemampuan Menghindar | Pembersihan Gelombang | Kemudahan Penggunaan |
+|--- |--- |--- |--- |--- |
+| Mobilitas + Burst | Sangat Baik | Sangat Baik | Rata-rata | Sedang |
+| PvE Area Luas | Bagus | Rata-rata | Sangat Baik | Mudah |
+| Jarak Dekat Sederhana | Rata-rata | Rata-rata | Buruk | Sangat Baik |
+| Jarak Defensif | Rendah | Bagus | Rata-rata | Sedang |
+
+<Callout type="tip" title="Tips Sinergi Loadout">
+Kombinasikan kekuatan mobilitas tinggi dengan senjata jarak dekat sederhana. Ini memungkinkan Anda menghindari kemampuan boss menggunakan kekuatan keterampilan sambil mempertahankan damage jarak dekat yang andal dan ber-cooldown rendah selama jendela serangan.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Strategi Boss Raid Langkah-demi-Langkah">
+
+Menaklukkan boss raid di Battle Piece membutuhkan koordinasi, waktu, dan pengaturan server yang tepat. Latensi tinggi dapat merusak input pertempuran, membuat penghindaran berbasis waktu hampir mustahil. Ikuti strategi langkah-demi-langkah ini untuk memaksimalkan peluang keberhasilan Anda selama pertempuran raid.
+
+<Steps>
+  <Step num="1" title="Optimalkan Level dan Statistik Anda">
+    Jangan langsung mencoba raid setelah membukanya. Grind bandit dan boss kecil sampai Anda mendekati batas level 600 untuk memastikan kolam darah Anda dapat bertahan dari serangan yang tidak disengaja.
+  </Step>
+  <Step num="2" title="Amankan Server Privat">
+    Ping tinggi adalah penyebab utama kegagalan raid. Gunakan server privat untuk menstabilkan koneksi Anda, memastikan input hindaran dan serangan Anda terdaftar tanpa penundaan.
+  </Step>
+  <Step num="3" title="Bersihkan Gelombang Kroco Awal">
+    Boss raid dilindungi oleh gelombang kroco yang kuat. Gunakan keterampilan PvE area luas untuk membersihkan musuh-musuh ini dengan cepat sebelum mereka mengepung dan membanjiri tim Anda.
+  </Step>
+  <Step num="4" title="Umpan dan Hukum Serangan Boss">
+    Jaga jarak Anda dan tunggu boss melakukan serangan berat. Setelah animasi selesai, dekati dengan alat mobilitas, lepaskan kombo burst Anda, dan segera mundur.
+  </Step>
+</Steps>
+
+Memilih jenis server yang tepat membuat perbedaan signifikan dalam eksekusi pertempuran. Tabel perbandingan di bawah ini menyoroti metrik kinerja antara opsi server.
+
+| Jenis Server | Rata-rata Ping | Kepadatan Pemain | Kecepatan Farming Boss | Rekomendasi |
+|--- |--- |--- |--- |--- |
+| Server Publik | Tinggi | Tinggi | Lambat | Bagus untuk leveling santai |
+| Server Privat | Rendah | Tidak ada | Cepat | Penting untuk raid dan boss |
+
+<Callout type="info" title="Info Kinerja Server">
+Pengembang game secara resmi merekomendasikan penggunaan server privat jika Anda mengalami lag parah di lobi publik, terutama selama pertarungan boss di mana waktu sangat penting.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Efisiensi Farming dan Persiapan Level 600">
+
+Mencapai batas level 600 adalah tujuan akhir bagi pemain yang ingin mendominasi akhir game Battle Piece. Farming yang efisien melibatkan pemilihan target yang tepat dan meminimalkan waktu henti antar pertempuran. Boss memberikan hasil pengalaman tertinggi, tetapi mereka membutuhkan rutinitas persiapan yang terstruktur untuk difarming secara konsisten.
+
+Sebelum memulai sesi farming boss yang panjang, pastikan Anda telah menyelesaikan langkah-langkah persiapan berikut.
+
+<Checklist
+  id="boss-prep-checklist"
+  title="Daftar Periksa Persiapan Farming Boss:"
+  items={[
+    "Lengkapi loadout dengan setidaknya satu keterampilan gerakan atau hindaran",
+    "Bergabunglah dengan server privat untuk meminimalkan latensi dan input lag",
+    "Alokasikan poin statistik untuk menyeimbangkan kesehatan dan damage utama",
+    "Koordinasikan dengan rekan tim jika mencoba raid tingkat tinggi",
+    "Kosongkan ruang inventaris untuk potensi drop boss dan hadiah"
+  ]}
+/>
+
+Rute farming harus disesuaikan seiring meningkatnya level Anda. Fokus pada area mob dengan kepadatan tinggi terlebih dahulu, lalu transisi ke spawn boss statis setelah damage burst target tunggal Anda memungkinkan pembunuhan cepat.
+
+<Callout type="success" title="Keberhasilan Efisiensi Farming">
+Memfarming boss di server privat dengan grup khusus dapat memangkas waktu leveling Anda hingga setengahnya untuk mencapai batas level, memungkinkan Anda beralih dengan cepat ke mode PvP kompetitif.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Pertanyaan yang Sering Diajukan">
+
+Tinjau pertanyaan umum ini mengenai pertarungan boss, raid, dan sistem progres di Battle Piece.
+
+<FAQ items={[
+  {
+    question: "Berapa batas level untuk melawan boss raid di Battle Piece?",
+    answer: "Batas level saat ini dalam rilis Alpha adalah 600. Sangat direkomendasikan untuk mencapai setidaknya level 500 sebelum mencoba boss raid tingkat tinggi untuk memastikan statistik Anda cukup tinggi."
+  },
+  {
+    question: "Bagaimana cara mengurangi lag selama pertarungan boss yang intens?",
+    answer: "Pengembang menyarankan untuk bergabung dengan server privat. Server privat secara signifikan mengurangi ping dan penundaan input, yang sangat penting untuk menghindari serangan area-of-effect boss."
+  },
+  {
+    question: "Loadout mana yang terbaik untuk pemula yang menggunakan panduan boss battle piece ini?",
+    answer: "Pemula sebaiknya menggunakan senjata Jarak Dekat Sederhana yang dikombinasikan dengan kekuatan PvE Area Luas. Ini memberikan keseimbangan antara animasi serangan yang mudah digunakan dan kontrol kerumunan yang solid untuk membersihkan gelombang kroco."
+  },
+  {
+    question: "Apakah tingkat drop boss dijamin dalam raid?",
+    answer: "Tidak, drop boss dan hadiah raid didasarkan pada peluang. Karena game ini masih dalam versi Alpha, tingkat drop ini mungkin disesuaikan oleh Studio Multiverse di patch mendatang."
+  }
+]} />
+
+<Callout type="info" title="Sumber Daya Komunitas">
+Untuk drop kode terbaru, pembaruan pengembang, dan catatan patch, kunjungi halaman komunitas resmi Studio Multiverse Roblox community page. Hindari situs wiki pihak ketiga yang mungkin menyajikan informasi kedaluwarsa atau tidak terverifikasi.
+</Callout>
+
+</Section>

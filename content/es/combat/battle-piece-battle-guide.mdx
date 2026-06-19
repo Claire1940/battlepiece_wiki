@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de batalla de Battle Piece: Consejos de combate y progresión",
+  description: "Domina el combate en Battle Piece en Roblox. Aprende sobre el farmeo de bandidos, estrategias de PvP, armas, lista de niveles de poderes y cómo subir hasta el nivel máximo de 600.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Battle+Piece+Battle+Guide",
+  date: "2026-06-20",
+  author: "Equipo de la Wiki de Battle Piece"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Maestría en combate**: Usa esta **guía de batalla de Battle Piece** para dominar las mecánicas de combate principales y las rutas de progresión.
+- **Enfoque de nivelación**: Alcanza el **nivel máximo actual de 600** farmeando bandidos antes de comprometerte con el PvP serio.
+- **Prioridad de build**: Selecciona **equipamientos de movilidad y ráfaga** (burst) para obtener la mayor efectividad en partidas contra jugadores.
+- **Control de latencia**: Utiliza **servidores privados** para reducir el retraso de entrada (input lag) durante incursiones (raids) de alta presión y sesiones de combate.
+</Callout>
+
+<Section icon={Swords} title="Guía de batalla de Battle Piece: Sistemas principales">
+
+Esta **guía de batalla de Battle Piece** detalla las mecánicas de juego esenciales de la experiencia de Roblox inspirada en el anime de Studio Multiverse. Actualmente en su fase de lanzamiento Alfa, el juego se centra en tres actividades principales: derrotar bandidos, luchar en batallas PvP y conquistar incursiones desafiantes. Desarrollar una base sólida en estas áreas es crucial para sobrevivir al combate y subir de nivel de manera eficiente.
+
+**Puntos destacados del video:**
+- Vista previa de poderes de anime de alto nivel y ritmo de combate.
+- Demostración de herramientas de movilidad durante encuentros PvP.
+- Desglose visual de las cajas de impacto (hitboxes) de combate y la ejecución de habilidades.
+
+<YouTubeEmbed videoId="iTPzGAWfwos" title="Tráiler de la actualización de Sukuna" />
+
+Comprender cómo interactúan estos modos principales te permite planificar tu progresión. Los desafíos PvE te preparan para los encuentros PvP al enseñarte el distanciamiento del personaje y la gestión del tiempo de recarga (cooldown) de las habilidades.
+
+| Modo de juego | Objetivo principal | Recompensa principal | Riesgo de combate |
+|---|---|---|---|
+| **Farmeo de bandidos** | Bandidos NPC | Experiencia de nivel | Bajo |
+| **Batallas PvP** | Otros jugadores | Práctica de combate | Alto |
+| **Incursiones (Raids)** | Jefes y oleadas | Botín raro y mejoras | Muy alto |
+
+<Callout type="warning" title="Estabilidad de la versión Alfa">
+Debido a que el juego se encuentra en una versión Alfa, es posible que experimentes caídas ocasionales de rendimiento (lag) o errores durante el combate. Se recomienda encarecidamente ajustar la configuración gráfica para garantizar fotogramas estables durante las partidas PvP de ritmo rápido.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Ruta de progresión y nivelación">
+
+Para sobrevivir al PvP de alto nivel y participar en las incursiones del final del juego, debes aumentar sistemáticamente tu nivel. El límite de progresión actual es el Nivel 600. Alcanzar este límite requiere una ruta de farmeo disciplinada centrada en zonas con alta densidad de aparición de NPCs.
+
+<Steps>
+  <Step num="1" title="Iniciar la experiencia correcta">
+    Accede al juego a través de la página oficial de Studio Multiverse en Roblox para evitar copias falsas. Asegúrate de que los controles de tu plataforma estén configurados correctamente antes de salir de la zona segura.
+  </Step>
+  <Step num="2" title="Farmear bandidos de nivel bajo">
+    Localiza los campamentos de bandidos iniciales. Concéntrate en agrupar a varios bandidos para golpearlos simultáneamente con ataques de área amplia, maximizando tu experiencia por minuto.
+  </Step>
+  <Step num="3" title="Desbloquear poderes y armas">
+    A medida que subas de nivel, invierte puntos en tus estadísticas para desbloquear nuevas habilidades. No gastes recursos al azar; concéntrate primero en las herramientas que mejoren tu velocidad de farmeo.
+  </Step>
+  <Step num="4" title="Transición a incursiones y PvP">
+    Una vez que te acerques al límite de Nivel 600, cambia tu enfoque hacia las incursiones y las batallas contra jugadores para probar tu build optimizada contra oponentes más difíciles.
+  </Step>
+</Steps>
+
+| Rango de nivel | Enemigos objetivo | Estrategia óptima | Nivel de peligro |
+|---|---|---|---|
+| **Niveles 1–150** | Bandidos iniciales | Agrupación básica cuerpo a cuerpo | Bajo |
+| **Niveles 150–400** | Bandidos de élite | Rotación de poderes de área (AoE) | Medio |
+| **Niveles 400–600** | Jefes de incursión | Coordinación de grupo | Alto |
+
+<Callout type="tip" title="Utilidad del servidor privado">
+Los desarrolladores recomiendan unirse a un servidor privado si experimentas una latencia (ping) alta. Un servidor privado proporciona un entorno estable para farmear bandidos sin la interferencia de jugadores hostiles.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de niveles de armas y poderes">
+
+Seleccionar el equipamiento adecuado determina tu éxito tanto en el farmeo PvE como en las batallas PvP. Diferentes armas y poderes destacan en diferentes entornos, lo que significa que una build de incursión de nivel superior podría tener un rendimiento deficiente en un duelo rápido.
+
+<CardGrid cols={3}>
+  <Card title="Nivel S: Movilidad y ráfaga">
+    - Herramientas de **alta movilidad** para escapes rápidos.
+    - Ventanas de daño de ráfaga masivo.
+    - Excelente para iniciar combos de PvP.
+  </Card>
+  <Card title="Nivel A: PvE de área amplia">
+    - Cajas de impacto de gran área de efecto (AoE).
+    - Daño constante para el farmeo de bandidos.
+    - Ejecución simple con tiempos de recarga bajos.
+  </Card>
+  <Card title="Nivel B: Distanciamiento defensivo">
+    - Fuertes herramientas de control de zona y empuje (knockback).
+    - Alta supervivencia en incursiones grupales.
+    - Menor producción de daño general.
+  </Card>
+</CardGrid>
+
+Al evaluar los equipamientos, prioriza los rasgos que coincidan con tus objetivos de juego actuales. Para subir de nivel, elige armas con ataques de barrido amplio. Para PvP, elige poderes que te permitan acortar distancias al instante.
+
+| Tipo de equipamiento | Rendimiento PvE | Rendimiento PvP | Facilidad de uso |
+|---|---|---|---|
+| **Movilidad + Ráfaga** | Bueno | Excelente | Difícil |
+| **Área amplia PvE** | Excelente | Promedio | Fácil |
+| **Cuerpo a cuerpo simple** | Bueno | Por debajo del promedio | Muy fácil |
+| **Distanciamiento defensivo** | Promedio | Bueno | Medio |
+
+<Callout type="success" title="Sinergia de build">
+Combina un poder de alta movilidad con un arma cuerpo a cuerpo de área amplia. Esta configuración híbrida te permite reunir bandidos rápidamente y eliminarlos con un tiempo de inactividad mínimo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estrategia de combate PvP">
+
+Enfrentarse a otros jugadores en Battle Piece requiere comprender el distanciamiento, la latencia y las limitaciones específicas de cada plataforma. Debido a que el juego es compatible con PC, dispositivos móviles y consolas, debes optimizar tu esquema de control para seguir siendo competitivo.
+
+<Checklist
+  id="pvp-readiness"
+  title="Lista de verificación para combate PvP:"
+  items={[
+    "Verifica que el ping de tu servidor sea inferior a 100 ms antes de comenzar un duelo.",
+    "Equipa al menos una habilidad confiable de escape o deslizamiento (dash).",
+    "Asigna tus teclas para un acceso instantáneo a las herramientas defensivas.",
+    "Practica provocar que tu oponente gaste sus principales tiempos de recarga primero."
+  ]}
+/>
+
+Las diferentes plataformas ofrecen distintas ventajas. Los jugadores de PC suelen beneficiarse de un apuntado preciso con el mouse, mientras que los jugadores de consola disfrutan de un seguimiento de movimiento cómodo. Los jugadores de dispositivos móviles deben concentrarse en mantener su pantalla despejada para conservar la conciencia espacial.
+
+| Plataforma | Ventaja | Desventaja | Estilo de control |
+|---|---|---|---|
+| **PC** | Apuntado preciso, atajos rápidos | Postura fija | Teclado y ratón |
+| **Móvil** | Portabilidad, gatillos táctiles | Pantalla abarrotada, alta latencia | Controles táctiles |
+| **Consola** | Movimiento analógico suave | Apuntado de cursor más lento | Mando (Gamepad) |
+
+<Callout type="warning" title="Evita las trampas del meta fijo">
+Dado que el juego está en fase Alfa, el equilibrio de los personajes cambia con frecuencia. Evita invertir todos tus recursos en una sola arma o poder, ya que las actualizaciones pueden alterar su efectividad de la noche a la mañana.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Incursiones y progresión de jefes">
+
+Las incursiones representan el desafío PvE definitivo en Battle Piece. Estos encuentros requieren un juego en equipo coordinado, una alta producción de daño y una ejecución precisa de maniobras defensivas para evitar mecánicas de derrota total (wipe).
+
+Antes de ingresar a una incursión, asegúrate de que tu equipo tenga una distribución clara de roles. Tener jugadores dedicados al control de masas facilita significativamente la gestión de las oleadas de enemigos, lo que permite que tus atacantes de daño (DPS) se concentren por completo en el jefe.
+
+| Fase de la incursión | Peligro principal | Requisito de equipo | Factor de éxito |
+|---|---|---|---|
+| **Limpieza de oleadas** | Enjambres de enemigos | Alto daño de área (AoE) | Agrupación de objetivos |
+| **Entrada del jefe** | Ataques de denegación de área | Movimiento preciso | Conciencia del espacio |
+| **Fase de enfurecimiento** | Mayor velocidad del jefe | Máximo daño de ráfaga | Acumulación de tiempos de recarga |
+
+<Callout type="info" title="Preparación para la incursión">
+Ingresa siempre a las incursiones con un personaje al nivel máximo. Intentar incursiones de alto nivel antes de alcanzar el hito adecuado resultará en derrotas rápidas y tiempo de preparación desperdiciado.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el límite de nivel actual en Battle Piece?",
+    question_id: "level-cap-faq",
+    answer: "El límite de nivel actual en la versión Alfa de Battle Piece es 600. Los jugadores deben farmear bandidos y realizar incursiones para alcanzar este límite."
+  },
+  {
+    question: "¿Cómo reduzco el lag durante las partidas intensas de PvP?",
+    question_id: "lag-reduction-faq",
+    answer: "Los desarrolladores recomiendan unirse a un servidor privado para minimizar la latencia, especialmente al farmear o practicar combos de combate."
+  },
+  {
+    question: "¿Qué plataformas son compatibles oficialmente?",
+    question_id: "supported-platforms-faq",
+    answer: "Battle Piece es compatible oficialmente con las plataformas de PC, móvil y consola, lo que permite el juego cruzado entre los tres sistemas."
+  },
+  {
+    question: "¿Dónde puedo encontrar las builds recomendadas de esta guía de batalla de Battle Piece?",
+    question_id: "recommended-builds-faq",
+    answer: "Consulta la sección Lista de niveles de armas y poderes en esta guía para encontrar los mejores equipamientos para movilidad, farmeo PvE y combate PvP."
+  }
+]} />
+
+<Callout type="info" title="Actualizaciones de la comunidad">
+Para obtener los últimos códigos, notas del parche y anuncios de los desarrolladores, únete a la página oficial de la comunidad de Studio Multiverse en Roblox.
+</Callout>
+
+</Section>

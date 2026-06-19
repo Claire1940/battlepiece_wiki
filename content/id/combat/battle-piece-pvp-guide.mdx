@@ -1,0 +1,184 @@
+import { Swords, Shield, Target, Trophy, Sparkles, Cpu } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panduan PvP Battle Piece: Build Meta, Kombo & Tips Pertempuran",
+  description: "Kuasai pertempuran PvP Roblox Battle Piece dengan panduan kami. Temukan build meta, pengaturan platform, kombo pertempuran, dan tips untuk mendominasi di level 600.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Battle+Piece+PvP+Guide",
+  date: "2026-06-20",
+  author: "Tim Wiki Battle Piece"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Fokus utama panduan**: Pelajari mekanik inti, build, dan strategi untuk sukses di arena pertarungan antar pemain (PvP) yang aktif.
+- **Target level utama**: Capai batas level Alpha saat ini yaitu 600 untuk memaksimalkan poin statistik Anda sebelum memasuki duel tingkat tinggi.
+- **Platform terbaik**: PC biasanya menawarkan tata letak tombol (keybind) yang paling responsif, meskipun seluler (mobile) dan konsol didukung sepenuhnya.
+- **Mitigasi lag**: Gunakan server privat untuk meminimalkan keterlambatan ping tinggi, yang dapat sangat memengaruhi eksekusi kombo Anda.
+</Callout>
+
+<Section icon={Swords} title="Panduan PvP Battle Piece: Mekanik Inti & Pengaturan">
+
+Membangun fondasi yang kuat dalam pertempuran antar pemain (PvP) sangat penting untuk menaikkan peringkat di Battle Piece. Dikembangkan oleh Studio Multiverse, petualangan Roblox yang terinspirasi anime ini menggabungkan pergerakan cepat, keterampilan senjata, dan kekuatan unik. Karena game ini saat ini berada dalam fase rilis Alpha, memahami alur pertempuran inti sejak awal akan memberi Anda keunggulan signifikan atas lawan yang hanya mengandalkan serangan dasar.
+
+Kesuksesan di arena membutuhkan lebih dari sekadar menekan tombol asal-asalan. Anda harus menguasai hubungan antara pergerakan karakter Anda, waktu pemulihan (cooldown) keterampilan, dan medan pertempuran. Sebelum terjun ke pertandingan kompetitif, sangat disarankan untuk menguji input kontrol Anda dan menyesuaikan pengaturan kamera untuk menjaga pandangan yang jelas terhadap lawan.
+
+**Sorotan Video:**
+- Menunjukkan kemampuan karakter dan animasi pertempuran yang diperbarui.
+- Menampilkan indikator visual untuk keterampilan area (area-of-effect).
+- Mengilustrasikan tempo pergerakan dan jarak dash secara real-time.
+
+<YouTubeEmbed videoId="iTPzGAWfwos" title="Showcase Pembaruan Battle Piece" />
+
+Untuk mengoptimalkan performa pertempuran Anda, memilih pengaturan platform yang tepat sangatlah penting. Tabel di bawah ini menguraikan perbedaan skema kontrol di berbagai perangkat yang didukung dan menawarkan tips praktis untuk setiap pengaturan.
+
+| Platform | Input Utama | Keunggulan PvP | Tips Kontrol |
+| :--- | :--- | :--- | :--- |
+| PC | Keyboard & Mouse | Pembidikan presisi, akses keybind cepat, dan pelacakan kamera yang gesit | Atur tombol dash utama Anda ke tombol yang mudah dijangkau untuk menghindari serangan mendadak (burst) |
+| Seluler (Mobile) | Layar Sentuh | Bermain secara portabel, target sentuh yang disederhanakan untuk serangan dasar | Jaga layar Anda bersih dari kekacauan dan sesuaikan ukuran tombol untuk menghindari salah klik |
+| Konsol | Gamepad | Pergerakan analog yang nyaman, input trigger yang andal | Sesuaikan sensitivitas pengontrol untuk memastikan Anda dapat berputar dengan cepat selama pertarungan jarak dekat |
+
+<Callout type="warning" title="Peringatan Fase Alpha">
+Battle Piece sedang aktif dalam fase Alpha. Anda mungkin mengalami lonjakan latensi sesekali, keterlambatan registrasi input, atau penyesuaian keseimbangan (balancing) yang tiba-tiba. Menggunakan server privat adalah praktik yang sangat disarankan untuk mengurangi ping tinggi selama sesi latihan.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Daftar Tingkat (Tier List) Build PvP & Loadout Meta">
+
+Membuat build karakter yang kompetitif di Battle Piece melibatkan kombinasi kekuatan pilihan Anda, senjata, dan sifat pasif. Alih-alih berfokus pada formula kerusakan (damage) yang belum terverifikasi, build yang paling efektif memprioritaskan kegunaan (utility), mobilitas, dan kontrol kerumunan (crowd control). Loadout dengan damage tinggi tetapi tanpa mobilitas akan sering kalah dari lawan yang sangat mobile yang dapat dengan mudah menjaga jarak dari serangan Anda.
+
+Tabel berikut mengkategorikan arketipe build utama berdasarkan performa mereka dalam pertemuan antar pemain, efisiensi farming, dan kemudahan penggunaan secara keseluruhan.
+
+| Tipe Build | Tier PvP | Fokus Utama | Lawan Terbaik | Kelemahan |
+| :--- | :--- | :--- | :--- | :--- |
+| Mobilitas + Burst | S-Tier | Pertarungan cepat, pelepasan diri yang cepat, jendela damage burst yang tinggi | Build lambat dan defensif | Kerentanan cooldown yang tinggi |
+| PvE Area Luas | A-Tier | Keterampilan area-of-effect yang luas, damage berkelanjutan dari waktu ke waktu | Pertarungan kelompok dan raid | Animasi keterampilan yang mudah ditebak |
+| Melee Sederhana | A-Tier | Tekanan jarak dekat yang konsisten, penskalaan serangan dasar | Build mobile dengan pertahanan buruk | Pilihan jarak jauh yang terbatas |
+| Duel Target Tunggal | B-Tier | Kontrol kerumunan yang terfokus, penguncian target tunggal | Pemain yang tidak siap | Banyak lawan sekaligus |
+| Penjagaan Jarak Defensif | B-Tier | Pelindung (shielding), knockback, sifat regenerasi kesehatan | Build burst agresif | Output damage keseluruhan yang rendah |
+| Lambat & Mobilitas Rendah | C-Tier | Pertahanan mentah yang tinggi, serangan lambat yang berat | Pemain baru | Petarung (skirmisher) yang sangat mobile |
+
+Untuk membantu Anda memilih jalur yang tepat, kami telah menyoroti tiga gaya bermain PvP yang paling umum di bawah ini. Setiap pendekatan membutuhkan pola pikir taktis dan pengaturan yang berbeda.
+
+<CardGrid cols={3}>
+  <Card title="Petarung Mobilitas (Mobility Skirmisher)">
+    - **Kecepatan gerakan tinggi**
+    - Berfokus pada taktik tabrak-lari (hit-and-run) yang cepat
+    - Sangat baik untuk memancing cooldown musuh
+  </Card>
+  <Card title="Spesialis Brawler">
+    - **Tekanan jarak dekat yang kuat**
+    - Mengandalkan kombo serangan dasar dan penguncian stun (stun lock)
+    - Membutuhkan waktu dan penjagaan jarak yang presisi
+  </Card>
+  <Card title="Pengendali Zona Defensif">
+    - **Kemampuan penolakan area (area denial)**
+    - Menggunakan keterampilan jarak jauh untuk menjauhkan lawan
+    - Sangat efektif dalam mode PvP berbasis tim
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Rekomendasi Meta">
+Untuk pemain yang ingin menaikkan peringkat dengan cepat, memasangkan kekuatan mobilitas tinggi dengan senjata jarak dekat berayun cepat saat ini adalah strategi yang paling andal. Kombinasi ini memungkinkan Anda untuk mendikte tempo pertempuran dan melarikan diri dari situasi berbahaya.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Persiapan PvP Langkah-demi-Langkah & Rute Farming">
+
+Beralih dari mengalahkan bandit dasar ke bertarung melawan pemain terampil membutuhkan persiapan. Anda tidak bisa berharap menang secara konsisten jika level karakter Anda rendah dan perlengkapan Anda belum dioptimalkan. Ikuti jalur progresi terstruktur ini untuk mempersiapkan karakter Anda menghadapi arena kompetitif.
+
+<Steps>
+  <Step num="1" title="Mulai melalui Pengalaman Resmi">
+    Akses game melalui [[🔥RELEASE⚗️] Halaman Roblox Battle Piece](https://www.roblox.com/games/98662768290911/Battle-Piece). Hindari game tiruan untuk memastikan progresi Anda tersimpan dengan benar.
+  </Step>
+  <Step num="2" title="Grind Bandit untuk Level Inti">
+    Gunakan pulau-pulau awal untuk farming bandit. Fase ini sangat penting untuk mempelajari jangkauan serangan dasar senjata Anda, hitbox, dan waktu pemulihan.
+  </Step>
+  <Step num="3" title="Buka dan Uji Kekuatan Anda">
+    Dapatkan kekuatan atau spesifikasi utama pertama Anda. Habiskan waktu untuk menguji jangkauan, kecepatan luncur, dan cooldown dari setiap keterampilan yang terbuka terhadap target PvE.
+  </Step>
+  <Step num="4" title="Dorong Menuju Batas Level">
+    Berusahalah untuk mencapai Batas Level saat ini yaitu 600. Mencapai batas ini memastikan Anda telah mengalokasikan semua poin statistik yang tersedia untuk memaksimalkan kesehatan dan damage Anda.
+  </Step>
+  <Step num="5" title="Mulai Duel Persahabatan">
+    Sebelum memasuki perjodohan peringkat (ranked matchmaking), tantang teman atau pemain lain di server privat. Latih kemampuan menghindar, memecahkan pertahanan (block-breaking), dan mengeksekusi kombo tanpa tekanan kehilangan peringkat.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Tips Farming">
+Saat melakukan grinding menuju level 600, alokasikan sebagian poin statistik Anda ke pertahanan. Memiliki kapasitas kesehatan yang lebih besar memberi Anda lebih banyak ruang untuk pulih dari kesalahan saat melatih kombo PvP Anda.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Kombo Pertempuran & Tips Lawan Praktis">
+
+Menguasai PvP di Battle Piece memerlukan pemahaman tentang prioritas tindakan dan waktu. Setiap serangan memiliki animasi pemulihan, dan setiap dash memiliki cooldown singkat. Memenangkan pertarungan secara konsisten adalah tentang memaksa lawan membuang opsi defensif mereka sehingga Anda dapat mendaratkan kombo damage utama Anda.
+
+Tabel bawah ini menguraikan tindakan pertempuran penting yang harus Anda kuasai, beserta nilai taktis dan cara menangkalnya.
+
+| Tindakan Pertempuran | Tujuan Utama | Nilai Taktis | Cara Menangkal |
+| :--- | :--- | :--- | :--- |
+| Dash Dasar | Pergerakan cepat, menghindari serangan keterampilan | Reposisi, melarikan diri dari kombo, memperpendek jarak | Prediksi arah dash dan gunakan keterampilan area (AoE) |
+| Pemecah Blok (Block Break) | Mengalahkan pemain defensif | Memaksa lawan membuka pertahanan, memungkinkan tindak lanjut kombo | Menghindar ke belakang atau interupsi dengan serangan ringan yang cepat |
+| Keterampilan Burst | Damage langsung yang tinggi | Menghukum serangan yang meleset, menghabisi target dengan kesehatan rendah | Aktifkan pelindung defensif atau dash keluar dari jangkauan |
+| Melepaskan Diri (Disengage) | Menciptakan jarak | Memungkinkan cooldown untuk pulih, mengatur ulang pertempuran | Kejar menggunakan kekuatan yang berfokus pada mobilitas |
+
+Untuk menjaga permainan Anda tetap tajam selama pertandingan yang intens, ingatlah daftar periksa berikut sebelum dan selama setiap duel.
+
+<Checklist
+  id="pvp-readiness"
+  title="Daftar Periksa Pertempuran PvP:"
+  items={[
+    "Verifikasi bahwa ping Anda stabil sebelum menerima duel kompetitif.",
+    "Perhatikan animasi dash lawan Anda untuk melacak status cooldown mereka.",
+    "Hindari menggunakan keterampilan dengan cooldown terlama Anda kecuali target sedang terkena stun.",
+    "Biarkan kamera Anda tidak terkunci untuk menjaga pandangan dari lawan yang menyerang dari sisi samping (flanking).",
+    "Gunakan gerakan pemecah blok segera jika pemain terus-menerus menahan tombol blok."
+  ]}
+/>
+
+<Callout type="info" title="Catatan Taktis">
+Jangan mengandalkan satu kombo berulang yang sama. Lawan yang berpengalaman akan dengan cepat menyadari pola Anda dan menangkalnya. Variasikan waktu serangan Anda dengan menunda keterampilan Anda atau menggunakan serangan dasar untuk memancing mereka menghindar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Pembaruan Komunitas & FAQ">
+
+Tetap terhubung dengan komunitas adalah cara terbaik untuk melacak patch keseimbangan, perbaikan bug, dan pembaruan konten baru. Para pengembang di Studio Multiverse secara teratur memperbarui game ini, yang dapat mengubah meta PvP dalam semalam. Anda dapat bergabung dengan [Grup Roblox Studio Multiverse](https://www.roblox.com/communities/903561179/Studio-Multiverse) untuk memeriksa pengumuman dan berinteraksi dengan pemain lain.
+
+Di bawah ini adalah pertanyaan yang paling sering diajukan mengenai pertempuran antar pemain di Battle Piece.
+
+<FAQ items={[
+  {
+    question: "Berapa batas level saat ini untuk PvP di Battle Piece?",
+    answer: "Batas level Alpha saat ini adalah 600. Sangat disarankan untuk mencapai batas ini sebelum terlibat dalam pertempuran PvP yang serius untuk memastikan statistik Anda benar-benar maksimal."
+  },
+  {
+    question: "Bagaimana cara mengatasi ping tinggi selama pertandingan PvP?",
+    answer: "Deskripsi game resmi merekomendasikan bermain di server privat jika Anda mengalami ping tinggi. Server privat mengurangi beban server, membuat input dan dash Anda jauh lebih responsif."
+  },
+  {
+    question: "Platform apa saja yang didukung untuk pertempuran PvP?",
+    answer: "Battle Piece mendukung PC, Seluler (Mobile), dan Konsol. Meskipun pemain PC sering kali lebih menyukai presisi keyboard dan mouse, pemain konsol dan seluler dapat bersaing secara efektif dengan tata letak yang dioptimalkan."
+  },
+  {
+    question: "Apakah saya harus fokus pada statistik senjata atau statistik kekuatan untuk PvP?",
+    answer: "Pendekatan yang seimbang umumnya adalah yang terbaik, tetapi itu tergantung pada build Anda. Petarung yang berfokus pada mobilitas mendapat manfaat dari statistik kekuatan yang tinggi, sedangkan brawler jarak dekat harus memprioritaskan penskalaan senjata."
+  }
+]} />
+
+<Callout type="tip" title="Tetap Perbarui Informasi">
+Karena Battle Piece sedang dalam pengembangan aktif, pembaruan dapat mengubah properti keterampilan, cooldown, dan mekanik. Periksa halaman komunitas pengembang resmi secara teratur untuk catatan patch terbaru.
+</Callout>
+
+</Section>

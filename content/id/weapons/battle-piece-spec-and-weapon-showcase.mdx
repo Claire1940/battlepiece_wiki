@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Showcase Spec dan Senjata Battle Piece: Tier List & Loadout",
+  description: "Temukan spec karakter dan senjata terbaik di Battle Piece. Baca tier list showcase lengkap kami, sinergi PvP, dan tips progresi untuk build Alpha.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Spec+and+Weapon+Showcase",
+  date: "2026-06-20",
+  author: "Tim Wiki Battle Piece"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Fokus Utama**: **Showcase spec dan senjata battle piece** ini menyoroti perlengkapan dan kekuatan terbaik untuk versi Alpha saat ini.
+- **Meta Pertempuran**: Fokus pada loadout **mobilitas dan burst damage** untuk mengamankan kemenangan dalam pertempuran PvP.
+- **Target Progresi**: Capai **Batas Level 600** saat ini dengan melakukan farming bandit sebelum mencoba raid.
+- **Tip Jaringan**: Gunakan **server privat** jika Anda mengalami ping tinggi selama pengujian pertempuran yang intens.
+</Callout>
+
+<Section icon={Swords} title="Ikhtisar Showcase Spec dan Senjata Battle Piece">
+
+Sistem pertempuran dalam game Roblox buatan Studio Multiverse ini berputar di sekitar dua pilar utama: senjata dan spec. Senjata menentukan serangan fisik utama, kecepatan ayunan, dan jangkauan jarak dekat Anda. Di sisi lain, spec mewakili kekuatan sihir atau elemen Anda, memberikan skill aktif yang unik, mantra area (AoE), dan opsi utilitas. Untuk mencapai performa tinggi baik dalam farming PvE maupun duel PvP, Anda harus memahami bagaimana kedua sistem ini berinteraksi.
+
+Karena game ini saat ini masih dalam fase rilis Alpha, pembaruan keseimbangan (balance update) sering terjadi. Pemain harus beradaptasi dengan perubahan jangkauan senjata dan cooldown spec. Game ini mendukung permainan lintas platform (cross-platform) di PC, seluler, dan konsol, yang berarti tata letak input dan kenyamanan kontrol dapat memengaruhi loadout mana yang paling cocok untuk gaya bermain Anda.
+
+**Sorotan Video:**
+- Mendemonstrasikan kemampuan spec dan efek visual yang diperbarui.
+- Menampilkan animasi ayunan jarak dekat dan perbedaan jangkauan.
+- Menampilkan pratinjau mekanik pertarungan bos dan strategi pengaturan jarak (spacing).
+
+<YouTubeEmbed videoId="iTPzGAWfwos" title="Pembaruan Sukuna [Battle Piece]" />
+
+<Callout type="info" title="Pemberitahuan Pengembangan Alpha">
+Karena game ini masih dalam tahap Alpha, bug performa minor atau penundaan input (input delay) mungkin terjadi. Menguji loadout Anda di server privat dapat membantu membedakan latensi koneksi dari performa senjata yang sebenarnya.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Showcase Senjata dan Tier List">
+
+Senjata di Battle Piece berfungsi sebagai fondasi output damage Anda saat kemampuan spec sedang dalam masa cooldown. Memilih kategori senjata yang tepat menentukan seberapa efektif Anda dapat mengontrol area, memulai kombo, atau menghabisi kelompok musuh yang besar.
+
+<CardGrid cols={3}>
+  <Card title="Melee Sederhana">
+    - **Sangat mudah digunakan**
+    - Waktu ayunan yang konsisten
+    - Ideal untuk leveling awal
+  </Card>
+  <Card title="Bilah Burst">
+    - **Utilitas PvP yang tinggi**
+    - Alat bertarung cepat
+    - Memerlukan pengaturan jarak yang presisi
+  </Card>
+  <Card title="Polearm Area">
+    - **Sangat baik untuk pembersihan PvE**
+    - Busur ayunan yang lebar
+    - Sangat bagus untuk gelombang bandit
+  </Card>
+</CardGrid>
+
+Untuk membantu Anda memilih alat yang tepat untuk build karakter Anda, tabel di bawah ini merinci arketipe senjata utama, peringkat performanya, dan kasus penggunaan optimalnya dalam meta saat ini.
+
+| Arketipe Senjata | Fokus Utama | Peringkat PvE | Peringkat PvP | Kasus Penggunaan Terbaik |
+|---|---|---|---|---|
+| Bilah Melee | Seimbang | Bagus | Bagus | Grinding pemula dan latihan pengaturan jarak |
+| Cutlass Berat | Burst Damage | Sedang | Sangat Bagus | Pembuka PvP dan pertarungan cepat |
+| Polearm Area | Crowd Control | Sangat Bagus | Sedang | Farming bandit dan pembersihan raid |
+
+<Callout type="tip" title="Petunjuk Kombinasi Senjata">
+Memasangkan senjata yang lambat dengan damage tinggi dengan spec bermobilitas tinggi memungkinkan Anda memperkecil jarak dengan cepat dan mendaratkan pukulan berat tanpa terkena serangan balik.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Showcase Spec dan Peran Tempur">
+
+Spec mewakili kemampuan sihir dan kekuatan elemen yang menentukan build karakter Anda. Berbeda dengan senjata standar, spec sangat bergantung pada manajemen energi, rotasi cooldown, dan akurasi target.
+
+Saat merencanakan build, Anda harus mengkategorikan spec berdasarkan peran tempur utamanya. Beberapa spec unggul dalam menjaga jarak musuh, sementara yang lain memaksa Anda untuk bertarung dalam jarak dekat.
+
+| Kategori Spec | Gaya Tempur | Kekuatan Utama | Mitra Sinergi |
+|---|---|---|---|
+| Elemental Burst | Sihir Jarak Jauh | Damage Area Tinggi | Senjata Melee Berat |
+| Fokus Mobilitas | Dash & Chase | Kecepatan Tinggi | Bilah Cutlass Burst |
+| Pengaturan Jarak Defensif | Kontrol Zona | Kelangsungan Hidup Tinggi | Polearm Jangkauan Jauh |
+
+Memahami kategori ini membantu Anda menghindari pembuatan karakter dengan kemampuan yang bertentangan. Misalnya, menggabungkan senjata bermobilitas rendah dengan spec bermobilitas rendah dapat membuat Anda rentan terhadap lawan yang bergerak cepat di arena PvP.
+
+<Callout type="success" title="Bonus Sinergi">
+Build yang paling sukses menggunakan spec untuk mengunci target atau melarikan diri dari bahaya, membiarkan senjata utama memberikan damage yang konsisten selama masa cooldown.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rute Progresi dan Leveling">
+
+Mencapai Batas Level 600 saat ini memerlukan pendekatan farming yang terstruktur. Pemain baru sering melakukan kesalahan dengan menantang bos tingkat tinggi atau memasuki zona PvP sebelum memiliki build yang stabil.
+
+<Steps>
+  <Step num="1" title="Jalankan Game dengan Aman">
+    Akses game melalui halaman resmi game Roblox Studio Multiverse untuk memastikan progresi Anda tersimpan dengan benar.
+  </Step>
+  <Step num="2" title="Farming Bandit Pemula">
+    Fokus pada kamp bandit level rendah untuk memahami kecepatan ayunan senjata, jangkauan, dan waktu pemulihan dasar Anda.
+  </Step>
+  <Step num="3" title="Lengkapi Spec Pertama Anda">
+    Dapatkan spec dasar untuk melengkapi serangan jarak dekat Anda, dengan fokus pada kemampuan yang menawarkan damage area (AoE).
+  </Step>
+  <Step num="4" title="Dorong Menuju Level 600">
+    Beralihlah ke pulau-pulau level tinggi dan kamp bandit elit, gunakan server privat untuk meminimalkan lag selama sesi farming yang lama.
+  </Step>
+  <Step num="5" title="Masuki Raid dan PvP">
+    Setelah Anda mendekati batas level, optimalkan statistik loadout Anda dan berkoordinasi dengan anggota tim untuk mengatasi raid yang menantang.
+  </Step>
+</Steps>
+
+Gunakan tabel pencapaian progresi di bawah ini untuk melacak pertumbuhan karakter Anda dan menentukan kapan harus beralih ke konten yang lebih sulit.
+
+| Rentang Level | Target Utama | Konten yang Direkomendasikan | Fokus Utama |
+|---|---|---|---|
+| Level 1-150 | Kamp Bandit | PvE Dasar | Menguasai waktu ayunan senjata |
+| Level 151-400 | Bandit Elit | Farming Kelompok | Membuka kemampuan spec tingkat lanjut |
+| Level 401-600 | Raid & Bos | PvP & Raid | Mengoptimalkan sinergi build |
+
+<Callout type="warning" title="Peringatan Persyaratan Level">
+Mencoba raid sebelum mencapai setidaknya Level 450 dapat mengakibatkan kekalahan cepat. Fokus pada farming bandit sampai statistik pertahanan Anda cukup berkembang.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Strategi Tempur PvP dan Raid">
+
+Di Battle Piece, pertempuran PvP dan raid PvE memerlukan pendekatan taktis yang sama sekali berbeda. Pertempuran PvP menuntut waktu reaksi yang cepat, pemutus kombo (combo breaker), dan burst damage target tunggal yang tinggi. Sebaliknya, raid memerlukan output damage yang berkelanjutan, penyembuhan kelompok, dan serangan area luas untuk membersihkan gelombang musuh.
+
+<Checklist
+  id="combat-readiness"
+  title="Daftar Periksa Kesiapan PvP dan Raid:"
+  items={[
+    "Capai setidaknya Level 500 untuk statistik kompetitif dasar",
+    "Lengkapi senjata dengan kemampuan knockback atau stun yang tinggi",
+    "Konfigurasikan keybind untuk permainan lintas platform yang lancar",
+    "Bergabunglah dengan server privat untuk meminimalkan latensi selama pertandingan"
+  ]}
+/>
+
+Untuk mengoptimalkan karakter Anda di kedua mode, bandingkan prioritas loadout pada tabel di bawah ini sebelum mengalokasikan poin statistik Anda.
+
+| Prioritas Loadout | Fokus PvP | Fokus Raid | Kriteria Pemilihan |
+|---|---|---|---|
+| Statistik Utama | Burst Damage | DPS Berkelanjutan | Efisiensi waktu membunuh |
+| Pilihan Spec | Mobilitas Tinggi | Damage Area Tinggi | Kerapatan target per gelombang |
+| Pilihan Senjata | Kecepatan Ayunan Cepat | Busur Ayunan Lebar | Ukuran dan jangkauan hitbox |
+
+<Callout type="info" title="Tip Lintas Platform">
+Pemain konsol dan seluler harus menyesuaikan sensitivitas kamera mereka di menu pengaturan untuk melacak lawan yang bergerak cepat selama pertandingan PvP.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Di mana saya bisa menemukan game resmi Battle Piece?",
+    answer: "Anda dapat memainkan game ini di platform resmi Roblox di bawah halaman komunitas pengembang yang dihosting oleh Studio Multiverse."
+  },
+  {
+    question: "Berapa batas level saat ini di build Alpha?",
+    answer: "Batas level saat ini adalah 600. Pemain dapat mencapai batas ini dengan melakukan farming bandit, menyelesaikan quest, dan berpartisipasi dalam raid."
+  },
+  {
+    question: "Bagaimana showcase spec dan senjata battle piece membantu pemain baru?",
+    answer: "Showcase ini menyoroti cara memasangkan senjata dan spec untuk memaksimalkan efisiensi pertempuran baik dalam pertempuran PvP maupun raid PvE."
+  },
+  {
+    question: "Apa yang harus saya lakukan jika mengalami ping tinggi?",
+    answer: "Pengembang menyarankan untuk bergabung dengan server privat untuk mengurangi lag, yang sangat membantu selama pertandingan PvP dengan presisi tinggi."
+  }
+]} />
+
+<Callout type="tip" title="Sumber Daya Komunitas">
+Bergabunglah dengan komunitas resmi Studio Multiverse Roblox untuk terus mendapatkan pembaruan tentang rilis spec mendatang, keseimbangan senjata, dan catatan tambalan (patch notes).
+</Callout>
+
+</Section>

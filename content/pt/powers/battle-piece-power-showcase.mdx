@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Showcase de Poderes do Battle Piece: Tier List e Guia de Combate",
+  description: "Explore as melhores habilidades no Roblox Battle Piece com nosso showcase detalhado de poderes, classificando especificações para batalhas PvP, raids e evolução rápida contra bandidos.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Battle+Piece+Power+Showcase",
+  date: "2026-06-20",
+  author: "Equipe da Wiki do Battle Piece"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Foco Principal**: Avaliar as capacidades de combate e conjuntos de movimentos (movesets) dos poderes no Roblox Battle Piece.
+- **Limite de Nível**: Todas as builds e avaliações de poder são estruturadas em torno do limite atual da fase Alpha, que é o nível 600.
+- **Atividades Principais**: Alinhe sua escolha de poder com os principais modos de jogo: farm de bandidos, PvP e raids cooperativas.
+- **Otimização de Conexão**: Jogadores com ping alto devem utilizar servidores privados para evitar atraso de comando (input lag) durante a execução de poderes.
+</Callout>
+
+<Section icon={Swords} title="Showcase de Poderes do Battle Piece: Atualização do Sukuna e Specs de Combate">
+
+Boas-vindas à análise das habilidades de combate na aventura de anime do Roblox da Studio Multiverse. Neste showcase de poderes do Battle Piece, analisamos o meta atual, destacamos a recente atualização do Sukuna e avaliamos o desempenho de diferentes especificações de combate no farm de bandidos, confrontos PvP e raids de alto risco. Entender essas especificações de combate cedo é crucial para maximizar sua eficiência antes de atingir o limite de nível.
+
+**Destaques do Vídeo:**
+- **Showcase do Moveset do Sukuna**: Uma análise visual das mecânicas de corte e das capacidades de área de efeito.
+- **Eficiência no PvE**: Demonstração de como a atualização lida com grandes grupos de bandidos.
+- **Viabilidade no PvP**: Avaliação dos frames de inicialização (startup frames) e potencial de combo contra oponentes ativos.
+
+<YouTubeEmbed videoId="iTPzGAWfwos" title="Showcase da Atualização do Sukuna" />
+
+Compreender os arquétipos de cada poder permite que você planeje a progressão do seu personagem de forma mais eficaz. A tabela abaixo descreve como as principais categorias de poder se comparam em cenários de combate.
+
+| Arquétipo | Foco | Melhor Para | Perfil de Cooldown |
+|--- |--- |--- |--- |
+| Mobilidade Explosiva | Reposicionamento rápido e dano em alvo único | Aberturas no PvP e fugas rápidas | Curto a médio |
+| PvE de Larga Área | Hitboxes grandes e varreduras de múltiplos alvos | Farm de bandidos e ondas de raid | Cooldowns longos |
+| Espaçamento Defensivo | Repulsões (knockbacks), escudos e ferramentas de zoneamento | Sobrevivência e confrontos com chefes de raid | Médio consistente |
+
+<Callout type="tip" title="Dica de Mestre">
+Ao testar novos poderes, priorize aqueles com pelo menos uma ferramenta de mobilidade. Ser capaz de desengajar do combate costuma ser mais valioso do que o dano bruto durante as fases iniciais de evolução.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progressão de Armas vs Poderes">
+
+Escolher entre depender de armas ou investir pesadamente em poderes molda todo o seu estilo de jogo. Enquanto as armas oferecem combos corpo a corpo consistentes e não dependem estritamente de reservas de energia, os poderes fornecem a utilidade, o dano em área de efeito e o controle de grupo necessários para o conteúdo de fim de jogo. Equilibrar ambos é a chave para dominar o ciclo de combate do jogo.
+
+<CardGrid cols={3}>
+  <Card title="Equipamentos de Mobilidade">
+    - **Ferramentas de engajamento rápido**
+    - Alta eficácia no PvP
+    - Exige mira precisa
+  </Card>
+  <Card title="PvE de Larga Área">
+    - **Excelente farm de bandidos**
+    - Alto escalonamento de dano
+    - Cooldowns de habilidades mais longos
+  </Card>
+  <Card title="Espaçamento Defensivo">
+    - **Altas taxas de sobrevivência**
+    - Excelente para runs solo de raid
+    - Tempos de limpeza mais lentos
+  </Card>
+</CardGrid>
+
+Para jogadores que estão começando, adquirir uma arma inicial confiável é essencial antes de transicionar para poderes de alto nível. A tabela abaixo lista as armas básicas disponíveis durante a progressão inicial.
+
+| Tipo de Arma | Alcance | Facilidade de Uso | Fonte Principal |
+|--- |--- |--- |--- |
+| Cutelo Simples | Curto | Alta | Drops de Bandidos da Área Inicial |
+| Espada Grande Pesada | Médio | Média | Drops de Chefes do Meio do Jogo |
+| Punho de Energia | Curto | Alta | Missões Iniciais |
+
+<Callout type="warning" title="Aviso da Fase Alpha">
+Como o Battle Piece está atualmente em sua fase de lançamento Alpha, ajustes de balanceamento ocorrem com frequência. Evite comprometer todos os seus recursos em uma única build meta, pois as propriedades das habilidades e o escalonamento de dano podem mudar nas próximas atualizações.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Rota de Nivelamento e Farm de Bandidos (Limite de Nível 600)">
+
+Alcançar o limite de nível de 600 requer um caminho de farm estruturado. Os bandidos representam a principal fonte de pontos de experiência ao longo de sua jornada. A eficiência depende de agrupar os inimigos e eliminá-los com poderes de larga área para minimizar o tempo de inatividade.
+
+<Steps>
+  <Step num="1" title="Spawn e Missões Iniciais">
+    Nasça na cidade inicial e pegue imediatamente as missões locais de bandidos. Foque inteiramente em aprender os tempos de ataque corpo a corpo básicos e as janelas de esquiva.
+  </Step>
+  <Step num="2" title="Desbloquear Poderes de Área de Efeito">
+    Transicione de armas de alvo único para seu primeiro poder de área de efeito. Agrupar três ou mais bandidos acelera significativamente seus ganhos de experiência.
+  </Step>
+  <Step num="3" title="Progressão de Ilha no Meio do Jogo">
+    Mova-se para ilhas de nível mais alto assim que seu nível corresponder aos requisitos das missões locais. Não permaneça em zonas de nível baixo quando os ganhos de experiência começarem a diminuir.
+  </Step>
+  <Step num="4" title="Esforço Final até o Nível 600">
+    Passe os níveis finais farmando acampamentos de bandidos de alta densidade ou juntando-se a raids cooperativas. Certifique-se de que sua build tenha atributos defensivos suficientes para sobreviver aos encontros com chefes.
+  </Step>
+</Steps>
+
+Para se manter no caminho certo, siga as faixas de nível recomendadas e os alvos mostrados na tabela de progressão abaixo.
+
+| Faixa de Nível | Alvo de Farm | Objetivos Principais | Recomendação de Servidor |
+|--- |--- |--- |--- |
+| Níveis 1-150 | Bandidos Iniciais | Aprender a recuperação de ataques básicos e espaçamento | Público ou Privado |
+| Níveis 150-400 | Bandidos Elites | Desbloquear poderes primários e armas secundárias | Servidor Privado |
+| Níveis 400-600 | Chefes de Raid e PvP | Maximizar a sinergia da build e farmar equipamentos de fim de jogo | Servidor Privado |
+
+<Callout type="success" title="Dica de Servidor">
+Os desenvolvedores recomendam oficialmente entrar em um servidor privado se você estiver enfrentando ping alto ou lag. Uma conexão estável torna a execução de combos de combate complexos muito mais fácil.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecânicas de Combate PvP">
+
+O PvP no Battle Piece é acelerado e pune severamente erros de posicionamento. Os jogadores devem gerenciar seus cooldowns com cuidado, forçando o oponente a gastar suas ferramentas de fuga antes de se comprometerem com combos explosivos de alto dano. Compreender as vantagens específicas de cada plataforma também pode te dar uma vantagem em partidas competitivas.
+
+<Checklist
+  id="pvp-readiness"
+  title="Lista de Verificação de Preparação para o PvP:"
+  items={[
+    "Alcançar pelo menos o Nível 400 para garantir atributos competitivos",
+    "Equipar um poder com extensores de combo confiáveis",
+    "Mapear seus atalhos de teclado/botões para acesso rápido no seu dispositivo preferido",
+    "Praticar o cancelamento de corrida (dash-canceling) para atrair contra-ataques inimigos"
+  ]}
+/>
+
+Dependendo se você joga no PC, Celular ou Console, o layout dos seus controles afetará sua capacidade de resposta em combate. Use a comparação abaixo para otimizar sua configuração.
+
+| Plataforma | Controle de Movimento | Precisão de Ataque | Desempenho |
+|--- |--- |--- |--- |
+| PC | Teclado e Mouse (Excelente) | Alta (Mira com Mouse) | Altas Taxas de Quadros |
+| Celular | Joystick na Tela (Moderado) | Média (Trava Automática/Toque) | Varia de acordo com o Dispositivo |
+| Console | Analógicos do Controle (Bom) | Média (Mira Travada) | Taxas de Quadros Estáveis |
+
+<Callout type="tip" title="Conselho Tático">
+Nunca use sua principal ferramenta de mobilidade apenas para se locomover durante uma partida PvP. Mantenha-a fora de cooldown para poder reagir imediatamente a habilidades de controle de grupo recebidas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progressão de Raids e Chefes">
+
+As raids representam o teste definitivo da sinergia da sua build e da coordenação da equipe. Ao contrário do farm padrão de bandidos, os chefes de raid possuem enormes barras de vida e mecânicas que exigem movimentação constante. Trazer uma equipe equilibrada com causadores de dano alto e especialistas em controle de grupo é a chave para limpezas consistentes.
+
+| Fase | Objetivo | Requisito Chave | Resultado Esperado |
+|--- |--- |--- |--- |
+| Preparação | Coordenação de build e verificação de conexão | Nível 400+ e servidor privado | Redução de lag de entrada |
+| Engajamento | Limpar ondas de bandidos e chefes menores | Poderes de PvE de larga área | Limpeza rápida de ondas |
+| Luta contra o Chefe | Focar dano e desviar de zonas vermelhas | Mobilidade explosiva e ferramentas defensivas | Conclusão bem-sucedida da raid |
+
+<Callout type="info" title="Organização de Partidas de Raid">
+Coordene-se com os membros da sua equipe na comunidade do Studio Multiverse para estabelecer papéis claros antes de entrar em raids de alto nível. O matchmaking aleatório pode levar a composições de equipe desequilibradas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+Review these common queries regarding the game's combat mechanics, updates, and progression systems.
+
+<FAQ items={[
+  {
+    question: "Onde posso assistir a um showcase detalhado de poderes do Battle Piece?",
+    answer: "Você pode assistir ao showcase incorporado da Atualização do Sukuna na primeira seção deste guia, ou visitar os canais da comunidade do desenvolvedor para ver showcases enviados pelos jogadores."
+  },
+  {
+    question: "Qual é o limite de nível atual no Battle Piece?",
+    answer: "O limite de nível atual para o lançamento Alpha do Battle Piece é 600. Atualizações futuras podem expandir esse limite."
+  },
+  {
+    question: "Como reduzo o lag de combate durante as raids?",
+    answer: "É altamente recomendável jogar em um servidor privado para minimizar a latência, especialmente quando vários jogadores estão conjurando poderes de alto efeito simultaneamente."
+  },
+  {
+    question: "Quais plataformas são suportadas?",
+    answer: "O Battle Piece suporta oficialmente dispositivos PC, Celular e Console, permitindo o jogo cross-platform."
+  }
+]} />
+
+<Callout type="warning" title="Lembrete Final">
+Certifique-se de se juntar à comunidade oficial do Studio Multiverse no Roblox para se manter atualizado sobre patches de balanceamento, novos códigos e lançamentos de conteúdo à medida que o jogo avança pela fase Alpha.
+</Callout>
+
+</Section>

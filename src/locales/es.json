@@ -1,1 +1,12 @@
-{}
+{
+  "nav": {
+    "codes": "Códigos",
+    "guide": "Guía",
+    "powers": "Poderes",
+    "weapons": "Armas",
+    "combat": "Combate",
+    "updates": "Actualizaciones",
+    "release": "Lanzamiento",
+    "discord": "Discord"
+  }
+}
