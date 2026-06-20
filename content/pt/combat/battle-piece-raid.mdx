@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Raid de Battle Piece: Guia de Progressão Alpha e Estratégias de Chefe",
+  description: "Domine todas as raids de Battle Piece com o nosso guia. Aprenda as mecânicas dos chefes, rotas de progressão até o nível 600 e as melhores armas para o combate Alpha de alta pressão.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fbbf24?text=Battle+Piece+Raid+Guide",
+  date: "2026-06-21",
+  author: "Equipe da Wiki de Battle Piece"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Raid de Battle piece**: Atividades de endgame de alta pressão projetadas para jogadores que se aproximam do **limite de Nível 600**.
+- **Loop Principal**: Derrote bandidos para subir de nível, treine no PvP e depois desafie as raids para obter a progressão de alto nível.
+- **Status do Alpha**: Espere bugs e lag; use **servidores privados** para garantir comandos de combate estáveis durante as lutas contra chefes.
+- **Melhor Estratégia**: Priorize builds de **Mobilidade e Dano Explosivo (Burst)** para sobreviver às mecânicas de raid e limpar hordas eficientemente.
+- **Suporte de Plataforma**: Totalmente jogável no PC, Mobile e Console com progressão multiplataforma.
+</Callout>
+
+<Section icon={Map} title="Fundamentos de Raid em Battle Piece">
+
+Na atual versão Alpha do Battle Piece, as raids representam o ápice dos desafios PvE (Jogador contra Ambiente). Ao contrário do farm padrão de bandidos, que foca no ganho constante de experiência, uma **raid de battle piece** testa sua habilidade de gerenciar tempos de recarga (cooldowns), desviar de ataques de área (AoE) e coordenar com uma equipe. Atualmente, o jogo é desenvolvido pelo Studio Multiverse e apresenta um teto de progressão de Nível 600, tornando as raids essenciais para os jogadores que desejam finalizar suas builds.
+
+**Destaques do Vídeo:**
+- **Prévia da Atualização do Sukuna**: Mostrando animações de chefes de alto nível e mecânicas no estilo de expansão de domínio.
+- **Fluxo de Combate**: Demonstrando a importância da movimentação e do tempo de reação em confrontos de alto nível.
+- **Demonstração de Poderes**: Evidência visual de como habilidades específicas interagem com as grandes caixas de colisão (hitboxes) dos chefes.
+
+<YouTubeEmbed videoId="iTPzGAWfwos" title="[Trailer] Atualização do Sukuna [Battle Piece]" />
+
+O sistema de raid está profundamente integrado com as mecânicas de combate mais amplas do jogo, que incluem armas, poderes e características (traits). O sucesso nesses confrontos não se trata apenas de dano bruto, mas de compreender o estado "Alpha" do jogo, onde a estabilidade do servidor pode ser um desafio tão grande quanto os próprios chefes.
+
+<Callout type="tip" title="Foco da Build">
+Para o meta atual do Alpha, foque em características que ofereçam **regeneração de stamina** ou **redução de tempo de recarga**. Elas são vitais para manter a mobilidade necessária para escapar das habilidades supremas (ultimates) dos chefes.
+</Callout>
+
+| Recurso da Raid | Descrição | Importância |
+| :--- | :--- | :--- |
+| **Requisito de Nível** | Recomendado 450+ | Alta |
+| **Tamanho da Equipe** | 1-4 Jogadores | Média |
+| **Dificuldade** | Escala com o Nível | Alta |
+| **Tipo de Servidor** | Privado Recomendado | Crítica |
+
+</Section>
+
+<Section icon={Shield} title="Estratégias de Preparação e Equipamento">
+
+Antes de entrar em uma **raid de battle piece**, seu equipamento deve estar otimizado tanto para a sobrevivência quanto para o DPS sustentado. Como o jogo está em fase Alpha, certas combinações de armas e poderes podem parecer significativamente mais fortes do que outras. A comunidade oficial do Studio Multiverse frequentemente discute as mudanças no "meta", mas os pilares fundamentais de uma build sólida para raid permanecem constantes: mobilidade, alcance e potencial de explosão (burst).
+
+<CardGrid cols={3}>
+  <Card title="Mobilidade + Explosão">
+    - **Alto Valor em PvP/Raid**
+    - Janelas rápidas de engajamento
+    - Essencial para desviar de AoE
+  </Card>
+  <Card title="PvE de Ampla Área">
+    - **Melhor para Limpar Ondas**
+    - Alta eficiência no farm de bandidos
+    - Confiável para lacaios da raid
+  </Card>
+  <Card title="Espaçamento Defensivo">
+    - **Focado em Sobrevivência**
+    - Ferramentas seguras de recuo
+    - Bom para aprender os padrões dos chefes
+  </Card>
+</CardGrid>
+
+Escolher entre uma build focada em poderes ou uma focada em armas depende do seu Nível atual. Novos jogadores devem focar em armas corpo a corpo simples para aprender o tempo dos golpes, enquanto jogadores veteranos no limite do Nível 600 devem experimentar características de poder complexas.
+
+<Callout type="warning" title="Gerenciamento de Lag">
+A descrição oficial do Roblox recomenda explicitamente **servidores privados** se você estiver enfrentando ping alto. Em uma raid, um atraso de 500ms pode resultar em uma derrota instantânea (wipe) durante as fases do chefe.
+</Callout>
+
+| Tipo de Build | Mobilidade | Dano | Facilidade de Uso |
+| :--- | :--- | :--- | :--- |
+| **S-Tier (Explosão)** | ★★★★★ | ★★★★★ | ★★★★☆ |
+| **A-Tier (AoE)** | ★★★☆☆ | ★★★★☆ | ★★★★★ |
+| **B-Tier (Defesa)** | ★★★★☆ | ★★★☆☆ | ★★★☆☆ |
+
+</Section>
+
+<Section icon={Target} title="O Caminho para as Raids de Nível 600">
+
+A progressão em Battle Piece é uma jornada estruturada que começa com a sobrevivência básica e termina com o domínio das mecânicas de **raid de battle piece**. Você não pode entrar correndo em raids no Nível 1; é necessário construir uma base através do farm de bandidos e da prática de PvP.
+
+<Steps>
+  <Step num="1" title="Farm de Bandidos (Níveis 1-200)">
+    Foque em aprender o loop básico de combate. Use este tempo para entender o alcance da sua arma e os tempos de recarga dos seus poderes iniciais.
+  </Step>
+  <Step num="2" title="Integração de PvP (Níveis 200-400)">
+    Participe de batalhas PvP para aprimorar sua velocidade de reação. Os jogadores se movem de forma mais imprevisível do que os bandidos, proporcionando o melhor treinamento para os chefes de raid.
+  </Step>
+  <Step num="3" title="Entrada em Raids (Níveis 400-600)">
+    Comece a tentar as raids com uma equipe. Foque em aprender as pistas visuais ("tells") dos chefes — as animações que ocorrem antes do lançamento de um ataque massivo.
+  </Step>
+  <Step num="4" title="A Busca pelo Limite de Nível">
+    Assim que atingir o Nível 600, as raids se tornarão sua principal fonte de desafio e otimização de equipamentos de alto nível.
+  </Step>
+</Steps>
+
+| Estágio | Atividade | Objetivo |
+| :--- | :--- | :--- |
+| **Início de Jogo** | Farm de Bandidos | Desbloquear o primeiro Poder |
+| **Meio de Jogo** | Prática de PvP | Dominar técnicas de movimentação |
+| **Fim de Jogo** | Chefes de Raid | Atingir o limite de Nível 600 |
+
+<Callout type="success" title="Sabedoria da Comunidade">
+Junte-se à comunidade do Studio Multiverse no Roblox para ficar atualizado sobre os códigos mais recentes. Esses códigos frequentemente fornecem bônus de experiência que encurtam significativamente a jornada até o Nível 600.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecânicas e Táticas de Chefe">
+
+Cada chefe de **raid de battle piece** na versão Alpha apresenta mecânicas únicas que exigem contra-ataques específicos. Embora a atualização do Sukuna tenha introduzido ameaças mais complexas no estilo de "Domínio", a lógica geral para as lutas contra chefes permanece consistente ao longo dos vários desafios do jogo.
+
+**Checklist de Combate de Raid:**
+- **Monitore a Stamina**: Nunca deixe sua barra de stamina chegar a zero; você precisa dela para esquivas de emergência.
+- **Reconhecimento de Pistas**: Observe as mãos e os olhos do chefe em busca de efeitos brilhantes que sinalizam uma habilidade suprema.
+- **Posicionamento**: Fique atrás do chefe sempre que possível para evitar ataques em cone frontal.
+- **Gerenciamento de Cooldown**: Não use todas as habilidades de uma vez; mantenha uma ferramenta de mobilidade pronta a qualquer momento.
+
+| Mecânica do Chefe | Ação de Contra-ataque | Nível de Risco |
+| :--- | :--- | :--- |
+| **Impacto no Solo em Área (AoE)** | Pular ou esquivar (Dash) para longe | Alto |
+| **Projétil Direcionado** | Passo lateral no tempo certo | Médio |
+| **Carga Suprema** | Quebrar escudo ou esconder-se | Crítico |
+| **Invocação de Lacaios** | Trocar para armas de área (AoE) | Médio |
+
+<Callout type="info" title="Atualizações do Alpha">
+Por ser um jogo em fase Alpha, as caixas de colisão (hitboxes) dos chefes podem ocasionalmente ser inconsistentes. Se um chefe parecer atingir você do outro lado do mapa, provavelmente é um problema de lag do servidor, e não uma mecânica planejada.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas e Marcos de Raid">
+
+Completar uma **raid de battle piece** é a atividade mais recompensadora do jogo. Embora as taxas de drop específicas estejam sujeitas a alterações durante a fase Alpha, os marcos de progressão são claramente definidos pelo desenvolvedor.
+
+<Checklist
+  id="raid-milestones"
+  title="Objetivos de Conclusão de Raid:"
+  items={[
+    "Solar com sucesso uma raid de nível baixo",
+    "Atingir o Nível 600 através de EXP de raid",
+    "Obter uma característica de arma de nível lendário",
+    "Completar uma raid sem usar ressurreição",
+    "Dominar as mecânicas de chefe da atualização do Sukuna"
+  ]}
+/>
+
+As raids são a principal forma de testar as teorias de "Melhor Build" que circulam na comunidade. Quer você esteja usando um combo de Poder+Arma ou uma build pura de Especialização (Spec), o ambiente de raid oferece o único teste de estresse real para a eficácia de combate do seu personagem.
+
+| Categoria de Recompensa | Drops Potenciais | Valor |
+| :--- | :--- | :--- |
+| **Moeda** | Equivalente a Ouro / Beli | Alto |
+| **Experiência** | Grandes blocos de EXP | Crítico |
+| **Itens** | Melhorias de Armas / Poderes | Alto |
+
+<Callout type="tip" title="Sinergia de Equipe">
+Se estiver jogando em grupo, faça com que um jogador foque em habilidades de "Atordoamento" (Stun) ou "Controle", enquanto os outros focam em dano "Explosivo" (Burst). Isso torna os chefes de raid muito mais fáceis de gerenciar.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ de Raids em Battle Piece">
+
+<FAQ items={[
+  {
+    question: "Qual é o nível recomendado para uma raid de battle piece?",
+    answer: "Embora você possa entrar antes, a maioria dos jogadores recomenda estar pelo menos no Nível 450 para contribuir com dano significativo e sobreviver aos ataques básicos dos chefes. O limite de nível atual é 600."
+  },
+  {
+    question: "Como lidar com o lag durante uma raid?",
+    answer: "Os desenvolvedores do Studio Multiverse recomendam o uso de um servidor privado. Isso reduz a carga de outros jogadores e estabiliza sua conexão com a instância da raid."
+  },
+  {
+    question: "O que é melhor para as raids: Armas ou Poderes?",
+    answer: "Uma combinação é o ideal. Poderes de alta mobilidade permitem que você se esquive, enquanto as armas frequentemente fornecem danos mais consistentes e sem custo de recursos durante os momentos de inatividade do chefe."
+  },
+  {
+    question: "Battle Piece está disponível para dispositivos móveis?",
+    answer: "Sim, Battle Piece suporta PC, Mobile e Console. No entanto, as raids geralmente são mais fáceis no PC devido aos controles de teclado mais precisos para esquiva."
+  }
+]} />
+
+<Callout type="success" title="Nota Final">
+Mantenha-se ativo na comunidade e fique de olho na página oficial do Roblox para obter as atualizações mais recentes do Alpha. Cada patch traz novas mudanças de balanceamento que podem mudar o meta de raid do dia para a noite!
+</Callout>
+
+</Section>

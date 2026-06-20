@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Todos los jefes de Battle Piece: Guía completa de progresión y raids",
+  description: "Domina a todos los jefes en Battle Piece Roblox. Aprende los requisitos de nivel, estrategias de raid, ubicaciones para farmear bandidos y las mejores builds para llegar al nivel 600.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/121b2d/facc15?text=Battle+Piece+All+Bosses",
+  date: "2026-06-21",
+  author: "Equipo de la Wiki de Battle Piece"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Enfoque principal**: Derrotar a **todos los jefes de Battle Piece** requiere una ruta de progresión estructurada desde el nivel 1 hasta el límite actual de 600.
+- **Estrategia inicial**: Concéntrate en los líderes bandidos y los jefes de islas de nivel bajo para desbloquear ranuras de armas esenciales y especializaciones de poder.
+- **Transición a mitad de juego**: Optimiza tus rasgos y la asignación de puntos de estadísticas alrededor del nivel 300 para prepararte para encuentros de élite de alta presión.
+- **Dominio del juego tardío**: Arma builds de ráfaga de alta movilidad para conquistar jefes de raid de múltiples fases y desafíos del final del juego.
+- **Mitigación de lag**: Utiliza siempre un servidor privado para combates intensos contra jefes si experimentas una latencia alta en salas públicas.
+</Callout>
+
+<Section icon={Map} title="Todos los jefes de Battle Piece: Mapa de progresión y descripción general">
+
+Derrotar a **todos los jefes de Battle Piece** es la prueba definitiva de maestría en combate, sinergia de builds y ejecución mecánica en este RPG de acción anime de rápido crecimiento. Desarrollado por Studio Multiverse en la plataforma Roblox, Battle Piece se encuentra actualmente en su fase de lanzamiento Alfa. El juego cuenta con un límite de nivel máximo de 600, con una jugabilidad construida en torno a tres pilares fundamentales: derrotar a poderosos bandidos, dominar el combate jugador contra jugador y conquistar desafiantes raids cooperativas. Para tener éxito contra los adversarios más difíciles del juego, los jugadores deben comprender cómo escala la dificultad de los jefes en las diferentes islas y preparar a sus personajes en consecuencia.
+
+**Puntos destacados del video:**
+- Desglose visual detallado de las mecánicas de los jefes y las señales de ataque de la actualización de Sukuna.
+- Demostración de técnicas de evasión de alta movilidad durante ataques pesados de área de efecto.
+- Muestra de especializaciones de poder del juego tardío y su rendimiento práctico en combates contra jefes.
+
+<YouTubeEmbed videoId="iTPzGAWfwos" title="Sukuna Update Trailer" />
+
+Para garantizar una experiencia de progresión fluida, los jugadores deben seguir directamente las actualizaciones de desarrollo y los anuncios de la comunidad. La experiencia oficial [RELEASE] Battle Piece Roblox es el destino principal para jugar al juego y verificar el estado de la versión en vivo. Además, se recomienda encarecidamente unirse al grupo de Roblox de Studio Multiverse para recibir códigos exclusivos de la comunidad, registros de actualizaciones y oportunidades de emparejamiento de jugadores para contenido de raids de alto nivel.
+
+<Callout type="tip" title="Aviso del desarrollador">
+Debido a que Battle Piece está en su etapa Alfa, el escalado de salud de los jefes, los valores de daño y los patrones de ataque están sujetos a cambios en futuros parches de equilibrio. Prioriza siempre los fundamentos mecánicos como el desvío (parry) y el espaciado sobre las builds meta temporales.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Jefes de juego temprano y líderes bandidos (Niveles 1–200)">
+
+La fase de progresión temprana en Battle Piece está diseñada para enseñar a los jugadores los fundamentos del combate de acción al estilo anime. Del nivel 1 al 200, tu objetivo principal es establecer una rutina de nivelación confiable. Los jefes en este rango son principalmente líderes bandidos y artistas marciales renegados dispersos por las islas iniciales. Aunque carecen de las complejas transiciones de fase de los jefes de raid del juego tardío, poseen un alto rendimiento de daño en comparación con la reserva de salud de un principiante. Superar estos desafíos iniciales es fundamental para desbloquear ranuras de armas y ganar la moneda necesaria para realizar tiradas (rolls) por las especializaciones de poder iniciales.
+
+| Nombre del jefe | Nivel recomendado | Ubicación de aparición | Estrategia principal | Tipo de recompensa clave |
+|---|---|---|---|---|
+| Líder bandido | 15+ | Isla inicial | Provoca ataques pesados, esquiva hacia atrás, contraataca con combos M1 básicos | Moneda inicial / EXP |
+| Capitán renegado | 75+ | Cueva pirata | Mantén la distancia, utiliza especializaciones de poder a distancia, evita el tajo giratorio | Mejoras de armas |
+| Forajido del desierto | 150+ | Ruinas de arena | Deslízate detrás durante el lanzamiento de la tormenta de arena, castiga con habilidades de armas pesadas | Materiales de rasgos raros |
+
+Para derrotar al primer jefe importante en la isla inicial, sigue esta secuencia de combate confiable:
+
+<Steps>
+  <Step num="1" title="Limpia primero a los secuaces menores">
+    Antes de enfrentarte al jefe principal, elimina a los bandidos de los alrededores para evitar que te abrumen durante las ventanas críticas de esquiva.
+  </Step>
+  <Step num="2" title="Observa las señales de ataque">
+    Presta atención a los contornos rojos brillantes o animaciones únicas que indican un ataque de jefe pesado e imparable.
+  </Step>
+  <Step num="3" title="Ejecuta un combo de contraataque">
+    Una vez que el jefe falle un ataque pesado, desata todo tu combo de arma o poder mientras está atrapado en su animación de recuperación.
+  </Step>
+  <Step num="4" title="Restablece y toma distancia">
+    Deslízate hacia atrás inmediatamente después de completar tu combo para recuperar tu resistencia y esperar a que terminen los tiempos de recarga.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Requisitos de nivel">
+Intentar luchar contra jefes por debajo del umbral de nivel recomendado resultará en severas penalizaciones de daño. Farmea siempre bandidos estándar para igualar el nivel del jefe antes de iniciar el combate.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Jefes de mitad de juego y desafíos de élite (Niveles 201–400)">
+
+A medida que los jugadores cruzan el umbral del nivel 200, la dificultad de los encuentros con los jefes aumenta significativamente. Los jefes de mitad de juego introducen mecánicas como la teletransportación, peligros de área de efecto localizados y ventanas de desvío (parry). En esta etapa, confiar únicamente en ataques M1 básicos resultará en derrotas rápidas. Los jugadores deben comenzar a integrar sus especializaciones de poder seleccionadas con habilidades de armas para crear combos de combate fluidos. Esta fase del juego también es donde realizar tiradas para obtener rasgos y razas beneficiosas se vuelve muy relevante para aumentar la eficiencia general en combate.
+
+| Nombre del jefe | Nivel recomendado | Ubicación de aparición | Estrategia principal | Tipo de recompensa clave |
+|---|---|---|---|---|
+| Samurái maldito | 250+ | Santuario del cerezo en flor | Desvía los golpes verticales, ejecuta combos rápidos de ráfaga durante la recuperación | Arma Katana de élite |
+| Cría de bestia marina | 320+ | Arrecife de océano abierto | Usa especializaciones de alta movilidad, mantente fuera de las zonas de vórtices de agua | Especializaciones de poder sintonizadas con agua |
+| Asesino de las sombras | 380+ | Bosque de los susurros | Presta atención a los indicadores de teletransportación, usa un área de efecto (AoE) amplia para revelar el sigilo | Rasgos de golpe crítico |
+
+Para abordar estos desafíos de mitad de juego de manera efectiva, los jugadores deben adoptar un arquetipo de build especializado que se adapte a su estilo de juego.
+
+<CardGrid cols={3}>
+  <Card title="El atacante de ráfaga">
+    Se enfoca en un alto rendimiento de daño y un enfrentamiento rápido. Ideal para fases rápidas de jefes donde necesitas agotar las barras de salud rápidamente.
+  </Card>
+  <Card title="El evasor ágil">
+    Prioriza la alta movilidad y las especializaciones de tiempo de recarga a distancia. Ideal para jefes con peligrosos ataques de área de efecto a corta distancia.
+  </Card>
+  <Card title="El defensor incondicional">
+    Equilibra las estadísticas de supervivencia con un daño de arma constante. Muy recomendado para jugadores que aún están aprendiendo los patrones de ataque de los jefes.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Estrategia de tirada de rasgos">
+Usa la moneda obtenida de los jefes de mitad de juego para realizar tiradas por rasgos que complementen tu build. Para las peleas contra jefes, prioriza los rasgos que ofrecen reducción de tiempo de recarga o aumentos en la distancia de esquiva.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Jefes de raid del juego tardío y contenido final (Niveles 401–600)">
+
+Llegar a la fase del juego tardío (niveles 401 a 600) cambia el enfoque del farmeo en solitario al contenido PvE en equipo coordinado. Los jefes de raid en Battle Piece representan la cúspide de la dificultad PvE. Estos encuentros presentan enormes reservas de salud, patrones de ataque de múltiples fases y peligros ambientales que requieren un movimiento constante. El jefe de raid Sukuna, destacado en las actualizaciones recientes del juego, ejemplifica este cambio hacia mecánicas grupales de alta intensidad donde los errores individuales pueden provocar la derrota de todo el equipo.
+
+| Nombre de la Raid/Jefe | Nivel recomendado | Tamaño del equipo | Estrategia principal | Tipo de recompensa clave |
+|---|---|---|---|---|
+| Jefe de Raid Sukuna | 500+ | 3-5 jugadores | Coordina el espaciado defensivo, rota el control de masas, esquiva las flechas de fuego | Especializaciones de poder legendarias |
+| Dragón antiguo | 550+ | 4-6 jugadores | Apunta a las alas para derribarlo, utiliza builds de alta movilidad para los barridos de cola | Armadura de escamas de dragón |
+| Árbitro del Multiverso | 600 | Solo/Cooperativo | Maximiza las estadísticas de nivel 600, usa equipamientos de movilidad de nivel S más ráfaga | Botines de armas míticas |
+
+Antes de intentar cualquier contenido de raid de alto nivel, los jugadores deben asegurarse de que sus personajes y equipos estén completamente preparados.
+
+<Checklist
+  id="raid-preparation"
+  title="Lista de verificación de preparación para raids:"
+  items={[
+    "Alcanzar al menos el nivel 500 para igualar el escalado de las raids de alto nivel",
+    "Equipar una especialización de poder de movilidad de nivel S o nivel A",
+    "Formar un grupo equilibrado de 3 a 5 jugadores a través de los canales oficiales de la comunidad",
+    "Asegurar una conexión estable o alojar en un servidor privado para evitar un ping alto",
+    "Configurar asignaciones de teclas específicas de la plataforma para tiempos de reacción óptimos"
+  ]}
+/>
+
+<Callout type="success" title="Recompensas de raid">
+Los jefes de raid del juego tardío ofrecen las tasas de caída (drop rates) más altas para armas legendarias y especializaciones de poder míticas. Superar con éxito estas raids es el método principal para optimizar a tu personaje para el PvP del final del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejores poderes y armas para combates contra jefes">
+
+Para derrotar de manera constante a los jefes del juego tardío, tu build debe estar altamente optimizada. Una build exitosa en Battle Piece armoniza tres elementos: tu especialización de poder activa, tu arma equipada y tus rasgos pasivos o bonificaciones de raza. Debido a que los jefes del juego tardío presentan secuencias de ataque rápidas y mecánicas imparables, la movilidad se valora universalmente por encima de las estadísticas defensivas estáticas. La capacidad de reposicionarse rápidamente te permite sobrevivir a devastadores ataques de área de efecto mientras mantienes tus habilidades de daño principal en tiempo de recarga.
+
+| Equipamiento de Build | Rango (Tier) | Rol de combate contra jefes | Sinergia de mecánica clave |
+|---|---|---|---|
+| Movilidad + Ráfaga | S | DPS principal / Evasión (Kiting) | Escapes de alta velocidad combinados con ventanas rápidas de ráfagas de alto daño |
+| PvE de área amplia | A | Limpieza de enemigos / Control de secuaces (Adds) | Amplios barridos de área de efecto para controlar apariciones menores durante las fases de raid |
+| Espaciado defensivo | B | Supervivencia / Tanque | Sólidos valores de bloqueo, ventanas de desvío (parry) y rasgos de regeneración de salud |
+
+Al diseñar tu build para cazar jefes, considera los siguientes principios tácticos:
+- **Gestión del tiempo de recarga**: Nunca agotes todas tus habilidades de movilidad simultáneamente. Mantén siempre al menos una habilidad de deslizamiento o teletransportación fuera de tiempo de recarga para escapar de ataques repentinos de los jefes.
+- **Desviar (Parry) vs. Esquivar**: Los ataques físicos estándar de los jefes generalmente se pueden desviar para desestabilizarlos. Sin embargo, los ataques mágicos o elementales brillantes deben esquivarse por completo.
+- **Optimización de latencia**: Como se recomienda en la página oficial de descripción de Roblox, los jugadores con ping alto deben usar servidores privados para garantizar que los comandos se registren con precisión durante las ventanas estrechas de desvío.
+
+<Callout type="tip" title="Espaciado en combate">
+Mantener un espaciado adecuado suele ser más efectivo que el bloqueo activo. Coloca a tu personaje justo fuera del alcance físico del jefe para provocar sus ataques, luego da un paso adelante para castigarlo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+Para ayudar a los jugadores a dominar el ciclo de progresión y superar los desafíos más difíciles del juego, aquí tienes las respuestas a las preguntas más comunes sobre los encuentros con jefes en Battle Piece.
+
+<FAQ items={[
+  {
+    question: "¿Cómo encuentro a todos los jefes en Battle Piece?",
+    answer: "Los jefes están dispersos en diferentes islas bloqueadas por nivel. Seguir la ruta de nivelación estándar del nivel 1 al 600 te guiará naturalmente a la ubicación de cada jefe."
+  },
+  {
+    question: "¿Cuál es la mejor build para derrotar a los jefes de raid del juego tardío?",
+    answer: "Se recomiendan encarecidamente las builds de nivel S que combinan alta movilidad y daño de ráfaga. Estas especializaciones te permiten infligir un daño masivo durante las pequeñas ventanas de vulnerabilidad del jefe, mientras esquivas fácilmente los barridos letales de área de efecto."
+  },
+  {
+    question: "¿El lag afecta los combates contra jefes en Battle Piece?",
+    answer: "Sí, un ping alto puede hacer que desviar y esquivar los ataques de los jefes sea extremadamente difícil. Se recomienda encarecidamente usar un servidor privado si experimentas problemas de conexión, como se indica en la página oficial de Roblox."
+  },
+  {
+    question: "¿Puedo derrotar solo a los jefes de raid del juego tardío en el nivel 600?",
+    answer: "Aunque algunos jefes de élite de mitad de juego se pueden derrotar fácilmente en solitario, las raids de juego tardío como la Raid de Sukuna están diseñadas para jugar en grupo. Intentarlo en solitario requiere una ejecución perfecta y un equipamiento optimizado de nivel S."
+  }
+]} />
+
+<Callout type="info" title="Actualizaciones de la comunidad">
+Para obtener la información más reciente sobre lanzamientos de jefes, ajustes de equilibrio y entregas oficiales de códigos, consulta regularmente la página de la comunidad de desarrolladores de Studio Multiverse.
+</Callout>
+
+</Section>
