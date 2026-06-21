@@ -1,0 +1,794 @@
+{
+  "en": {
+    "codes": [
+      {
+        "slug": "battle-piece-codes",
+        "file": "battle-piece-codes"
+      }
+    ],
+    "combat": [
+      {
+        "slug": "battle-piece-all-bosses",
+        "file": "battle-piece-all-bosses"
+      },
+      {
+        "slug": "battle-piece-battle-guide",
+        "file": "battle-piece-battle-guide"
+      },
+      {
+        "slug": "battle-piece-best-fighting-style",
+        "file": "battle-piece-best-fighting-style"
+      },
+      {
+        "slug": "battle-piece-best-race",
+        "file": "battle-piece-best-race"
+      },
+      {
+        "slug": "battle-piece-boss-guide",
+        "file": "battle-piece-boss-guide"
+      },
+      {
+        "slug": "battle-piece-combat-guide",
+        "file": "battle-piece-combat-guide"
+      },
+      {
+        "slug": "battle-piece-pvp-guide",
+        "file": "battle-piece-pvp-guide"
+      },
+      {
+        "slug": "battle-piece-raid",
+        "file": "battle-piece-raid"
+      },
+      {
+        "slug": "battle-piece-strongest-anime-characters",
+        "file": "battle-piece-strongest-anime-characters"
+      },
+      {
+        "slug": "battle-piece-tier-list",
+        "file": "battle-piece-tier-list"
+      }
+    ],
+    "discord": [
+      {
+        "slug": "battle-piece-community",
+        "file": "battle-piece-community"
+      },
+      {
+        "slug": "battle-piece-discord",
+        "file": "battle-piece-discord"
+      },
+      {
+        "slug": "battle-piece-official-links",
+        "file": "battle-piece-official-links"
+      },
+      {
+        "slug": "battle-piece-roblox-group",
+        "file": "battle-piece-roblox-group"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "battle-piece-beginner-guide",
+        "file": "battle-piece-beginner-guide"
+      },
+      {
+        "slug": "battle-piece-complete-beginners-guide",
+        "file": "battle-piece-complete-beginners-guide"
+      },
+      {
+        "slug": "battle-piece-first-time-guide",
+        "file": "battle-piece-first-time-guide"
+      },
+      {
+        "slug": "battle-piece-how-to-play",
+        "file": "battle-piece-how-to-play"
+      },
+      {
+        "slug": "battle-piece-leveling-guide",
+        "file": "battle-piece-leveling-guide"
+      },
+      {
+        "slug": "battle-piece-noob-to-pro-guide",
+        "file": "battle-piece-noob-to-pro-guide"
+      },
+      {
+        "slug": "battle-piece-progression-guide",
+        "file": "battle-piece-progression-guide"
+      },
+      {
+        "slug": "battle-piece-tips",
+        "file": "battle-piece-tips"
+      }
+    ],
+    "powers": [
+      {
+        "slug": "battle-piece-ability-guide",
+        "file": "battle-piece-ability-guide"
+      },
+      {
+        "slug": "battle-piece-all-powers",
+        "file": "battle-piece-all-powers"
+      },
+      {
+        "slug": "battle-piece-best-powers",
+        "file": "battle-piece-best-powers"
+      },
+      {
+        "slug": "battle-piece-fruit-guide",
+        "file": "battle-piece-fruit-guide"
+      },
+      {
+        "slug": "battle-piece-power-showcase",
+        "file": "battle-piece-power-showcase"
+      },
+      {
+        "slug": "battle-piece-powers",
+        "file": "battle-piece-powers"
+      }
+    ],
+    "release": [
+      {
+        "slug": "battle-piece-early-access",
+        "file": "battle-piece-early-access"
+      },
+      {
+        "slug": "battle-piece-game",
+        "file": "battle-piece-game"
+      },
+      {
+        "slug": "battle-piece-new-roblox-anime-game",
+        "file": "battle-piece-new-roblox-anime-game"
+      },
+      {
+        "slug": "battle-piece-release",
+        "file": "battle-piece-release"
+      },
+      {
+        "slug": "battle-piece-roblox",
+        "file": "battle-piece-roblox"
+      },
+      {
+        "slug": "battle-piece-trailer",
+        "file": "battle-piece-trailer"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "battle-piece-sukuna-update",
+        "file": "battle-piece-sukuna-update"
+      },
+      {
+        "slug": "battle-piece-update-guide",
+        "file": "battle-piece-update-guide"
+      },
+      {
+        "slug": "battle-piece-update",
+        "file": "battle-piece-update"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "battle-piece-all-specs",
+        "file": "battle-piece-all-specs"
+      },
+      {
+        "slug": "battle-piece-all-weapons",
+        "file": "battle-piece-all-weapons"
+      },
+      {
+        "slug": "battle-piece-best-weapons",
+        "file": "battle-piece-best-weapons"
+      },
+      {
+        "slug": "battle-piece-spec-and-weapon-showcase",
+        "file": "battle-piece-spec-and-weapon-showcase"
+      },
+      {
+        "slug": "battle-piece-weapon-showcase",
+        "file": "battle-piece-weapon-showcase"
+      },
+      {
+        "slug": "battle-piece-weapon-tier-list",
+        "file": "battle-piece-weapon-tier-list"
+      },
+      {
+        "slug": "battle-piece-weapons",
+        "file": "battle-piece-weapons"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "battle-piece-codes",
+        "file": "battle-piece-codes"
+      }
+    ],
+    "combat": [
+      {
+        "slug": "battle-piece-all-bosses",
+        "file": "battle-piece-all-bosses"
+      },
+      {
+        "slug": "battle-piece-battle-guide",
+        "file": "battle-piece-battle-guide"
+      },
+      {
+        "slug": "battle-piece-best-fighting-style",
+        "file": "battle-piece-best-fighting-style"
+      },
+      {
+        "slug": "battle-piece-best-race",
+        "file": "battle-piece-best-race"
+      },
+      {
+        "slug": "battle-piece-boss-guide",
+        "file": "battle-piece-boss-guide"
+      },
+      {
+        "slug": "battle-piece-combat-guide",
+        "file": "battle-piece-combat-guide"
+      },
+      {
+        "slug": "battle-piece-pvp-guide",
+        "file": "battle-piece-pvp-guide"
+      },
+      {
+        "slug": "battle-piece-raid",
+        "file": "battle-piece-raid"
+      },
+      {
+        "slug": "battle-piece-strongest-anime-characters",
+        "file": "battle-piece-strongest-anime-characters"
+      },
+      {
+        "slug": "battle-piece-tier-list",
+        "file": "battle-piece-tier-list"
+      }
+    ],
+    "discord": [
+      {
+        "slug": "battle-piece-community",
+        "file": "battle-piece-community"
+      },
+      {
+        "slug": "battle-piece-discord",
+        "file": "battle-piece-discord"
+      },
+      {
+        "slug": "battle-piece-official-links",
+        "file": "battle-piece-official-links"
+      },
+      {
+        "slug": "battle-piece-roblox-group",
+        "file": "battle-piece-roblox-group"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "battle-piece-beginner-guide",
+        "file": "battle-piece-beginner-guide"
+      },
+      {
+        "slug": "battle-piece-complete-beginners-guide",
+        "file": "battle-piece-complete-beginners-guide"
+      },
+      {
+        "slug": "battle-piece-first-time-guide",
+        "file": "battle-piece-first-time-guide"
+      },
+      {
+        "slug": "battle-piece-how-to-play",
+        "file": "battle-piece-how-to-play"
+      },
+      {
+        "slug": "battle-piece-leveling-guide",
+        "file": "battle-piece-leveling-guide"
+      },
+      {
+        "slug": "battle-piece-noob-to-pro-guide",
+        "file": "battle-piece-noob-to-pro-guide"
+      },
+      {
+        "slug": "battle-piece-progression-guide",
+        "file": "battle-piece-progression-guide"
+      },
+      {
+        "slug": "battle-piece-tips",
+        "file": "battle-piece-tips"
+      }
+    ],
+    "powers": [
+      {
+        "slug": "battle-piece-ability-guide",
+        "file": "battle-piece-ability-guide"
+      },
+      {
+        "slug": "battle-piece-all-powers",
+        "file": "battle-piece-all-powers"
+      },
+      {
+        "slug": "battle-piece-best-powers",
+        "file": "battle-piece-best-powers"
+      },
+      {
+        "slug": "battle-piece-fruit-guide",
+        "file": "battle-piece-fruit-guide"
+      },
+      {
+        "slug": "battle-piece-power-showcase",
+        "file": "battle-piece-power-showcase"
+      },
+      {
+        "slug": "battle-piece-powers",
+        "file": "battle-piece-powers"
+      }
+    ],
+    "release": [
+      {
+        "slug": "battle-piece-early-access",
+        "file": "battle-piece-early-access"
+      },
+      {
+        "slug": "battle-piece-game",
+        "file": "battle-piece-game"
+      },
+      {
+        "slug": "battle-piece-new-roblox-anime-game",
+        "file": "battle-piece-new-roblox-anime-game"
+      },
+      {
+        "slug": "battle-piece-release",
+        "file": "battle-piece-release"
+      },
+      {
+        "slug": "battle-piece-roblox",
+        "file": "battle-piece-roblox"
+      },
+      {
+        "slug": "battle-piece-trailer",
+        "file": "battle-piece-trailer"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "battle-piece-sukuna-update",
+        "file": "battle-piece-sukuna-update"
+      },
+      {
+        "slug": "battle-piece-update-guide",
+        "file": "battle-piece-update-guide"
+      },
+      {
+        "slug": "battle-piece-update",
+        "file": "battle-piece-update"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "battle-piece-all-specs",
+        "file": "battle-piece-all-specs"
+      },
+      {
+        "slug": "battle-piece-all-weapons",
+        "file": "battle-piece-all-weapons"
+      },
+      {
+        "slug": "battle-piece-best-weapons",
+        "file": "battle-piece-best-weapons"
+      },
+      {
+        "slug": "battle-piece-spec-and-weapon-showcase",
+        "file": "battle-piece-spec-and-weapon-showcase"
+      },
+      {
+        "slug": "battle-piece-weapon-showcase",
+        "file": "battle-piece-weapon-showcase"
+      },
+      {
+        "slug": "battle-piece-weapon-tier-list",
+        "file": "battle-piece-weapon-tier-list"
+      },
+      {
+        "slug": "battle-piece-weapons",
+        "file": "battle-piece-weapons"
+      }
+    ]
+  },
+  "id": {
+    "codes": [
+      {
+        "slug": "battle-piece-codes",
+        "file": "battle-piece-codes"
+      }
+    ],
+    "combat": [
+      {
+        "slug": "battle-piece-all-bosses",
+        "file": "battle-piece-all-bosses"
+      },
+      {
+        "slug": "battle-piece-battle-guide",
+        "file": "battle-piece-battle-guide"
+      },
+      {
+        "slug": "battle-piece-best-fighting-style",
+        "file": "battle-piece-best-fighting-style"
+      },
+      {
+        "slug": "battle-piece-best-race",
+        "file": "battle-piece-best-race"
+      },
+      {
+        "slug": "battle-piece-boss-guide",
+        "file": "battle-piece-boss-guide"
+      },
+      {
+        "slug": "battle-piece-combat-guide",
+        "file": "battle-piece-combat-guide"
+      },
+      {
+        "slug": "battle-piece-pvp-guide",
+        "file": "battle-piece-pvp-guide"
+      },
+      {
+        "slug": "battle-piece-raid",
+        "file": "battle-piece-raid"
+      },
+      {
+        "slug": "battle-piece-strongest-anime-characters",
+        "file": "battle-piece-strongest-anime-characters"
+      },
+      {
+        "slug": "battle-piece-tier-list",
+        "file": "battle-piece-tier-list"
+      }
+    ],
+    "discord": [
+      {
+        "slug": "battle-piece-community",
+        "file": "battle-piece-community"
+      },
+      {
+        "slug": "battle-piece-discord",
+        "file": "battle-piece-discord"
+      },
+      {
+        "slug": "battle-piece-official-links",
+        "file": "battle-piece-official-links"
+      },
+      {
+        "slug": "battle-piece-roblox-group",
+        "file": "battle-piece-roblox-group"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "battle-piece-beginner-guide",
+        "file": "battle-piece-beginner-guide"
+      },
+      {
+        "slug": "battle-piece-complete-beginners-guide",
+        "file": "battle-piece-complete-beginners-guide"
+      },
+      {
+        "slug": "battle-piece-first-time-guide",
+        "file": "battle-piece-first-time-guide"
+      },
+      {
+        "slug": "battle-piece-how-to-play",
+        "file": "battle-piece-how-to-play"
+      },
+      {
+        "slug": "battle-piece-leveling-guide",
+        "file": "battle-piece-leveling-guide"
+      },
+      {
+        "slug": "battle-piece-noob-to-pro-guide",
+        "file": "battle-piece-noob-to-pro-guide"
+      },
+      {
+        "slug": "battle-piece-progression-guide",
+        "file": "battle-piece-progression-guide"
+      },
+      {
+        "slug": "battle-piece-tips",
+        "file": "battle-piece-tips"
+      }
+    ],
+    "powers": [
+      {
+        "slug": "battle-piece-ability-guide",
+        "file": "battle-piece-ability-guide"
+      },
+      {
+        "slug": "battle-piece-all-powers",
+        "file": "battle-piece-all-powers"
+      },
+      {
+        "slug": "battle-piece-best-powers",
+        "file": "battle-piece-best-powers"
+      },
+      {
+        "slug": "battle-piece-fruit-guide",
+        "file": "battle-piece-fruit-guide"
+      },
+      {
+        "slug": "battle-piece-power-showcase",
+        "file": "battle-piece-power-showcase"
+      },
+      {
+        "slug": "battle-piece-powers",
+        "file": "battle-piece-powers"
+      }
+    ],
+    "release": [
+      {
+        "slug": "battle-piece-early-access",
+        "file": "battle-piece-early-access"
+      },
+      {
+        "slug": "battle-piece-game",
+        "file": "battle-piece-game"
+      },
+      {
+        "slug": "battle-piece-new-roblox-anime-game",
+        "file": "battle-piece-new-roblox-anime-game"
+      },
+      {
+        "slug": "battle-piece-release",
+        "file": "battle-piece-release"
+      },
+      {
+        "slug": "battle-piece-roblox",
+        "file": "battle-piece-roblox"
+      },
+      {
+        "slug": "battle-piece-trailer",
+        "file": "battle-piece-trailer"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "battle-piece-sukuna-update",
+        "file": "battle-piece-sukuna-update"
+      },
+      {
+        "slug": "battle-piece-update-guide",
+        "file": "battle-piece-update-guide"
+      },
+      {
+        "slug": "battle-piece-update",
+        "file": "battle-piece-update"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "battle-piece-all-specs",
+        "file": "battle-piece-all-specs"
+      },
+      {
+        "slug": "battle-piece-all-weapons",
+        "file": "battle-piece-all-weapons"
+      },
+      {
+        "slug": "battle-piece-best-weapons",
+        "file": "battle-piece-best-weapons"
+      },
+      {
+        "slug": "battle-piece-spec-and-weapon-showcase",
+        "file": "battle-piece-spec-and-weapon-showcase"
+      },
+      {
+        "slug": "battle-piece-weapon-showcase",
+        "file": "battle-piece-weapon-showcase"
+      },
+      {
+        "slug": "battle-piece-weapon-tier-list",
+        "file": "battle-piece-weapon-tier-list"
+      },
+      {
+        "slug": "battle-piece-weapons",
+        "file": "battle-piece-weapons"
+      }
+    ]
+  },
+  "pt": {
+    "codes": [
+      {
+        "slug": "battle-piece-codes",
+        "file": "battle-piece-codes"
+      }
+    ],
+    "combat": [
+      {
+        "slug": "battle-piece-all-bosses",
+        "file": "battle-piece-all-bosses"
+      },
+      {
+        "slug": "battle-piece-battle-guide",
+        "file": "battle-piece-battle-guide"
+      },
+      {
+        "slug": "battle-piece-best-fighting-style",
+        "file": "battle-piece-best-fighting-style"
+      },
+      {
+        "slug": "battle-piece-best-race",
+        "file": "battle-piece-best-race"
+      },
+      {
+        "slug": "battle-piece-boss-guide",
+        "file": "battle-piece-boss-guide"
+      },
+      {
+        "slug": "battle-piece-combat-guide",
+        "file": "battle-piece-combat-guide"
+      },
+      {
+        "slug": "battle-piece-pvp-guide",
+        "file": "battle-piece-pvp-guide"
+      },
+      {
+        "slug": "battle-piece-raid",
+        "file": "battle-piece-raid"
+      },
+      {
+        "slug": "battle-piece-strongest-anime-characters",
+        "file": "battle-piece-strongest-anime-characters"
+      },
+      {
+        "slug": "battle-piece-tier-list",
+        "file": "battle-piece-tier-list"
+      }
+    ],
+    "discord": [
+      {
+        "slug": "battle-piece-community",
+        "file": "battle-piece-community"
+      },
+      {
+        "slug": "battle-piece-discord",
+        "file": "battle-piece-discord"
+      },
+      {
+        "slug": "battle-piece-official-links",
+        "file": "battle-piece-official-links"
+      },
+      {
+        "slug": "battle-piece-roblox-group",
+        "file": "battle-piece-roblox-group"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "battle-piece-beginner-guide",
+        "file": "battle-piece-beginner-guide"
+      },
+      {
+        "slug": "battle-piece-complete-beginners-guide",
+        "file": "battle-piece-complete-beginners-guide"
+      },
+      {
+        "slug": "battle-piece-first-time-guide",
+        "file": "battle-piece-first-time-guide"
+      },
+      {
+        "slug": "battle-piece-how-to-play",
+        "file": "battle-piece-how-to-play"
+      },
+      {
+        "slug": "battle-piece-leveling-guide",
+        "file": "battle-piece-leveling-guide"
+      },
+      {
+        "slug": "battle-piece-noob-to-pro-guide",
+        "file": "battle-piece-noob-to-pro-guide"
+      },
+      {
+        "slug": "battle-piece-progression-guide",
+        "file": "battle-piece-progression-guide"
+      },
+      {
+        "slug": "battle-piece-tips",
+        "file": "battle-piece-tips"
+      }
+    ],
+    "powers": [
+      {
+        "slug": "battle-piece-ability-guide",
+        "file": "battle-piece-ability-guide"
+      },
+      {
+        "slug": "battle-piece-all-powers",
+        "file": "battle-piece-all-powers"
+      },
+      {
+        "slug": "battle-piece-best-powers",
+        "file": "battle-piece-best-powers"
+      },
+      {
+        "slug": "battle-piece-fruit-guide",
+        "file": "battle-piece-fruit-guide"
+      },
+      {
+        "slug": "battle-piece-power-showcase",
+        "file": "battle-piece-power-showcase"
+      },
+      {
+        "slug": "battle-piece-powers",
+        "file": "battle-piece-powers"
+      }
+    ],
+    "release": [
+      {
+        "slug": "battle-piece-early-access",
+        "file": "battle-piece-early-access"
+      },
+      {
+        "slug": "battle-piece-game",
+        "file": "battle-piece-game"
+      },
+      {
+        "slug": "battle-piece-new-roblox-anime-game",
+        "file": "battle-piece-new-roblox-anime-game"
+      },
+      {
+        "slug": "battle-piece-release",
+        "file": "battle-piece-release"
+      },
+      {
+        "slug": "battle-piece-roblox",
+        "file": "battle-piece-roblox"
+      },
+      {
+        "slug": "battle-piece-trailer",
+        "file": "battle-piece-trailer"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "battle-piece-sukuna-update",
+        "file": "battle-piece-sukuna-update"
+      },
+      {
+        "slug": "battle-piece-update-guide",
+        "file": "battle-piece-update-guide"
+      },
+      {
+        "slug": "battle-piece-update",
+        "file": "battle-piece-update"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "battle-piece-all-specs",
+        "file": "battle-piece-all-specs"
+      },
+      {
+        "slug": "battle-piece-all-weapons",
+        "file": "battle-piece-all-weapons"
+      },
+      {
+        "slug": "battle-piece-best-weapons",
+        "file": "battle-piece-best-weapons"
+      },
+      {
+        "slug": "battle-piece-spec-and-weapon-showcase",
+        "file": "battle-piece-spec-and-weapon-showcase"
+      },
+      {
+        "slug": "battle-piece-weapon-showcase",
+        "file": "battle-piece-weapon-showcase"
+      },
+      {
+        "slug": "battle-piece-weapon-tier-list",
+        "file": "battle-piece-weapon-tier-list"
+      },
+      {
+        "slug": "battle-piece-weapons",
+        "file": "battle-piece-weapons"
+      }
+    ]
+  }
+}
